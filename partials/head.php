@@ -23,9 +23,9 @@ $asset_v = '20260909a'; // bump on CSS/JS changes to bust the cache
   <meta name="description" content="<?= e($PAGE_DESC) ?>">
   <link rel="icon" href="<?= e($ASSET) ?>/assets/img/favicon.svg" type="image/svg+xml">
 <?php foreach ($LANG_HOME as $code => $href): ?>
-  <link rel="alternate" hreflang="<?= e($code) ?>" href="<?= e($href) ?>">
+  <link rel="alternate" hreflang="<?= e($code) ?>" href="<?= e(url($href)) ?>">
 <?php endforeach; ?>
-  <link rel="alternate" hreflang="x-default" href="/en/index.php">
+  <link rel="alternate" hreflang="x-default" href="<?= e(url('/en/index.php')) ?>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=EB+Garamond:ital,wght@1,500&family=Inter:wght@400;500;600&display=swap">
@@ -36,14 +36,14 @@ $asset_v = '20260909a'; // bump on CSS/JS changes to bust the cache
 
 <header class="site-header">
   <div class="wrap bar">
-    <a class="brand" href="<?= e($LANG_HOME[$LANG]) ?>">
+    <a class="brand" href="<?= e(url($LANG_HOME[$LANG])) ?>">
       <img class="brand-logo" src="<?= e($ASSET) ?>/assets/img/estnor-logo-rgb.png" width="505" height="171" alt="EstNor" fetchpriority="high">
       <span class="brand-caption"><?= e($T['brand_caption']) ?></span>
     </a>
     <div class="bar-right">
       <div id="lang-switch-bar" class="lang-switch" role="group" aria-label="Choose language">
 <?php foreach ($LANG_HOME as $code => $href): ?>
-        <a href="<?= e($href) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a>
+        <a href="<?= e(url($href)) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a>
 <?php endforeach; ?>
       </div>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
@@ -52,11 +52,11 @@ $asset_v = '20260909a'; // bump on CSS/JS changes to bust the cache
         <ul>
 <?php foreach ($T['nav'] as $item): ?>
           <li class="<?= !empty($item['children']) ? 'has-sub' : '' ?>">
-            <a href="<?= e($item['href']) ?>"<?= nav_active($item['key'], $ACTIVE) ?>><?= e($item['label']) ?><?php if (!empty($item['children'])): ?> <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><?php endif; ?></a>
+            <a href="<?= e(url($item['href'])) ?>"<?= nav_active($item['key'], $ACTIVE) ?>><?= e($item['label']) ?><?php if (!empty($item['children'])): ?> <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><?php endif; ?></a>
 <?php if (!empty($item['children'])): ?>
             <ul class="submenu">
 <?php foreach ($item['children'] as $child): ?>
-              <li><a href="<?= e($child['href']) ?>"<?= nav_active($child['key'], $ACTIVE) ?>><?= e($child['label']) ?></a></li>
+              <li><a href="<?= e(url($child['href'])) ?>"<?= nav_active($child['key'], $ACTIVE) ?>><?= e($child['label']) ?></a></li>
 <?php endforeach; ?>
             </ul>
 <?php endif; ?>
@@ -65,7 +65,7 @@ $asset_v = '20260909a'; // bump on CSS/JS changes to bust the cache
         </ul>
         <div id="lang-switch-nav" class="lang-switch" role="group" aria-label="Choose language">
 <?php foreach ($LANG_HOME as $code => $href): ?>
-          <a href="<?= e($href) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a>
+          <a href="<?= e(url($href)) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a>
 <?php endforeach; ?>
         </div>
       </nav>

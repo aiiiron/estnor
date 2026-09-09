@@ -91,8 +91,11 @@ function i18n_resolve_root(array $langs, string $default, string $fallback): str
         // Redirect to the explicit file (e.g. /en/index.php), not the bare
         // directory (/en/) — a bare directory URL only resolves if the
         // server is configured to auto-serve index.php for it, which isn't
-        // a safe assumption across every host.
-        header('Location: ' . $LANG_HOME[$lang], true, 302);
+        // a safe assumption across every host. url() prefixes this with
+        // the deployment's base path (config.php's 'base_path') in case
+        // the site itself lives in a subfolder rather than at its domain's
+        // root.
+        header('Location: ' . url($LANG_HOME[$lang]), true, 302);
         exit;
     }
 

@@ -10,7 +10,7 @@
       <h2><?= e($T['footer']['explore_heading']) ?></h2>
       <ul>
 <?php foreach ($T['footer']['explore'] as $item): ?>
-        <li><a href="<?= e($item['href']) ?>"><?= e($item['label']) ?></a></li>
+        <li><a href="<?= e(url($item['href'])) ?>"><?= e($item['label']) ?></a></li>
 <?php endforeach; ?>
       </ul>
     </div>
@@ -18,7 +18,7 @@
       <h2><?= e($T['footer']['renovation_heading']) ?></h2>
       <ul>
 <?php foreach ($T['footer']['renovation'] as $item): ?>
-        <li><a href="<?= e($item['href']) ?>"><?= e($item['label']) ?></a></li>
+        <li><a href="<?= e(url($item['href'])) ?>"><?= e($item['label']) ?></a></li>
 <?php endforeach; ?>
       </ul>
     </div>
