@@ -13,7 +13,7 @@
  * inc/site.php and inc/i18n.php must already be required (for $SITE,
  * $LANG_HOME, load_lang(), nav_active(), e()).
  */
-$asset_v = '20260909a'; // bump on CSS/JS changes to bust the cache
+$asset_v = '20260909b'; // bump on CSS/JS changes to bust the cache
 ?><!doctype html>
 <html lang="<?= e($LANG) ?>">
 <head>

@@ -199,7 +199,7 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 
 /* Dropdown sub-navigation (estnor.ee has more page depth than seriell-sanierung.de) */
 .has-sub > a .chev { width: 9px; height: 9px; margin-left: .3em; transition: transform .15s ease; display: inline-block; vertical-align: middle; }
-.has-sub:hover > a .chev, .has-sub:focus-within > a .chev { transform: rotate(180deg); }
+.has-sub:focus-within > a .chev { transform: rotate(180deg); }
 .submenu {
   position: absolute; top: 100%; left: -.9rem; min-width: 230px; margin-top: .5rem;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md);
@@ -208,9 +208,18 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   opacity: 0; visibility: hidden; transform: translateY(6px);
   transition: opacity .14s ease, transform .14s ease, visibility .14s;
 }
-.has-sub:hover .submenu, .has-sub:focus-within .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
+.has-sub:focus-within .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
 .submenu li a { display: block; padding: .6em .75em; border-radius: var(--r-sm); font-size: .89rem; }
 .submenu li a:hover { background: var(--spruce-tint); color: var(--spruce-deep); }
+/* Hover-to-open only for devices that actually have a mouse — on touch,
+   a tap fires :hover too, and it then stays "stuck" open with no plain
+   hover-elsewhere gesture to close it again (classic mobile-Safari trap).
+   Touch/coarse-pointer screens get :focus-within (tap opens, tap outside
+   or another tap closes it) instead, same as keyboard users always have. */
+@media (hover: hover) and (pointer: fine) {
+  .has-sub:hover > a .chev { transform: rotate(180deg); }
+  .has-sub:hover .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
+}
 
 /* Language switcher — a dropdown, styled like the nav's own has-sub
    dropdowns: a small pill trigger showing the current language, hover/
@@ -223,8 +232,8 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   padding: .34em .85em; line-height: 1; cursor: pointer;
 }
 .lang-switch-trigger .chev { width: 8px; height: 8px; transition: transform .15s ease; }
-.lang-switch:hover .lang-switch-trigger, .lang-switch:focus-within .lang-switch-trigger { color: var(--spruce-deep); border-color: var(--spruce); }
-.lang-switch:hover .lang-switch-trigger .chev, .lang-switch:focus-within .lang-switch-trigger .chev { transform: rotate(180deg); }
+.lang-switch:focus-within .lang-switch-trigger { color: var(--spruce-deep); border-color: var(--spruce); }
+.lang-switch:focus-within .lang-switch-trigger .chev { transform: rotate(180deg); }
 
 .lang-switch-menu {
   position: absolute; top: 100%; right: 0; left: 0; margin-top: .5rem;
@@ -234,7 +243,7 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   transition: opacity .14s ease, transform .14s ease, visibility .14s;
   z-index: 20;
 }
-.lang-switch:hover .lang-switch-menu, .lang-switch:focus-within .lang-switch-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+.lang-switch:focus-within .lang-switch-menu { opacity: 1; visibility: visible; transform: translateY(0); }
 .lang-switch-menu a {
   display: block; padding: .42em .3em; border-radius: var(--r-sm); text-align: center;
   font-family: var(--font-display); font-size: .78rem; font-weight: 600; letter-spacing: .02em;
@@ -242,6 +251,14 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 }
 .lang-switch-menu a:hover { background: var(--spruce-tint); color: var(--spruce-deep); }
 .lang-switch-menu a[aria-current="true"] { background: var(--spruce); color: #fff; }
+/* Same touch-vs-mouse split as .has-sub above: only a real hover-capable
+   pointer gets the hover-to-open behavior, so a tap on a touchscreen
+   can't leave this dropdown stuck open with no hover-elsewhere to close it. */
+@media (hover: hover) and (pointer: fine) {
+  .lang-switch:hover .lang-switch-trigger { color: var(--spruce-deep); border-color: var(--spruce); }
+  .lang-switch:hover .lang-switch-trigger .chev { transform: rotate(180deg); }
+  .lang-switch:hover .lang-switch-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+}
 
 /* Two copies of the language switcher exist (see partials/head.php): one
    in the header bar for desktop, one inside the mobile nav drawer — only
