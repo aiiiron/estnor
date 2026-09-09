@@ -8,7 +8,6 @@ $ACTIVE = 'renovation';
 $HOME_HREF = '../index.php';
 $CONTACT_HREF = '../contact.php';
 $FACADE_HREF = 'facade-elements.php';
-$REFERENCES_HREF = 'references.php';
 $T = load_lang($LANG);
 $P = load_page('serial-renovation', $LANG);
 $PAGE_TITLE = $P['meta']['title'];

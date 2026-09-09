@@ -11,39 +11,117 @@
             "h1": "Uusehitised ja renoveerimised kõrvuti",
             "lead": "Valik EstNori valminud ja pooleliolevaid maja- ning fassaadirenoveerimise projekte Eestis, Norras ja Rootsis."
         },
-        "cards": [
-            {
-                "tag": "Tallinn, Eesti",
-                "title": "Loodusmaja",
-                "desc": "Üks Eesti suurimaid puithooneid — EstNor tarnis fassaadi- ja katuseelemendid koos tehases paigaldatud akendega."
-            },
-            {
-                "tag": "Pärnu, Eesti",
-                "title": "Stroomi Rannahoone",
-                "desc": "Rannaäärne puithoone, ehitatud EstNori element- ja fassaaditehnoloogiaga."
-            },
-            {
-                "tag": "Oslo, Norra",
-                "title": "Kortermaja Oslos",
-                "desc": "Mitmekorruseline kortermaja, ehitatud EstNori tehases valminud moodulitest."
-            },
-            {
-                "tag": "Rootsi",
-                "title": "Elementmajast pere-elamu",
-                "desc": "Suur pereelamu, ehitatud tehases toodetud välis- ja siseelementidest."
-            },
-            {
-                "tag": "Sindi, Eesti",
-                "title": "Kooli 5 — tehaseline renoveerimine",
-                "desc": "Üks 12 kortermajast, mille fassaad renoveeriti KredEx programmi raames EstNori elementidega."
-            },
-            {
-                "tag": "Eesti",
-                "title": "Suvilate arendus",
-                "desc": "Kiilis toodetud moodulsuvilate kompleks, tarnitud valmis viimistletuna Eesti rannikualale."
-            }
-        ],
-        "references_cta": "Vaata tehaselise renoveerimise projekte",
+        "references_section": {
+            "eyebrow": "Tehaseline renoveerimine",
+            "h2": "Renoveerimisreferentsid",
+            "projects": [
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><g fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/></g></svg>",
+                    "meta": "Eesti · 2022–2027",
+                    "title": "KredEx pilootprogramm tehaselise renoveerimise jaoks",
+                    "tags": [
+                        "Fassaadielemendid",
+                        "Pilootprogramm",
+                        "Elanikega majas"
+                    ],
+                    "desc": "Riiklik pilootprogramm elamute tehaseliseks renoveerimiseks. EstNor oli esimene osalev elementide tootja ja tarnis programmis suurima mahu fassaadielemente.",
+                    "stats": [
+                        {
+                            "value": "12",
+                            "label": "kortermaja"
+                        },
+                        {
+                            "value": "1.",
+                            "label": "osalev tootja"
+                        }
+                    ],
+                    "addresses_label": "Renoveeritud hooned:",
+                    "addresses": [
+                        "Kooli 5, Sindi",
+                        "Kotka 8, Tallinn",
+                        "Muldvalge 1, Tallinn",
+                        "Nisu 3, Tallinn",
+                        "Pallasti 10, Tallinn",
+                        "Pärnu mnt. 133, Tallinn",
+                        "Riia 80, Pärnu",
+                        "Turu 15, Tartu",
+                        "Ojasoo 6, Kuressaare",
+                        "Anne 2, Tartu",
+                        "Lasteaia 2, Kehtna",
+                        "Tule 4, Saue"
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"/><g fill=\"#1f4d3a\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1f4d3a\" opacity=\".4\"/></svg>",
+                    "meta": "Tallinn, Eesti",
+                    "title": "Loodusmaja — keskkonnahoone Tallinnas",
+                    "tags": [
+                        "Fassaadi- ja katuseelemendid",
+                        "Eelpaigaldatud aknad",
+                        "Puitehitis"
+                    ],
+                    "desc": "Ühele Eesti suurimale puithoonele tarnib EstNor ligikaudu 8000 m² eeltoodetud fassaadi- ja katuseelemente — kaasa arvatud tehases paigaldatud aknad.",
+                    "stats": [
+                        {
+                            "value": "~8000 m²",
+                            "label": "elementide pindala"
+                        },
+                        {
+                            "value": "Tehas",
+                            "label": "akende paigaldus"
+                        }
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "meta": "Ettevalmistamisel",
+                    "title": "Esimesed projektid väljaspool Eestit",
+                    "tags": [
+                        "Otsib partnereid",
+                        "Kortermaja",
+                        "1950–1979"
+                    ],
+                    "desc": "EstNor laiendab tootmisvõimsust ekspordituru jaoks ja otsib ehitus-, renoveerimis- ja elamuettevõtteid järgmiste tehaseliste fassaadiprojektide jaoks. Sinu projekt võiks olla siin."
+                }
+            ]
+        },
+        "other_section": {
+            "eyebrow": "Uusehitised",
+            "h2": "Muud projektid",
+            "cards": [
+                {
+                    "tag": "Pärnu, Eesti",
+                    "title": "Stroomi Rannahoone",
+                    "desc": "Rannaäärne puithoone, ehitatud EstNori element- ja fassaaditehnoloogiaga."
+                },
+                {
+                    "tag": "Oslo, Norra",
+                    "title": "Kortermaja Oslos",
+                    "desc": "Mitmekorruseline kortermaja, ehitatud EstNori tehases valminud moodulitest."
+                },
+                {
+                    "tag": "Rootsi",
+                    "title": "Elementmajast pere-elamu",
+                    "desc": "Suur pereelamu, ehitatud tehases toodetud välis- ja siseelementidest."
+                },
+                {
+                    "tag": "Eesti",
+                    "title": "Suvilate arendus",
+                    "desc": "Kiilis toodetud moodulsuvilate kompleks, tarnitud valmis viimistletuna Eesti rannikualale."
+                }
+            ]
+        },
+        "context_left": {
+            "eyebrow": "Kontekst",
+            "h2": "Mida need projektid näitavad",
+            "p": "EstNori jaoks ei ole tehaseline fassaadirenoveerimine elanikega majas kuulutus, vaid käimasolev tootmine: standardsed elemendid, korduvad hoonetüübid, paigaldus mõne nädalaga. Järgmine samm on viia see tootmine koos kohalike partneritega uutele turgudele ja konkreetsetesse linnaosadesse."
+        },
+        "context_right": {
+            "eyebrow": "Sinu projekt",
+            "h2": "Ole järgmine referents",
+            "p": "Kui plaanid tehaselist fassaadiprojekti ja otsid tootmispartnerit, räägime hoonetüüpidest, mahtudest ja ajakavast.",
+            "button": "Räägi meile oma projektist"
+        },
         "cta": {
             "h2": "Kas sul on oma projekt?",
             "body": "Räägi meile sellest ja soovitame sobiva EstNori ehitusviisi.",
@@ -62,39 +140,117 @@
             "h1": "New builds and renovations, side by side",
             "lead": "A selection of the homes, buildings and facade-renovation projects EstNor has delivered or is preparing — across Estonia, Norway, Sweden and beyond."
         },
-        "cards": [
-            {
-                "tag": "Tallinn, Estonia",
-                "title": "Loodusmaja",
-                "desc": "One of Estonia's largest timber buildings — EstNor supplied the facade and roof elements, including factory-installed windows."
-            },
-            {
-                "tag": "Pärnu, Estonia",
-                "title": "Stroomi Rannahoone",
-                "desc": "A seaside building in Pärnu, built using EstNor's element and facade technology."
-            },
-            {
-                "tag": "Oslo, Norway",
-                "title": "Oslo apartment building",
-                "desc": "A multi-storey apartment building built from EstNor's factory-finished modules."
-            },
-            {
-                "tag": "Sweden",
-                "title": "Element-built family home",
-                "desc": "A large family home built from factory-produced exterior and interior elements."
-            },
-            {
-                "tag": "Sindi, Estonia",
-                "title": "Kooli 5 — serial renovation",
-                "desc": "One of 12 apartment buildings whose facade was renovated with EstNor elements under the KredEx programme."
-            },
-            {
-                "tag": "Estonia",
-                "title": "Cottage development",
-                "desc": "A cluster of modular cottages manufactured in Kiili, delivered fully finished to the Estonian coast."
-            }
-        ],
-        "references_cta": "See serial renovation references",
+        "references_section": {
+            "eyebrow": "Serial renovation",
+            "h2": "Renovation references",
+            "projects": [
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><g fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/></g></svg>",
+                    "meta": "Estonia · 2022–2027",
+                    "title": "KredEx pilot programme for serial renovation",
+                    "tags": [
+                        "Facade elements",
+                        "Pilot programme",
+                        "While occupied"
+                    ],
+                    "desc": "State pilot programme for the factory-based renovation of residential buildings. EstNor was the first participating element manufacturer and supplied the largest volume of facade elements in the programme.",
+                    "stats": [
+                        {
+                            "value": "12",
+                            "label": "apartment buildings"
+                        },
+                        {
+                            "value": "1st",
+                            "label": "participating manufacturer"
+                        }
+                    ],
+                    "addresses_label": "Renovated buildings:",
+                    "addresses": [
+                        "Kooli 5, Sindi",
+                        "Kotka 8, Tallinn",
+                        "Muldvalge 1, Tallinn",
+                        "Nisu 3, Tallinn",
+                        "Pallasti 10, Tallinn",
+                        "Pärnu mnt. 133, Tallinn",
+                        "Riia 80, Pärnu",
+                        "Turu 15, Tartu",
+                        "Ojasoo 6, Kuressaare",
+                        "Anne 2, Tartu",
+                        "Lasteaia 2, Kehtna",
+                        "Tule 4, Saue"
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"/><g fill=\"#1f4d3a\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1f4d3a\" opacity=\".4\"/></svg>",
+                    "meta": "Tallinn, Estonia",
+                    "title": "Loodusmaja — environmental building, Tallinn",
+                    "tags": [
+                        "Facade & roof elements",
+                        "Pre-installed windows",
+                        "Timber construction"
+                    ],
+                    "desc": "For one of the largest timber buildings in Estonia, EstNor supplies around 8,000 m² of prefabricated facade and roof elements — including factory-installed windows.",
+                    "stats": [
+                        {
+                            "value": "≈8,000 m²",
+                            "label": "element area"
+                        },
+                        {
+                            "value": "Factory",
+                            "label": "window installation"
+                        }
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "meta": "In preparation",
+                    "title": "First projects beyond Estonia",
+                    "tags": [
+                        "Seeking partners",
+                        "Apartment building",
+                        "1950–1979"
+                    ],
+                    "desc": "EstNor is expanding its production capacity for export markets and is looking for construction, renovation and housing companies for the next serial facade projects. Your project could be shown here."
+                }
+            ]
+        },
+        "other_section": {
+            "eyebrow": "New builds",
+            "h2": "Other projects",
+            "cards": [
+                {
+                    "tag": "Pärnu, Estonia",
+                    "title": "Stroomi Rannahoone",
+                    "desc": "A seaside building in Pärnu, built using EstNor's element and facade technology."
+                },
+                {
+                    "tag": "Oslo, Norway",
+                    "title": "Oslo apartment building",
+                    "desc": "A multi-storey apartment building built from EstNor's factory-finished modules."
+                },
+                {
+                    "tag": "Sweden",
+                    "title": "Element-built family home",
+                    "desc": "A large family home built from factory-produced exterior and interior elements."
+                },
+                {
+                    "tag": "Estonia",
+                    "title": "Cottage development",
+                    "desc": "A cluster of modular cottages manufactured in Kiili, delivered fully finished to the Estonian coast."
+                }
+            ]
+        },
+        "context_left": {
+            "eyebrow": "Context",
+            "h2": "What these projects show",
+            "p": "For EstNor, serial facade renovation with tenants in place is not an announcement but ongoing production: standardised elements, recurring building types, installation in weeks. The task now is to transfer this production to new markets and concrete neighbourhoods together with local partners."
+        },
+        "context_right": {
+            "eyebrow": "Your project",
+            "h2": "Be the next reference",
+            "p": "If you are planning a serial facade project and looking for a manufacturing partner, let's talk about building types, quantities and schedule.",
+            "button": "Discuss a project"
+        },
         "cta": {
             "h2": "Have a project of your own?",
             "body": "Tell us about it and we'll suggest the right EstNor build method.",
@@ -113,39 +269,117 @@
             "h1": "Neubau und Sanierung nebeneinander",
             "lead": "Eine Auswahl der von EstNor errichteten Häuser, Gebäude und Fassadensanierungsprojekte in Estland, Norwegen, Schweden und darüber hinaus."
         },
-        "cards": [
-            {
-                "tag": "Tallinn, Estland",
-                "title": "Umwelthaus Loodusmaja",
-                "desc": "Eines der größten Holzgebäude Estlands — EstNor lieferte Fassaden- und Dachelemente inklusive werkseitig eingebauter Fenster."
-            },
-            {
-                "tag": "Pärnu, Estland",
-                "title": "Stroomi Rannahoone",
-                "desc": "Gebäude am Strand, errichtet mit EstNor-Element- und Fassadentechnik."
-            },
-            {
-                "tag": "Oslo, Norwegen",
-                "title": "Mehrfamilienhaus in Oslo",
-                "desc": "Mehrgeschossiges Wohngebäude, errichtet aus werksfertigen EstNor-Modulen."
-            },
-            {
-                "tag": "Schweden",
-                "title": "Einfamilienhaus aus Elementen",
-                "desc": "Großes Einfamilienhaus, errichtet mit werksgefertigten Außen- und Innenelementen."
-            },
-            {
-                "tag": "Sindi, Estland",
-                "title": "Kooli 5 — serielle Sanierung",
-                "desc": "Eines von 12 Mehrfamilienhäusern, deren Fassade im Rahmen des KredEx-Programms mit EstNor-Elementen saniert wurde."
-            },
-            {
-                "tag": "Estland",
-                "title": "Ferienhaus-Siedlung",
-                "desc": "In Kiili gefertigte modulare Ferienhäuser, komplett ausgestattet an die estnische Küste geliefert."
-            }
-        ],
-        "references_cta": "Referenzen zur seriellen Sanierung ansehen",
+        "references_section": {
+            "eyebrow": "Serielle Sanierung",
+            "h2": "Referenzen zur seriellen Sanierung",
+            "projects": [
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><g fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/></g></svg>",
+                    "meta": "Estland · 2022–2027",
+                    "title": "KredEx-Pilotprogramm für serielle Sanierung",
+                    "tags": [
+                        "Fassadenelemente",
+                        "Pilotprogramm",
+                        "Im bewohnten Zustand"
+                    ],
+                    "desc": "Staatliches Pilotprogramm zur werkseitigen Sanierung von Wohngebäuden. EstNor war der erste teilnehmende Elementhersteller und lieferte das größte Volumen an Fassadenelementen im Programm.",
+                    "stats": [
+                        {
+                            "value": "12",
+                            "label": "Mehrfamilienhäuser"
+                        },
+                        {
+                            "value": "1.",
+                            "label": "teilnehmender Hersteller"
+                        }
+                    ],
+                    "addresses_label": "Renovierte Gebäude:",
+                    "addresses": [
+                        "Kooli 5, Sindi",
+                        "Kotka 8, Tallinn",
+                        "Muldvalge 1, Tallinn",
+                        "Nisu 3, Tallinn",
+                        "Pallasti 10, Tallinn",
+                        "Pärnu mnt. 133, Tallinn",
+                        "Riia 80, Pärnu",
+                        "Turu 15, Tartu",
+                        "Ojasoo 6, Kuressaare",
+                        "Anne 2, Tartu",
+                        "Lasteaia 2, Kehtna",
+                        "Tule 4, Saue"
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"/><g fill=\"#1f4d3a\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1f4d3a\" opacity=\".4\"/></svg>",
+                    "meta": "Tallinn, Estland",
+                    "title": "Loodusmaja – Umwelthaus Tallinn",
+                    "tags": [
+                        "Fassaden- & Dachelemente",
+                        "Vormontierte Fenster",
+                        "Holzbau"
+                    ],
+                    "desc": "Für eines der größten Holzgebäude Estlands liefert EstNor rund 8.000 m² vorgefertigte Fassaden- und Dachelemente – inklusive im Werk eingebauter Fenster.",
+                    "stats": [
+                        {
+                            "value": "~8.000 m²",
+                            "label": "Elementfläche"
+                        },
+                        {
+                            "value": "Werk",
+                            "label": "Fenstereinbau"
+                        }
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "meta": "Deutschland · in Vorbereitung",
+                    "title": "Erste Projekte in Deutschland",
+                    "tags": [
+                        "Partnersuche",
+                        "Mehrfamilienhaus",
+                        "1950–1979"
+                    ],
+                    "desc": "EstNor baut die Fertigungskapazität gezielt für den deutschen Markt aus und sucht Bau-, Sanierungs- und Wohnungsunternehmen für erste serielle Fassadenprojekte. Ihr Projekt kann hier stehen."
+                }
+            ]
+        },
+        "other_section": {
+            "eyebrow": "Neubauten",
+            "h2": "Weitere Projekte",
+            "cards": [
+                {
+                    "tag": "Pärnu, Estland",
+                    "title": "Stroomi Rannahoone",
+                    "desc": "Gebäude am Strand, errichtet mit EstNor-Element- und Fassadentechnik."
+                },
+                {
+                    "tag": "Oslo, Norwegen",
+                    "title": "Mehrfamilienhaus in Oslo",
+                    "desc": "Mehrgeschossiges Wohngebäude, errichtet aus werksfertigen EstNor-Modulen."
+                },
+                {
+                    "tag": "Schweden",
+                    "title": "Einfamilienhaus aus Elementen",
+                    "desc": "Großes Einfamilienhaus, errichtet mit werksgefertigten Außen- und Innenelementen."
+                },
+                {
+                    "tag": "Estland",
+                    "title": "Ferienhaus-Siedlung",
+                    "desc": "In Kiili gefertigte modulare Ferienhäuser, komplett ausgestattet an die estnische Küste geliefert."
+                }
+            ]
+        },
+        "context_left": {
+            "eyebrow": "Einordnung",
+            "h2": "Was diese Referenzen zeigen",
+            "p": "Die serielle Fassadensanierung im bewohnten Zustand ist bei EstNor keine Ankündigung, sondern laufende Fertigung: standardisierte Elemente, wiederkehrende Gebäudetypen, Montage in Wochen. Für Deutschland geht es jetzt darum, diese Fertigung mit lokalen Partnern auf konkrete Quartiere zu übertragen."
+        },
+        "context_right": {
+            "eyebrow": "Ihr Projekt",
+            "h2": "Referenz Nummer eins in Deutschland",
+            "p": "Wenn Sie ein serielles Fassadenprojekt planen und einen Fertigungspartner suchen, sprechen wir über Gebäudetypen, Stückzahlen und Zeitplan.",
+            "button": "Projekt anfragen"
+        },
         "cta": {
             "h2": "Haben Sie ein eigenes Projekt?",
             "body": "Erzählen Sie uns davon — wir empfehlen die passende EstNor-Bauweise.",
@@ -164,39 +398,115 @@
             "h1": "Nybyggnation och renovering sida vid sida",
             "lead": "Ett urval av EstNors husbyggen och fasadrenoveringsprojekt i Estland, Norge, Sverige och därutöver."
         },
-        "cards": [
-            {
-                "tag": "Tallinn, Estland",
-                "title": "Nature Hub",
-                "desc": "En av Estlands största trähusbyggnader — EstNor levererade fasad- och takelement inklusive fabriksmonterade fönster."
-            },
-            {
-                "tag": "Pärnu, Estland",
-                "title": "Stroomi Rannahoone",
-                "desc": "En byggnad vid havet i Pärnu, byggd med EstNors element- och fasadteknik."
-            },
-            {
-                "tag": "Oslo, Norge",
-                "title": "Hyreshus i Oslo",
-                "desc": "Ett flerbostadshus uppfört med EstNors fabrikstillverkade moduler."
-            },
-            {
-                "tag": "Sverige",
-                "title": "Villa i elementbyggnad",
-                "desc": "En större villa byggd med fabrikstillverkade ytter- och innerelement."
-            },
-            {
-                "tag": "Sindi, Estland",
-                "title": "Kooli 5 — seriell renovering",
-                "desc": "Ett av 12 flerbostadshus vars fasad renoverades med EstNor-element inom KredEx-programmet."
-            },
-            {
-                "tag": "Estland",
-                "title": "Fritidshusområde",
-                "desc": "Ett kluster av modulära fritidshus tillverkade i Kiili, levererade färdigställda till estniska kusten."
-            }
-        ],
-        "references_cta": "Se referenser för modernisering",
+        "references_section": {
+            "eyebrow": "Modernisering",
+            "h2": "Referenser för modernisering",
+            "projects": [
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><g fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/></g></svg>",
+                    "meta": "Estland · 2022–2027",
+                    "title": "KredEx-pilotprogram för seriell renovering",
+                    "tags": [
+                        "Fasadelement",
+                        "Pilotprogram",
+                        "Med boende kvar"
+                    ],
+                    "desc": "Statligt pilotprogram för fabriksbaserad renovering av bostadshus. EstNor var den första deltagande elementtillverkaren och levererade störst volym fasadelement i programmet.",
+                    "stats": [
+                        {
+                            "value": "12",
+                            "label": "flerbostadshus"
+                        },
+                        {
+                            "value": "1:a",
+                            "label": "deltagande tillverkare"
+                        }
+                    ],
+                    "addresses_label": "Renoverade byggnader:",
+                    "addresses": [
+                        "Kooli 5, Sindi",
+                        "Kotka 8, Tallinn",
+                        "Muldvalge 1, Tallinn",
+                        "Nisu 3, Tallinn",
+                        "Pallasti 10, Tallinn",
+                        "Pärnu mnt. 133, Tallinn",
+                        "Riia 80, Pärnu",
+                        "Turu 15, Tartu",
+                        "Ojasoo 6, Kuressaare",
+                        "Anne 2, Tartu",
+                        "Lasteaia 2, Kehtna",
+                        "Tule 4, Saue"
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"/><g fill=\"#1f4d3a\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1f4d3a\" opacity=\".4\"/></svg>",
+                    "meta": "Tallinn, Estland",
+                    "title": "Nature Hub — miljöbyggnad",
+                    "tags": [
+                        "Fasad- & takelement",
+                        "Förmonterade fönster"
+                    ],
+                    "desc": "Till en av Estlands största trähusbyggnader levererade EstNor cirka 8 000 m² prefabricerade fasad- och takelement — inklusive fabriksmonterade fönster.",
+                    "stats": [
+                        {
+                            "value": "~8 000 m²",
+                            "label": "elementyta"
+                        },
+                        {
+                            "value": "Fabrik",
+                            "label": "fönstermontage"
+                        }
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "meta": "Nya marknader · under förberedelse",
+                    "title": "Fler EstNor-projekt på gång",
+                    "tags": [
+                        "Söker partners",
+                        "Flerbostadshus"
+                    ],
+                    "desc": "EstNor bygger ut tillverkningskapaciteten för nya exportmarknader och söker bygg-, renoverings- och bostadsföretag för nästa seriella fasadprojekt. Ert projekt kan stå här."
+                }
+            ]
+        },
+        "other_section": {
+            "eyebrow": "Nybyggnation",
+            "h2": "Övriga projekt",
+            "cards": [
+                {
+                    "tag": "Pärnu, Estland",
+                    "title": "Stroomi Rannahoone",
+                    "desc": "En byggnad vid havet i Pärnu, byggd med EstNors element- och fasadteknik."
+                },
+                {
+                    "tag": "Oslo, Norge",
+                    "title": "Hyreshus i Oslo",
+                    "desc": "Ett flerbostadshus uppfört med EstNors fabrikstillverkade moduler."
+                },
+                {
+                    "tag": "Sverige",
+                    "title": "Villa i elementbyggnad",
+                    "desc": "En större villa byggd med fabrikstillverkade ytter- och innerelement."
+                },
+                {
+                    "tag": "Estland",
+                    "title": "Fritidshusområde",
+                    "desc": "Ett kluster av modulära fritidshus tillverkade i Kiili, levererade färdigställda till estniska kusten."
+                }
+            ]
+        },
+        "context_left": {
+            "eyebrow": "Sammanhang",
+            "h2": "Vad dessa projekt visar",
+            "p": "För EstNor är seriell fasadrenovering med boende kvar inte ett löfte utan pågående produktion: standardiserade element, återkommande byggnadstyper, montage på veckor. Nästa steg är att föra över denna produktion till nya marknader tillsammans med lokala partners."
+        },
+        "context_right": {
+            "eyebrow": "Ert projekt",
+            "h2": "Bli nästa referens",
+            "p": "Om ni planerar ett seriellt fasadprojekt och söker en tillverkningspartner, låt oss diskutera byggnadstyper, antal och tidsplan.",
+            "button": "Diskutera ett projekt"
+        },
         "cta": {
             "h2": "Har ni ett eget projekt?",
             "body": "Berätta om det så föreslår vi rätt EstNor-byggmetod.",
@@ -215,39 +525,115 @@
             "h1": "Nybygg og rehabilitering side om side",
             "lead": "Et utvalg av EstNors husbygg og fasaderehabiliteringsprosjekter i Estland, Norge, Sverige og utover."
         },
-        "cards": [
-            {
-                "tag": "Tallinn, Estland",
-                "title": "Nature Hub",
-                "desc": "Et av Estlands største trebygg — EstNor leverte fasade- og takelementer inkludert fabrikkmonterte vinduer."
-            },
-            {
-                "tag": "Pärnu, Estland",
-                "title": "Stroomi Rannahoone",
-                "desc": "En bygning ved sjøen i Pärnu, bygget med EstNors element- og fasadeteknikk."
-            },
-            {
-                "tag": "Oslo, Norge",
-                "title": "Leilighetsbygg i Oslo",
-                "desc": "Et leilighetsbygg oppført med EstNors fabrikkferdige moduler."
-            },
-            {
-                "tag": "Sverige",
-                "title": "Enebolig i elementbygg",
-                "desc": "En stor enebolig bygget med fabrikkproduserte ytter- og innerelementer."
-            },
-            {
-                "tag": "Sindi, Estland",
-                "title": "Kooli 5 — seriell rehabilitering",
-                "desc": "Ett av 12 leilighetsbygg der fasaden ble rehabilitert med EstNor-elementer gjennom KredEx-programmet."
-            },
-            {
-                "tag": "Estland",
-                "title": "Hytteutbygging",
-                "desc": "En klynge modulære hytter produsert i Kiili, levert ferdigstilt til den estiske kysten."
-            }
-        ],
-        "references_cta": "Se referanser for modernisering",
+        "references_section": {
+            "eyebrow": "Modernisering",
+            "h2": "Referanser for modernisering",
+            "projects": [
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><g fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1f4d3a\" opacity=\".25\"/></g></svg>",
+                    "meta": "Estland · 2022–2027",
+                    "title": "KredEx-pilotprogram for seriell rehabilitering",
+                    "tags": [
+                        "Fasadeelementer",
+                        "Pilotprogram",
+                        "Med beboere boende"
+                    ],
+                    "desc": "Statlig pilotprogram for fabrikkbasert rehabilitering av boligbygg. EstNor var den første deltakende elementprodusenten og leverte størst volum fasadeelementer i programmet.",
+                    "stats": [
+                        {
+                            "value": "12",
+                            "label": "leilighetsbygg"
+                        },
+                        {
+                            "value": "1.",
+                            "label": "deltakende produsent"
+                        }
+                    ],
+                    "addresses_label": "Rehabiliterte bygg:",
+                    "addresses": [
+                        "Kooli 5, Sindi",
+                        "Kotka 8, Tallinn",
+                        "Muldvalge 1, Tallinn",
+                        "Nisu 3, Tallinn",
+                        "Pallasti 10, Tallinn",
+                        "Pärnu mnt. 133, Tallinn",
+                        "Riia 80, Pärnu",
+                        "Turu 15, Tartu",
+                        "Ojasoo 6, Kuressaare",
+                        "Anne 2, Tartu",
+                        "Lasteaia 2, Kehtna",
+                        "Tule 4, Saue"
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1f4d3a\" stroke-width=\"2\"/><g fill=\"#1f4d3a\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1f4d3a\" opacity=\".4\"/></svg>",
+                    "meta": "Tallinn, Estland",
+                    "title": "Nature Hub — miljøbygg",
+                    "tags": [
+                        "Fasade- & takelementer",
+                        "Forhåndsmonterte vinduer"
+                    ],
+                    "desc": "Til en av Estlands største trebygninger leverte EstNor rundt 8000 m² prefabrikkerte fasade- og takelementer — inkludert fabrikkmonterte vinduer.",
+                    "stats": [
+                        {
+                            "value": "~8000 m²",
+                            "label": "elementareal"
+                        },
+                        {
+                            "value": "Fabrikk",
+                            "label": "vindusmontasje"
+                        }
+                    ]
+                },
+                {
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e9efe7\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "meta": "Nye markeder · under forberedelse",
+                    "title": "Flere EstNor-prosjekter på vei",
+                    "tags": [
+                        "Søker partnere",
+                        "Leilighetsbygg"
+                    ],
+                    "desc": "EstNor bygger ut produksjonskapasiteten for nye eksportmarkeder og søker bygg-, rehabiliterings- og boligselskaper for de neste serielle fasadeprosjektene. Prosjektet deres kan stå her."
+                }
+            ]
+        },
+        "other_section": {
+            "eyebrow": "Nybygg",
+            "h2": "Andre prosjekter",
+            "cards": [
+                {
+                    "tag": "Pärnu, Estland",
+                    "title": "Stroomi Rannahoone",
+                    "desc": "En bygning ved sjøen i Pärnu, bygget med EstNors element- og fasadeteknikk."
+                },
+                {
+                    "tag": "Oslo, Norge",
+                    "title": "Leilighetsbygg i Oslo",
+                    "desc": "Et leilighetsbygg oppført med EstNors fabrikkferdige moduler."
+                },
+                {
+                    "tag": "Sverige",
+                    "title": "Enebolig i elementbygg",
+                    "desc": "En stor enebolig bygget med fabrikkproduserte ytter- og innerelementer."
+                },
+                {
+                    "tag": "Estland",
+                    "title": "Hytteutbygging",
+                    "desc": "En klynge modulære hytter produsert i Kiili, levert ferdigstilt til den estiske kysten."
+                }
+            ]
+        },
+        "context_left": {
+            "eyebrow": "Sammenheng",
+            "h2": "Hva disse prosjektene viser",
+            "p": "For EstNor er seriell fasaderehabilitering med beboere boende ikke en kunngjøring, men løpende produksjon: standardiserte elementer, gjentakende bygningstyper, montasje på uker. Neste steg er å overføre denne produksjonen til nye markeder sammen med lokale partnere."
+        },
+        "context_right": {
+            "eyebrow": "Prosjektet deres",
+            "h2": "Bli den neste referansen",
+            "p": "Hvis dere planlegger et serielt fasadeprosjekt og søker en produksjonspartner, la oss diskutere bygningstyper, antall og tidsplan.",
+            "button": "Diskuter et prosjekt"
+        },
         "cta": {
             "h2": "Har dere et eget prosjekt?",
             "body": "Fortell oss om det, så foreslår vi riktig EstNor-byggemetode.",

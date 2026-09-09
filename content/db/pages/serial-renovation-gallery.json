@@ -1,0 +1,137 @@
+{
+    "et": {
+        "meta": {
+            "title": "Galerii | EstNor",
+            "desc": "Tehaselise fassaadirenoveerimise etapid piltides — skaneerimisest valmis fassaadini."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "parent_label": "Tehaseline renoveerimine",
+            "label": "Galerii",
+            "eyebrow": "Tehasest fassaadini",
+            "h1": "Renoveerimise etapid piltides",
+            "lead": "Pilguheit tehaselise fassaadirenoveerimise protsessi — skaneerimisest kuni valmis fassaadini. Illustratsioonid on visandid, pärisfotod lisatakse niipea kui need on saadaval."
+        },
+        "captions": [
+            "3D-skannimine",
+            "Elemendi tootmine",
+            "Fassaad enne",
+            "Paigaldus",
+            "Fassaad pärast",
+            "Valmis hoone"
+        ],
+        "cta": {
+            "h2": "Kas plaanid kortermaja renoveerimist?",
+            "body": "Vaata meie tehtud renoveerimisprojekte või võta otse ühendust.",
+            "button": "Vaata referentse"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Gallery — Serial Renovation | EstNor",
+            "desc": "The serial facade renovation process in pictures — from scanning to the finished facade."
+        },
+        "hero": {
+            "crumb": "Home",
+            "parent_label": "Serial Renovation",
+            "label": "Gallery",
+            "eyebrow": "From factory to facade",
+            "h1": "The renovation process in pictures",
+            "lead": "A visual look at the serial facade renovation process — from scanning to the finished facade. The illustrations are sketches; real photos will be added as soon as they are available."
+        },
+        "captions": [
+            "3D scanning",
+            "Element production",
+            "Facade before",
+            "Installation",
+            "Facade after",
+            "Finished building"
+        ],
+        "cta": {
+            "h2": "Planning to renovate an apartment building?",
+            "body": "Browse our completed renovation projects, or get in touch directly.",
+            "button": "See references"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Galerie — Serielle Sanierung | EstNor",
+            "desc": "Der Prozess der seriellen Fassadensanierung in Bildern — vom Scan bis zur fertigen Fassade."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "parent_label": "Serielle Sanierung",
+            "label": "Galerie",
+            "eyebrow": "Vom Werk zur Fassade",
+            "h1": "Der Sanierungsprozess in Bildern",
+            "lead": "Ein Einblick in den Prozess der seriellen Fassadensanierung — vom Scan bis zur fertigen Fassade. Die Illustrationen sind Skizzen — echte Fotos werden ergänzt, sobald sie vorliegen."
+        },
+        "captions": [
+            "3D-Scan",
+            "Elementfertigung",
+            "Fassade vorher",
+            "Montage",
+            "Fassade nachher",
+            "Fertiges Gebäude"
+        ],
+        "cta": {
+            "h2": "Planen Sie die Sanierung eines Mehrfamilienhauses?",
+            "body": "Sehen Sie sich unsere abgeschlossenen Sanierungsprojekte an oder kontaktieren Sie uns direkt.",
+            "button": "Referenzen ansehen"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Galleri — Modernisering | EstNor",
+            "desc": "Processen för seriell fasadrenovering i bilder — från skanning till färdig fasad."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "parent_label": "Modernisering",
+            "label": "Galleri",
+            "eyebrow": "Från fabrik till fasad",
+            "h1": "Moderniseringsprocessen i bilder",
+            "lead": "En inblick i processen för seriell fasadrenovering — från skanning till färdig fasad. Illustrationerna är skisser — riktiga foton läggs till när de finns tillgängliga."
+        },
+        "captions": [
+            "3D-skanning",
+            "Elementtillverkning",
+            "Fasad före",
+            "Montage",
+            "Fasad efter",
+            "Färdig byggnad"
+        ],
+        "cta": {
+            "h2": "Planerar du att renovera ett flerbostadshus?",
+            "body": "Se våra genomförda renoveringsprojekt eller kontakta oss direkt.",
+            "button": "Se referenser"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Galleri — Modernisering | EstNor",
+            "desc": "Prosessen for seriell fasaderehabilitering i bilder — fra skanning til ferdig fasade."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "parent_label": "Modernisering",
+            "label": "Galleri",
+            "eyebrow": "Fra fabrikk til fasade",
+            "h1": "Moderniseringsprosessen i bilder",
+            "lead": "Et innblikk i prosessen for seriell fasaderehabilitering — fra skanning til ferdig fasade. Illustrasjonene er skisser — ekte bilder legges til når de foreligger."
+        },
+        "captions": [
+            "3D-skanning",
+            "Elementproduksjon",
+            "Fasade før",
+            "Montasje",
+            "Fasade etter",
+            "Ferdig bygg"
+        ],
+        "cta": {
+            "h2": "Planlegger du å rehabilitere et leilighetsbygg?",
+            "body": "Se våre gjennomførte rehabiliteringsprosjekter, eller ta direkte kontakt.",
+            "button": "Se referanser"
+        }
+    }
+}

@@ -6,7 +6,6 @@ $LANG   = 'nb';
 $ASSET  = '..';
 $ACTIVE = 'projects';
 $HOME_HREF = 'index.php';
-$REFERENCES_HREF = 'serial-renovation/references.php';
 $CONTACT_HREF = 'contact.php';
 $T = load_lang($LANG);
 $P = load_page('projects', $LANG);

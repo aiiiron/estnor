@@ -9,25 +9,25 @@
         "brand_caption": "Puitmajad ja fassaadielemendid · Est. 2000",
         "nav": [
             {
-                "key": "about",
-                "label": "Ettevõttest",
-                "href": "/about-us/index.php",
+                "key": "renovation",
+                "label": "Tehaseline renoveerimine",
+                "href": "/serial-renovation/index.php",
                 "children": [
                     {
-                        "key": "about",
-                        "label": "Ettevõte ja ajalugu",
-                        "href": "/about-us/index.php"
+                        "key": "renovation",
+                        "label": "Ülevaade",
+                        "href": "/serial-renovation/index.php"
                     },
                     {
-                        "key": "suppliers",
-                        "label": "Koostööpartnerid",
-                        "href": "/about-us/suppliers.php"
+                        "key": "gallery-ren",
+                        "label": "Galerii",
+                        "href": "/serial-renovation/gallery.php"
                     }
                 ]
             },
             {
-                "key": "houses",
-                "label": "Majad",
+                "key": "products",
+                "label": "Tooted",
                 "href": "/houses/index.php",
                 "children": [
                     {
@@ -39,45 +39,40 @@
                         "key": "modular",
                         "label": "Moodulmajad",
                         "href": "/houses/modular-houses.php"
-                    }
-                ]
-            },
-            {
-                "key": "renovation",
-                "label": "Tehaseline renoveerimine",
-                "href": "/serial-renovation/index.php",
-                "children": [
-                    {
-                        "key": "renovation",
-                        "label": "Ülevaade",
-                        "href": "/serial-renovation/index.php"
                     },
                     {
                         "key": "facade",
                         "label": "Fassaadi- ja katuseelemendid",
                         "href": "/serial-renovation/facade-elements.php"
-                    },
-                    {
-                        "key": "references-ren",
-                        "label": "Referentsid",
-                        "href": "/serial-renovation/references.php"
                     }
                 ]
             },
             {
-                "key": "gallery",
-                "label": "Galerii",
-                "href": "/gallery.php"
-            },
-            {
                 "key": "projects",
-                "label": "Projektid",
+                "label": "Referentsid ja projektid",
                 "href": "/projects.php"
             },
             {
-                "key": "contact",
-                "label": "Kontakt",
-                "href": "/contact.php"
+                "key": "about",
+                "label": "Ettevõttest",
+                "href": "/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Ettevõte ja ajalugu",
+                        "href": "/about-us/index.php"
+                    },
+                    {
+                        "key": "production",
+                        "label": "Tootmine",
+                        "href": "/about-us/production.php"
+                    },
+                    {
+                        "key": "contact",
+                        "label": "Kontakt",
+                        "href": "/contact.php"
+                    }
+                ]
             }
         ],
         "footer": {
@@ -85,19 +80,19 @@
             "explore_heading": "Sisukord",
             "explore": [
                 {
-                    "label": "Ettevõttest",
+                    "label": "Ettevõte ja ajalugu",
                     "href": "/about-us/index.php"
                 },
                 {
-                    "label": "Majad",
+                    "label": "Tooted",
                     "href": "/houses/index.php"
                 },
                 {
-                    "label": "Galerii",
-                    "href": "/gallery.php"
+                    "label": "Tootmine",
+                    "href": "/about-us/production.php"
                 },
                 {
-                    "label": "Projektid",
+                    "label": "Referentsid ja projektid",
                     "href": "/projects.php"
                 }
             ],
@@ -108,12 +103,12 @@
                     "href": "/serial-renovation/index.php"
                 },
                 {
-                    "label": "Fassaadi- ja katuseelemendid",
-                    "href": "/serial-renovation/facade-elements.php"
+                    "label": "Galerii",
+                    "href": "/serial-renovation/gallery.php"
                 },
                 {
-                    "label": "Referentsid",
-                    "href": "/serial-renovation/references.php"
+                    "label": "Fassaadi- ja katuseelemendid",
+                    "href": "/serial-renovation/facade-elements.php"
                 }
             ],
             "contact_heading": "Kontakt",
@@ -192,25 +187,25 @@
         "brand_caption": "Timber houses & facade elements · Est. 2000",
         "nav": [
             {
-                "key": "about",
-                "label": "About Us",
-                "href": "/en/about-us/index.php",
+                "key": "renovation",
+                "label": "Serial Renovation",
+                "href": "/en/serial-renovation/index.php",
                 "children": [
                     {
-                        "key": "about",
-                        "label": "Company & History",
-                        "href": "/en/about-us/index.php"
+                        "key": "renovation",
+                        "label": "Overview",
+                        "href": "/en/serial-renovation/index.php"
                     },
                     {
-                        "key": "suppliers",
-                        "label": "Suppliers & Co-operators",
-                        "href": "/en/about-us/suppliers.php"
+                        "key": "gallery-ren",
+                        "label": "Gallery",
+                        "href": "/en/serial-renovation/gallery.php"
                     }
                 ]
             },
             {
-                "key": "houses",
-                "label": "Houses",
+                "key": "products",
+                "label": "Products",
                 "href": "/en/houses/index.php",
                 "children": [
                     {
@@ -222,45 +217,40 @@
                         "key": "modular",
                         "label": "Modular Houses",
                         "href": "/en/houses/modular-houses.php"
-                    }
-                ]
-            },
-            {
-                "key": "renovation",
-                "label": "Serial Renovation",
-                "href": "/en/serial-renovation/index.php",
-                "children": [
-                    {
-                        "key": "renovation",
-                        "label": "Overview",
-                        "href": "/en/serial-renovation/index.php"
                     },
                     {
                         "key": "facade",
                         "label": "Facade Elements",
                         "href": "/en/serial-renovation/facade-elements.php"
-                    },
-                    {
-                        "key": "references-ren",
-                        "label": "References",
-                        "href": "/en/serial-renovation/references.php"
                     }
                 ]
             },
             {
-                "key": "gallery",
-                "label": "Gallery",
-                "href": "/en/gallery.php"
-            },
-            {
                 "key": "projects",
-                "label": "Projects",
+                "label": "References & Projects",
                 "href": "/en/projects.php"
             },
             {
-                "key": "contact",
-                "label": "Contact",
-                "href": "/en/contact.php"
+                "key": "about",
+                "label": "About Us",
+                "href": "/en/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Company & History",
+                        "href": "/en/about-us/index.php"
+                    },
+                    {
+                        "key": "production",
+                        "label": "Production",
+                        "href": "/en/about-us/production.php"
+                    },
+                    {
+                        "key": "contact",
+                        "label": "Contact",
+                        "href": "/en/contact.php"
+                    }
+                ]
             }
         ],
         "footer": {
@@ -268,19 +258,19 @@
             "explore_heading": "Explore",
             "explore": [
                 {
-                    "label": "About & History",
+                    "label": "Company & History",
                     "href": "/en/about-us/index.php"
                 },
                 {
-                    "label": "Houses",
+                    "label": "Products",
                     "href": "/en/houses/index.php"
                 },
                 {
-                    "label": "Gallery",
-                    "href": "/en/gallery.php"
+                    "label": "Production",
+                    "href": "/en/about-us/production.php"
                 },
                 {
-                    "label": "Projects",
+                    "label": "References & Projects",
                     "href": "/en/projects.php"
                 }
             ],
@@ -291,12 +281,12 @@
                     "href": "/en/serial-renovation/index.php"
                 },
                 {
-                    "label": "Facade Elements",
-                    "href": "/en/serial-renovation/facade-elements.php"
+                    "label": "Gallery",
+                    "href": "/en/serial-renovation/gallery.php"
                 },
                 {
-                    "label": "References",
-                    "href": "/en/serial-renovation/references.php"
+                    "label": "Facade Elements",
+                    "href": "/en/serial-renovation/facade-elements.php"
                 }
             ],
             "contact_heading": "Contact",
@@ -376,25 +366,25 @@
         "brand_caption": "Holzhäuser & Fassadenelemente · Gegr. 2000",
         "nav": [
             {
-                "key": "about",
-                "label": "Über EstNor",
-                "href": "/de/about-us/index.php",
+                "key": "renovation",
+                "label": "Serielle Sanierung",
+                "href": "/de/serial-renovation/index.php",
                 "children": [
                     {
-                        "key": "about",
-                        "label": "Unternehmen & Geschichte",
-                        "href": "/de/about-us/index.php"
+                        "key": "renovation",
+                        "label": "Überblick",
+                        "href": "/de/serial-renovation/index.php"
                     },
                     {
-                        "key": "suppliers",
-                        "label": "Lieferanten & Partner",
-                        "href": "/de/about-us/suppliers.php"
+                        "key": "gallery-ren",
+                        "label": "Galerie",
+                        "href": "/de/serial-renovation/gallery.php"
                     }
                 ]
             },
             {
-                "key": "houses",
-                "label": "Häuser",
+                "key": "products",
+                "label": "Produkte",
                 "href": "/de/houses/index.php",
                 "children": [
                     {
@@ -406,45 +396,40 @@
                         "key": "modular",
                         "label": "Modulhäuser",
                         "href": "/de/houses/modular-houses.php"
-                    }
-                ]
-            },
-            {
-                "key": "renovation",
-                "label": "Serielle Sanierung",
-                "href": "/de/serial-renovation/index.php",
-                "children": [
-                    {
-                        "key": "renovation",
-                        "label": "Überblick",
-                        "href": "/de/serial-renovation/index.php"
                     },
                     {
                         "key": "facade",
                         "label": "Fassadenelemente",
                         "href": "/de/serial-renovation/facade-elements.php"
-                    },
-                    {
-                        "key": "references-ren",
-                        "label": "Referenzen",
-                        "href": "/de/serial-renovation/references.php"
                     }
                 ]
             },
             {
-                "key": "gallery",
-                "label": "Galerie",
-                "href": "/de/gallery.php"
-            },
-            {
                 "key": "projects",
-                "label": "Projekte",
+                "label": "Referenzen & Projekte",
                 "href": "/de/projects.php"
             },
             {
-                "key": "contact",
-                "label": "Kontakt",
-                "href": "/de/contact.php"
+                "key": "about",
+                "label": "Über EstNor",
+                "href": "/de/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Unternehmen & Geschichte",
+                        "href": "/de/about-us/index.php"
+                    },
+                    {
+                        "key": "production",
+                        "label": "Produktion",
+                        "href": "/de/about-us/production.php"
+                    },
+                    {
+                        "key": "contact",
+                        "label": "Kontakt",
+                        "href": "/de/contact.php"
+                    }
+                ]
             }
         ],
         "footer": {
@@ -452,19 +437,19 @@
             "explore_heading": "Entdecken",
             "explore": [
                 {
-                    "label": "Über uns & Geschichte",
+                    "label": "Unternehmen & Geschichte",
                     "href": "/de/about-us/index.php"
                 },
                 {
-                    "label": "Häuser",
+                    "label": "Produkte",
                     "href": "/de/houses/index.php"
                 },
                 {
-                    "label": "Galerie",
-                    "href": "/de/gallery.php"
+                    "label": "Produktion",
+                    "href": "/de/about-us/production.php"
                 },
                 {
-                    "label": "Projekte",
+                    "label": "Referenzen & Projekte",
                     "href": "/de/projects.php"
                 }
             ],
@@ -475,12 +460,12 @@
                     "href": "/de/serial-renovation/index.php"
                 },
                 {
-                    "label": "Fassadenelemente",
-                    "href": "/de/serial-renovation/facade-elements.php"
+                    "label": "Galerie",
+                    "href": "/de/serial-renovation/gallery.php"
                 },
                 {
-                    "label": "Referenzen",
-                    "href": "/de/serial-renovation/references.php"
+                    "label": "Fassadenelemente",
+                    "href": "/de/serial-renovation/facade-elements.php"
                 }
             ],
             "contact_heading": "Kontakt",
@@ -559,25 +544,25 @@
         "brand_caption": "Trähus & fasadelement · Grundat 2000",
         "nav": [
             {
-                "key": "about",
-                "label": "Om EstNor",
-                "href": "/sv/about-us/index.php",
+                "key": "renovation",
+                "label": "Modernisering av flerbostadshus",
+                "href": "/sv/serial-renovation/index.php",
                 "children": [
                     {
-                        "key": "about",
-                        "label": "Företag & historia",
-                        "href": "/sv/about-us/index.php"
+                        "key": "renovation",
+                        "label": "Översikt",
+                        "href": "/sv/serial-renovation/index.php"
                     },
                     {
-                        "key": "suppliers",
-                        "label": "Leverantörer & partners",
-                        "href": "/sv/about-us/suppliers.php"
+                        "key": "gallery-ren",
+                        "label": "Galleri",
+                        "href": "/sv/serial-renovation/gallery.php"
                     }
                 ]
             },
             {
-                "key": "houses",
-                "label": "Hus",
+                "key": "products",
+                "label": "Produkter",
                 "href": "/sv/houses/index.php",
                 "children": [
                     {
@@ -589,45 +574,40 @@
                         "key": "modular",
                         "label": "Modulhus",
                         "href": "/sv/houses/modular-houses.php"
-                    }
-                ]
-            },
-            {
-                "key": "renovation",
-                "label": "Modernisering av flerbostadshus",
-                "href": "/sv/serial-renovation/index.php",
-                "children": [
-                    {
-                        "key": "renovation",
-                        "label": "Översikt",
-                        "href": "/sv/serial-renovation/index.php"
                     },
                     {
                         "key": "facade",
                         "label": "Fasad- och takelement",
                         "href": "/sv/serial-renovation/facade-elements.php"
-                    },
-                    {
-                        "key": "references-ren",
-                        "label": "Referenser",
-                        "href": "/sv/serial-renovation/references.php"
                     }
                 ]
             },
             {
-                "key": "gallery",
-                "label": "Galleri",
-                "href": "/sv/gallery.php"
-            },
-            {
                 "key": "projects",
-                "label": "Projekt",
+                "label": "Referenser & projekt",
                 "href": "/sv/projects.php"
             },
             {
-                "key": "contact",
-                "label": "Kontakt",
-                "href": "/sv/contact.php"
+                "key": "about",
+                "label": "Om EstNor",
+                "href": "/sv/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Företag & historia",
+                        "href": "/sv/about-us/index.php"
+                    },
+                    {
+                        "key": "production",
+                        "label": "Produktion",
+                        "href": "/sv/about-us/production.php"
+                    },
+                    {
+                        "key": "contact",
+                        "label": "Kontakt",
+                        "href": "/sv/contact.php"
+                    }
+                ]
             }
         ],
         "footer": {
@@ -635,19 +615,19 @@
             "explore_heading": "Utforska",
             "explore": [
                 {
-                    "label": "Om oss & historia",
+                    "label": "Företag & historia",
                     "href": "/sv/about-us/index.php"
                 },
                 {
-                    "label": "Hus",
+                    "label": "Produkter",
                     "href": "/sv/houses/index.php"
                 },
                 {
-                    "label": "Galleri",
-                    "href": "/sv/gallery.php"
+                    "label": "Produktion",
+                    "href": "/sv/about-us/production.php"
                 },
                 {
-                    "label": "Projekt",
+                    "label": "Referenser & projekt",
                     "href": "/sv/projects.php"
                 }
             ],
@@ -658,12 +638,12 @@
                     "href": "/sv/serial-renovation/index.php"
                 },
                 {
-                    "label": "Fasad- och takelement",
-                    "href": "/sv/serial-renovation/facade-elements.php"
+                    "label": "Galleri",
+                    "href": "/sv/serial-renovation/gallery.php"
                 },
                 {
-                    "label": "Referenser",
-                    "href": "/sv/serial-renovation/references.php"
+                    "label": "Fasad- och takelement",
+                    "href": "/sv/serial-renovation/facade-elements.php"
                 }
             ],
             "contact_heading": "Kontakt",
@@ -743,25 +723,25 @@
         "brand_caption": "Trehus & fasadeelementer · Etablert 2000",
         "nav": [
             {
-                "key": "about",
-                "label": "Om EstNor",
-                "href": "/nb/about-us/index.php",
+                "key": "renovation",
+                "label": "Modernisering av leilighetsbygg",
+                "href": "/nb/serial-renovation/index.php",
                 "children": [
                     {
-                        "key": "about",
-                        "label": "Selskap & historie",
-                        "href": "/nb/about-us/index.php"
+                        "key": "renovation",
+                        "label": "Oversikt",
+                        "href": "/nb/serial-renovation/index.php"
                     },
                     {
-                        "key": "suppliers",
-                        "label": "Leverandører & partnere",
-                        "href": "/nb/about-us/suppliers.php"
+                        "key": "gallery-ren",
+                        "label": "Galleri",
+                        "href": "/nb/serial-renovation/gallery.php"
                     }
                 ]
             },
             {
-                "key": "houses",
-                "label": "Hus",
+                "key": "products",
+                "label": "Produkter",
                 "href": "/nb/houses/index.php",
                 "children": [
                     {
@@ -773,45 +753,40 @@
                         "key": "modular",
                         "label": "Modulhus",
                         "href": "/nb/houses/modular-houses.php"
-                    }
-                ]
-            },
-            {
-                "key": "renovation",
-                "label": "Modernisering av leilighetsbygg",
-                "href": "/nb/serial-renovation/index.php",
-                "children": [
-                    {
-                        "key": "renovation",
-                        "label": "Oversikt",
-                        "href": "/nb/serial-renovation/index.php"
                     },
                     {
                         "key": "facade",
                         "label": "Fasade- og takelementer",
                         "href": "/nb/serial-renovation/facade-elements.php"
-                    },
-                    {
-                        "key": "references-ren",
-                        "label": "Referanser",
-                        "href": "/nb/serial-renovation/references.php"
                     }
                 ]
             },
             {
-                "key": "gallery",
-                "label": "Galleri",
-                "href": "/nb/gallery.php"
-            },
-            {
                 "key": "projects",
-                "label": "Prosjekter",
+                "label": "Referanser & prosjekter",
                 "href": "/nb/projects.php"
             },
             {
-                "key": "contact",
-                "label": "Kontakt",
-                "href": "/nb/contact.php"
+                "key": "about",
+                "label": "Om EstNor",
+                "href": "/nb/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Selskap & historie",
+                        "href": "/nb/about-us/index.php"
+                    },
+                    {
+                        "key": "production",
+                        "label": "Produksjon",
+                        "href": "/nb/about-us/production.php"
+                    },
+                    {
+                        "key": "contact",
+                        "label": "Kontakt",
+                        "href": "/nb/contact.php"
+                    }
+                ]
             }
         ],
         "footer": {
@@ -819,19 +794,19 @@
             "explore_heading": "Utforsk",
             "explore": [
                 {
-                    "label": "Om oss & historie",
+                    "label": "Selskap & historie",
                     "href": "/nb/about-us/index.php"
                 },
                 {
-                    "label": "Hus",
+                    "label": "Produkter",
                     "href": "/nb/houses/index.php"
                 },
                 {
-                    "label": "Galleri",
-                    "href": "/nb/gallery.php"
+                    "label": "Produksjon",
+                    "href": "/nb/about-us/production.php"
                 },
                 {
-                    "label": "Prosjekter",
+                    "label": "Referanser & prosjekter",
                     "href": "/nb/projects.php"
                 }
             ],
@@ -842,12 +817,12 @@
                     "href": "/nb/serial-renovation/index.php"
                 },
                 {
-                    "label": "Fasade- og takelementer",
-                    "href": "/nb/serial-renovation/facade-elements.php"
+                    "label": "Galleri",
+                    "href": "/nb/serial-renovation/gallery.php"
                 },
                 {
-                    "label": "Referanser",
-                    "href": "/nb/serial-renovation/references.php"
+                    "label": "Fasade- og takelementer",
+                    "href": "/nb/serial-renovation/facade-elements.php"
                 }
             ],
             "contact_heading": "Kontakt",

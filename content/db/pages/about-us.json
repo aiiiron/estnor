@@ -96,11 +96,24 @@
             "eyebrow": "Kvaliteet ja sertifikaadid",
             "h2": "Sertifikaadid ja liikmesused",
             "items": [
-                "ISO 9001 kvaliteedijuhtimissüsteem (alates 2015)",
-                "Euroopa tehniline hinnang (ETA, alates 2019)",
-                "Eesti Puitmajaliidu liige",
-                "Majad toodetakse SINTEF ehitusnormide järgi; Norra turul TEK 10, passiivmajadel TEK 15 nõuete kohaselt"
-            ]
+                {
+                    "text": "ISO 9001 kvaliteedijuhtimissüsteem (alates 2015)",
+                    "pdf": null
+                },
+                {
+                    "text": "Euroopa tehniline hinnang (ETA, alates 2019)",
+                    "pdf": null
+                },
+                {
+                    "text": "Eesti Puitmajaliidu liige",
+                    "pdf": null
+                },
+                {
+                    "text": "Majad toodetakse SINTEF ehitusnormide järgi; Norra turul TEK 10, passiivmajadel TEK 15 nõuete kohaselt",
+                    "pdf": null
+                }
+            ],
+            "pdf_label": "Laadi alla PDF"
         },
         "registry": {
             "eyebrow": "Ettevõtte andmed",
@@ -129,9 +142,9 @@
             "h2": "Jätka lugemist",
             "cards": [
                 {
-                    "title": "Koostööpartnerid",
-                    "desc": "Kellega EstNor koostööd teeb ja kuidas saada partneriks.",
-                    "href": "suppliers.php"
+                    "title": "Tootmine",
+                    "desc": "Pilguheit tehasesse — elementide ja fassaadidetailide valmistamine.",
+                    "href": "production.php"
                 },
                 {
                     "title": "Tehaseline renoveerimine",
@@ -238,11 +251,24 @@
             "eyebrow": "Qualität & Zertifizierung",
             "h2": "Zertifikate & Mitgliedschaften",
             "items": [
-                "Qualitätsmanagement nach ISO 9001 (seit 2015)",
-                "Europäische Technische Bewertung (ETA, seit 2019)",
-                "Mitglied im Estnischen Holzhausverband",
-                "Fertigung nach SINTEF-Baunormen; auf dem norwegischen Markt nach TEK 10, bei Passivhäusern nach TEK 15"
-            ]
+                {
+                    "text": "Qualitätsmanagement nach ISO 9001 (seit 2015)",
+                    "pdf": null
+                },
+                {
+                    "text": "Europäische Technische Bewertung (ETA, seit 2019)",
+                    "pdf": null
+                },
+                {
+                    "text": "Mitglied im Estnischen Holzhausverband",
+                    "pdf": null
+                },
+                {
+                    "text": "Fertigung nach SINTEF-Baunormen; auf dem norwegischen Markt nach TEK 10, bei Passivhäusern nach TEK 15",
+                    "pdf": null
+                }
+            ],
+            "pdf_label": "PDF herunterladen"
         },
         "registry": {
             "eyebrow": "Unternehmensdaten",
@@ -271,9 +297,9 @@
             "h2": "Weiterlesen",
             "cards": [
                 {
-                    "title": "Lieferanten & Partner",
-                    "desc": "Mit wem EstNor zusammenarbeitet und wie Sie Partner werden.",
-                    "href": "suppliers.php"
+                    "title": "Produktion",
+                    "desc": "Ein Blick in die Fabrik — wie Elemente und Fassadenteile entstehen.",
+                    "href": "production.php"
                 },
                 {
                     "title": "Serielle Sanierung",
@@ -380,11 +406,24 @@
             "eyebrow": "Kvalitet & certifiering",
             "h2": "Certifikat & medlemskap",
             "items": [
-                "Kvalitetsledning enligt ISO 9001 (sedan 2015)",
-                "Europeisk teknisk bedömning (ETA, sedan 2019)",
-                "Medlem i Estniska Trähusförbundet",
-                "Tillverkning enligt SINTEF-byggnormer; på den norska marknaden enligt TEK 10, för passivhus TEK 15"
-            ]
+                {
+                    "text": "Kvalitetsledning enligt ISO 9001 (sedan 2015)",
+                    "pdf": null
+                },
+                {
+                    "text": "Europeisk teknisk bedömning (ETA, sedan 2019)",
+                    "pdf": null
+                },
+                {
+                    "text": "Medlem i Estniska Trähusförbundet",
+                    "pdf": null
+                },
+                {
+                    "text": "Tillverkning enligt SINTEF-byggnormer; på den norska marknaden enligt TEK 10, för passivhus TEK 15",
+                    "pdf": null
+                }
+            ],
+            "pdf_label": "Ladda ner PDF"
         },
         "registry": {
             "eyebrow": "Företagsuppgifter",
@@ -413,9 +452,9 @@
             "h2": "Fortsätt utforska",
             "cards": [
                 {
-                    "title": "Leverantörer & partners",
-                    "desc": "Vilka EstNor samarbetar med och hur du blir partner.",
-                    "href": "suppliers.php"
+                    "title": "Produktion",
+                    "desc": "En titt inne i fabriken — hur element och fasaddelar tillverkas.",
+                    "href": "production.php"
                 },
                 {
                     "title": "Modernisering av flerbostadshus",
@@ -522,11 +561,24 @@
             "eyebrow": "Kvalitet & sertifisering",
             "h2": "Sertifikater & medlemskap",
             "items": [
-                "Kvalitetsstyring etter ISO 9001 (siden 2015)",
-                "Europeisk teknisk vurdering (ETA, siden 2019)",
-                "Medlem av Estisk Trehusforening",
-                "Produksjon etter SINTEF-byggenormer; på det norske markedet etter TEK 10, for passivhus TEK 15"
-            ]
+                {
+                    "text": "Kvalitetsstyring etter ISO 9001 (siden 2015)",
+                    "pdf": null
+                },
+                {
+                    "text": "Europeisk teknisk vurdering (ETA, siden 2019)",
+                    "pdf": null
+                },
+                {
+                    "text": "Medlem av Estisk Trehusforening",
+                    "pdf": null
+                },
+                {
+                    "text": "Produksjon etter SINTEF-byggenormer; på det norske markedet etter TEK 10, for passivhus TEK 15",
+                    "pdf": null
+                }
+            ],
+            "pdf_label": "Last ned PDF"
         },
         "registry": {
             "eyebrow": "Selskapsopplysninger",
@@ -555,9 +607,9 @@
             "h2": "Fortsett å utforske",
             "cards": [
                 {
-                    "title": "Leverandører & partnere",
-                    "desc": "Hvem EstNor samarbeider med, og hvordan du kan bli partner.",
-                    "href": "suppliers.php"
+                    "title": "Produksjon",
+                    "desc": "Et innblikk i fabrikken — hvordan elementer og fasadedeler produseres.",
+                    "href": "production.php"
                 },
                 {
                     "title": "Modernisering av leilighetsbygg",
@@ -664,11 +716,24 @@
             "eyebrow": "Quality & certification",
             "h2": "Certificates & memberships",
             "items": [
-                "Quality management to ISO 9001 (since 2015)",
-                "European Technical Assessment (ETA, since 2019)",
-                "Member of the Estonian Woodhouse Association",
-                "Manufactured to SINTEF building standards; to TEK 10 for the Norwegian market, TEK 15 for passive houses"
-            ]
+                {
+                    "text": "Quality management to ISO 9001 (since 2015)",
+                    "pdf": null
+                },
+                {
+                    "text": "European Technical Assessment (ETA, since 2019)",
+                    "pdf": null
+                },
+                {
+                    "text": "Member of the Estonian Woodhouse Association",
+                    "pdf": null
+                },
+                {
+                    "text": "Manufactured to SINTEF building standards; to TEK 10 for the Norwegian market, TEK 15 for passive houses",
+                    "pdf": null
+                }
+            ],
+            "pdf_label": "Download PDF"
         },
         "registry": {
             "eyebrow": "Company data",
@@ -697,9 +762,9 @@
             "h2": "Keep exploring",
             "cards": [
                 {
-                    "title": "Suppliers & Co-operators",
-                    "desc": "Who EstNor works with, and how to become a partner.",
-                    "href": "suppliers.php"
+                    "title": "Production",
+                    "desc": "A look inside the factory — how elements and facade parts are made.",
+                    "href": "production.php"
                 },
                 {
                     "title": "Serial Renovation",

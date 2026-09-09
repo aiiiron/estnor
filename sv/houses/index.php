@@ -4,7 +4,7 @@ require_once __DIR__ . '/../../inc/i18n.php';
 
 $LANG   = 'sv';
 $ASSET  = '../..';
-$ACTIVE = 'houses';
+$ACTIVE = 'products';
 $HOME_HREF = '../index.php';
 $ELEMENT_HREF = 'element-houses.php';
 $MODULAR_HREF = 'modular-houses.php';

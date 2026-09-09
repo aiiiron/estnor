@@ -2,13 +2,14 @@
 require_once __DIR__ . '/../inc/site.php';
 require_once __DIR__ . '/../inc/i18n.php';
 
-$LANG   = 'en';
+$LANG   = 'et';
 $ASSET  = '..';
-$ACTIVE = 'gallery';
-$HOME_HREF = 'index.php';
-$PROJECTS_HREF = 'projects.php';
+$ACTIVE = 'production';
+$HOME_HREF = '../index.php';
+$PARENT_HREF = 'index.php';
+$CTA_HREF = '../projects.php';
 $T = load_lang($LANG);
-$P = load_page('gallery', $LANG);
+$P = load_page('about-us-production', $LANG);
 $PAGE_TITLE = $P['meta']['title'];
 $PAGE_DESC  = $P['meta']['desc'];
 require __DIR__ . '/../partials/head.php';

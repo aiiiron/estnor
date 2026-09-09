@@ -71,7 +71,7 @@
         <h2><?= e($P['certs']['h2']) ?></h2>
         <ul class="check">
 <?php foreach ($P['certs']['items'] as $item): ?>
-          <li><?= e($item) ?></li>
+          <li><?= e($item['text']) ?><?php if (!empty($item['pdf'])): ?> <a class="pdf-link" href="<?= e($ASSET) ?>/assets/certificates/<?= e($item['pdf']) ?>" target="_blank" rel="noopener"><?= e($P['certs']['pdf_label']) ?></a><?php endif; ?></li>
 <?php endforeach; ?>
         </ul>
       </div>

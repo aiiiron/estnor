@@ -3,7 +3,7 @@
  * pages/serial-renovation.php — shared body template for the Serial
  * Renovation index page. Caller sets $LANG/$ASSET/$ACTIVE, requires
  * partials/head.php, and defines $P = load_page('serial-renovation',
- * $LANG) plus $HOME_HREF, $CONTACT_HREF, $FACADE_HREF, $REFERENCES_HREF.
+ * $LANG) plus $HOME_HREF, $CONTACT_HREF, $FACADE_HREF.
  */
 ?>
 
