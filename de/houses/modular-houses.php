@@ -28,7 +28,7 @@ require __DIR__ . '/../../partials/head.php';
         <p>Alle Öffnungen — Fenster und Türen — sind eingebaut sowie innen und außen fertig verkleidet (Laibungen, Leisten, Wasserbleche). Im Werk werden auch alle Sonderarbeiten ausgeführt: Elektro-, Sanitär-, Lüftungs- und Heizungsinstallation. Bei Bedarf werden Sanitärtechnik und Möbel bereits in die Module eingebaut.</p>
       </div>
       <div class="card" style="padding:0; overflow:hidden;">
-        <svg viewBox="0 0 400 320" preserveAspectRatio="xMidYMid slice">
+        <svg viewBox="0 0 400 320" preserveAspectRatio="xMidYMid slice" width="100%" height="100%">
           <rect width="400" height="320" fill="#13342a"/>
           <g fill="#e9efe7"><rect x="40" y="180" width="110" height="100"/><rect x="160" y="140" width="110" height="140"/><rect x="280" y="100" width="90" height="180"/></g>
           <g fill="#dd8a2c"><rect x="40" y="180" width="110" height="8"/><rect x="160" y="140" width="110" height="8"/><rect x="280" y="100" width="90" height="8"/></g>

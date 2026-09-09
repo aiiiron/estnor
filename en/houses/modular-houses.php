@@ -28,7 +28,7 @@ require __DIR__ . '/../../partials/head.php';
 <p>Modules can be joined together to create larger buildings that meet the specific space needs of each customer, from a single private house to a full apartment block.</p>
 </div>
 <div class="card" style="padding:0; overflow:hidden;">
-<svg preserveaspectratio="xMidYMid slice" viewbox="0 0 400 320">
+<svg preserveaspectratio="xMidYMid slice" viewbox="0 0 400 320" width="100%" height="100%">
 <rect fill="#13342a" height="320" width="400"></rect>
 <g fill="#e9efe7"><rect height="100" width="110" x="40" y="180"></rect><rect height="140" width="110" x="160" y="140"></rect><rect height="180" width="90" x="280" y="100"></rect></g>
 <g fill="#dd8a2c"><rect height="8" width="110" x="40" y="180"></rect><rect height="8" width="110" x="160" y="140"></rect><rect height="8" width="90" x="280" y="100"></rect></g>
@@ -53,7 +53,7 @@ require __DIR__ . '/../../partials/head.php';
 <section class="section">
 <div class="wrap split">
 <div class="card" style="padding:0; overflow:hidden;">
-<svg preserveaspectratio="xMidYMid slice" viewbox="0 0 400 300">
+<svg preserveaspectratio="xMidYMid slice" viewbox="0 0 400 300" width="100%" height="100%">
 <rect fill="#2c5a45" height="300" width="400"></rect>
 <g fill="#e9efe7" opacity=".95">
 <rect height="220" width="100" x="30" y="60"></rect><rect height="220" width="100" x="150" y="60"></rect><rect height="220" width="100" x="270" y="60"></rect>

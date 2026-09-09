@@ -103,7 +103,7 @@ require __DIR__ . '/../../partials/head.php';
 </div>
 </div>
 </section>
-<section class="section section--dark">
+<section class="section section--alt">
 <div class="wrap">
 <div class="section-head center">
 <span class="eyebrow">More about us</span>
