@@ -41,11 +41,6 @@ $asset_v = '20260909a'; // bump on CSS/JS changes to bust the cache
       <span class="brand-caption"><?= e($T['brand_caption']) ?></span>
     </a>
     <div class="bar-right">
-      <div id="lang-switch-bar" class="lang-switch" role="group" aria-label="Choose language">
-<?php foreach ($LANG_HOME as $code => $href): ?>
-        <a href="<?= e(url($href)) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a>
-<?php endforeach; ?>
-      </div>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
       <label for="nav-toggle" class="nav-burger" aria-label="<?= e($T['common']['menu']) ?>"><span></span><span></span><span></span></label>
       <nav class="nav" aria-label="Main navigation">
@@ -64,11 +59,22 @@ $asset_v = '20260909a'; // bump on CSS/JS changes to bust the cache
 <?php endforeach; ?>
         </ul>
         <div id="lang-switch-nav" class="lang-switch" role="group" aria-label="Choose language">
+          <button type="button" class="lang-switch-trigger" aria-haspopup="true"><?= e(strtoupper($LANG)) ?> <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+          <ul class="lang-switch-menu">
 <?php foreach ($LANG_HOME as $code => $href): ?>
-          <a href="<?= e(url($href)) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a>
+            <li><a href="<?= e(url($href . ($code === $LANG_DEFAULT ? '?lang=' . $code : ''))) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a></li>
 <?php endforeach; ?>
+          </ul>
         </div>
       </nav>
+      <div id="lang-switch-bar" class="lang-switch" role="group" aria-label="Choose language">
+        <button type="button" class="lang-switch-trigger" aria-haspopup="true"><?= e(strtoupper($LANG)) ?> <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+        <ul class="lang-switch-menu">
+<?php foreach ($LANG_HOME as $code => $href): ?>
+          <li><a href="<?= e(url($href . ($code === $LANG_DEFAULT ? '?lang=' . $code : ''))) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a></li>
+<?php endforeach; ?>
+        </ul>
+      </div>
     </div>
   </div>
 </header>

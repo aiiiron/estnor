@@ -191,7 +191,7 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 .bar-right { display: flex; align-items: center; gap: 1.1rem; }
 
 .nav { display: flex; align-items: center; gap: 1.35rem; }
-.nav ul { display: flex; gap: 1.15rem; list-style: none; margin: 0; padding: 0; }
+.nav > ul { display: flex; gap: 1.15rem; list-style: none; margin: 0; padding: 0; } /* scoped to the top-level list only — .submenu is also a <ul> nested inside, and must not inherit this row layout */
 .nav ul li { position: relative; }
 .nav a { text-decoration: none; color: var(--ink-soft); font-weight: 500; font-size: .95rem; }
 .nav > ul > li > a:hover, .nav a[aria-current="page"] { color: var(--spruce-deep); }
@@ -212,17 +212,51 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 .submenu li a { display: block; padding: .6em .75em; border-radius: var(--r-sm); font-size: .89rem; }
 .submenu li a:hover { background: var(--spruce-tint); color: var(--spruce-deep); }
 
-.lang-switch { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); flex-shrink: 0; }
-.lang-switch a { font-family: var(--font-display); font-size: .78rem; font-weight: 600; letter-spacing: .02em; text-decoration: none; color: var(--ink-soft); padding: .34em .68em; line-height: 1; }
-.lang-switch a + a { border-left: 1px solid var(--line); }
-.lang-switch a:hover { color: var(--spruce-deep); background: var(--spruce-tint); }
-.lang-switch a[aria-current="true"] { background: var(--spruce); color: #fff; }
+/* Language switcher — a dropdown, styled like the nav's own has-sub
+   dropdowns: a small pill trigger showing the current language, hover/
+   focus reveals a vertical menu of all 5. */
+.lang-switch { position: relative; flex-shrink: 0; }
+.lang-switch-trigger {
+  display: inline-flex; align-items: center; gap: .35em;
+  font-family: var(--font-display); font-size: .78rem; font-weight: 600; letter-spacing: .02em;
+  color: var(--ink-soft); background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+  padding: .34em .85em; line-height: 1; cursor: pointer;
+}
+.lang-switch-trigger .chev { width: 8px; height: 8px; transition: transform .15s ease; }
+.lang-switch:hover .lang-switch-trigger, .lang-switch:focus-within .lang-switch-trigger { color: var(--spruce-deep); border-color: var(--spruce); }
+.lang-switch:hover .lang-switch-trigger .chev, .lang-switch:focus-within .lang-switch-trigger .chev { transform: rotate(180deg); }
+
+.lang-switch-menu {
+  position: absolute; top: 100%; right: 0; left: 0; margin-top: .5rem;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md);
+  box-shadow: var(--shadow); padding: .3rem; list-style: none; margin-block: 0;
+  opacity: 0; visibility: hidden; transform: translateY(6px);
+  transition: opacity .14s ease, transform .14s ease, visibility .14s;
+  z-index: 20;
+}
+.lang-switch:hover .lang-switch-menu, .lang-switch:focus-within .lang-switch-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+.lang-switch-menu a {
+  display: block; padding: .42em .3em; border-radius: var(--r-sm); text-align: center;
+  font-family: var(--font-display); font-size: .78rem; font-weight: 600; letter-spacing: .02em;
+  color: var(--ink-soft); text-decoration: none;
+}
+.lang-switch-menu a:hover { background: var(--spruce-tint); color: var(--spruce-deep); }
+.lang-switch-menu a[aria-current="true"] { background: var(--spruce); color: #fff; }
 
 /* Two copies of the language switcher exist (see partials/head.php): one
    in the header bar for desktop, one inside the mobile nav drawer — only
-   one is ever visible at a time, so the 5-language pill row never has to
-   compete with the logo and burger for space on a phone-width screen. */
+   one is ever visible at a time, so it never has to compete with the logo
+   and burger for space on a phone-width screen. The mobile copy skips the
+   trigger/hover-dropdown entirely (touch has no hover) and instead shows
+   its menu as a permanently-open row, matching how .submenu also becomes
+   a static list on mobile instead of a hover dropdown. */
 #lang-switch-nav { display: none; }
+#lang-switch-nav .lang-switch-trigger { display: none; }
+#lang-switch-nav .lang-switch-menu {
+  position: static; opacity: 1; visibility: visible; transform: none;
+  box-shadow: none; border: 0; padding: 0; margin-top: 0;
+  display: flex; flex-wrap: wrap; gap: .5rem;
+}
 
 .nav-burger { display: none; }
 @media (max-width: 1120px) {
@@ -241,7 +275,7 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
     transition: opacity .18s ease, transform .18s ease;
     max-height: 80vh; overflow-y: auto;
   }
-  .nav ul { flex-direction: column; gap: 1rem; }
+  .nav > ul { flex-direction: column; gap: 1rem; }
   .nav a { font-size: 1.06rem; }
   .nav-toggle:checked ~ .nav { transform: translateY(0); opacity: 1; pointer-events: auto; }
 
