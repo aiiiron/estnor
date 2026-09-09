@@ -2,7 +2,6 @@
 
 Drop-off folder for images you upload directly (e.g. via the GitHub web UI).
 
-Once you've uploaded the Loodusmaja hero photo here, let me know its
-filename and I'll wire it into the site (currently `assets/img/hero.jpg` /
-`assets/img/hero.webp`, used as the homepage and Serial Renovation hero
-background).
+Anything you add here gets picked up, processed (resized/converted as
+needed) and wired into the site under `assets/img/`, then removed from
+this folder — so `media/` stays empty between uploads.
