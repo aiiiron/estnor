@@ -1,0 +1,437 @@
+{
+    "et": {
+        "meta": {
+            "title": "Elementmaja | EstNor",
+            "desc": "EstNor OÜ toodab puitkarkass elementmaju Kiilis asuvas elementmajatehases — välis-, sise-, vahelae-, katuse- ja terrassielemendid."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "parent_label": "Majad",
+            "label": "Elementmaja",
+            "eyebrow": "Tehases toodetud",
+            "h1": "Elementmajast lähemalt",
+            "lead": "EstNor OÜ toodab puitkarkass elementmaju Kiilis asuvas elementmajatehases. Tehases toodetakse välis-, sise-, vahelae-, katuse- ja terrassielemendid."
+        },
+        "benefits": {
+            "h2": "Elementmaja eelised",
+            "items": [
+                "Tehases toodetud maja on kvaliteetne — ehitus toimub kontrollitud siseruumides, ilma ilmastikukahjustusteta (vihm, lumi, tuul, temperatuur)",
+                "Ehitus on kiire — elementide monteerimine toimub spetsiaalsetel töölaudadel, mis on varustatud vajalike tööriistadega",
+                "Täpsed tööjoonised teevad tootmise kiireks ja efektiivseks — elemendid valmivad millimeetritäpsusega",
+                "Insenerid teostavad tugevusarvutused kohalike normide järgi, mis välistab alamõõtmestamise",
+                "Tehases ehitatakse valmis nii palju kui võimalik: soojustus, auru- ja tuuletõkkematerjalid, värvitud välisvoodrilaud, aknad, uksed",
+                "Objektil paigaldatakse elemendid kraanaga 1–5 päevaga, olenevalt maja suurusest"
+            ]
+        },
+        "capabilities": {
+            "eyebrow": "Ilma suuremate piiranguteta",
+            "h2": "Sobib ka keerukale arhitektuurile",
+            "lead": "Erinevalt moodulmajadest saab elementmajana ehitada keerulise arhitektuuri ja suuremõõtmeliste ruumidega hooneid — sealhulgas kortermaju.",
+            "cards": [
+                {
+                    "title": "Kraanapaigaldus",
+                    "desc": "Elementide püstitus ja katuse ehitustööd."
+                },
+                {
+                    "title": "Avatäited",
+                    "desc": "Akende, terrassi-, välis- ja siseuste paigaldus."
+                },
+                {
+                    "title": "Viimistlus",
+                    "desc": "Põrandad, vahe- ja katuslaed, piirdeliistud, plaatimis- ja maalritööd."
+                },
+                {
+                    "title": "Terrass ja korsten",
+                    "desc": "Terrassi paigaldustööd ning Schiedeli metall- ja moodulkorstnad."
+                }
+            ]
+        },
+        "materials": {
+            "eyebrow": "Materjalivalik",
+            "h2": "Valikuvõimalused (standardlahendused rasvases kirjas mujal kataloogis)",
+            "cards": [
+                {
+                    "title": "Välisviimistlus",
+                    "desc": "Voodrilaud 21×145 mm või 21×190 mm, poola laudis, servamata laud, fassaadiplaat."
+                },
+                {
+                    "title": "Aknad ja uksed",
+                    "desc": "Kolmekordse klaasiga aknad (erineva avanemisega), energiasäästlik välisuks, MDF-siseuksed."
+                },
+                {
+                    "title": "Katusekate",
+                    "desc": "Kivi-, plekk-, SBS- ja bituumenkatus, samuti laudis- ja mätaskatus."
+                },
+                {
+                    "title": "Põrandakate",
+                    "desc": "Tammeparkett (1- või 3-lipiline), tammelaud või männist põrandalaud."
+                },
+                {
+                    "title": "Trepid",
+                    "desc": "Männi- või tammeastmed, viimistletud või viimistlemata, puit- või klaaspiirded."
+                },
+                {
+                    "title": "Terrass",
+                    "desc": "28×120 mm või 28×145 mm rihveldatud terrassilaud, pruun või roheline immutus."
+                }
+            ]
+        },
+        "callout": {
+            "label": "Õhu- ja tuulepidavus:",
+            "text": "EstNor kasutab valdkonna juhtiva ettevõtte SIGA tooteid — auru- ja tuuletõkkekangaid, teipe ja tihendusaineid. Majad toodetakse SINTEF ehitusnormide järgi; Norra turul järgitakse TEK 10, passiivmajadel TEK 15 nõudeid."
+        },
+        "cta": {
+            "h2": "Planeerid suurt või keerukat ehitist?",
+            "body": "Elementmaja võib olla õige valik — räägi meiega oma projektist.",
+            "button": "Võta ühendust"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Elementhaus | EstNor",
+            "desc": "EstNor OÜ fertigt Holzrahmen-Elementhäuser im Elementhauswerk in Kiili — Außen-, Innen-, Geschossdecken-, Dach- und Terrassenelemente."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "parent_label": "Häuser",
+            "label": "Elementhaus",
+            "eyebrow": "Werksgefertigt",
+            "h1": "Das Elementhaus im Detail",
+            "lead": "EstNor OÜ fertigt Holzrahmen-Elementhäuser im Elementhauswerk in Kiili. Im Werk entstehen Außen-, Innen-, Geschossdecken-, Dach- und Terrassenelemente."
+        },
+        "benefits": {
+            "h2": "Vorteile des Elementhauses",
+            "items": [
+                "Werksgefertigte Häuser sind hochwertig — der Bau erfolgt in einer kontrollierten Innenumgebung, ohne Witterungsschäden (Regen, Schnee, Wind, Temperatur)",
+                "Schneller Bau — die Montage der Elemente erfolgt an speziellen Werkbänken mit dem nötigen Werkzeug",
+                "Präzise Werkzeichnungen machen die Fertigung schnell und effizient — Elemente entstehen millimetergenau",
+                "Ingenieure führen Tragfähigkeitsberechnungen nach lokalen Normen durch, wodurch eine Unterdimensionierung ausgeschlossen ist",
+                "Im Werk wird so viel wie möglich fertiggestellt: Dämmung, Dampf- und Windsperre, lackierte Außenverkleidung, Fenster, Türen",
+                "Vor Ort werden die Elemente je nach Haushöhe in 1–5 Tagen per Kran montiert"
+            ]
+        },
+        "capabilities": {
+            "eyebrow": "Ohne wesentliche Einschränkung",
+            "h2": "Auch für anspruchsvolle Architektur geeignet",
+            "lead": "Anders als bei Modulhäusern lassen sich als Elementhaus auch anspruchsvolle Architektur und großzügige Raumhöhen realisieren — einschließlich Mehrfamilienhäuser.",
+            "cards": [
+                {
+                    "title": "Kranmontage",
+                    "desc": "Aufstellung der Elemente und Dacharbeiten."
+                },
+                {
+                    "title": "Öffnungen",
+                    "desc": "Montage von Fenstern, Terrassen-, Außen- und Innentüren."
+                },
+                {
+                    "title": "Ausbau",
+                    "desc": "Böden, Zwischen- und Dachdecken, Leisten, Fliesen- und Malerarbeiten."
+                },
+                {
+                    "title": "Terrasse & Schornstein",
+                    "desc": "Terrassenmontage sowie Schiedel-Metall- und Modulschornsteine."
+                }
+            ]
+        },
+        "materials": {
+            "eyebrow": "Materialauswahl",
+            "h2": "Auswahlmöglichkeiten (Standardlösungen im Katalog gesondert markiert)",
+            "cards": [
+                {
+                    "title": "Außenverkleidung",
+                    "desc": "Verschalung 21×145 mm oder 21×190 mm, polnische Schalung, unbesäumtes Brett, Fassadenplatte."
+                },
+                {
+                    "title": "Fenster & Türen",
+                    "desc": "Dreifachverglaste Fenster (verschiedene Öffnungsarten), energieeffiziente Außentür, MDF-Innentüren."
+                },
+                {
+                    "title": "Dacheindeckung",
+                    "desc": "Stein-, Blech-, SBS- und Bitumendach sowie Schalungs- und Grasdach."
+                },
+                {
+                    "title": "Bodenbelag",
+                    "desc": "Eichenparkett (1- oder 3-Stab), Eichendielen oder Kiefern-Fußboden."
+                },
+                {
+                    "title": "Treppen",
+                    "desc": "Kiefern- oder Eichenstufen, lackiert oder unbehandelt, mit Holz- oder Glasgeländer."
+                },
+                {
+                    "title": "Terrasse",
+                    "desc": "Genutete Terrassendielen 28×120 mm oder 28×145 mm, braun oder grün imprägniert."
+                }
+            ]
+        },
+        "callout": {
+            "label": "Luft- und Winddichtheit:",
+            "text": "EstNor setzt Produkte des Branchenführers SIGA ein — Dampf- und Windsperrbahnen, Klebebänder und Dichtstoffe. Die Häuser werden nach SINTEF-Baunormen gefertigt; auf dem norwegischen Markt gelten TEK 10, bei Passivhäusern TEK 15."
+        },
+        "cta": {
+            "h2": "Planen Sie ein großes oder anspruchsvolles Bauvorhaben?",
+            "body": "Das Elementhaus könnte die richtige Wahl sein — sprechen Sie mit uns über Ihr Projekt.",
+            "button": "Kontakt aufnehmen"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Elementhus | EstNor",
+            "desc": "EstNor OÜ tillverkar trästomme-elementhus vid elementhusfabriken i Kiili — ytter-, inner-, bjälklags-, tak- och terrasselement."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "parent_label": "Hus",
+            "label": "Elementhus",
+            "eyebrow": "Fabrikstillverkat",
+            "h1": "Mer om elementhus",
+            "lead": "EstNor OÜ tillverkar trästomme-elementhus vid elementhusfabriken i Kiili. Där tillverkas ytter-, inner-, bjälklags-, tak- och terrasselement."
+        },
+        "benefits": {
+            "h2": "Fördelar med elementhus",
+            "items": [
+                "Fabrikstillverkade hus håller hög kvalitet — bygget sker inomhus, i en kontrollerad miljö, utan väderskador (regn, snö, vind, temperatur)",
+                "Snabbt byggande — elementmontering sker vid specialbord utrustade med nödvändiga verktyg",
+                "Exakta ritningar gör tillverkningen snabb och effektiv — elementen tillverkas med millimeterprecision",
+                "Ingenjörer utför hållfasthetsberäkningar enligt lokala normer",
+                "Så mycket som möjligt färdigställs i fabriken: isolering, ång- och vindspärr, målad ytterpanel, fönster, dörrar",
+                "På plats monteras elementen med kran på 1–5 dagar beroende på husets storlek"
+            ]
+        },
+        "capabilities": {
+            "eyebrow": "Utan större begränsningar",
+            "h2": "Passar även komplex arkitektur",
+            "lead": "Till skillnad från modulhus kan elementhus byggas med komplex arkitektur och stora rumshöjder — även flerbostadshus.",
+            "cards": [
+                {
+                    "title": "Kranmontage",
+                    "desc": "Resning av element och takarbeten."
+                },
+                {
+                    "title": "Öppningar",
+                    "desc": "Montering av fönster, terrass-, ytter- och innerdörrar."
+                },
+                {
+                    "title": "Invändig färdigställning",
+                    "desc": "Golv, bjälklag och tak, lister, kakel- och målningsarbeten."
+                },
+                {
+                    "title": "Terrass & skorsten",
+                    "desc": "Terrassmontage samt Schiedel metall- och modulskorstenar."
+                }
+            ]
+        },
+        "materials": {
+            "eyebrow": "Materialval",
+            "h2": "Valmöjligheter",
+            "cards": [
+                {
+                    "title": "Ytterpanel",
+                    "desc": "Locklistpanel 21×145 mm eller 21×190 mm, polsk panel, okantad bräda, fasadskiva."
+                },
+                {
+                    "title": "Fönster & dörrar",
+                    "desc": "Treglasfönster (olika öppningstyper), energieffektiv ytterdörr, MDF-innerdörrar."
+                },
+                {
+                    "title": "Yttertak",
+                    "desc": "Tegel-, plåt-, SBS- och bitumentak samt panel- och grästak."
+                },
+                {
+                    "title": "Golv",
+                    "desc": "Ekparkett (1- eller 3-stav), ekplank eller furugolv."
+                },
+                {
+                    "title": "Trappor",
+                    "desc": "Furu- eller eksteg, lackerade eller obehandlade, med trä- eller glasräcke."
+                },
+                {
+                    "title": "Terrass",
+                    "desc": "Räfflad terrassbräda 28×120 mm eller 28×145 mm, brun eller grön impregnering."
+                }
+            ]
+        },
+        "callout": {
+            "label": "Luft- och vindtäthet:",
+            "text": "EstNor använder produkter från branschledande SIGA — ång- och vindspärrsdukar, tejper och tätningsmedel. Husen tillverkas enligt SINTEF-byggnormer; på den norska marknaden enligt TEK 10, för passivhus TEK 15."
+        },
+        "cta": {
+            "h2": "Planerar du ett stort eller komplext byggprojekt?",
+            "body": "Elementhus kan vara rätt val — berätta om ditt projekt för oss.",
+            "button": "Kontakta oss"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Elementhus | EstNor",
+            "desc": "EstNor OÜ produserer trerammede elementhus ved elementhusfabrikken i Kiili — yttervegg-, innervegg-, dekke-, tak- og terrasseelementer."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "parent_label": "Hus",
+            "label": "Elementhus",
+            "eyebrow": "Fabrikkbygget",
+            "h1": "Nærmere om elementhus",
+            "lead": "EstNor OÜ produserer trerammede elementhus ved elementhusfabrikken i Kiili. Der lages yttervegg-, innervegg-, dekke-, tak- og terrasseelementer."
+        },
+        "benefits": {
+            "h2": "Fordeler med elementhus",
+            "items": [
+                "Fabrikkbygde hus holder høy kvalitet — bygging skjer innendørs, i et kontrollert miljø, uten værskader (regn, snø, vind, temperatur)",
+                "Rask bygging — elementmontering skjer på spesialbenker utstyrt med nødvendig verktøy",
+                "Presise arbeidstegninger gjør produksjonen rask og effektiv — elementene lages millimeternøyaktig",
+                "Ingeniører utfører styrkeberegninger etter lokale normer",
+                "Så mye som mulig ferdigstilles i fabrikken: isolasjon, damp- og vindsperre, malt kledning, vinduer, dører",
+                "På byggeplassen monteres elementene med kran på 1–5 dager avhengig av husets størrelse"
+            ]
+        },
+        "capabilities": {
+            "eyebrow": "Uten vesentlige begrensninger",
+            "h2": "Passer også for krevende arkitektur",
+            "lead": "I motsetning til modulhus kan elementhus bygges med krevende arkitektur og store romhøyder — også leilighetsbygg.",
+            "cards": [
+                {
+                    "title": "Kranmontasje",
+                    "desc": "Oppføring av elementer og takarbeid."
+                },
+                {
+                    "title": "Åpninger",
+                    "desc": "Montering av vinduer, terrasse-, ytter- og innerdører."
+                },
+                {
+                    "title": "Innvendig ferdigstillelse",
+                    "desc": "Gulv, mellom- og takdekker, lister, flis- og malerarbeid."
+                },
+                {
+                    "title": "Terrasse & pipe",
+                    "desc": "Terrassemontasje samt Schiedel metall- og modulpiper."
+                }
+            ]
+        },
+        "materials": {
+            "eyebrow": "Materialvalg",
+            "h2": "Valgmuligheter",
+            "cards": [
+                {
+                    "title": "Yttervegg",
+                    "desc": "Kledning 21×145 mm eller 21×190 mm, polsk kledning, ukantet bord, fasadeplate."
+                },
+                {
+                    "title": "Vinduer & dører",
+                    "desc": "Trelagsvinduer (ulike åpningstyper), energieffektiv ytterdør, MDF-innerdører."
+                },
+                {
+                    "title": "Taktekking",
+                    "desc": "Stein-, plate-, SBS- og bitumentak samt bord- og grastak."
+                },
+                {
+                    "title": "Gulv",
+                    "desc": "Eikeparkett (1- eller 3-stav), eikeplank eller furugulv."
+                },
+                {
+                    "title": "Trapper",
+                    "desc": "Furu- eller eiketrinn, lakkert eller ubehandlet, med tre- eller glassrekkverk."
+                },
+                {
+                    "title": "Terrasse",
+                    "desc": "Rillet terrassebord 28×120 mm eller 28×145 mm, brun eller grønn impregnering."
+                }
+            ]
+        },
+        "callout": {
+            "label": "Luft- og vindtetthet:",
+            "text": "EstNor bruker produkter fra bransjeledende SIGA — damp- og vindsperreduker, tape og tetningsmidler. Husene produseres etter SINTEF-byggenormer; på det norske markedet gjelder TEK 10, for passivhus TEK 15."
+        },
+        "cta": {
+            "h2": "Planlegger du et stort eller krevende byggeprosjekt?",
+            "body": "Elementhus kan være riktig valg — fortell oss om prosjektet ditt.",
+            "button": "Kontakt oss"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Element Houses — EstNor",
+            "desc": "EstNor's factory-built element houses: exterior, interior, ceiling, roof and terrace elements built indoors to millimetre accuracy."
+        },
+        "hero": {
+            "crumb": "Home",
+            "parent_label": "Houses",
+            "label": "Element Houses",
+            "eyebrow": "Factory built",
+            "h1": "The element house, in detail",
+            "lead": "EstNor OÜ builds timber-frame element houses at its element house factory in Kiili. The factory produces exterior, interior, ceiling, roof and terrace elements."
+        },
+        "benefits": {
+            "h2": "Advantages of an element house",
+            "items": [
+                "A factory-built house is high quality — construction happens indoors, in a controlled environment, with no weather damage (rain, snow, wind, temperature)",
+                "Fast to build — elements are assembled at dedicated workbenches equipped with the necessary tools",
+                "Precise working drawings make production fast and efficient — elements come out to millimetre accuracy",
+                "Engineers carry out structural calculations to local standards, which rules out under-dimensioning",
+                "As much as possible is finished at the factory: insulation, vapour and wind barriers, painted exterior cladding, windows, doors",
+                "On site, elements are installed by crane in 1–5 days depending on the size of the house"
+            ]
+        },
+        "capabilities": {
+            "eyebrow": "With no real restriction",
+            "h2": "Also suited to demanding architecture",
+            "lead": "Unlike modular houses, an element house can be built with complex architecture and generous ceiling heights — including apartment buildings.",
+            "cards": [
+                {
+                    "title": "Crane installation",
+                    "desc": "Erecting the elements and roof work."
+                },
+                {
+                    "title": "Openings",
+                    "desc": "Fitting windows, terrace, exterior and interior doors."
+                },
+                {
+                    "title": "Finishing",
+                    "desc": "Floors, intermediate and roof ceilings, mouldings, tiling and painting."
+                },
+                {
+                    "title": "Terrace & chimney",
+                    "desc": "Terrace installation, plus Schiedel metal and modular chimneys."
+                }
+            ]
+        },
+        "materials": {
+            "eyebrow": "Choice of materials",
+            "h2": "Options available (standard solutions marked in bold elsewhere in the catalogue)",
+            "cards": [
+                {
+                    "title": "Exterior cladding",
+                    "desc": "21×145 mm or 21×190 mm cladding boards, Polish siding, unedged board, facade panel."
+                },
+                {
+                    "title": "Windows & doors",
+                    "desc": "Triple-glazed windows (various opening types), energy-efficient exterior door, MDF interior doors."
+                },
+                {
+                    "title": "Roofing",
+                    "desc": "Tile, sheet metal, SBS and bitumen roofing, as well as board and sod roofs."
+                },
+                {
+                    "title": "Flooring",
+                    "desc": "Oak parquet (1- or 3-strip), oak plank or pine flooring."
+                },
+                {
+                    "title": "Stairs",
+                    "desc": "Pine or oak treads, finished or unfinished, with wood or glass railings."
+                },
+                {
+                    "title": "Terrace",
+                    "desc": "28×120 mm or 28×145 mm grooved decking boards, brown or green impregnation."
+                }
+            ]
+        },
+        "callout": {
+            "label": "Air- and wind-tightness:",
+            "text": "EstNor uses products from industry leader SIGA — vapour and wind barrier membranes, tapes and sealants. Houses are manufactured to SINTEF building standards; TEK 10 applies in the Norwegian market, TEK 15 for passive houses."
+        },
+        "cta": {
+            "h2": "Planning a large or complex build?",
+            "body": "An element house could be the right choice — talk to us about your project.",
+            "button": "Contact EstNor"
+        }
+    }
+}

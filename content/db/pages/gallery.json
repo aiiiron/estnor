@@ -1,0 +1,132 @@
+{
+    "et": {
+        "meta": {
+            "title": "Galerii | EstNor",
+            "desc": "Pildid EstNori tootmisest, ehitusjärgus majadest ja valminud majadest."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "eyebrow": "Tehasest objektile",
+            "h1": "Tootmine, ehitusjärgus majad ja valmis majad",
+            "lead": "Pilguheit Kiili tehase tootmisele, ehitusjärgus objektidele ja valminud majadele.",
+            "label": "Galerii"
+        },
+        "captions": [
+            "Tootmine",
+            "Tootmine",
+            "Ehitusjärgus",
+            "Ehitusjärgus",
+            "Valmismajad",
+            "Valmismajad"
+        ],
+        "cta": {
+            "h2": "Soovid rohkem näha?",
+            "body": "Vaata meie tehtud projekte või võta ühendust tehasekülastuse kokkuleppimiseks.",
+            "button": "Vaata projekte"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Gallery — EstNor",
+            "desc": "A look inside EstNor's production facility and finished timber houses and facade elements."
+        },
+        "hero": {
+            "crumb": "Home",
+            "eyebrow": "Inside the factory, and out on site",
+            "h1": "Production, houses and facade elements",
+            "lead": "A visual look at production in Kiili, the houses that leave our factory floor, and the facade elements shipped for serial renovation.",
+            "label": "Gallery"
+        },
+        "captions": [
+            "Production floor",
+            "Element assembly",
+            "Facade elements ready to ship",
+            "Finished module",
+            "Interior finishing",
+            "Delivered house"
+        ],
+        "cta": {
+            "h2": "Want to see more?",
+            "body": "Browse a full project write-up, or get in touch to arrange a factory visit.",
+            "button": "View projects"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Galerie | EstNor",
+            "desc": "Bilder aus der EstNor-Produktion, von Häusern im Bau und fertiggestellten Häusern."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "eyebrow": "Vom Werk bis zur Baustelle",
+            "h1": "Produktion, Häuser im Bau und fertige Häuser",
+            "lead": "Ein Einblick in die Produktion in Kiili, Häuser im Bauzustand und fertiggestellte Häuser.",
+            "label": "Galerie"
+        },
+        "captions": [
+            "Produktion",
+            "Produktion",
+            "Im Bau",
+            "Im Bau",
+            "Fertige Häuser",
+            "Fertige Häuser"
+        ],
+        "cta": {
+            "h2": "Möchten Sie mehr sehen?",
+            "body": "Sehen Sie sich unsere Projekte an oder vereinbaren Sie einen Werksbesuch.",
+            "button": "Projekte ansehen"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Galleri | EstNor",
+            "desc": "Bilder från EstNors tillverkning, hus under uppförande och färdiga hus."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "eyebrow": "Från fabrik till byggplats",
+            "h1": "Tillverkning, hus under uppförande och färdiga hus",
+            "lead": "En inblick i produktionen i Kiili, hus under uppförande och färdigställda hus.",
+            "label": "Galleri"
+        },
+        "captions": [
+            "Tillverkning",
+            "Tillverkning",
+            "Under uppförande",
+            "Under uppförande",
+            "Färdiga hus",
+            "Färdiga hus"
+        ],
+        "cta": {
+            "h2": "Vill du se mer?",
+            "body": "Se våra projekt eller kontakta oss för att boka ett fabriksbesök.",
+            "button": "Se projekt"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Galleri | EstNor",
+            "desc": "Bilder fra EstNors produksjon, hus under oppføring og ferdige hus."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "eyebrow": "Fra fabrikk til byggeplass",
+            "h1": "Produksjon, hus under oppføring og ferdige hus",
+            "lead": "Et innblikk i produksjonen i Kiili, hus under oppføring og ferdigstilte hus.",
+            "label": "Galleri"
+        },
+        "captions": [
+            "Produksjon",
+            "Produksjon",
+            "Under oppføring",
+            "Under oppføring",
+            "Ferdige hus",
+            "Ferdige hus"
+        ],
+        "cta": {
+            "h2": "Vil du se mer?",
+            "body": "Se prosjektene våre, eller ta kontakt for å avtale et fabrikkbesøk.",
+            "button": "Se prosjekter"
+        }
+    }
+}

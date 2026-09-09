@@ -1,0 +1,207 @@
+{
+    "et": {
+        "meta": {
+            "title": "Koostööpartneritele | EstNor",
+            "desc": "EstNor otsib koostööpartnereid ehitusettevõtete, arendajate ja vahendajate seas."
+        },
+        "hero": {
+            "crumb_home": "Avaleht",
+            "crumb_parent": "Ettevõttest",
+            "eyebrow": "Usaldusväärsed partnerid",
+            "h1": "Koostööpartneritele",
+            "lead": "EstNor otsib koostööpartnereid ehitusettevõtete, arendajate ja vahendajate seas. Koostööhuvi korral palume võtta ühendust."
+        },
+        "cards": [
+            {
+                "title": "Materjalid",
+                "desc": "Jätkusuutlikult hangitud puit ja ehitusmaterjalid, sh soojustusvill ja energiatõhusad PVC aknad."
+            },
+            {
+                "title": "Logistika",
+                "desc": "Transpordipartnerid, kes veavad valmis elemendid ja moodulid Kiilist üle Läänemere ja maismaad pidi objektile."
+            },
+            {
+                "title": "Sertifitseerimine",
+                "desc": "ISO 9001 kvaliteedijuhtimine ja Euroopa tehniline hinnang (ETA) tagavad ühtlase kvaliteedi."
+            }
+        ],
+        "memberships": {
+            "eyebrow": "Liikmesused",
+            "h2": "Erialaliidud",
+            "items": [
+                "Eesti Puitmajaliit",
+                "Kiili Ettevõtjate Liit",
+                "Eesti-Norra Kaubanduskoda"
+            ]
+        },
+        "cta": {
+            "h2": "Soovid koostööd teha?",
+            "body": "Kirjuta meile oma ettevõttest ja huvist — vastame esimesel võimalusel.",
+            "button": "Võta ühendust"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Suppliers & Co-operators — EstNor",
+            "desc": "EstNor's material suppliers, logistics partners and certification bodies supporting its timber house and facade element production."
+        },
+        "hero": {
+            "crumb_home": "Home",
+            "crumb_parent": "About Us",
+            "eyebrow": "Built on trusted partnerships",
+            "h1": "Who EstNor builds with",
+            "lead": "Quality timber construction depends on a reliable network of material suppliers, logistics partners and certification bodies — for new houses and for facade renovation elements alike."
+        },
+        "cards": [
+            {
+                "title": "Timber & materials",
+                "desc": "Sustainably sourced pine and construction materials, including mineral wool insulation and energy-efficient PVC windows, meeting EU building standards."
+            },
+            {
+                "title": "Logistics partners",
+                "desc": "Shipping and haulage partners moving completed elements and modules from Kiili across the Baltic Sea and overland — within the EU, without customs formalities."
+            },
+            {
+                "title": "Certification bodies",
+                "desc": "ISO 9001 quality management, CE marking and European Technical Assessment (EOTA), plus the Ü-mark for use in Germany."
+            }
+        ],
+        "memberships": {
+            "eyebrow": "Memberships",
+            "h2": "Industry & trade bodies",
+            "items": [
+                "Estonian Woodhouse Association (Puitmajaliit)",
+                "Kiili Entrepreneurs Union",
+                "Norwegian-Estonian Chamber of Commerce"
+            ]
+        },
+        "cta": {
+            "h2": "Building with EstNor?",
+            "body": "Ask your project contact about our suppliers, certification, and logistics for your specific market.",
+            "button": "Get in touch"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Lieferanten & Partner | EstNor",
+            "desc": "EstNor sucht Kooperationspartner unter Bauunternehmen, Bauträgern und Vermittlern."
+        },
+        "hero": {
+            "crumb_home": "Startseite",
+            "crumb_parent": "Über EstNor",
+            "eyebrow": "Verlässliche Partnerschaften",
+            "h1": "Lieferanten & Partner",
+            "lead": "EstNor sucht Kooperationspartner unter Bauunternehmen, Bauträgern und Vermittlern. Bei Interesse an einer Zusammenarbeit freuen wir uns über Ihre Kontaktaufnahme."
+        },
+        "cards": [
+            {
+                "title": "Materialien",
+                "desc": "Nachhaltig bezogenes Holz und Baumaterialien, einschließlich Mineralwolldämmung und energieeffizienter PVC-Fenster."
+            },
+            {
+                "title": "Logistik",
+                "desc": "Transportpartner, die fertige Elemente und Module von Kiili über die Ostsee und auf dem Landweg zur Baustelle bringen."
+            },
+            {
+                "title": "Zertifizierung",
+                "desc": "ISO-9001-Qualitätsmanagement und Europäische Technische Bewertung (ETA) sichern gleichbleibende Qualität."
+            }
+        ],
+        "memberships": {
+            "eyebrow": "Mitgliedschaften",
+            "h2": "Verbände",
+            "items": [
+                "Estnischer Holzhausverband (Puitmajaliit)",
+                "Unternehmerverband Kiili",
+                "Estnisch-Norwegische Handelskammer"
+            ]
+        },
+        "cta": {
+            "h2": "Interesse an einer Zusammenarbeit?",
+            "body": "Schreiben Sie uns kurz zu Ihrem Unternehmen und Ihrem Anliegen — wir melden uns zeitnah.",
+            "button": "Kontakt aufnehmen"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Leverantörer & partners | EstNor",
+            "desc": "EstNor söker samarbetspartners bland byggföretag, byggherrar och förmedlare."
+        },
+        "hero": {
+            "crumb_home": "Startsida",
+            "crumb_parent": "Om EstNor",
+            "eyebrow": "Pålitliga partnerskap",
+            "h1": "Leverantörer & partners",
+            "lead": "EstNor söker samarbetspartners bland byggföretag, byggherrar och förmedlare. Vid intresse för samarbete är ni välkomna att kontakta oss."
+        },
+        "cards": [
+            {
+                "title": "Material",
+                "desc": "Hållbart producerat virke och byggmaterial, inklusive mineralullsisolering och energieffektiva PVC-fönster."
+            },
+            {
+                "title": "Logistik",
+                "desc": "Transportpartners som fraktar färdiga element och moduler från Kiili över Östersjön och landvägen till byggplatsen."
+            },
+            {
+                "title": "Certifiering",
+                "desc": "ISO 9001-kvalitetsledning och europeisk teknisk bedömning (ETA) säkerställer jämn kvalitet."
+            }
+        ],
+        "memberships": {
+            "eyebrow": "Medlemskap",
+            "h2": "Branschorganisationer",
+            "items": [
+                "Estniska Trähusförbundet (Puitmajaliit)",
+                "Kiili Företagarförening",
+                "Estnisk-Norska Handelskammaren"
+            ]
+        },
+        "cta": {
+            "h2": "Intresserad av samarbete?",
+            "body": "Skriv kort om ert företag och intresse — vi återkommer inom kort.",
+            "button": "Kontakta oss"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Leverandører & partnere | EstNor",
+            "desc": "EstNor søker samarbeidspartnere blant byggefirmaer, utbyggere og formidlere."
+        },
+        "hero": {
+            "crumb_home": "Forsiden",
+            "crumb_parent": "Om EstNor",
+            "eyebrow": "Pålitelige partnerskap",
+            "h1": "Leverandører & partnere",
+            "lead": "EstNor søker samarbeidspartnere blant byggefirmaer, utbyggere og formidlere. Ved interesse for samarbeid tar dere gjerne kontakt med oss."
+        },
+        "cards": [
+            {
+                "title": "Materialer",
+                "desc": "Bærekraftig anskaffet trevirke og byggematerialer, inkludert mineralullisolasjon og energieffektive PVC-vinduer."
+            },
+            {
+                "title": "Logistikk",
+                "desc": "Transportpartnere som frakter ferdige elementer og moduler fra Kiili over Østersjøen og på land til byggeplassen."
+            },
+            {
+                "title": "Sertifisering",
+                "desc": "ISO 9001-kvalitetsstyring og europeisk teknisk vurdering (ETA) sikrer jevn kvalitet."
+            }
+        ],
+        "memberships": {
+            "eyebrow": "Medlemskap",
+            "h2": "Bransjeforeninger",
+            "items": [
+                "Estisk Trehusforening (Puitmajaliit)",
+                "Kiili Næringsforening",
+                "Estisk-Norsk Handelskammer"
+            ]
+        },
+        "cta": {
+            "h2": "Interessert i samarbeid?",
+            "body": "Skriv kort om selskapet deres og interessen — vi svarer så snart som mulig.",
+            "button": "Kontakt oss"
+        }
+    }
+}

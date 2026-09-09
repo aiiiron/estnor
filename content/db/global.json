@@ -1,0 +1,920 @@
+{
+    "et": {
+        "common": {
+            "skip_to_content": "Liigu sisu juurde",
+            "menu": "Menüü",
+            "contact_cta": "Võta ühendust",
+            "see_all": "Vaata kõiki projekte"
+        },
+        "brand_caption": "Puitmajad ja fassaadielemendid · Est. 2000",
+        "nav": [
+            {
+                "key": "about",
+                "label": "Ettevõttest",
+                "href": "/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Ettevõte ja ajalugu",
+                        "href": "/about-us/index.php"
+                    },
+                    {
+                        "key": "suppliers",
+                        "label": "Koostööpartnerid",
+                        "href": "/about-us/suppliers.php"
+                    }
+                ]
+            },
+            {
+                "key": "houses",
+                "label": "Majad",
+                "href": "/houses/index.php",
+                "children": [
+                    {
+                        "key": "element",
+                        "label": "Elementmajad",
+                        "href": "/houses/element-houses.php"
+                    },
+                    {
+                        "key": "modular",
+                        "label": "Moodulmajad",
+                        "href": "/houses/modular-houses.php"
+                    }
+                ]
+            },
+            {
+                "key": "renovation",
+                "label": "Tehaseline renoveerimine",
+                "href": "/serial-renovation/index.php",
+                "children": [
+                    {
+                        "key": "renovation",
+                        "label": "Ülevaade",
+                        "href": "/serial-renovation/index.php"
+                    },
+                    {
+                        "key": "facade",
+                        "label": "Fassaadi- ja katuseelemendid",
+                        "href": "/serial-renovation/facade-elements.php"
+                    },
+                    {
+                        "key": "references-ren",
+                        "label": "Referentsid",
+                        "href": "/serial-renovation/references.php"
+                    }
+                ]
+            },
+            {
+                "key": "gallery",
+                "label": "Galerii",
+                "href": "/gallery.php"
+            },
+            {
+                "key": "projects",
+                "label": "Projektid",
+                "href": "/projects.php"
+            },
+            {
+                "key": "contact",
+                "label": "Kontakt",
+                "href": "/contact.php"
+            }
+        ],
+        "footer": {
+            "tagline": "Eesti tehases Kiilis valmistatud puitmajad ja fassaadielemendid alates 2000. aastast.",
+            "explore_heading": "Sisukord",
+            "explore": [
+                {
+                    "label": "Ettevõttest",
+                    "href": "/about-us/index.php"
+                },
+                {
+                    "label": "Majad",
+                    "href": "/houses/index.php"
+                },
+                {
+                    "label": "Galerii",
+                    "href": "/gallery.php"
+                },
+                {
+                    "label": "Projektid",
+                    "href": "/projects.php"
+                }
+            ],
+            "renovation_heading": "Tehaseline renoveerimine",
+            "renovation": [
+                {
+                    "label": "Ülevaade",
+                    "href": "/serial-renovation/index.php"
+                },
+                {
+                    "label": "Fassaadi- ja katuseelemendid",
+                    "href": "/serial-renovation/facade-elements.php"
+                },
+                {
+                    "label": "Referentsid",
+                    "href": "/serial-renovation/references.php"
+                }
+            ],
+            "contact_heading": "Kontakt",
+            "address_lines": [
+                "Kurna tee 33, 75401 Kiili, Eesti"
+            ],
+            "rights": "Kõik õigused kaitstud.",
+            "source_note": "Tootja andmed ja arvud: estnor.ee · Mitteametlik disainikontseptsioon, ei ole seotud EstNor OÜ-ga"
+        },
+        "meta": {
+            "home": {
+                "title": "EstNor — puitmajad ja fassaadielemendid",
+                "desc": "EstNor toodab element- ja moodulmaju ning fassaadi- ja katuseelemente tehaselise renoveerimise jaoks Kiili tehases alates 2000. aastast."
+            }
+        },
+        "home": {
+            "eyebrow": "Puitkonstruktsioonil",
+            "h1": "Puitmajad, valminud tehases",
+            "lead": "Elementmajad, moodulmajad ning fassaadi- ja katuseelemendid tehaseliseks renoveerimiseks — kõik toodetud millimeetritäpsusega kontrollitud tehasekeskkonnas, enne kui midagi objektile jõuab.",
+            "cta_primary": {
+                "label": "Võta ühendust",
+                "href": "/contact.php"
+            },
+            "cta_secondary": {
+                "label": "Vaata meie maju",
+                "href": "/houses/index.php"
+            },
+            "products": [
+                {
+                    "label": "Elementmajad",
+                    "href": "/houses/element-houses.php",
+                    "tag": "Tehases toodetud"
+                },
+                {
+                    "label": "Moodulmajad",
+                    "href": "/houses/modular-houses.php",
+                    "tag": "Moodul"
+                },
+                {
+                    "label": "Fassaadi- ja katuseelemendid",
+                    "href": "/serial-renovation/facade-elements.php",
+                    "tag": "Tehaseline renoveerimine"
+                }
+            ],
+            "renovation_label": "Tehaseline renoveerimine",
+            "renovation_href": "/serial-renovation/index.php",
+            "stats": [
+                {
+                    "value": "1000+",
+                    "label": "toodetud elamuühikut"
+                },
+                {
+                    "value": "25",
+                    "label": "aastat kogemust"
+                },
+                {
+                    "value": "90%",
+                    "label": "eksport"
+                }
+            ],
+            "references_heading": "Referentsid",
+            "references": [
+                "Loodusmaja",
+                "Stroomi Rannahoone"
+            ],
+            "see_all_href": "/projects.php"
+        }
+    },
+    "en": {
+        "common": {
+            "skip_to_content": "Skip to content",
+            "menu": "Menu",
+            "contact_cta": "Contact us",
+            "see_all": "See all projects"
+        },
+        "brand_caption": "Timber houses & facade elements · Est. 2000",
+        "nav": [
+            {
+                "key": "about",
+                "label": "About Us",
+                "href": "/en/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Company & History",
+                        "href": "/en/about-us/index.php"
+                    },
+                    {
+                        "key": "suppliers",
+                        "label": "Suppliers & Co-operators",
+                        "href": "/en/about-us/suppliers.php"
+                    }
+                ]
+            },
+            {
+                "key": "houses",
+                "label": "Houses",
+                "href": "/en/houses/index.php",
+                "children": [
+                    {
+                        "key": "element",
+                        "label": "Element Houses",
+                        "href": "/en/houses/element-houses.php"
+                    },
+                    {
+                        "key": "modular",
+                        "label": "Modular Houses",
+                        "href": "/en/houses/modular-houses.php"
+                    }
+                ]
+            },
+            {
+                "key": "renovation",
+                "label": "Serial Renovation",
+                "href": "/en/serial-renovation/index.php",
+                "children": [
+                    {
+                        "key": "renovation",
+                        "label": "Overview",
+                        "href": "/en/serial-renovation/index.php"
+                    },
+                    {
+                        "key": "facade",
+                        "label": "Facade Elements",
+                        "href": "/en/serial-renovation/facade-elements.php"
+                    },
+                    {
+                        "key": "references-ren",
+                        "label": "References",
+                        "href": "/en/serial-renovation/references.php"
+                    }
+                ]
+            },
+            {
+                "key": "gallery",
+                "label": "Gallery",
+                "href": "/en/gallery.php"
+            },
+            {
+                "key": "projects",
+                "label": "Projects",
+                "href": "/en/projects.php"
+            },
+            {
+                "key": "contact",
+                "label": "Contact",
+                "href": "/en/contact.php"
+            }
+        ],
+        "footer": {
+            "tagline": "Prefabricated timber houses and facade elements, manufactured at our factory in Kiili, Estonia, since 2000.",
+            "explore_heading": "Explore",
+            "explore": [
+                {
+                    "label": "About & History",
+                    "href": "/en/about-us/index.php"
+                },
+                {
+                    "label": "Houses",
+                    "href": "/en/houses/index.php"
+                },
+                {
+                    "label": "Gallery",
+                    "href": "/en/gallery.php"
+                },
+                {
+                    "label": "Projects",
+                    "href": "/en/projects.php"
+                }
+            ],
+            "renovation_heading": "Serial Renovation",
+            "renovation": [
+                {
+                    "label": "Overview",
+                    "href": "/en/serial-renovation/index.php"
+                },
+                {
+                    "label": "Facade Elements",
+                    "href": "/en/serial-renovation/facade-elements.php"
+                },
+                {
+                    "label": "References",
+                    "href": "/en/serial-renovation/references.php"
+                }
+            ],
+            "contact_heading": "Contact",
+            "address_lines": [
+                "Kurna tee 33, 75401 Kiili, Estonia"
+            ],
+            "rights": "All rights reserved.",
+            "source_note": "Manufacturer information and figures: estnor.ee · Unofficial redesign concept, not affiliated with EstNor OÜ"
+        },
+        "meta": {
+            "home": {
+                "title": "EstNor — Prefabricated Timber Houses & Facade Elements",
+                "desc": "EstNor manufactures element and modular timber houses, and prefabricated facade elements for serial renovation — from a factory in Kiili, Estonia, since 2000."
+            }
+        },
+        "home": {
+            "eyebrow": "Prefabricated",
+            "h1": "Wooden houses, built in the factory",
+            "lead": "Element houses, modular houses, and facade and roof elements for serial renovation — all built to millimetre accuracy in a controlled factory environment before anything reaches a site.",
+            "cta_primary": {
+                "label": "Discuss a project",
+                "href": "/en/contact.php"
+            },
+            "cta_secondary": {
+                "label": "Explore our houses",
+                "href": "/en/houses/index.php"
+            },
+            "products": [
+                {
+                    "label": "Element houses",
+                    "href": "/en/houses/element-houses.php",
+                    "tag": "Factory built"
+                },
+                {
+                    "label": "Modular houses",
+                    "href": "/en/houses/modular-houses.php",
+                    "tag": "Modular"
+                },
+                {
+                    "label": "Facade and roof elements",
+                    "href": "/en/serial-renovation/facade-elements.php",
+                    "tag": "Serial renovation"
+                }
+            ],
+            "renovation_label": "Serial renovation",
+            "renovation_href": "/en/serial-renovation/index.php",
+            "stats": [
+                {
+                    "value": "1,000+",
+                    "label": "built living units"
+                },
+                {
+                    "value": "25",
+                    "label": "years of experience"
+                },
+                {
+                    "value": "90%",
+                    "label": "export"
+                }
+            ],
+            "references_heading": "References",
+            "references": [
+                "Nature Hub",
+                "Germany Model House",
+                "Apartment buildings in Norway"
+            ],
+            "see_all_href": "/en/projects.php"
+        }
+    },
+    "de": {
+        "common": {
+            "skip_to_content": "Zum Inhalt springen",
+            "menu": "Menü",
+            "contact_cta": "Kontakt aufnehmen",
+            "see_all": "Alle Projekte ansehen"
+        },
+        "brand_caption": "Holzhäuser & Fassadenelemente · Gegr. 2000",
+        "nav": [
+            {
+                "key": "about",
+                "label": "Über EstNor",
+                "href": "/de/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Unternehmen & Geschichte",
+                        "href": "/de/about-us/index.php"
+                    },
+                    {
+                        "key": "suppliers",
+                        "label": "Lieferanten & Partner",
+                        "href": "/de/about-us/suppliers.php"
+                    }
+                ]
+            },
+            {
+                "key": "houses",
+                "label": "Häuser",
+                "href": "/de/houses/index.php",
+                "children": [
+                    {
+                        "key": "element",
+                        "label": "Elementhäuser",
+                        "href": "/de/houses/element-houses.php"
+                    },
+                    {
+                        "key": "modular",
+                        "label": "Modulhäuser",
+                        "href": "/de/houses/modular-houses.php"
+                    }
+                ]
+            },
+            {
+                "key": "renovation",
+                "label": "Serielle Sanierung",
+                "href": "/de/serial-renovation/index.php",
+                "children": [
+                    {
+                        "key": "renovation",
+                        "label": "Überblick",
+                        "href": "/de/serial-renovation/index.php"
+                    },
+                    {
+                        "key": "facade",
+                        "label": "Fassadenelemente",
+                        "href": "/de/serial-renovation/facade-elements.php"
+                    },
+                    {
+                        "key": "references-ren",
+                        "label": "Referenzen",
+                        "href": "/de/serial-renovation/references.php"
+                    }
+                ]
+            },
+            {
+                "key": "gallery",
+                "label": "Galerie",
+                "href": "/de/gallery.php"
+            },
+            {
+                "key": "projects",
+                "label": "Projekte",
+                "href": "/de/projects.php"
+            },
+            {
+                "key": "contact",
+                "label": "Kontakt",
+                "href": "/de/contact.php"
+            }
+        ],
+        "footer": {
+            "tagline": "Vorgefertigte Holzhäuser und Fassadenelemente, hergestellt in unserem Werk in Kiili, Estland, seit dem Jahr 2000.",
+            "explore_heading": "Entdecken",
+            "explore": [
+                {
+                    "label": "Über uns & Geschichte",
+                    "href": "/de/about-us/index.php"
+                },
+                {
+                    "label": "Häuser",
+                    "href": "/de/houses/index.php"
+                },
+                {
+                    "label": "Galerie",
+                    "href": "/de/gallery.php"
+                },
+                {
+                    "label": "Projekte",
+                    "href": "/de/projects.php"
+                }
+            ],
+            "renovation_heading": "Serielle Sanierung",
+            "renovation": [
+                {
+                    "label": "Überblick",
+                    "href": "/de/serial-renovation/index.php"
+                },
+                {
+                    "label": "Fassadenelemente",
+                    "href": "/de/serial-renovation/facade-elements.php"
+                },
+                {
+                    "label": "Referenzen",
+                    "href": "/de/serial-renovation/references.php"
+                }
+            ],
+            "contact_heading": "Kontakt",
+            "address_lines": [
+                "Kurna tee 33, 75401 Kiili, Estland"
+            ],
+            "rights": "Alle Rechte vorbehalten.",
+            "source_note": "Herstellerinformationen und Kennzahlen: estnor.ee · Inoffizielles Redesign-Konzept, nicht verbunden mit der EstNor OÜ"
+        },
+        "meta": {
+            "home": {
+                "title": "EstNor — Vorgefertigte Holzhäuser & Fassadenelemente",
+                "desc": "EstNor fertigt Element- und Modulhäuser sowie vorgefertigte Fassaden- und Dachelemente für die serielle Sanierung — im Werk in Kiili, Estland, seit dem Jahr 2000."
+            }
+        },
+        "home": {
+            "eyebrow": "Vorgefertigte",
+            "h1": "Holzhäuser, gefertigt im Werk",
+            "lead": "Elementhäuser, Modulhäuser sowie Fassaden- und Dachelemente für die serielle Sanierung — alles mit Millimetergenauigkeit in einer kontrollierten Werksumgebung gefertigt, bevor irgendetwas die Baustelle erreicht.",
+            "cta_primary": {
+                "label": "Projekt besprechen",
+                "href": "/de/contact.php"
+            },
+            "cta_secondary": {
+                "label": "Unsere Häuser entdecken",
+                "href": "/de/houses/index.php"
+            },
+            "products": [
+                {
+                    "label": "Elementhäuser",
+                    "href": "/de/houses/element-houses.php",
+                    "tag": "Werksgefertigt"
+                },
+                {
+                    "label": "Modulhäuser",
+                    "href": "/de/houses/modular-houses.php",
+                    "tag": "Modular"
+                },
+                {
+                    "label": "Fassaden- und Dachelemente",
+                    "href": "/de/serial-renovation/facade-elements.php",
+                    "tag": "Serielle Sanierung"
+                }
+            ],
+            "renovation_label": "Serielle Sanierung",
+            "renovation_href": "/de/serial-renovation/index.php",
+            "stats": [
+                {
+                    "value": "1.000+",
+                    "label": "errichtete Wohneinheiten"
+                },
+                {
+                    "value": "25",
+                    "label": "Jahre Erfahrung"
+                },
+                {
+                    "value": "90 %",
+                    "label": "Exportanteil"
+                }
+            ],
+            "references_heading": "Referenzen",
+            "references": [
+                "Nature Hub",
+                "Deutsches Musterhaus"
+            ],
+            "see_all_href": "/de/projects.php"
+        }
+    },
+    "sv": {
+        "common": {
+            "skip_to_content": "Hoppa till innehåll",
+            "menu": "Meny",
+            "contact_cta": "Kontakta oss",
+            "see_all": "Se alla projekt"
+        },
+        "brand_caption": "Trähus & fasadelement · Grundat 2000",
+        "nav": [
+            {
+                "key": "about",
+                "label": "Om EstNor",
+                "href": "/sv/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Företag & historia",
+                        "href": "/sv/about-us/index.php"
+                    },
+                    {
+                        "key": "suppliers",
+                        "label": "Leverantörer & partners",
+                        "href": "/sv/about-us/suppliers.php"
+                    }
+                ]
+            },
+            {
+                "key": "houses",
+                "label": "Hus",
+                "href": "/sv/houses/index.php",
+                "children": [
+                    {
+                        "key": "element",
+                        "label": "Elementhus",
+                        "href": "/sv/houses/element-houses.php"
+                    },
+                    {
+                        "key": "modular",
+                        "label": "Modulhus",
+                        "href": "/sv/houses/modular-houses.php"
+                    }
+                ]
+            },
+            {
+                "key": "renovation",
+                "label": "Modernisering av flerbostadshus",
+                "href": "/sv/serial-renovation/index.php",
+                "children": [
+                    {
+                        "key": "renovation",
+                        "label": "Översikt",
+                        "href": "/sv/serial-renovation/index.php"
+                    },
+                    {
+                        "key": "facade",
+                        "label": "Fasad- och takelement",
+                        "href": "/sv/serial-renovation/facade-elements.php"
+                    },
+                    {
+                        "key": "references-ren",
+                        "label": "Referenser",
+                        "href": "/sv/serial-renovation/references.php"
+                    }
+                ]
+            },
+            {
+                "key": "gallery",
+                "label": "Galleri",
+                "href": "/sv/gallery.php"
+            },
+            {
+                "key": "projects",
+                "label": "Projekt",
+                "href": "/sv/projects.php"
+            },
+            {
+                "key": "contact",
+                "label": "Kontakt",
+                "href": "/sv/contact.php"
+            }
+        ],
+        "footer": {
+            "tagline": "Prefabricerade trähus och fasadelement, tillverkade på vår fabrik i Kiili, Estland, sedan år 2000.",
+            "explore_heading": "Utforska",
+            "explore": [
+                {
+                    "label": "Om oss & historia",
+                    "href": "/sv/about-us/index.php"
+                },
+                {
+                    "label": "Hus",
+                    "href": "/sv/houses/index.php"
+                },
+                {
+                    "label": "Galleri",
+                    "href": "/sv/gallery.php"
+                },
+                {
+                    "label": "Projekt",
+                    "href": "/sv/projects.php"
+                }
+            ],
+            "renovation_heading": "Modernisering av flerbostadshus",
+            "renovation": [
+                {
+                    "label": "Översikt",
+                    "href": "/sv/serial-renovation/index.php"
+                },
+                {
+                    "label": "Fasad- och takelement",
+                    "href": "/sv/serial-renovation/facade-elements.php"
+                },
+                {
+                    "label": "Referenser",
+                    "href": "/sv/serial-renovation/references.php"
+                }
+            ],
+            "contact_heading": "Kontakt",
+            "address_lines": [
+                "Kurna tee 33, 75401 Kiili, Estland"
+            ],
+            "rights": "Alla rättigheter förbehållna.",
+            "source_note": "Tillverkarinformation och siffror: estnor.ee · Inofficiellt designkoncept, ej anknutet till EstNor OÜ"
+        },
+        "meta": {
+            "home": {
+                "title": "EstNor — Prefabricerade trähus & fasadelement",
+                "desc": "EstNor tillverkar element- och modulhus samt prefabricerade fasad- och takelement för modernisering av flerbostadshus — vid vår fabrik i Kiili, Estland, sedan år 2000."
+            }
+        },
+        "home": {
+            "eyebrow": "Prefabricerade",
+            "h1": "Trähus, byggda i fabriken",
+            "lead": "Elementhus, modulhus samt fasad- och takelement för modernisering av flerbostadshus — allt tillverkat med millimeterprecision i en kontrollerad fabriksmiljö innan något når byggplatsen.",
+            "cta_primary": {
+                "label": "Diskutera ett projekt",
+                "href": "/sv/contact.php"
+            },
+            "cta_secondary": {
+                "label": "Utforska våra hus",
+                "href": "/sv/houses/index.php"
+            },
+            "products": [
+                {
+                    "label": "Elementhus",
+                    "href": "/sv/houses/element-houses.php",
+                    "tag": "Fabrikstillverkat"
+                },
+                {
+                    "label": "Modulhus",
+                    "href": "/sv/houses/modular-houses.php",
+                    "tag": "Modulärt"
+                },
+                {
+                    "label": "Fasad- och takelement",
+                    "href": "/sv/serial-renovation/facade-elements.php",
+                    "tag": "Modernisering"
+                }
+            ],
+            "renovation_label": "Modernisering av flerbostadshus",
+            "renovation_href": "/sv/serial-renovation/index.php",
+            "stats": [
+                {
+                    "value": "1 000+",
+                    "label": "byggda bostäder"
+                },
+                {
+                    "value": "25",
+                    "label": "år av erfarenhet"
+                },
+                {
+                    "value": "90 %",
+                    "label": "export"
+                }
+            ],
+            "references_heading": "Referenser",
+            "references": [
+                "Nature Hub",
+                "Hyreshus i Norge",
+                "Byggnadskomplex på Island"
+            ],
+            "see_all_href": "/sv/projects.php"
+        }
+    },
+    "nb": {
+        "common": {
+            "skip_to_content": "Hopp til innhold",
+            "menu": "Meny",
+            "contact_cta": "Kontakt oss",
+            "see_all": "Se alle prosjekter"
+        },
+        "brand_caption": "Trehus & fasadeelementer · Etablert 2000",
+        "nav": [
+            {
+                "key": "about",
+                "label": "Om EstNor",
+                "href": "/nb/about-us/index.php",
+                "children": [
+                    {
+                        "key": "about",
+                        "label": "Selskap & historie",
+                        "href": "/nb/about-us/index.php"
+                    },
+                    {
+                        "key": "suppliers",
+                        "label": "Leverandører & partnere",
+                        "href": "/nb/about-us/suppliers.php"
+                    }
+                ]
+            },
+            {
+                "key": "houses",
+                "label": "Hus",
+                "href": "/nb/houses/index.php",
+                "children": [
+                    {
+                        "key": "element",
+                        "label": "Elementhus",
+                        "href": "/nb/houses/element-houses.php"
+                    },
+                    {
+                        "key": "modular",
+                        "label": "Modulhus",
+                        "href": "/nb/houses/modular-houses.php"
+                    }
+                ]
+            },
+            {
+                "key": "renovation",
+                "label": "Modernisering av leilighetsbygg",
+                "href": "/nb/serial-renovation/index.php",
+                "children": [
+                    {
+                        "key": "renovation",
+                        "label": "Oversikt",
+                        "href": "/nb/serial-renovation/index.php"
+                    },
+                    {
+                        "key": "facade",
+                        "label": "Fasade- og takelementer",
+                        "href": "/nb/serial-renovation/facade-elements.php"
+                    },
+                    {
+                        "key": "references-ren",
+                        "label": "Referanser",
+                        "href": "/nb/serial-renovation/references.php"
+                    }
+                ]
+            },
+            {
+                "key": "gallery",
+                "label": "Galleri",
+                "href": "/nb/gallery.php"
+            },
+            {
+                "key": "projects",
+                "label": "Prosjekter",
+                "href": "/nb/projects.php"
+            },
+            {
+                "key": "contact",
+                "label": "Kontakt",
+                "href": "/nb/contact.php"
+            }
+        ],
+        "footer": {
+            "tagline": "Prefabrikkerte trehus og fasadeelementer, produsert på vår fabrikk i Kiili, Estland, siden år 2000.",
+            "explore_heading": "Utforsk",
+            "explore": [
+                {
+                    "label": "Om oss & historie",
+                    "href": "/nb/about-us/index.php"
+                },
+                {
+                    "label": "Hus",
+                    "href": "/nb/houses/index.php"
+                },
+                {
+                    "label": "Galleri",
+                    "href": "/nb/gallery.php"
+                },
+                {
+                    "label": "Prosjekter",
+                    "href": "/nb/projects.php"
+                }
+            ],
+            "renovation_heading": "Modernisering av leilighetsbygg",
+            "renovation": [
+                {
+                    "label": "Oversikt",
+                    "href": "/nb/serial-renovation/index.php"
+                },
+                {
+                    "label": "Fasade- og takelementer",
+                    "href": "/nb/serial-renovation/facade-elements.php"
+                },
+                {
+                    "label": "Referanser",
+                    "href": "/nb/serial-renovation/references.php"
+                }
+            ],
+            "contact_heading": "Kontakt",
+            "address_lines": [
+                "Kurna tee 33, 75401 Kiili, Estland"
+            ],
+            "rights": "Alle rettigheter forbeholdt.",
+            "source_note": "Produsentinformasjon og tall: estnor.ee · Uoffisielt designkonsept, ikke tilknyttet EstNor OÜ"
+        },
+        "meta": {
+            "home": {
+                "title": "EstNor — Prefabrikkerte trehus & fasadeelementer",
+                "desc": "EstNor produserer element- og modulhus samt prefabrikkerte fasade- og takelementer for modernisering av leilighetsbygg — ved fabrikken i Kiili, Estland, siden år 2000."
+            }
+        },
+        "home": {
+            "eyebrow": "Prefabrikkerte",
+            "h1": "Trehus, bygget i fabrikken",
+            "lead": "Elementhus, modulhus samt fasade- og takelementer for modernisering av leilighetsbygg — alt produsert med millimeterpresisjon i et kontrollert fabrikkmiljø før noe når byggeplassen.",
+            "cta_primary": {
+                "label": "Diskuter et prosjekt",
+                "href": "/nb/contact.php"
+            },
+            "cta_secondary": {
+                "label": "Utforsk husene våre",
+                "href": "/nb/houses/index.php"
+            },
+            "products": [
+                {
+                    "label": "Elementhus",
+                    "href": "/nb/houses/element-houses.php",
+                    "tag": "Fabrikkbygget"
+                },
+                {
+                    "label": "Modulhus",
+                    "href": "/nb/houses/modular-houses.php",
+                    "tag": "Modulært"
+                },
+                {
+                    "label": "Fasade- og takelementer",
+                    "href": "/nb/serial-renovation/facade-elements.php",
+                    "tag": "Modernisering"
+                }
+            ],
+            "renovation_label": "Modernisering av leilighetsbygg",
+            "renovation_href": "/nb/serial-renovation/index.php",
+            "stats": [
+                {
+                    "value": "1000+",
+                    "label": "bygde boenheter"
+                },
+                {
+                    "value": "25",
+                    "label": "års erfaring"
+                },
+                {
+                    "value": "90 %",
+                    "label": "eksport"
+                }
+            ],
+            "references_heading": "Referanser",
+            "references": [
+                "Nature Hub",
+                "Leilighetsbygg i Norge",
+                "Bygningskompleks på Island"
+            ],
+            "see_all_href": "/nb/projects.php"
+        }
+    }
+}

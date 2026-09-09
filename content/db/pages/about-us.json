@@ -1,0 +1,712 @@
+{
+    "et": {
+        "meta": {
+            "title": "Ettevõttest | EstNor",
+            "desc": "EstNor OÜ on Eesti kapitalil tegutsev ettevõte, mis on asutatud 2000. aastal ja toodab element-, moodul- ning palkmaju Kiilis ja Jõgevamaal."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "eyebrow": "Ettevõttest",
+            "h1": "Üle 20 aasta kogemust puitehituses",
+            "lead": "EstNor OÜ on Eesti kapitalil tegutsev ettevõte, mille põhitegevusalaks on puitmajade tootmine ja püstitamine. Element- ja moodulmajatehas asub Kiili vallas, Harjumaal, palkmajatehas Jõgevamaal."
+        },
+        "stats": [
+            {
+                "value": "25",
+                "label": "aastat kogemust"
+            },
+            {
+                "value": "1000+",
+                "label": "toodetud elamuühikut"
+            },
+            {
+                "value": "~50",
+                "label": "maja aastas, ~10 000 m²"
+            },
+            {
+                "value": "90%",
+                "label": "eksport, peamiselt Norrasse"
+            }
+        ],
+        "who": {
+            "eyebrow": "Ettevõttest",
+            "h2": "Kes me oleme",
+            "paragraphs": [
+                "EstNor OÜ on asutatud 2000. aastal. Üheksateistkümne aasta jooksul on ehitatud üle 1000 elamuühiku — peamine eksporditurg on Norra, kuhu on tarnitud ca 90% toodangust, järgnevad Rootsi, Eesti, Soome ja Saksamaa.",
+                "EstNor OÜ klientideks on ehitusettevõtted, arendajad, vahendajad ja eraisikud."
+            ]
+        },
+        "memberships": {
+            "eyebrow": "Liikmesused ja tunnustused",
+            "items": [
+                "Eesti Puitmajaliidu liige (alates 2009)",
+                "Kiili Ettevõtjate Liidu liige (alates 2004)",
+                "Eesti-Norra Kaubanduskoja liige",
+                "Gasellettevõte 2015 ja 2016 — tunnustus, mida kannab vaid 1% Eesti ettevõtetest",
+                "Aasta Tehasemaja konkursi tunnustused 2015, 2017, 2018 ja 2019"
+            ]
+        },
+        "history": {
+            "eyebrow": "Lühiajalugu",
+            "h2": "Kuidas EstNor on kasvanud",
+            "timeline": [
+                {
+                    "year": "2000",
+                    "text": "EstNor OÜ asutatakse 20. oktoobril ja soetatakse Kiilis asuv tootmishoone."
+                },
+                {
+                    "year": "2001",
+                    "text": "Valmib esimene palkmaja — tehase esimene toodang."
+                },
+                {
+                    "year": "2004",
+                    "text": "Lisaks palkmajadele alustatakse palkkarkassmajade tootmisega; EstNor liitub Kiili Ettevõtjate Liiduga."
+                },
+                {
+                    "year": "2006",
+                    "text": "Algab elementmajade tootmine; asutatakse kinnisvaraettevõte EstNor Arendus OÜ."
+                },
+                {
+                    "year": "2009",
+                    "text": "EstNor liitub Eesti Puitmajaliiduga."
+                },
+                {
+                    "year": "2012",
+                    "text": "Kiilis valmib uus büroo- ja tootmishoone."
+                },
+                {
+                    "year": "2015",
+                    "text": "Käivitatakse uus majatehas Kiilis, väljastatakse ISO 9001 sertifikaat ja alustatakse moodulmajade tootmisega."
+                },
+                {
+                    "year": "2018",
+                    "text": "EstNor avab palkmajatehase Jõgevamaal; ettevõtte töötaja krooniti viiendat aastat järjest Eesti parimaks palkmajaehitajaks."
+                },
+                {
+                    "year": "2019",
+                    "text": "EstNor OÜ-le väljastatakse Euroopa tehniline hinnang (ETA)."
+                },
+                {
+                    "year": "2022",
+                    "text": "EstNor on esimene tootja, kes liitub riikliku KredEx tehaselise rekonstrueerimise pilootprogrammiga."
+                }
+            ]
+        },
+        "certs": {
+            "eyebrow": "Kvaliteet ja sertifikaadid",
+            "h2": "Sertifikaadid ja liikmesused",
+            "items": [
+                "ISO 9001 kvaliteedijuhtimissüsteem (alates 2015)",
+                "Euroopa tehniline hinnang (ETA, alates 2019)",
+                "Eesti Puitmajaliidu liige",
+                "Majad toodetakse SINTEF ehitusnormide järgi; Norra turul TEK 10, passiivmajadel TEK 15 nõuete kohaselt"
+            ]
+        },
+        "registry": {
+            "eyebrow": "Ettevõtte andmed",
+            "h2": "Registriandmed",
+            "rows": [
+                {
+                    "label": "Ärinimi",
+                    "value": "EstNor OÜ"
+                },
+                {
+                    "label": "Registrikood",
+                    "value": "10706304"
+                },
+                {
+                    "label": "KMKR nr",
+                    "value": "EE100650305"
+                },
+                {
+                    "label": "Juhatuse liige",
+                    "value": "Renee Mikomägi"
+                }
+            ]
+        },
+        "explore": {
+            "eyebrow": "Rohkem infot",
+            "h2": "Jätka lugemist",
+            "cards": [
+                {
+                    "title": "Koostööpartnerid",
+                    "desc": "Kellega EstNor koostööd teeb ja kuidas saada partneriks.",
+                    "href": "suppliers.php"
+                },
+                {
+                    "title": "Tehaseline renoveerimine",
+                    "desc": "Kuidas EstNor fassaadielemendid aitavad kortermaju energiatõhusaks muuta.",
+                    "href": "../serial-renovation/index.php"
+                }
+            ]
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Über EstNor | EstNor",
+            "desc": "EstNor OÜ ist ein estnisches Unternehmen, gegründet 2000, mit Werken in Kiili (Element- und Modulhäuser) und Jõgevamaa (Blockhäuser)."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "eyebrow": "Über EstNor",
+            "h1": "Über 20 Jahre Erfahrung im Holzbau",
+            "lead": "EstNor OÜ ist ein estnisches Unternehmen mit eigener Hausfabrik in Kiili sowie einem Blockhauswerk in Jõgevamaa. Der Schwerpunkt liegt auf der Fertigung von Holzhäusern."
+        },
+        "stats": [
+            {
+                "value": "25",
+                "label": "Jahre Erfahrung"
+            },
+            {
+                "value": "1.000+",
+                "label": "errichtete Wohneinheiten"
+            },
+            {
+                "value": "~50",
+                "label": "Häuser pro Jahr, ~10.000 m²"
+            },
+            {
+                "value": "90 %",
+                "label": "Exportanteil, vor allem nach Norwegen"
+            }
+        ],
+        "who": {
+            "eyebrow": "Wer wir sind",
+            "h2": "Unser Unternehmen",
+            "paragraphs": [
+                "EstNor OÜ wurde im Jahr 2000 gegründet. In über zwei Jahrzehnten wurden mehr als 1.000 Wohneinheiten gebaut — der wichtigste Exportmarkt ist Norwegen mit rund 90 % der Produktion, gefolgt von Schweden, Estland, Finnland und Deutschland.",
+                "Zu den Kunden von EstNor OÜ zählen Bauunternehmen, Bauträger, Vermittler und Privatpersonen."
+            ]
+        },
+        "memberships": {
+            "eyebrow": "Mitgliedschaften & Auszeichnungen",
+            "items": [
+                "Mitglied im Estnischen Holzhausverband (seit 2009)",
+                "Mitglied im Unternehmerverband Kiili (seit 2004)",
+                "Mitglied der Estnisch-Norwegischen Handelskammer",
+                "Gazellenunternehmen 2015 und 2016 — eine Auszeichnung, die nur 1 % der estnischen Unternehmen tragen",
+                "Auszeichnungen im Wettbewerb „Hausfabrik des Jahres\" 2015, 2017, 2018 und 2019"
+            ]
+        },
+        "history": {
+            "eyebrow": "Kurze Geschichte",
+            "h2": "Wie EstNor gewachsen ist",
+            "timeline": [
+                {
+                    "year": "2000",
+                    "text": "EstNor OÜ wird am 20. Oktober gegründet; die Produktionshalle in Kiili wird erworben."
+                },
+                {
+                    "year": "2001",
+                    "text": "Das erste Blockhaus verlässt das neue Werk."
+                },
+                {
+                    "year": "2004",
+                    "text": "Zusätzlich zu Blockhäusern startet die Fertigung von Pfosten-Riegel-Blockhäusern; EstNor tritt dem Unternehmerverband Kiili bei."
+                },
+                {
+                    "year": "2006",
+                    "text": "Die Elementhaus-Fertigung beginnt; die Immobiliengesellschaft EstNor Arendus OÜ wird gegründet."
+                },
+                {
+                    "year": "2009",
+                    "text": "EstNor tritt dem Estnischen Holzhausverband bei."
+                },
+                {
+                    "year": "2012",
+                    "text": "Ein neues Büro- und Produktionsgebäude entsteht in Kiili."
+                },
+                {
+                    "year": "2015",
+                    "text": "Ein neues Hauswerk in Kiili geht in Betrieb, die ISO-9001-Zertifizierung wird erteilt, und die Modulhaus-Fertigung startet."
+                },
+                {
+                    "year": "2018",
+                    "text": "EstNor eröffnet ein Blockhauswerk in Jõgevamaa; ein EstNor-Mitarbeiter wird zum fünften Mal in Folge zum besten Blockhausbauer Estlands gekürt."
+                },
+                {
+                    "year": "2019",
+                    "text": "EstNor OÜ erhält die Europäische Technische Bewertung (ETA)."
+                },
+                {
+                    "year": "2022",
+                    "text": "EstNor wird erster Hersteller im staatlichen KredEx-Pilotprogramm für serielle Sanierung."
+                }
+            ]
+        },
+        "certs": {
+            "eyebrow": "Qualität & Zertifizierung",
+            "h2": "Zertifikate & Mitgliedschaften",
+            "items": [
+                "Qualitätsmanagement nach ISO 9001 (seit 2015)",
+                "Europäische Technische Bewertung (ETA, seit 2019)",
+                "Mitglied im Estnischen Holzhausverband",
+                "Fertigung nach SINTEF-Baunormen; auf dem norwegischen Markt nach TEK 10, bei Passivhäusern nach TEK 15"
+            ]
+        },
+        "registry": {
+            "eyebrow": "Unternehmensdaten",
+            "h2": "Registerdaten",
+            "rows": [
+                {
+                    "label": "Firmenname",
+                    "value": "EstNor OÜ"
+                },
+                {
+                    "label": "Registrikood",
+                    "value": "10706304"
+                },
+                {
+                    "label": "USt-IdNr.",
+                    "value": "EE100650305"
+                },
+                {
+                    "label": "Geschäftsführer",
+                    "value": "Renee Mikomägi"
+                }
+            ]
+        },
+        "explore": {
+            "eyebrow": "Mehr erfahren",
+            "h2": "Weiterlesen",
+            "cards": [
+                {
+                    "title": "Lieferanten & Partner",
+                    "desc": "Mit wem EstNor zusammenarbeitet und wie Sie Partner werden.",
+                    "href": "suppliers.php"
+                },
+                {
+                    "title": "Serielle Sanierung",
+                    "desc": "Wie EstNor-Fassadenelemente Mehrfamilienhäuser energieeffizient machen.",
+                    "href": "../serial-renovation/index.php"
+                }
+            ]
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Om EstNor | EstNor",
+            "desc": "EstNor OÜ är ett estniskt företag, grundat 2000, med fabriker i Kiili (element- och modulhus) och Jõgevamaa (timmerhus)."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "eyebrow": "Om EstNor",
+            "h1": "Över 20 års erfarenhet av trähusbyggande",
+            "lead": "EstNor OÜ är ett estniskt företag med egen husfabrik i Kiili samt en timmerhusfabrik i Jõgevamaa. Huvudverksamheten är tillverkning av trähus."
+        },
+        "stats": [
+            {
+                "value": "25",
+                "label": "års erfarenhet"
+            },
+            {
+                "value": "1 000+",
+                "label": "byggda bostäder"
+            },
+            {
+                "value": "~50",
+                "label": "hus per år, ~10 000 m²"
+            },
+            {
+                "value": "90 %",
+                "label": "export, främst till Norge"
+            }
+        ],
+        "who": {
+            "eyebrow": "Vilka vi är",
+            "h2": "Vårt företag",
+            "paragraphs": [
+                "EstNor OÜ grundades år 2000. Under drygt två decennier har över 1 000 bostäder byggts — Norge är den viktigaste exportmarknaden med cirka 90 % av produktionen, följt av Sverige, Estland, Finland och Tyskland.",
+                "EstNors kunder är byggföretag, byggherrar, förmedlare och privatpersoner."
+            ]
+        },
+        "memberships": {
+            "eyebrow": "Medlemskap & utmärkelser",
+            "items": [
+                "Medlem i Estniska Trähusförbundet (sedan 2009)",
+                "Medlem i Kiili Företagarförening (sedan 2004)",
+                "Medlem i Estnisk-Norska Handelskammaren",
+                "Gasellföretag 2015 och 2016 — en utmärkelse som endast 1 % av estniska företag bär",
+                "Utmärkelser i tävlingen \"Årets husfabrik\" 2015, 2017, 2018 och 2019"
+            ]
+        },
+        "history": {
+            "eyebrow": "Kort historik",
+            "h2": "Hur EstNor har vuxit",
+            "timeline": [
+                {
+                    "year": "2000",
+                    "text": "EstNor OÜ grundas den 20 oktober; produktionsbyggnaden i Kiili förvärvas."
+                },
+                {
+                    "year": "2001",
+                    "text": "Det första timmerhuset lämnar den nya fabriken."
+                },
+                {
+                    "year": "2004",
+                    "text": "Utöver timmerhus inleds tillverkning av timmerhus med regelverk; EstNor blir medlem i Kiili Företagarförening."
+                },
+                {
+                    "year": "2006",
+                    "text": "Tillverkning av elementhus inleds; fastighetsbolaget EstNor Arendus OÜ grundas."
+                },
+                {
+                    "year": "2009",
+                    "text": "EstNor blir medlem i Estniska Trähusförbundet."
+                },
+                {
+                    "year": "2012",
+                    "text": "En ny kontors- och produktionsbyggnad uppförs i Kiili."
+                },
+                {
+                    "year": "2015",
+                    "text": "En ny husfabrik i Kiili tas i drift, ISO 9001-certifiering utfärdas och produktionen av modulhus inleds."
+                },
+                {
+                    "year": "2018",
+                    "text": "EstNor öppnar en timmerhusfabrik i Jõgevamaa; en EstNor-medarbetare koras för femte året i rad till Estlands bästa timmerhusbyggare."
+                },
+                {
+                    "year": "2019",
+                    "text": "EstNor OÜ tilldelas en europeisk teknisk bedömning (ETA)."
+                },
+                {
+                    "year": "2022",
+                    "text": "EstNor blir första tillverkare i det statliga KredEx-pilotprogrammet för seriell renovering."
+                }
+            ]
+        },
+        "certs": {
+            "eyebrow": "Kvalitet & certifiering",
+            "h2": "Certifikat & medlemskap",
+            "items": [
+                "Kvalitetsledning enligt ISO 9001 (sedan 2015)",
+                "Europeisk teknisk bedömning (ETA, sedan 2019)",
+                "Medlem i Estniska Trähusförbundet",
+                "Tillverkning enligt SINTEF-byggnormer; på den norska marknaden enligt TEK 10, för passivhus TEK 15"
+            ]
+        },
+        "registry": {
+            "eyebrow": "Företagsuppgifter",
+            "h2": "Registeruppgifter",
+            "rows": [
+                {
+                    "label": "Firmanamn",
+                    "value": "EstNor OÜ"
+                },
+                {
+                    "label": "Registrikood",
+                    "value": "10706304"
+                },
+                {
+                    "label": "Momsregistreringsnummer",
+                    "value": "EE100650305"
+                },
+                {
+                    "label": "Styrelseledamot",
+                    "value": "Renee Mikomägi"
+                }
+            ]
+        },
+        "explore": {
+            "eyebrow": "Läs mer",
+            "h2": "Fortsätt utforska",
+            "cards": [
+                {
+                    "title": "Leverantörer & partners",
+                    "desc": "Vilka EstNor samarbetar med och hur du blir partner.",
+                    "href": "suppliers.php"
+                },
+                {
+                    "title": "Modernisering av flerbostadshus",
+                    "desc": "Hur EstNors fasadelement gör flerbostadshus energieffektiva.",
+                    "href": "../serial-renovation/index.php"
+                }
+            ]
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Om EstNor | EstNor",
+            "desc": "EstNor OÜ er et estisk selskap, grunnlagt i 2000, med fabrikker i Kiili (element- og modulhus) og Jõgevamaa (tømmerhus)."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "eyebrow": "Om EstNor",
+            "h1": "Over 20 års erfaring med trehusbygging",
+            "lead": "EstNor OÜ er et estisk selskap med egen husfabrikk i Kiili samt en tømmerhusfabrikk i Jõgevamaa. Hovedvirksomheten er produksjon av trehus."
+        },
+        "stats": [
+            {
+                "value": "25",
+                "label": "års erfaring"
+            },
+            {
+                "value": "1000+",
+                "label": "bygde boenheter"
+            },
+            {
+                "value": "~50",
+                "label": "hus per år, ~10 000 m²"
+            },
+            {
+                "value": "90 %",
+                "label": "eksport, hovedsakelig til Norge"
+            }
+        ],
+        "who": {
+            "eyebrow": "Hvem vi er",
+            "h2": "Vårt selskap",
+            "paragraphs": [
+                "EstNor OÜ ble grunnlagt i 2000. I løpet av over to tiår er det bygget over 1000 boenheter — Norge er det viktigste eksportmarkedet med rundt 90 % av produksjonen, etterfulgt av Sverige, Estland, Finland og Tyskland.",
+                "EstNors kunder er byggefirmaer, utbyggere, formidlere og privatpersoner."
+            ]
+        },
+        "memberships": {
+            "eyebrow": "Medlemskap & utmerkelser",
+            "items": [
+                "Medlem av Estisk Trehusforening (siden 2009)",
+                "Medlem av Kiili Næringsforening (siden 2004)",
+                "Medlem av Estisk-Norsk Handelskammer",
+                "Gasellebedrift 2015 og 2016 — en utmerkelse kun 1 % av estiske selskaper har",
+                "Utmerkelser i konkurransen «Årets husfabrikk» 2015, 2017, 2018 og 2019"
+            ]
+        },
+        "history": {
+            "eyebrow": "Kort historie",
+            "h2": "Hvordan EstNor har vokst",
+            "timeline": [
+                {
+                    "year": "2000",
+                    "text": "EstNor OÜ stiftes 20. oktober; produksjonsbygget i Kiili anskaffes."
+                },
+                {
+                    "year": "2001",
+                    "text": "Det første tømmerhuset forlater den nye fabrikken."
+                },
+                {
+                    "year": "2004",
+                    "text": "I tillegg til tømmerhus starter produksjon av reisverkshus; EstNor blir medlem av Kiili Næringsforening."
+                },
+                {
+                    "year": "2006",
+                    "text": "Produksjon av elementhus starter; eiendomsselskapet EstNor Arendus OÜ stiftes."
+                },
+                {
+                    "year": "2009",
+                    "text": "EstNor blir medlem av Estisk Trehusforening."
+                },
+                {
+                    "year": "2012",
+                    "text": "Et nytt kontor- og produksjonsbygg reises i Kiili."
+                },
+                {
+                    "year": "2015",
+                    "text": "En ny husfabrikk i Kiili settes i drift, ISO 9001-sertifisering utstedes, og produksjon av modulhus starter."
+                },
+                {
+                    "year": "2018",
+                    "text": "EstNor åpner en tømmerhusfabrikk i Jõgevamaa; en EstNor-ansatt kåres for femte år på rad til Estlands beste tømmerhusbygger."
+                },
+                {
+                    "year": "2019",
+                    "text": "EstNor OÜ tildeles europeisk teknisk vurdering (ETA)."
+                },
+                {
+                    "year": "2022",
+                    "text": "EstNor blir første produsent i det statlige KredEx-pilotprogrammet for seriell rehabilitering."
+                }
+            ]
+        },
+        "certs": {
+            "eyebrow": "Kvalitet & sertifisering",
+            "h2": "Sertifikater & medlemskap",
+            "items": [
+                "Kvalitetsstyring etter ISO 9001 (siden 2015)",
+                "Europeisk teknisk vurdering (ETA, siden 2019)",
+                "Medlem av Estisk Trehusforening",
+                "Produksjon etter SINTEF-byggenormer; på det norske markedet etter TEK 10, for passivhus TEK 15"
+            ]
+        },
+        "registry": {
+            "eyebrow": "Selskapsopplysninger",
+            "h2": "Registeropplysninger",
+            "rows": [
+                {
+                    "label": "Firmanavn",
+                    "value": "EstNor OÜ"
+                },
+                {
+                    "label": "Registrikood",
+                    "value": "10706304"
+                },
+                {
+                    "label": "MVA-nummer",
+                    "value": "EE100650305"
+                },
+                {
+                    "label": "Styremedlem",
+                    "value": "Renee Mikomägi"
+                }
+            ]
+        },
+        "explore": {
+            "eyebrow": "Les mer",
+            "h2": "Fortsett å utforske",
+            "cards": [
+                {
+                    "title": "Leverandører & partnere",
+                    "desc": "Hvem EstNor samarbeider med, og hvordan du kan bli partner.",
+                    "href": "suppliers.php"
+                },
+                {
+                    "title": "Modernisering av leilighetsbygg",
+                    "desc": "Hvordan EstNors fasadeelementer gjør leilighetsbygg energieffektive.",
+                    "href": "../serial-renovation/index.php"
+                }
+            ]
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "About EstNor | EstNor",
+            "desc": "EstNor OÜ is an Estonian company founded in 2000, with factories in Kiili (element and modular houses) and Jõgevamaa (log houses)."
+        },
+        "hero": {
+            "crumb": "Home",
+            "eyebrow": "About EstNor",
+            "h1": "Over 20 years of experience in timber construction",
+            "lead": "EstNor OÜ is an Estonian company whose core business is manufacturing and erecting timber houses. The element and modular house factory is in Kiili, Harju County, with a separate log-house factory in Jõgevamaa."
+        },
+        "stats": [
+            {
+                "value": "25",
+                "label": "years of experience"
+            },
+            {
+                "value": "1,000+",
+                "label": "residential units produced"
+            },
+            {
+                "value": "~50",
+                "label": "houses a year, ~10,000 m²"
+            },
+            {
+                "value": "90%",
+                "label": "export, mainly to Norway"
+            }
+        ],
+        "who": {
+            "eyebrow": "Who we are",
+            "h2": "Our company",
+            "paragraphs": [
+                "EstNor OÜ was founded in 2000. Over more than two decades it has built over 1,000 residential units — the main export market is Norway, taking around 90% of production, followed by Sweden, Estonia, Finland and Germany.",
+                "EstNor OÜ's customers include construction companies, developers, intermediaries and private individuals."
+            ]
+        },
+        "memberships": {
+            "eyebrow": "Memberships & recognition",
+            "items": [
+                "Member of the Estonian Woodhouse Association (since 2009)",
+                "Member of the Kiili Entrepreneurs Union (since 2004)",
+                "Member of the Estonian-Norwegian Chamber of Commerce",
+                "Gazelle company 2015 and 2016 — a distinction held by only 1% of Estonian companies",
+                "\"Factory House of the Year\" competition recognitions in 2015, 2017, 2018 and 2019"
+            ]
+        },
+        "history": {
+            "eyebrow": "Brief history",
+            "h2": "How EstNor has grown",
+            "timeline": [
+                {
+                    "year": "2000",
+                    "text": "EstNor OÜ is founded on 20 October; the production building in Kiili is acquired."
+                },
+                {
+                    "year": "2001",
+                    "text": "The first log house leaves the new factory — the factory's first output."
+                },
+                {
+                    "year": "2004",
+                    "text": "Alongside log houses, production of post-and-beam log houses begins; EstNor joins the Kiili Entrepreneurs Union."
+                },
+                {
+                    "year": "2006",
+                    "text": "Element house production begins; the real-estate company EstNor Arendus OÜ is founded."
+                },
+                {
+                    "year": "2009",
+                    "text": "EstNor joins the Estonian Woodhouse Association."
+                },
+                {
+                    "year": "2012",
+                    "text": "A new office and production building is completed in Kiili."
+                },
+                {
+                    "year": "2015",
+                    "text": "A new house factory starts up in Kiili, ISO 9001 certification is issued, and modular house production begins."
+                },
+                {
+                    "year": "2018",
+                    "text": "EstNor opens a log-house factory in Jõgevamaa; an EstNor employee is named Estonia's best log-house builder for the fifth year running."
+                },
+                {
+                    "year": "2019",
+                    "text": "EstNor OÜ receives its European Technical Assessment (ETA)."
+                },
+                {
+                    "year": "2022",
+                    "text": "EstNor becomes the first manufacturer to join the state KredEx pilot programme for serial renovation."
+                }
+            ]
+        },
+        "certs": {
+            "eyebrow": "Quality & certification",
+            "h2": "Certificates & memberships",
+            "items": [
+                "Quality management to ISO 9001 (since 2015)",
+                "European Technical Assessment (ETA, since 2019)",
+                "Member of the Estonian Woodhouse Association",
+                "Manufactured to SINTEF building standards; to TEK 10 for the Norwegian market, TEK 15 for passive houses"
+            ]
+        },
+        "registry": {
+            "eyebrow": "Company data",
+            "h2": "Registration details",
+            "rows": [
+                {
+                    "label": "Legal name",
+                    "value": "EstNor OÜ"
+                },
+                {
+                    "label": "Registry code",
+                    "value": "10706304"
+                },
+                {
+                    "label": "VAT ID",
+                    "value": "EE100650305"
+                },
+                {
+                    "label": "Board member",
+                    "value": "Renee Mikomägi"
+                }
+            ]
+        },
+        "explore": {
+            "eyebrow": "Learn more",
+            "h2": "Keep exploring",
+            "cards": [
+                {
+                    "title": "Suppliers & Co-operators",
+                    "desc": "Who EstNor works with, and how to become a partner.",
+                    "href": "suppliers.php"
+                },
+                {
+                    "title": "Serial Renovation",
+                    "desc": "How EstNor's facade elements help apartment buildings become energy efficient.",
+                    "href": "../serial-renovation/index.php"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,287 @@
+{
+    "et": {
+        "meta": {
+            "title": "Moodulmaja | EstNor",
+            "desc": "EstNori moodulmajad toodetakse tehases, ilmastikukindlas ja kontrollitud keskkonnas."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "parent_label": "Majad",
+            "label": "Moodulmaja",
+            "eyebrow": "Moodul",
+            "h1": "Moodulmajast lähemalt",
+            "lead": "EstNori moodulmajad toodetakse tehases, ilmastikukindlas ja kontrollitud keskkonnas — moodulid jõuavad objektile juba viimistletult."
+        },
+        "how": {
+            "eyebrow": "Kuidas see töötab",
+            "h2": "Kuidas moodul valmib",
+            "paragraphs": [
+                "Moodulid koosnevad põranda-, seina- ja katuseelementidest, mis pannakse tehases kokku. Moodulid on seest ja väljast viimistletud ning katusekate on paigaldatud.",
+                "Kõik avatäited — aknad ja uksed — on paigaldatud ning seest ja väljast viimistletud (paled, liistud, veeplekid). Tehases teostatakse ka kõik eritööd: elektri-, toru-, ventilatsiooni- ja küttetööd. Vajadusel paigaldatakse moodulitesse ka sanitaartehnika ja mööbel."
+            ]
+        },
+        "suitable": {
+            "eyebrow": "Valmis juba tehases",
+            "h2": "Mis on moodulis tehtud, enne kui see objektile jõuab",
+            "cards": [
+                {
+                    "title": "Kandekonstruktsioon",
+                    "desc": "Põranda-, seina- ja katuseelemendid tehases kokku monteeritud."
+                },
+                {
+                    "title": "Viimistlus",
+                    "desc": "Seest ja väljast viimistletud, katusekate paigaldatud."
+                },
+                {
+                    "title": "Aknad ja uksed",
+                    "desc": "Kõik avatäited paigaldatud ja viimistletud (paled, liistud, veeplekid)."
+                },
+                {
+                    "title": "Eritööd",
+                    "desc": "Elektri-, toru-, ventilatsiooni- ja küttetööd tehases teostatud."
+                }
+            ]
+        },
+        "pattern": {
+            "eyebrow": "Avatud ehitussüsteem",
+            "h2": "Panus 369 Pattern Buildings programmi",
+            "body_pre": "EstNor panustab ",
+            "bold": "369 Pattern Buildings",
+            "body_post": " programmi — avatud lähtekoodiga, massikohandatavasse tööstuslikku ehitussüsteemi puitehitistele — aidates moodulehitusel liikuda targemate ja jätkusuutlikumate vaikeväärtuste suunas.",
+            "cta": "Vaata moodulprojekte"
+        },
+        "cta": {
+            "h2": "Kas sul on moodulmaja projekt?",
+            "body": "Ühest suvilast kuni kortermajani — räägime läbi võimalused.",
+            "button": "Võta ühendust"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Modulhaus | EstNor",
+            "desc": "EstNor-Modulhäuser werden im Werk gefertigt, in einer witterungsunabhängigen und kontrollierten Umgebung."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "parent_label": "Häuser",
+            "label": "Modulhaus",
+            "eyebrow": "Modular",
+            "h1": "Das Modulhaus im Detail",
+            "lead": "EstNor-Modulhäuser werden im Werk gefertigt, in einer witterungsunabhängigen und kontrollierten Umgebung — die Module kommen bereits ausgestattet auf der Baustelle an."
+        },
+        "how": {
+            "eyebrow": "So funktioniert es",
+            "h2": "Wie ein Modul entsteht",
+            "paragraphs": [
+                "Module bestehen aus Boden-, Wand- und Dachelementen, die im Werk zusammengebaut werden. Module sind innen und außen ausgestattet, die Dacheindeckung ist montiert.",
+                "Alle Öffnungen — Fenster und Türen — sind eingebaut sowie innen und außen fertig verkleidet (Laibungen, Leisten, Wasserbleche). Im Werk werden auch alle Sonderarbeiten ausgeführt: Elektro-, Sanitär-, Lüftungs- und Heizungsinstallation. Bei Bedarf werden Sanitärtechnik und Möbel bereits in die Module eingebaut."
+            ]
+        },
+        "suitable": {
+            "eyebrow": "Bereits im Werk erledigt",
+            "h2": "Was am Modul fertig ist, bevor es die Baustelle erreicht",
+            "cards": [
+                {
+                    "title": "Tragkonstruktion",
+                    "desc": "Boden-, Wand- und Dachelemente im Werk zusammengefügt."
+                },
+                {
+                    "title": "Ausbau",
+                    "desc": "Innen und außen ausgestattet, Dacheindeckung montiert."
+                },
+                {
+                    "title": "Fenster & Türen",
+                    "desc": "Alle Öffnungen eingebaut und fertig verkleidet (Laibungen, Leisten, Bleche)."
+                },
+                {
+                    "title": "Sonderarbeiten",
+                    "desc": "Elektro-, Sanitär-, Lüftungs- und Heizungsinstallation bereits im Werk erledigt."
+                }
+            ]
+        },
+        "pattern": {
+            "eyebrow": "Offenes Bausystem",
+            "h2": "Beitrag zu 369 Pattern Buildings",
+            "body_pre": "EstNor beteiligt sich an ",
+            "bold": "369 Pattern Buildings",
+            "body_post": " — einem offenen, massenindividualisierbaren industriellen Bausystem für Holzgebäude — und hilft so, den modularen Bau hin zu intelligenteren, nachhaltigeren Standards zu bewegen.",
+            "cta": "Modulprojekte ansehen"
+        },
+        "cta": {
+            "h2": "Haben Sie ein Modulhaus-Projekt?",
+            "body": "Von einem einzelnen Ferienhaus bis zum Mehrfamilienhaus — sprechen wir über die Möglichkeiten.",
+            "button": "Kontakt aufnehmen"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Modulhus | EstNor",
+            "desc": "EstNors modulhus tillverkas i fabriken, i en väderoberoende och kontrollerad miljö."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "parent_label": "Hus",
+            "label": "Modulhus",
+            "eyebrow": "Modulärt",
+            "h1": "Mer om modulhus",
+            "lead": "EstNors modulhus tillverkas i fabriken, i en väderoberoende och kontrollerad miljö — modulerna anländer redan färdigställda till byggplatsen."
+        },
+        "how": {
+            "eyebrow": "Så fungerar det",
+            "h2": "Så tillverkas en modul",
+            "paragraphs": [
+                "Modulerna består av golv-, vägg- och takelement som monteras samman i fabriken. Modulerna är färdigställda in- och utvändigt, och taktäckningen är monterad.",
+                "Alla öppningar — fönster och dörrar — är monterade och färdigställda in- och utvändigt (foder, lister, plåtar). I fabriken utförs även alla specialarbeten: el, VVS, ventilation och värme. Vid behov installeras sanitet och möbler direkt i modulerna."
+            ]
+        },
+        "suitable": {
+            "eyebrow": "Redan klart i fabriken",
+            "h2": "Vad som är klart innan modulen når byggplatsen",
+            "cards": [
+                {
+                    "title": "Bärande stomme",
+                    "desc": "Golv-, vägg- och takelement sammanfogade i fabriken."
+                },
+                {
+                    "title": "Färdigställning",
+                    "desc": "In- och utvändigt färdigställt, taktäckning monterad."
+                },
+                {
+                    "title": "Fönster & dörrar",
+                    "desc": "Alla öppningar monterade och färdigställda (foder, lister, plåtar)."
+                },
+                {
+                    "title": "Specialarbeten",
+                    "desc": "El-, VVS-, ventilations- och värmeinstallationer klara i fabriken."
+                }
+            ]
+        },
+        "pattern": {
+            "eyebrow": "Öppet byggsystem",
+            "h2": "Bidrag till 369 Pattern Buildings",
+            "body_pre": "EstNor bidrar till ",
+            "bold": "369 Pattern Buildings",
+            "body_post": " — ett öppet, massanpassningsbart industriellt byggsystem för trähus — och hjälper till att driva modulbyggande mot smartare, mer hållbara standarder.",
+            "cta": "Se modulprojekt"
+        },
+        "cta": {
+            "h2": "Har du ett modulhusprojekt?",
+            "body": "Från ett enskilt fritidshus till ett flerbostadshus — låt oss diskutera möjligheterna.",
+            "button": "Kontakta oss"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Modulhus | EstNor",
+            "desc": "EstNors modulhus produseres i fabrikken, i et værbestandig og kontrollert miljø."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "parent_label": "Hus",
+            "label": "Modulhus",
+            "eyebrow": "Modulært",
+            "h1": "Nærmere om modulhus",
+            "lead": "EstNors modulhus produseres i fabrikken, i et værbestandig og kontrollert miljø — modulene ankommer byggeplassen allerede ferdigstilt."
+        },
+        "how": {
+            "eyebrow": "Slik fungerer det",
+            "h2": "Slik lages en modul",
+            "paragraphs": [
+                "Modulene består av gulv-, vegg- og takelementer som settes sammen i fabrikken. Modulene er ferdigstilt innvendig og utvendig, og taktekkingen er montert.",
+                "Alle åpninger — vinduer og dører — er montert og ferdigstilt innvendig og utvendig (lister, beslag). I fabrikken utføres også alt spesialarbeid: elektrisk, rør, ventilasjon og oppvarming. Ved behov installeres sanitærutstyr og møbler direkte i modulene."
+            ]
+        },
+        "suitable": {
+            "eyebrow": "Allerede klart i fabrikken",
+            "h2": "Hva som er ferdig før modulen når byggeplassen",
+            "cards": [
+                {
+                    "title": "Bærende konstruksjon",
+                    "desc": "Gulv-, vegg- og takelementer satt sammen i fabrikken."
+                },
+                {
+                    "title": "Ferdigstillelse",
+                    "desc": "Innvendig og utvendig ferdigstilt, taktekking montert."
+                },
+                {
+                    "title": "Vinduer & dører",
+                    "desc": "Alle åpninger montert og ferdigstilt (lister, beslag)."
+                },
+                {
+                    "title": "Spesialarbeid",
+                    "desc": "Elektrisk, rør, ventilasjon og oppvarming ferdig i fabrikken."
+                }
+            ]
+        },
+        "pattern": {
+            "eyebrow": "Åpent byggesystem",
+            "h2": "Bidrag til 369 Pattern Buildings",
+            "body_pre": "EstNor bidrar til ",
+            "bold": "369 Pattern Buildings",
+            "body_post": " — et åpent, masse-tilpasningsbart industrielt byggesystem for trebygninger — og bidrar til å flytte modulbygging mot smartere, mer bærekraftige standarder.",
+            "cta": "Se modulprosjekter"
+        },
+        "cta": {
+            "h2": "Har du et modulhusprosjekt?",
+            "body": "Fra én enkelt hytte til et leilighetsbygg — la oss diskutere mulighetene.",
+            "button": "Kontakt oss"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Modular Houses — EstNor",
+            "desc": "EstNor's factory-finished modular houses for private homes, townhouses, apartment and public buildings."
+        },
+        "hero": {
+            "crumb": "Home",
+            "parent_label": "Houses",
+            "label": "Modular Houses",
+            "eyebrow": "Modular",
+            "h1": "Modules finished in the factory, joined on site",
+            "lead": "More than 90% of the work happens indoors, in a weatherproof, controlled environment — modules arrive on site already finished inside and out."
+        },
+        "how": {
+            "eyebrow": "How it works",
+            "h2": "An innovative, flexible construction system",
+            "paragraphs": [
+                "EstNor modular buildings offer an innovative, flexible approach and the best possible construction outcome. Each module consists of floor, wall and roof elements assembled together in the factory, finished inside and out, with roofing installed.",
+                "All window and door openings are fitted and finished before the module leaves the factory. We also carry out all special work — electrical, plumbing, ventilation and heating — while the module is still indoors."
+            ]
+        },
+        "suitable": {
+            "eyebrow": "Suitable for",
+            "h2": "Where modular construction fits",
+            "cards": [
+                {
+                    "title": "Private houses",
+                    "desc": "Single-family homes delivered largely complete from the factory."
+                },
+                {
+                    "title": "Cottages",
+                    "desc": "Compact, efficient modules for holiday and countryside living."
+                },
+                {
+                    "title": "Townhouses",
+                    "desc": "Modules joined side-by-side for row-house developments."
+                },
+                {
+                    "title": "Apartment & public buildings",
+                    "desc": "Stacked and joined modules forming full multi-storey buildings."
+                }
+            ]
+        },
+        "pattern": {
+            "eyebrow": "Open building system",
+            "h2": "Contributing to 369 Pattern Buildings",
+            "body_pre": "EstNor contributes to ",
+            "bold": "369 Pattern Buildings",
+            "body_post": " — an open-source, mass-customisable industrial building system for wooden buildings — helping push modular construction toward smarter, more sustainable defaults.",
+            "cta": "See modular projects"
+        },
+        "cta": {
+            "h2": "Have a modular project in mind?",
+            "body": "From a single cottage to a full apartment building, let's talk through the options.",
+            "button": "Contact EstNor"
+        }
+    }
+}

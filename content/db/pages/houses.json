@@ -1,0 +1,227 @@
+{
+    "et": {
+        "meta": {
+            "title": "Majad | EstNor",
+            "desc": "EstNor toodab elementmaju ja moodulmaju Kiili tehases."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "eyebrow": "Kaks ehitusviisi, üks tehase standard",
+            "h1": "Vali, kuidas su maja valmib",
+            "lead": "Iga EstNori maja saab alguse tehasest. Vali ehitusviis, mis sobib sinu projekti, arhitektuuri, ajakava ja eelarvega.",
+            "label": "Majad"
+        },
+        "element": {
+            "tag": "Tehases toodetud",
+            "title": "Elementmajad",
+            "desc": "Seinad, katus ja põrand toodetakse tehases ning pannakse objektil kokku — ilma suuremate piiranguteta suuruse ega arhitektuuri osas.",
+            "cta": "Loe lähemalt"
+        },
+        "modular": {
+            "tag": "Moodul",
+            "title": "Moodulmajad",
+            "desc": "Täielikult viimistletud moodulid — elekter, torustik ja küte kaasa arvatud — mis pannakse objektil kokku valmis majaks.",
+            "cta": "Loe lähemalt"
+        },
+        "compare": {
+            "eyebrow": "Kumb sobib sulle?",
+            "h2": "Kahe ehitusviisi võrdlus",
+            "cards": [
+                {
+                    "title": "Elementmajad",
+                    "desc": "Sobivad suurtele või arhitektuuriliselt keerukatele hoonetele ja kortermajadele. Tehases toodetud seinad, katus ja terrass pannakse objektil kokku."
+                },
+                {
+                    "title": "Moodulmajad",
+                    "desc": "Sobivad kiire graafikuga projektidele — üle 90% tööst on tehtud juba tehases, enne kui moodul objektile jõuab."
+                }
+            ]
+        },
+        "renovate": {
+            "eyebrow": "Olemasolev hoone?",
+            "h2": "EstNor ka renoveerib, mitte ainult ei ehita uut",
+            "lead": "Sama tehasetäpsus kehtib ka tehaselise renoveerimise puhul: fassaadielemendid, mis tõstavad kortermaja energiatõhusust vaid mõne nädalaga.",
+            "cta": "Mis on tehaseline renoveerimine?"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Houses — EstNor",
+            "desc": "EstNor builds element houses and modular houses at our factory in Kiili, Estonia."
+        },
+        "hero": {
+            "crumb": "Home",
+            "eyebrow": "Two build methods, one factory standard",
+            "h1": "Choose how your house is built",
+            "lead": "Every EstNor house begins indoors. Choose the build method that fits your project — architecture, timeline and budget all play a part.",
+            "label": "Houses"
+        },
+        "element": {
+            "tag": "Factory built",
+            "title": "Element Houses",
+            "desc": "Walls, roofs and floors built indoors, then assembled on site — with no real limit on size or architectural complexity.",
+            "cta": "Learn more"
+        },
+        "modular": {
+            "tag": "Modular",
+            "title": "Modular Houses",
+            "desc": "Fully finished modules — including electrics, plumbing and heating — joined together on site into the finished building.",
+            "cta": "Learn more"
+        },
+        "compare": {
+            "eyebrow": "Which method is right for you?",
+            "h2": "Comparing the two build methods",
+            "cards": [
+                {
+                    "title": "Element Houses",
+                    "desc": "Best for: large or architecturally complex homes and apartment buildings. Indoor-built walls, roofs and terraces assembled on site."
+                },
+                {
+                    "title": "Modular Houses",
+                    "desc": "Best for: fast-track projects — private houses, townhouses, apartment and public buildings — with >90% of work done in-factory."
+                }
+            ]
+        },
+        "renovate": {
+            "eyebrow": "Already have a building?",
+            "h2": "EstNor also renovates, not just builds new",
+            "lead": "The same factory precision applies to serial renovation: prefabricated facade elements that upgrade an existing apartment building in weeks.",
+            "cta": "What is serial renovation?"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Häuser | EstNor",
+            "desc": "EstNor fertigt Elementhäuser und Modulhäuser im Werk in Kiili, Estland."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "eyebrow": "Zwei Bauweisen, ein Werksstandard",
+            "h1": "Wählen Sie, wie Ihr Haus gebaut wird",
+            "lead": "Jedes EstNor-Haus beginnt im Werk. Wählen Sie die Bauweise, die zu Architektur, Zeitplan und Budget Ihres Projekts passt.",
+            "label": "Häuser"
+        },
+        "element": {
+            "tag": "Werksgefertigt",
+            "title": "Elementhäuser",
+            "desc": "Wände, Dach und Boden werden im Werk gefertigt und vor Ort montiert — ohne wesentliche Einschränkung bei Größe oder Architektur.",
+            "cta": "Mehr erfahren"
+        },
+        "modular": {
+            "tag": "Modular",
+            "title": "Modulhäuser",
+            "desc": "Vollständig ausgestattete Module — inklusive Elektrik, Sanitär und Heizung — die vor Ort zum fertigen Haus zusammengefügt werden.",
+            "cta": "Mehr erfahren"
+        },
+        "compare": {
+            "eyebrow": "Welche Bauweise passt zu Ihnen?",
+            "h2": "Die beiden Bauweisen im Vergleich",
+            "cards": [
+                {
+                    "title": "Elementhäuser",
+                    "desc": "Geeignet für große oder architektonisch anspruchsvolle Gebäude und Mehrfamilienhäuser. Im Werk gefertigte Wände, Dach und Terrasse werden vor Ort montiert."
+                },
+                {
+                    "title": "Modulhäuser",
+                    "desc": "Geeignet für Projekte mit engem Zeitplan — über 90 % der Arbeit ist bereits im Werk erledigt, bevor das Modul die Baustelle erreicht."
+                }
+            ]
+        },
+        "renovate": {
+            "eyebrow": "Bereits ein Gebäude vorhanden?",
+            "h2": "EstNor saniert auch, nicht nur Neubau",
+            "lead": "Dieselbe Werkspräzision gilt für die serielle Sanierung: Fassadenelemente, die ein Mehrfamilienhaus in wenigen Wochen energieeffizient machen.",
+            "cta": "Was ist serielle Sanierung?"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Hus | EstNor",
+            "desc": "EstNor tillverkar elementhus och modulhus vid fabriken i Kiili, Estland."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "eyebrow": "Två byggmetoder, en fabriksstandard",
+            "h1": "Välj hur ditt hus byggs",
+            "lead": "Varje EstNor-hus börjar i fabriken. Välj den byggmetod som passar projektets arkitektur, tidsplan och budget.",
+            "label": "Hus"
+        },
+        "element": {
+            "tag": "Fabrikstillverkat",
+            "title": "Elementhus",
+            "desc": "Väggar, tak och golv tillverkas i fabriken och monteras på plats — utan större begränsningar för storlek eller arkitektur.",
+            "cta": "Läs mer"
+        },
+        "modular": {
+            "tag": "Modulärt",
+            "title": "Modulhus",
+            "desc": "Helt färdigställda moduler — inklusive el, vatten och värme — som fogas samman på plats till ett färdigt hus.",
+            "cta": "Läs mer"
+        },
+        "compare": {
+            "eyebrow": "Vilken metod passar dig?",
+            "h2": "Jämförelse av de två byggmetoderna",
+            "cards": [
+                {
+                    "title": "Elementhus",
+                    "desc": "Passar stora eller arkitektoniskt komplexa byggnader och flerbostadshus. Fabrikstillverkade väggar, tak och terrass monteras på plats."
+                },
+                {
+                    "title": "Modulhus",
+                    "desc": "Passar projekt med snäv tidsplan — över 90 % av arbetet är redan gjort i fabriken innan modulen når byggplatsen."
+                }
+            ]
+        },
+        "renovate": {
+            "eyebrow": "Redan en befintlig byggnad?",
+            "h2": "EstNor renoverar också, inte bara nybygger",
+            "lead": "Samma fabriksprecision gäller för modernisering av flerbostadshus: fasadelement som höjer energieffektiviteten på bara några veckor.",
+            "cta": "Vad är modernisering av flerbostadshus?"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Hus | EstNor",
+            "desc": "EstNor produserer elementhus og modulhus ved fabrikken i Kiili, Estland."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "eyebrow": "To byggemetoder, én fabrikkstandard",
+            "h1": "Velg hvordan huset ditt bygges",
+            "lead": "Hvert EstNor-hus starter i fabrikken. Velg byggemetoden som passer prosjektets arkitektur, tidsplan og budsjett.",
+            "label": "Hus"
+        },
+        "element": {
+            "tag": "Fabrikkbygget",
+            "title": "Elementhus",
+            "desc": "Vegger, tak og gulv produseres i fabrikken og monteres på stedet — uten vesentlige begrensninger på størrelse eller arkitektur.",
+            "cta": "Les mer"
+        },
+        "modular": {
+            "tag": "Modulært",
+            "title": "Modulhus",
+            "desc": "Fullstendig ferdigstilte moduler — inkludert elektrisk, rør og oppvarming — som settes sammen til et ferdig hus på stedet.",
+            "cta": "Les mer"
+        },
+        "compare": {
+            "eyebrow": "Hvilken metode passer deg?",
+            "h2": "Sammenligning av de to byggemetodene",
+            "cards": [
+                {
+                    "title": "Elementhus",
+                    "desc": "Passer store eller arkitektonisk krevende bygg og leilighetsbygg. Fabrikkbygde vegger, tak og terrasse monteres på stedet."
+                },
+                {
+                    "title": "Modulhus",
+                    "desc": "Passer prosjekter med stram tidsplan — over 90 % av arbeidet er allerede gjort i fabrikken før modulen når byggeplassen."
+                }
+            ]
+        },
+        "renovate": {
+            "eyebrow": "Har du allerede en bygning?",
+            "h2": "EstNor rehabiliterer også, ikke bare nybygg",
+            "lead": "Den samme fabrikkpresisjonen gjelder for modernisering av leilighetsbygg: fasadeelementer som gjør et leilighetsbygg energieffektivt på bare noen uker.",
+            "cta": "Hva er modernisering av leilighetsbygg?"
+        }
+    }
+}

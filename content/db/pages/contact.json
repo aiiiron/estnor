@@ -1,0 +1,242 @@
+{
+    "et": {
+        "meta": {
+            "title": "Kontakt | EstNor",
+            "desc": "Kontakt EstNor OÜ — Kurna tee 33, Kiili, 75401 Harjumaa. Telefon +372 651 6174, e-post info@estnor.ee."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "label": "Kontakt",
+            "eyebrow": "Kontakt",
+            "h1": "Räägime sinu projektist",
+            "lead": "Olgu tegu uue majaga või kortermaja tehaselise renoveerimisega — saada meile hoone põhiandmed ja anname esialgse hinnangu."
+        },
+        "contact_heading": "Kontaktandmed",
+        "labels": {
+            "email": "E-post",
+            "phone": "Telefon",
+            "fax": "Faks",
+            "address": "Aadress"
+        },
+        "address_lines": [
+            "EstNor OÜ",
+            "Kurna tee 33, 75401 Kiili",
+            "Sepamäe tee 3, Kiili vald",
+            "Harjumaa, Eesti"
+        ],
+        "registry_note": "Registrikood 10706304 · KMKR nr EE100650305.",
+        "office_hours": "Vastame E–R kell 8–17. Hea meelega leppime kokku kohtumise või tagasihelistamise.",
+        "map_title": "EstNori asukoht kaardil",
+        "form_heading": "Saada sõnum",
+        "form": {
+            "name": "Nimi *",
+            "company": "Ettevõte",
+            "email": "E-post *",
+            "phone": "Telefon",
+            "subject": "Teema",
+            "message": "Sõnum *",
+            "hp": "Jäta tühjaks",
+            "submit": "Saada sõnum"
+        },
+        "subject_options": [
+            "Elementmajad",
+            "Moodulmajad",
+            "Tehaseline renoveerimine / fassaadielemendid",
+            "Muu"
+        ],
+        "form_note_pre": "See on staatiline näidisleht — vorm ei ole ühendatud meiliserveriga. Kirjuta otse ",
+        "form_note_post": "."
+    },
+    "en": {
+        "meta": {
+            "title": "Contact — EstNor",
+            "desc": "Contact EstNor — Kurna tee 33, Kiili, Harju County, Estonia. Phone +372 651 6174, email info@estnor.ee."
+        },
+        "hero": {
+            "crumb": "Home",
+            "label": "Contact",
+            "eyebrow": "Contact",
+            "h1": "Let's talk about your project",
+            "lead": "Whether it's a new timber house or a serial facade renovation: send us the key details — building type, size, timeframe — and we'll come back with an initial assessment."
+        },
+        "contact_heading": "Contact details",
+        "labels": {
+            "email": "Email",
+            "phone": "Phone",
+            "fax": "Fax",
+            "address": "Address"
+        },
+        "address_lines": [
+            "EstNor OÜ",
+            "Kurna tee 33, 75401 Kiili",
+            "Sepamäe tee 3, Kiili Parish",
+            "Harju County, Estonia"
+        ],
+        "registry_note": "Registry code 10706304 · VAT EE100650305 — Estonian e-Business Register.",
+        "office_hours": "Office hours: Mon–Fri, 08:00–17:00 EET. We're happy to arrange a meeting or a call back.",
+        "map_title": "EstNor location map",
+        "form_heading": "Send a message",
+        "form": {
+            "name": "Full name *",
+            "company": "Company",
+            "email": "Email *",
+            "phone": "Phone",
+            "subject": "Subject",
+            "message": "Message *",
+            "hp": "Leave blank",
+            "submit": "Send message"
+        },
+        "subject_options": [
+            "Element houses",
+            "Modular houses",
+            "Serial renovation / facade elements",
+            "Something else"
+        ],
+        "form_note_pre": "This is a static demo site — the form isn't wired to a mail server. Please email ",
+        "form_note_post": " directly."
+    },
+    "de": {
+        "meta": {
+            "title": "Kontakt | EstNor",
+            "desc": "Kontakt EstNor OÜ — Kurna tee 33, Kiili, 75401 Harjumaa, Estland. Telefon +372 651 6174, E-Mail info@estnor.ee."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "label": "Kontakt",
+            "eyebrow": "Kontakt",
+            "h1": "Sprechen wir über Ihr Projekt",
+            "lead": "Ob Neubau oder serielle Fassadensanierung eines Mehrfamilienhauses: Schicken Sie uns die Eckdaten — wir melden uns mit einer ersten Einschätzung zurück."
+        },
+        "contact_heading": "Kontaktdaten",
+        "labels": {
+            "email": "E-Mail",
+            "phone": "Telefon",
+            "fax": "Telefax",
+            "address": "Anschrift"
+        },
+        "address_lines": [
+            "EstNor OÜ",
+            "Kurna tee 33, 75401 Kiili",
+            "Sepamäe tee 3, Kiili vald",
+            "Harjumaa, Estland"
+        ],
+        "registry_note": "Registrikood 10706304 · USt-IdNr. EE100650305.",
+        "office_hours": "Anfragen aus Deutschland beantwortet EstNor auf Deutsch. Gern vereinbaren wir einen Termin oder einen Rückruf.",
+        "map_title": "Standort von EstNor",
+        "form_heading": "Nachricht senden",
+        "form": {
+            "name": "Name *",
+            "company": "Unternehmen",
+            "email": "E-Mail *",
+            "phone": "Telefon",
+            "subject": "Betreff",
+            "message": "Nachricht *",
+            "hp": "Bitte frei lassen",
+            "submit": "Absenden"
+        },
+        "subject_options": [
+            "Elementhäuser",
+            "Modulhäuser",
+            "Serielle Sanierung / Fassadenelemente",
+            "Sonstiges"
+        ],
+        "form_note_pre": "Dies ist eine statische Demo-Seite — das Formular ist nicht mit einem Mailserver verbunden. Bitte schreiben Sie direkt an ",
+        "form_note_post": "."
+    },
+    "sv": {
+        "meta": {
+            "title": "Kontakt | EstNor",
+            "desc": "Kontakta EstNor OÜ — Kurna tee 33, Kiili, 75401 Harjumaa, Estland. Telefon +372 651 6174, e-post info@estnor.ee."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "label": "Kontakt",
+            "eyebrow": "Kontakt",
+            "h1": "Låt oss diskutera ert projekt",
+            "lead": "Oavsett om det gäller ett nytt trähus eller seriell fasadrenovering av ett flerbostadshus: skicka oss nyckeltalen så återkommer vi med en första bedömning."
+        },
+        "contact_heading": "Kontaktuppgifter",
+        "labels": {
+            "email": "E-post",
+            "phone": "Telefon",
+            "fax": "Fax",
+            "address": "Adress"
+        },
+        "address_lines": [
+            "EstNor OÜ",
+            "Kurna tee 33, 75401 Kiili",
+            "Sepamäe tee 3, Kiili vald",
+            "Harjumaa, Estland"
+        ],
+        "registry_note": "Registrikood 10706304 · Momsregistreringsnummer EE100650305.",
+        "office_hours": "Vi svarar måndag–fredag kl. 8–17. Vi bokar gärna in ett möte eller en återuppringning.",
+        "map_title": "EstNors adress på kartan",
+        "form_heading": "Skicka ett meddelande",
+        "form": {
+            "name": "Namn *",
+            "company": "Företag",
+            "email": "E-post *",
+            "phone": "Telefon",
+            "subject": "Ämne",
+            "message": "Meddelande *",
+            "hp": "Lämna tomt",
+            "submit": "Skicka"
+        },
+        "subject_options": [
+            "Elementhus",
+            "Modulhus",
+            "Modernisering / fasadelement",
+            "Annat"
+        ],
+        "form_note_pre": "Detta är en statisk demosida — formuläret är inte kopplat till en e-postserver. Skriv gärna direkt till ",
+        "form_note_post": "."
+    },
+    "nb": {
+        "meta": {
+            "title": "Kontakt | EstNor",
+            "desc": "Kontakt EstNor OÜ — Kurna tee 33, Kiili, 75401 Harjumaa, Estland. Telefon +372 651 6174, e-post info@estnor.ee."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "label": "Kontakt",
+            "eyebrow": "Kontakt",
+            "h1": "La oss snakke om prosjektet ditt",
+            "lead": "Enten det er et nytt trehus eller seriell fasaderehabilitering av et leilighetsbygg: send oss nøkkeltallene, så kommer vi tilbake med en første vurdering."
+        },
+        "contact_heading": "Kontaktinformasjon",
+        "labels": {
+            "email": "E-post",
+            "phone": "Telefon",
+            "fax": "Faks",
+            "address": "Adresse"
+        },
+        "address_lines": [
+            "EstNor OÜ",
+            "Kurna tee 33, 75401 Kiili",
+            "Sepamäe tee 3, Kiili vald",
+            "Harjumaa, Estland"
+        ],
+        "registry_note": "Registrikood 10706304 · MVA-nummer EE100650305.",
+        "office_hours": "Vi svarer mandag–fredag kl. 8–17. Vi avtaler gjerne et møte eller en tilbakeringing.",
+        "map_title": "EstNors adresse på kartet",
+        "form_heading": "Send en melding",
+        "form": {
+            "name": "Navn *",
+            "company": "Firma",
+            "email": "E-post *",
+            "phone": "Telefon",
+            "subject": "Emne",
+            "message": "Melding *",
+            "hp": "La stå tomt",
+            "submit": "Send"
+        },
+        "subject_options": [
+            "Elementhus",
+            "Modulhus",
+            "Modernisering / fasadeelementer",
+            "Annet"
+        ],
+        "form_note_pre": "Dette er en statisk demoside — skjemaet er ikke koblet til en e-postserver. Skriv gjerne direkte til ",
+        "form_note_post": "."
+    }
+}

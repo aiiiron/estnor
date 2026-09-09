@@ -1,0 +1,257 @@
+{
+    "et": {
+        "meta": {
+            "title": "Projektid | EstNor",
+            "desc": "EstNori majaehitus- ja renoveerimisprojektid Eestis, Norras ja Rootsis."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "label": "Projektid",
+            "eyebrow": "Projektid",
+            "h1": "Uusehitised ja renoveerimised kõrvuti",
+            "lead": "Valik EstNori valminud ja pooleliolevaid maja- ning fassaadirenoveerimise projekte Eestis, Norras ja Rootsis."
+        },
+        "cards": [
+            {
+                "tag": "Tallinn, Eesti",
+                "title": "Loodusmaja",
+                "desc": "Üks Eesti suurimaid puithooneid — EstNor tarnis fassaadi- ja katuseelemendid koos tehases paigaldatud akendega."
+            },
+            {
+                "tag": "Pärnu, Eesti",
+                "title": "Stroomi Rannahoone",
+                "desc": "Rannaäärne puithoone, ehitatud EstNori element- ja fassaaditehnoloogiaga."
+            },
+            {
+                "tag": "Oslo, Norra",
+                "title": "Kortermaja Oslos",
+                "desc": "Mitmekorruseline kortermaja, ehitatud EstNori tehases valminud moodulitest."
+            },
+            {
+                "tag": "Rootsi",
+                "title": "Elementmajast pere-elamu",
+                "desc": "Suur pereelamu, ehitatud tehases toodetud välis- ja siseelementidest."
+            },
+            {
+                "tag": "Sindi, Eesti",
+                "title": "Kooli 5 — tehaseline renoveerimine",
+                "desc": "Üks 12 kortermajast, mille fassaad renoveeriti KredEx programmi raames EstNori elementidega."
+            },
+            {
+                "tag": "Eesti",
+                "title": "Suvilate arendus",
+                "desc": "Kiilis toodetud moodulsuvilate kompleks, tarnitud valmis viimistletuna Eesti rannikualale."
+            }
+        ],
+        "references_cta": "Vaata tehaselise renoveerimise projekte",
+        "cta": {
+            "h2": "Kas sul on oma projekt?",
+            "body": "Räägi meile sellest ja soovitame sobiva EstNori ehitusviisi.",
+            "button": "Võta ühendust"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Projects — EstNor",
+            "desc": "A selection of EstNor timber house and facade-renovation projects across Estonia, Norway and Sweden."
+        },
+        "hero": {
+            "crumb": "Home",
+            "label": "Projects",
+            "eyebrow": "Projects",
+            "h1": "New builds and renovations, side by side",
+            "lead": "A selection of the homes, buildings and facade-renovation projects EstNor has delivered or is preparing — across Estonia, Norway, Sweden and beyond."
+        },
+        "cards": [
+            {
+                "tag": "Tallinn, Estonia",
+                "title": "Loodusmaja",
+                "desc": "One of Estonia's largest timber buildings — EstNor supplied the facade and roof elements, including factory-installed windows."
+            },
+            {
+                "tag": "Pärnu, Estonia",
+                "title": "Stroomi Rannahoone",
+                "desc": "A seaside building in Pärnu, built using EstNor's element and facade technology."
+            },
+            {
+                "tag": "Oslo, Norway",
+                "title": "Oslo apartment building",
+                "desc": "A multi-storey apartment building built from EstNor's factory-finished modules."
+            },
+            {
+                "tag": "Sweden",
+                "title": "Element-built family home",
+                "desc": "A large family home built from factory-produced exterior and interior elements."
+            },
+            {
+                "tag": "Sindi, Estonia",
+                "title": "Kooli 5 — serial renovation",
+                "desc": "One of 12 apartment buildings whose facade was renovated with EstNor elements under the KredEx programme."
+            },
+            {
+                "tag": "Estonia",
+                "title": "Cottage development",
+                "desc": "A cluster of modular cottages manufactured in Kiili, delivered fully finished to the Estonian coast."
+            }
+        ],
+        "references_cta": "See serial renovation references",
+        "cta": {
+            "h2": "Have a project of your own?",
+            "body": "Tell us about it and we'll suggest the right EstNor build method.",
+            "button": "Contact EstNor"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Projekte | EstNor",
+            "desc": "EstNor-Bau- und Sanierungsprojekte in Estland, Norwegen und Schweden."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "label": "Projekte",
+            "eyebrow": "Projekte",
+            "h1": "Neubau und Sanierung nebeneinander",
+            "lead": "Eine Auswahl der von EstNor errichteten Häuser, Gebäude und Fassadensanierungsprojekte in Estland, Norwegen, Schweden und darüber hinaus."
+        },
+        "cards": [
+            {
+                "tag": "Tallinn, Estland",
+                "title": "Umwelthaus Loodusmaja",
+                "desc": "Eines der größten Holzgebäude Estlands — EstNor lieferte Fassaden- und Dachelemente inklusive werkseitig eingebauter Fenster."
+            },
+            {
+                "tag": "Pärnu, Estland",
+                "title": "Stroomi Rannahoone",
+                "desc": "Gebäude am Strand, errichtet mit EstNor-Element- und Fassadentechnik."
+            },
+            {
+                "tag": "Oslo, Norwegen",
+                "title": "Mehrfamilienhaus in Oslo",
+                "desc": "Mehrgeschossiges Wohngebäude, errichtet aus werksfertigen EstNor-Modulen."
+            },
+            {
+                "tag": "Schweden",
+                "title": "Einfamilienhaus aus Elementen",
+                "desc": "Großes Einfamilienhaus, errichtet mit werksgefertigten Außen- und Innenelementen."
+            },
+            {
+                "tag": "Sindi, Estland",
+                "title": "Kooli 5 — serielle Sanierung",
+                "desc": "Eines von 12 Mehrfamilienhäusern, deren Fassade im Rahmen des KredEx-Programms mit EstNor-Elementen saniert wurde."
+            },
+            {
+                "tag": "Estland",
+                "title": "Ferienhaus-Siedlung",
+                "desc": "In Kiili gefertigte modulare Ferienhäuser, komplett ausgestattet an die estnische Küste geliefert."
+            }
+        ],
+        "references_cta": "Referenzen zur seriellen Sanierung ansehen",
+        "cta": {
+            "h2": "Haben Sie ein eigenes Projekt?",
+            "body": "Erzählen Sie uns davon — wir empfehlen die passende EstNor-Bauweise.",
+            "button": "Kontakt aufnehmen"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Projekt | EstNor",
+            "desc": "EstNors byggnads- och renoveringsprojekt i Estland, Norge och Sverige."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "label": "Projekt",
+            "eyebrow": "Projekt",
+            "h1": "Nybyggnation och renovering sida vid sida",
+            "lead": "Ett urval av EstNors husbyggen och fasadrenoveringsprojekt i Estland, Norge, Sverige och därutöver."
+        },
+        "cards": [
+            {
+                "tag": "Tallinn, Estland",
+                "title": "Nature Hub",
+                "desc": "En av Estlands största trähusbyggnader — EstNor levererade fasad- och takelement inklusive fabriksmonterade fönster."
+            },
+            {
+                "tag": "Pärnu, Estland",
+                "title": "Stroomi Rannahoone",
+                "desc": "En byggnad vid havet i Pärnu, byggd med EstNors element- och fasadteknik."
+            },
+            {
+                "tag": "Oslo, Norge",
+                "title": "Hyreshus i Oslo",
+                "desc": "Ett flerbostadshus uppfört med EstNors fabrikstillverkade moduler."
+            },
+            {
+                "tag": "Sverige",
+                "title": "Villa i elementbyggnad",
+                "desc": "En större villa byggd med fabrikstillverkade ytter- och innerelement."
+            },
+            {
+                "tag": "Sindi, Estland",
+                "title": "Kooli 5 — seriell renovering",
+                "desc": "Ett av 12 flerbostadshus vars fasad renoverades med EstNor-element inom KredEx-programmet."
+            },
+            {
+                "tag": "Estland",
+                "title": "Fritidshusområde",
+                "desc": "Ett kluster av modulära fritidshus tillverkade i Kiili, levererade färdigställda till estniska kusten."
+            }
+        ],
+        "references_cta": "Se referenser för modernisering",
+        "cta": {
+            "h2": "Har ni ett eget projekt?",
+            "body": "Berätta om det så föreslår vi rätt EstNor-byggmetod.",
+            "button": "Kontakta oss"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Prosjekter | EstNor",
+            "desc": "EstNors bygge- og rehabiliteringsprosjekter i Estland, Norge og Sverige."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "label": "Prosjekter",
+            "eyebrow": "Prosjekter",
+            "h1": "Nybygg og rehabilitering side om side",
+            "lead": "Et utvalg av EstNors husbygg og fasaderehabiliteringsprosjekter i Estland, Norge, Sverige og utover."
+        },
+        "cards": [
+            {
+                "tag": "Tallinn, Estland",
+                "title": "Nature Hub",
+                "desc": "Et av Estlands største trebygg — EstNor leverte fasade- og takelementer inkludert fabrikkmonterte vinduer."
+            },
+            {
+                "tag": "Pärnu, Estland",
+                "title": "Stroomi Rannahoone",
+                "desc": "En bygning ved sjøen i Pärnu, bygget med EstNors element- og fasadeteknikk."
+            },
+            {
+                "tag": "Oslo, Norge",
+                "title": "Leilighetsbygg i Oslo",
+                "desc": "Et leilighetsbygg oppført med EstNors fabrikkferdige moduler."
+            },
+            {
+                "tag": "Sverige",
+                "title": "Enebolig i elementbygg",
+                "desc": "En stor enebolig bygget med fabrikkproduserte ytter- og innerelementer."
+            },
+            {
+                "tag": "Sindi, Estland",
+                "title": "Kooli 5 — seriell rehabilitering",
+                "desc": "Ett av 12 leilighetsbygg der fasaden ble rehabilitert med EstNor-elementer gjennom KredEx-programmet."
+            },
+            {
+                "tag": "Estland",
+                "title": "Hytteutbygging",
+                "desc": "En klynge modulære hytter produsert i Kiili, levert ferdigstilt til den estiske kysten."
+            }
+        ],
+        "references_cta": "Se referanser for modernisering",
+        "cta": {
+            "h2": "Har dere et eget prosjekt?",
+            "body": "Fortell oss om det, så foreslår vi riktig EstNor-byggemetode.",
+            "button": "Kontakt oss"
+        }
+    }
+}

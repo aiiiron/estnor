@@ -1,0 +1,639 @@
+{
+    "et": {
+        "meta": {
+            "title": "Fassaadielement | EstNor",
+            "desc": "Fassaadielemendi ülesehitus, tootmisaste ja paigaldus: puitkarkass, soojustus, eelpaigaldatud aknad, ventilatsioon ja viimistletud pind."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "parent_label": "Tehaseline renoveerimine",
+            "label": "Fassaadielement",
+            "eyebrow": "Toode",
+            "h1": "Fassaadielement — valmis sein paljude eritööde asemel",
+            "lead": "Iga element on kandev puitkarkasskonstruktsioon, mis valmib tehases ligikaudu 90% ulatuses — soojustatud, akendega, ventilatsioonitorustikuga ja viimistletud pinnaga. Objektil tuleb see vaid paigaldada ja ühendada."
+        },
+        "buildup": {
+            "h2": "Elemendi ülesehitus",
+            "items": [
+                "Kandev puitkarkasskonstruktsioon, digitaalselt projekteeritud BIM-mudeli järgi",
+                "Soojustus (mineraalvill) elemendi sees, minimaalsete külmasildadega",
+                "Tuule- ja aurutõke, tehases liimitud",
+                "Energiatõhusad PVC aknad, täielikult paigaldatud ja reguleeritud",
+                "Ventilatsioonitorud juhitud läbi elemendi vastavalt projektile",
+                "Fassaadiplaat / kate eelpaigaldatud — pind viimistletud tehases"
+            ]
+        },
+        "prefab": {
+            "eyebrow": "Tootmisaste",
+            "h2": "Miks 90% tehases on otsustava tähtsusega",
+            "cards": [
+                {
+                    "title": "Ilmastikukindel",
+                    "desc": "Tootmine hallis — ei mingit seisakut vihma, härmatise või tuule tõttu."
+                },
+                {
+                    "title": "Ühtlane kvaliteet",
+                    "desc": "Kontrollitud tingimused, korratavad protsessid, vähem ümbertegemist."
+                },
+                {
+                    "title": "Tellinguid pole vaja",
+                    "desc": "Elemendid paigaldatakse väljastpoolt — ilma tellinguteta, korteritesse ligipääsu vajaduseta."
+                },
+                {
+                    "title": "Vähem inimesi objektil",
+                    "desc": "Töö liigub tehasesse — piisab väikesest paigaldusmeeskonnast."
+                },
+                {
+                    "title": "Renoveerimine elanikega majas",
+                    "desc": "Elanikud jäävad korteritesse; häiring piirdub päevade, mitte kuudega."
+                },
+                {
+                    "title": "Lühike ehitusaeg",
+                    "desc": "Mitme trepikojaga hoone umbes 3–4 nädalaga peaaegu aasta asemel."
+                }
+            ]
+        },
+        "install": {
+            "eyebrow": "Paigaldus objektil",
+            "h2": "Üheksa sammu uue fassaadini",
+            "steps": [
+                {
+                    "num": "1",
+                    "title": "3D-skaneerimine",
+                    "desc": "Andmete kogumine maapinnalt ja drooniga."
+                },
+                {
+                    "num": "2",
+                    "title": "BIM-mudel",
+                    "desc": "Punktipilvest saab täpne mõõtudega mudel."
+                },
+                {
+                    "num": "3",
+                    "title": "Ettevalmistus",
+                    "desc": "Kronsteinid ja alusvööd olemasolevale konstruktsioonile."
+                },
+                {
+                    "num": "4",
+                    "title": "Nurgaelemendid",
+                    "desc": "Esimeste elementide paigaldamine hoone nurkadesse."
+                },
+                {
+                    "num": "5",
+                    "title": "Reamontaaž",
+                    "desc": "Element elemendi haaval, rida rea haaval."
+                },
+                {
+                    "num": "6",
+                    "title": "Täiskate",
+                    "desc": "Fassaad on täielikult elementidega kaetud."
+                },
+                {
+                    "num": "7",
+                    "title": "Ventilatsioon",
+                    "desc": "Ventilatsioonitorude ühendamine."
+                },
+                {
+                    "num": "8",
+                    "title": "Trepikoda",
+                    "desc": "Trepikoja elementide paigaldus."
+                },
+                {
+                    "num": "9",
+                    "title": "Lõpetamine",
+                    "desc": "Vuugid, vihmaveesüsteem, katuseühendus."
+                }
+            ]
+        },
+        "logistics": {
+            "eyebrow": "Logistika",
+            "h2": "Eestist — Euroopa Liidu sees",
+            "body": "Tootmine Kiili tehases Tallinna lähedal. ELi liikmesriigina puuduvad tolliformaalsused; teed üle Läänemere ja maismaad pidi on hästi väljaarendatud. Elemendid sorteeritakse paigaldusjärjekorra järgi ja tarnitakse just-in-time põhimõttel."
+        },
+        "quality": {
+            "eyebrow": "Kvaliteet ja sertifikaadid",
+            "items": [
+                "ISO 9001 kvaliteedijuhtimine",
+                "CE-märgistus, Euroopa tehniline hinnang (EOTA)",
+                "Eesti Puitmajaliidu liige",
+                "Projektipõhine dokumentatsioon kohalike nõuete järgi soovi korral"
+            ],
+            "callout_label": "Täpsustamisel:",
+            "callout_text": "konkreetsed ehitusjärelevalve nõuded ja tuleohutusklass sihtriigi jaoks tuleb enne projekti algust EstNoriga kokku leppida."
+        },
+        "cta": {
+            "h2": "Räägime su projekti elementidest",
+            "body": "Saada meile hoone tüüp, ehitusaasta ja fassaadipind — anname esialgse hinnangu elementide ja tarneaja kohta.",
+            "button": "Võta ühendust"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Facade Elements — EstNor",
+            "desc": "Build-up, degree of prefabrication and installation of EstNor facade elements: timber frame, insulation, pre-installed windows, ventilation routing and a finished facade surface."
+        },
+        "hero": {
+            "crumb": "Home",
+            "parent_label": "Serial Renovation",
+            "label": "Facade Elements",
+            "eyebrow": "The product",
+            "h1": "The facade element: a finished wall instead of many separate trades",
+            "lead": "Each element is a load-bearing timber-frame structure completed to around 90% in the factory — insulated, with windows, ventilation routing and a finished surface. On site it only has to be set in place and connected."
+        },
+        "buildup": {
+            "h2": "Element build-up",
+            "items": [
+                "Load-bearing timber-frame structure, digitally engineered from the BIM model",
+                "Insulation (mineral wool) within the element, with minimal thermal bridging",
+                "Wind and vapour barrier, factory-bonded",
+                "Energy-efficient PVC windows, fully installed and adjusted",
+                "Ventilation ducts routed through the element as designed",
+                "Cladding panel / facing pre-fitted — surface finished at the factory"
+            ]
+        },
+        "prefab": {
+            "eyebrow": "Degree of prefabrication",
+            "h2": "Why 90% in the factory is the decisive point",
+            "cards": [
+                {
+                    "title": "Weather-independent",
+                    "desc": "Production in the hall — no work stoppage in rain, frost or wind."
+                },
+                {
+                    "title": "Consistent quality",
+                    "desc": "Controlled conditions, repeatable processes, less rework."
+                },
+                {
+                    "title": "No scaffolding",
+                    "desc": "Elements are set from the outside — no scaffolding, no access to flats."
+                },
+                {
+                    "title": "Fewer people on site",
+                    "desc": "The work moves into the factory — a small installation team is enough."
+                },
+                {
+                    "title": "Renovatable while occupied",
+                    "desc": "Tenants stay in their flats; disruption is limited to days rather than months."
+                },
+                {
+                    "title": "Short construction time",
+                    "desc": "A building with several stairwells in about 3–4 weeks instead of nearly a year."
+                }
+            ]
+        },
+        "install": {
+            "eyebrow": "On-site installation",
+            "h2": "Nine steps to the new envelope",
+            "steps": [
+                {
+                    "num": "1",
+                    "title": "3D scan",
+                    "desc": "Capture from the ground and by drone."
+                },
+                {
+                    "num": "2",
+                    "title": "BIM model",
+                    "desc": "The point cloud becomes a dimensionally accurate model."
+                },
+                {
+                    "num": "3",
+                    "title": "Preparation",
+                    "desc": "Brackets and base rails on the existing structure."
+                },
+                {
+                    "num": "4",
+                    "title": "Corner elements",
+                    "desc": "Setting the first elements at the building corners."
+                },
+                {
+                    "num": "5",
+                    "title": "Row installation",
+                    "desc": "Element by element, row by row."
+                },
+                {
+                    "num": "6",
+                    "title": "Full coverage",
+                    "desc": "The facade is completely covered with elements."
+                },
+                {
+                    "num": "7",
+                    "title": "Ventilation",
+                    "desc": "Connecting the ventilation ducts."
+                },
+                {
+                    "num": "8",
+                    "title": "Stairwell",
+                    "desc": "Installing the stairwell elements."
+                },
+                {
+                    "num": "9",
+                    "title": "Completion",
+                    "desc": "Joints, rainwater system, roof connection."
+                }
+            ]
+        },
+        "logistics": {
+            "eyebrow": "Logistics",
+            "h2": "From Estonia — within the EU",
+            "body": "Production at the factory in Kiili near Tallinn. As an EU member state there are no customs formalities; the routes across the Baltic Sea and overland are well established. Elements are sorted for installation and delivered just in time."
+        },
+        "quality": {
+            "eyebrow": "Quality & certification",
+            "items": [
+                "Quality management to ISO 9001",
+                "CE marking, European Technical Assessment (EOTA)",
+                "Ü-mark (declaration of conformity) for use in Germany",
+                "Member of the Estonian Woodhouse Association (Puitmajaliit)",
+                "Project-specific documentation to local requirements on request"
+            ],
+            "callout_label": "To be confirmed per project:",
+            "callout_text": "specific building-authority approvals and fire classification for the target country should be agreed with EstNor before a project starts."
+        },
+        "cta": {
+            "h2": "Discuss the element build-up for your project",
+            "body": "Send us the building type, year of construction and facade area — we'll estimate element types, production effort and delivery time.",
+            "button": "Contact EstNor"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Fassadenelemente von EstNor | EstNor",
+            "desc": "Aufbau, Vorfertigungsgrad und Montage der EstNor-Fassadenelemente: Holzrahmen, Dämmung, vormontierte Fenster, Lüftungsführung und fertige Fassadenoberfläche."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "parent_label": "Serielle Sanierung",
+            "label": "Fassadenelemente",
+            "eyebrow": "Das Produkt",
+            "h1": "Das Fassadenelement: eine fertige Wand statt vieler Einzelgewerke",
+            "lead": "Jedes Element ist eine tragfähige Holzrahmenkonstruktion, die im Werk zu rund 90 % fertiggestellt wird — gedämmt, mit Fenstern, Lüftungsführung und fertiger Oberfläche. Auf der Baustelle wird es nur noch gesetzt und angeschlossen."
+        },
+        "buildup": {
+            "h2": "Aufbau des Elements",
+            "items": [
+                "Tragende Holzrahmenkonstruktion, digital konstruiert nach BIM-Modell",
+                "Dämmung (Mineralwolle) im Element, wärmebrückenarm",
+                "Wind- und Dampfsperre, werkseitig verklebt",
+                "Energieeffiziente PVC-Fenster, fertig eingebaut und justiert",
+                "Lüftungskanäle nach Planung im Element geführt",
+                "Fassadenplatte / Bekleidung vormontiert — Oberfläche ab Werk"
+            ]
+        },
+        "prefab": {
+            "eyebrow": "Fertigungsgrad",
+            "h2": "Warum 90 % im Werk der entscheidende Punkt ist",
+            "cards": [
+                {
+                    "title": "Witterungsunabhängig",
+                    "desc": "Fertigung in der Halle — kein Baustopp bei Regen, Frost oder Wind."
+                },
+                {
+                    "title": "Gleichbleibende Qualität",
+                    "desc": "Kontrollierte Bedingungen, wiederholbare Prozesse, weniger Nacharbeit."
+                },
+                {
+                    "title": "Kein Gerüst",
+                    "desc": "Elemente werden von außen gesetzt — ohne Einrüstung, ohne Zugang zu Wohnungen."
+                },
+                {
+                    "title": "Weniger Personal vor Ort",
+                    "desc": "Die Arbeit verlagert sich ins Werk — ein kleines Montageteam genügt."
+                },
+                {
+                    "title": "Bewohnt sanierbar",
+                    "desc": "Mieter bleiben in der Wohnung; die Belastung ist auf Tage statt Monate begrenzt."
+                },
+                {
+                    "title": "Kurze Bauzeit",
+                    "desc": "Ein Gebäude mit mehreren Treppenhäusern in rund 3–4 Wochen statt fast einem Jahr."
+                }
+            ]
+        },
+        "install": {
+            "eyebrow": "Montage vor Ort",
+            "h2": "In neun Schritten zur neuen Hülle",
+            "steps": [
+                {
+                    "num": "1",
+                    "title": "3D-Scan",
+                    "desc": "Erfassung vom Boden und per Drohne."
+                },
+                {
+                    "num": "2",
+                    "title": "BIM-Modell",
+                    "desc": "Punktwolke wird zum maßhaltigen Modell."
+                },
+                {
+                    "num": "3",
+                    "title": "Vorbereitung",
+                    "desc": "Konsolen und Fußschwellen am Bestand."
+                },
+                {
+                    "num": "4",
+                    "title": "Eckelemente",
+                    "desc": "Setzen der ersten Elemente an den Gebäudeecken."
+                },
+                {
+                    "num": "5",
+                    "title": "Reihenmontage",
+                    "desc": "Element für Element, Reihe für Reihe."
+                },
+                {
+                    "num": "6",
+                    "title": "Vollflächig",
+                    "desc": "Die Fassade ist komplett mit Elementen bedeckt."
+                },
+                {
+                    "num": "7",
+                    "title": "Lüftung",
+                    "desc": "Anschluss der Lüftungsrohre."
+                },
+                {
+                    "num": "8",
+                    "title": "Treppenhaus",
+                    "desc": "Montage der Treppenhauselemente."
+                },
+                {
+                    "num": "9",
+                    "title": "Abschluss",
+                    "desc": "Fugen, Regenwassersystem, Dachanschluss."
+                }
+            ]
+        },
+        "logistics": {
+            "eyebrow": "Logistik",
+            "h2": "Aus Estland nach Deutschland — innerhalb der EU",
+            "body": "Produktion im Werk in Kiili bei Tallinn. Als EU-Mitgliedstaat entfallen Zollformalitäten; die Wege über die Ostsee und auf dem Landweg sind gut erschlossen. Elemente werden montagegerecht sortiert und just-in-time angeliefert."
+        },
+        "quality": {
+            "eyebrow": "Qualität & Nachweise",
+            "items": [
+                "Qualitätsmanagement nach ISO 9001",
+                "CE-Kennzeichnung, europäische technische Bewertung (EOTA)",
+                "Ü-Zeichen (Übereinstimmungszeichen) für den Einsatz in Deutschland",
+                "Mitglied im estnischen Holzhausverband (Puitmajaliit)",
+                "Projektbezogene Nachweise nach deutschen Anforderungen auf Anfrage"
+            ],
+            "callout_label": "Zu ergänzen:",
+            "callout_text": "konkrete bauaufsichtliche Nachweise / Zulassungen für den Einsatz in Deutschland (z. B. abZ/aBG, Brandschutzklassifizierung) vor Livegang mit EstNor abstimmen."
+        },
+        "cta": {
+            "h2": "Elementaufbau für Ihr Projekt durchsprechen",
+            "body": "Schicken Sie uns Gebäudetyp, Baujahr und Fassadenfläche — wir schätzen Elementtypen, Fertigungsaufwand und Lieferzeit ein.",
+            "button": "Kontakt aufnehmen"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Fasad- och takelement | EstNor",
+            "desc": "Uppbyggnad, förtillverkningsgrad och montage av EstNors fasadelement: trästomme, isolering, förmonterade fönster, ventilation och färdig fasadyta."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "parent_label": "Modernisering",
+            "label": "Fasad- och takelement",
+            "eyebrow": "Produkten",
+            "h1": "Fasadelementet: en färdig vägg istället för många separata hantverk",
+            "lead": "Varje element är en bärande trästommekonstruktion, färdigställd till cirka 90 % i fabriken — isolerad, med fönster, ventilation och färdig yta. På plats behöver den bara sättas på plats och anslutas."
+        },
+        "buildup": {
+            "h2": "Elementets uppbyggnad",
+            "items": [
+                "Bärande trästommekonstruktion, digitalt konstruerad från BIM-modellen",
+                "Isolering (mineralull) i elementet, med minimal köldbrygga",
+                "Vind- och ångspärr, fabrikslimmad",
+                "Energieffektiva PVC-fönster, helt monterade och injusterade",
+                "Ventilationskanaler dragna genom elementet enligt ritning",
+                "Fasadskiva/beklädnad förmonterad — yta färdigställd i fabriken"
+            ]
+        },
+        "prefab": {
+            "eyebrow": "Förtillverkningsgrad",
+            "h2": "Varför 90 % i fabriken är avgörande",
+            "cards": [
+                {
+                    "title": "Väderoberoende",
+                    "desc": "Tillverkning inomhus — inget stopp vid regn, frost eller blåst."
+                },
+                {
+                    "title": "Jämn kvalitet",
+                    "desc": "Kontrollerade förhållanden, repeterbara processer, mindre efterarbete."
+                },
+                {
+                    "title": "Ingen byggnadsställning",
+                    "desc": "Elementen sätts utifrån — utan ställning, utan tillträde till lägenheter."
+                },
+                {
+                    "title": "Mindre personal på plats",
+                    "desc": "Arbetet flyttas till fabriken — ett litet montageteam räcker."
+                },
+                {
+                    "title": "Renoveras med boende kvar",
+                    "desc": "Hyresgästerna stannar i lägenheten; störningen begränsas till dagar snarare än månader."
+                },
+                {
+                    "title": "Kort byggtid",
+                    "desc": "Ett hus med flera trapphus på cirka 3–4 veckor istället för nästan ett år."
+                }
+            ]
+        },
+        "install": {
+            "eyebrow": "Montage på plats",
+            "h2": "Nio steg till det nya klimatskalet",
+            "steps": [
+                {
+                    "num": "1",
+                    "title": "3D-skanning",
+                    "desc": "Insamling från marken och med drönare."
+                },
+                {
+                    "num": "2",
+                    "title": "BIM-modell",
+                    "desc": "Punktmolnet blir en måttriktig modell."
+                },
+                {
+                    "num": "3",
+                    "title": "Förberedelse",
+                    "desc": "Konsoler och grundsyllar på befintlig stomme."
+                },
+                {
+                    "num": "4",
+                    "title": "Hörnelement",
+                    "desc": "Första elementen sätts i byggnadens hörn."
+                },
+                {
+                    "num": "5",
+                    "title": "Radmontage",
+                    "desc": "Element för element, rad för rad."
+                },
+                {
+                    "num": "6",
+                    "title": "Heltäckande",
+                    "desc": "Fasaden är helt täckt med element."
+                },
+                {
+                    "num": "7",
+                    "title": "Ventilation",
+                    "desc": "Anslutning av ventilationskanaler."
+                },
+                {
+                    "num": "8",
+                    "title": "Trapphus",
+                    "desc": "Montage av trapphuselement."
+                },
+                {
+                    "num": "9",
+                    "title": "Avslutning",
+                    "desc": "Fogar, dagvattensystem, takanslutning."
+                }
+            ]
+        },
+        "logistics": {
+            "eyebrow": "Logistik",
+            "h2": "Från Estland — inom EU",
+            "body": "Produktion vid fabriken i Kiili nära Tallinn. Som EU-medlemsstat finns inga tullformaliteter; vägarna över Östersjön och landvägen är väl utbyggda. Elementen sorteras för montage och levereras just-in-time."
+        },
+        "quality": {
+            "eyebrow": "Kvalitet & certifiering",
+            "items": [
+                "Kvalitetsledning enligt ISO 9001",
+                "CE-märkning, europeisk teknisk bedömning (EOTA)",
+                "Medlem i Estniska Trähusförbundet",
+                "Projektspecifik dokumentation efter lokala krav på begäran"
+            ],
+            "callout_label": "Att bekräfta per projekt:",
+            "callout_text": "specifika byggmyndighetsgodkännanden och brandklassificering för målmarknaden bör stämmas av med EstNor innan ett projekt påbörjas."
+        },
+        "cta": {
+            "h2": "Diskutera elementuppbyggnaden för ert projekt",
+            "body": "Skicka byggnadstyp, byggår och fasadyta — vi uppskattar elementtyper, tillverkningsinsats och leveranstid.",
+            "button": "Kontakta oss"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Fasade- og takelementer | EstNor",
+            "desc": "Oppbygning, forhåndsproduksjonsgrad og montasje av EstNors fasadeelementer: trekonstruksjon, isolasjon, forhåndsmonterte vinduer, ventilasjon og ferdig fasadeoverflate."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "parent_label": "Modernisering",
+            "label": "Fasade- og takelementer",
+            "eyebrow": "Produktet",
+            "h1": "Fasadeelementet: en ferdig vegg i stedet for mange enkeltfag",
+            "lead": "Hvert element er en bærende trekonstruksjon, ferdigstilt til rundt 90 % i fabrikken — isolert, med vinduer, ventilasjon og ferdig overflate. På byggeplassen skal det bare settes på plass og tilkobles."
+        },
+        "buildup": {
+            "h2": "Elementets oppbygning",
+            "items": [
+                "Bærende trekonstruksjon, digitalt konstruert fra BIM-modellen",
+                "Isolasjon (mineralull) i elementet, med minimal kuldebro",
+                "Vind- og dampsperre, fabrikklimet",
+                "Energieffektive PVC-vinduer, ferdig montert og justert",
+                "Ventilasjonskanaler ført gjennom elementet etter plan",
+                "Fasadeplate/kledning forhåndsmontert — overflate ferdigstilt i fabrikken"
+            ]
+        },
+        "prefab": {
+            "eyebrow": "Forhåndsproduksjonsgrad",
+            "h2": "Hvorfor 90 % i fabrikken er avgjørende",
+            "cards": [
+                {
+                    "title": "Værbestandig",
+                    "desc": "Produksjon innendørs — ingen stopp ved regn, frost eller vind."
+                },
+                {
+                    "title": "Jevn kvalitet",
+                    "desc": "Kontrollerte forhold, repeterbare prosesser, mindre etterarbeid."
+                },
+                {
+                    "title": "Ikke stillas",
+                    "desc": "Elementene settes utenfra — uten stillas, uten tilgang til leiligheter."
+                },
+                {
+                    "title": "Mindre personell på stedet",
+                    "desc": "Arbeidet flyttes til fabrikken — et lite montasjeteam er nok."
+                },
+                {
+                    "title": "Rehabiliteres med beboere boende",
+                    "desc": "Leietakerne blir boende; belastningen begrenses til dager i stedet for måneder."
+                },
+                {
+                    "title": "Kort byggetid",
+                    "desc": "Et bygg med flere trappeoppganger på rundt 3–4 uker i stedet for nesten et år."
+                }
+            ]
+        },
+        "install": {
+            "eyebrow": "Montasje på stedet",
+            "h2": "Ni trinn til det nye klimaskallet",
+            "steps": [
+                {
+                    "num": "1",
+                    "title": "3D-skanning",
+                    "desc": "Innsamling fra bakken og med drone."
+                },
+                {
+                    "num": "2",
+                    "title": "BIM-modell",
+                    "desc": "Punktskyen blir en målnøyaktig modell."
+                },
+                {
+                    "num": "3",
+                    "title": "Forberedelse",
+                    "desc": "Konsoller og grunnsviller på eksisterende konstruksjon."
+                },
+                {
+                    "num": "4",
+                    "title": "Hjørneelementer",
+                    "desc": "De første elementene settes i byggets hjørner."
+                },
+                {
+                    "num": "5",
+                    "title": "Radmontasje",
+                    "desc": "Element for element, rad for rad."
+                },
+                {
+                    "num": "6",
+                    "title": "Full dekning",
+                    "desc": "Fasaden er helt dekket med elementer."
+                },
+                {
+                    "num": "7",
+                    "title": "Ventilasjon",
+                    "desc": "Tilkobling av ventilasjonskanaler."
+                },
+                {
+                    "num": "8",
+                    "title": "Trappeoppgang",
+                    "desc": "Montasje av trappeoppgangselementer."
+                },
+                {
+                    "num": "9",
+                    "title": "Avslutning",
+                    "desc": "Fuger, regnvannssystem, taktilkobling."
+                }
+            ]
+        },
+        "logistics": {
+            "eyebrow": "Logistikk",
+            "h2": "Fra Estland — innenfor EU",
+            "body": "Produksjon ved fabrikken i Kiili nær Tallinn. Som EU-medlemsstat bortfaller tollformaliteter; veiene over Østersjøen og på land er godt utbygd. Elementene sorteres for montasje og leveres just-in-time."
+        },
+        "quality": {
+            "eyebrow": "Kvalitet & dokumentasjon",
+            "items": [
+                "Kvalitetsstyring etter ISO 9001",
+                "CE-merking, europeisk teknisk vurdering (EOTA)",
+                "Medlem av Estisk Trehusforening",
+                "Prosjektspesifikk dokumentasjon etter norske krav på forespørsel"
+            ],
+            "callout_label": "Å bekrefte per prosjekt:",
+            "callout_text": "spesifikke godkjenninger fra bygningsmyndigheter og brannklassifisering for målmarkedet bør avklares med EstNor før et prosjekt starter."
+        },
+        "cta": {
+            "h2": "Diskuter elementoppbygningen for prosjektet ditt",
+            "body": "Send oss bygningstype, byggeår og fasadeareal — vi anslår elementtyper, produksjonsinnsats og leveringstid.",
+            "button": "Kontakt oss"
+        }
+    }
+}

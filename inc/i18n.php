@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/db.php';
+
 /**
  * inc/i18n.php — language detection for estnor.ee (concept).
  *
@@ -93,10 +95,9 @@ $LANG_HOME = [
     'nb' => '/nb/index.php',
 ];
 
-/** Load a language's string table (nav/footer/home/...). */
-function load_lang(string $code): array {
-    return require __DIR__ . "/../lang/{$code}.php";
-}
+// load_lang() and load_page() now live in inc/db.php — every page's
+// content (site chrome + page body alike) comes from the database, not
+// per-language PHP files. See db/schema.sql and db/migrate.php.
 
 /** aria-current="page" helper for the top-level nav item matching $active. */
 function nav_active(string $key, string $active): string {

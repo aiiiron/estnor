@@ -1,0 +1,6 @@
+# Real DB credentials — copy config.example.php to config.php and fill in.
+/config.php
+
+# Local SQLite dev database (see config.example.php).
+/db/dev.sqlite
+/db/*.sqlite

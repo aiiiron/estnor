@@ -1,0 +1,467 @@
+{
+    "et": {
+        "meta": {
+            "title": "Tehaseline renoveerimine | EstNor",
+            "desc": "EstNor toodab soojustatud fassaadielemente kortermajade tehaseliseks renoveerimiseks — esimene ja suurim tootja KredEx pilootprogrammis."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "label": "Tehaseline renoveerimine",
+            "eyebrow": "Tehaseline rekonstrueerimine",
+            "h1_line1": "Uue ajastu rekonstrueerimine",
+            "h1_accent": "tehases toodetud soojustatud elementidega.",
+            "lead": "Fassaadielementide tootmisel tugineb EstNor ulatuslikule teadmistepagasile ja aastakümnete pikkusele kogemusele, pakkudes parimat kompetentsi hoonete energiatõhususe tõstmisel.",
+            "cta_primary": "Võta ühendust",
+            "cta_secondary": "Fassaadielemendist lähemalt"
+        },
+        "why_left": {
+            "h2": "Miks tehases toodetud elemendid",
+            "items": [
+                "90% fassaaditöödest teostatakse tehases, kontrollitud keskkonnas",
+                "Eeltoodetud elemendid tõstavad objektitöö efektiivsust",
+                "Objektitöö on tellingutevaba",
+                "Elanikele ohutu ja mugav renoveerimisviis",
+                "Lahendus vastab tuleohutusnõuetele"
+            ]
+        },
+        "why_right": {
+            "h2": "EstNor pakub",
+            "items": [
+                "Maja mõõdistamine ja kinnituste tõmbetugevuse katsetused",
+                "Konstruktiivne projekteerimine (BIM-mudel)",
+                "Elementide tehaseline tootmine",
+                "Ventilatsioonikanalite paigaldus elementidesse tehases",
+                "Transport tehasest ehitusobjektile",
+                "Elementide montaaž ning montaaži eel- ja järeltööd objektil"
+            ]
+        },
+        "steps": {
+            "eyebrow": "Nii see käib",
+            "h2": "Hoone skaneerimisest paigaldatud fassaadini",
+            "items": [
+                {
+                    "title": "Skaneerimine",
+                    "desc": "Vana maja 3D-skaneeritakse maapinnalt ja drooniga — tulemuseks detailne punktipilv."
+                },
+                {
+                    "title": "Modelleerimine",
+                    "desc": "Punktipilvest valmib BIM-mudel, mille põhjal projekteeritakse uued fassaadielemendid."
+                },
+                {
+                    "title": "Ettevalmistus ja nurgaelemendid",
+                    "desc": "Paigaldatakse kronsteinid ja alusvöö, seejärel esimesed elemendid maja nurkadesse."
+                },
+                {
+                    "title": "Paigaldus ja viimistlus",
+                    "desc": "Elemendid paigaldatakse rida-realt, seejärel ventilatsioon, trepikoda, vihmaveesüsteem ja katuseühendus."
+                }
+            ]
+        },
+        "funding_left": {
+            "eyebrow": "KredEx rekonstrueerimistoetus 2022–2027",
+            "h2": "Riiklik toetusmeede",
+            "p1": "KredEx toetusmeetme eesmärk on rahastada korterelamute terviklikku rekonstrueerimist või küttesüsteemi asendamist taastuvenergial põhineva lahendusega. Rohkem infot: KredEx.ee.",
+            "p2": "Esimeses KredEx pilootprojektis (2022) osales EstNor väga edukalt, kindlustades 12 kortermaja fassaadielementide tootmise — kõik toodetud puitkonstruktsioonile, soojustusvillaga, uute PVC akendega ja tehases juba paigaldatud fassaadiviimistlusega. EstNor on selles programmis esimene ja mahult suurim tootja."
+        },
+        "funding_right": {
+            "eyebrow": "Kiirus, mis loeb",
+            "h2": "3–4 nädalat, mitte peaaegu aasta",
+            "p": "Kui 5-korruselise ja 5 trepikojaga maja soojustamine objektil vahtpolüstürooliga võib kesta peaaegu aasta, katab meie tehases toodetud fassaadielementidega maja fassaadi vaid 3–4 nädalaga. Tellinguid ei ole vaja — need piiraksid elanike väljavaadet aknast ja kujutaksid endast turvariski kogu renoveerimise vältel.",
+            "callout_label": "Tulemus:",
+            "callout_text": "vanade kortermajade energiatõhusus paraneb kiiresti, ehitusaeg lüheneb ja hoone kasutusiga pikeneb."
+        },
+        "explore": {
+            "eyebrow": "Rohkem infot",
+            "h2": "Uuri lähemalt",
+            "cards": [
+                {
+                    "title": "Fassaadielement",
+                    "desc": "Kuidas fassaadielement üles ehitatud on — mõõdistamisest kuni valmis viimistluseni.",
+                    "href": "facade-elements.php"
+                },
+                {
+                    "title": "Tehtud projektid",
+                    "desc": "KredEx programmi raames renoveeritud 12 kortermaja üle Eesti.",
+                    "href": "references.php"
+                }
+            ]
+        },
+        "cta": {
+            "h2": "Plaanid kortermaja renoveerimist?",
+            "body": "Saada meile maja põhiandmed — ehitusaasta, korterite arv, fassaadipind — ja saad esmase hinnangu elementide tootmise kohta.",
+            "button": "Võta ühendust"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Serial Renovation — EstNor",
+            "desc": "Serial renovation explained: EstNor manufactures insulated facade elements for the factory-based renovation of apartment buildings — the first and largest manufacturer in the KredEx pilot programme."
+        },
+        "hero": {
+            "crumb": "Home",
+            "label": "Serial Renovation",
+            "eyebrow": "Factory reconstruction",
+            "h1_line1": "A new era of reconstruction",
+            "h1_accent": "with factory-built insulated elements.",
+            "lead": "In manufacturing facade elements, EstNor draws on extensive know-how and decades of experience, offering the best expertise for raising a building's energy efficiency.",
+            "cta_primary": "Contact EstNor",
+            "cta_secondary": "See the facade element"
+        },
+        "why_left": {
+            "h2": "Why factory-built elements",
+            "items": [
+                "90% of facade work is carried out in the factory, in a controlled environment",
+                "Prefabricated elements make on-site work far more efficient",
+                "On-site work requires no scaffolding",
+                "A safe, convenient renovation method for residents",
+                "The solution meets fire-safety requirements"
+            ]
+        },
+        "why_right": {
+            "h2": "What EstNor provides",
+            "items": [
+                "Building survey and pull-out strength testing of fixings",
+                "Structural design (BIM model)",
+                "Factory production of the elements",
+                "Ventilation ducting installed into the elements at the factory",
+                "Transport from the factory to the building site",
+                "Installation of the elements, plus preparatory and follow-up work on site"
+            ]
+        },
+        "steps": {
+            "eyebrow": "How it works",
+            "h2": "From building scan to installed facade",
+            "items": [
+                {
+                    "title": "Scanning",
+                    "desc": "The existing building is 3D-scanned from the ground and by drone — producing a detailed point cloud."
+                },
+                {
+                    "title": "Modelling",
+                    "desc": "A BIM model is built from the point cloud, on which the new facade elements are designed."
+                },
+                {
+                    "title": "Preparation & corner elements",
+                    "desc": "Brackets and a base rail are installed, then the first elements go up at the building's corners."
+                },
+                {
+                    "title": "Installation & finishing",
+                    "desc": "Elements are installed row by row, then ventilation, the stairwell, the rainwater system and the roof junction."
+                }
+            ]
+        },
+        "funding_left": {
+            "eyebrow": "KredEx reconstruction grant 2022–2027",
+            "h2": "A state funding scheme",
+            "p1": "The KredEx grant scheme funds the comprehensive reconstruction of apartment buildings or the replacement of heating systems with a renewable-energy solution. More information: KredEx.ee.",
+            "p2": "EstNor took part very successfully in the first KredEx pilot project (2022), securing the production of facade elements for 12 apartment buildings — all built on a timber frame, with mineral wool insulation, new PVC windows and the facade finish already applied at the factory. EstNor is the first and largest-volume manufacturer in this programme."
+        },
+        "funding_right": {
+            "eyebrow": "Speed that matters",
+            "h2": "3–4 weeks, not almost a year",
+            "p": "While insulating a 5-storey, 5-stairwell building on site with expanded polystyrene can take almost a year, our factory-built facade elements cover the same building's facade in just 3–4 weeks. No scaffolding is needed — it would block residents' view from their windows and pose a safety risk for the whole renovation.",
+            "callout_label": "Result:",
+            "callout_text": "old apartment buildings gain energy efficiency quickly, construction time shortens, and the building's service life is extended."
+        },
+        "explore": {
+            "eyebrow": "Learn more",
+            "h2": "Explore further",
+            "cards": [
+                {
+                    "title": "Facade Elements",
+                    "desc": "How the facade element is built — from survey to finished surface.",
+                    "href": "facade-elements.php"
+                },
+                {
+                    "title": "Completed Projects",
+                    "desc": "12 apartment buildings renovated across Estonia under the KredEx programme.",
+                    "href": "references.php"
+                }
+            ]
+        },
+        "cta": {
+            "h2": "Planning to renovate an apartment building?",
+            "body": "Send us your building's key facts — construction year, number of apartments, facade area — and we'll get back to you with an initial assessment.",
+            "button": "Contact EstNor"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Tehaseline renoveerimine | EstNor",
+            "desc": "Serielle Sanierung: EstNor fertigt gedämmte Fassadenelemente für die werksseitige Sanierung von Mehrfamilienhäusern — erster und größter Hersteller im KredEx-Pilotprogramm."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "label": "Serielle Sanierung",
+            "eyebrow": "Werksseitige Sanierung",
+            "h1_line1": "Sanierung einer neuen Ära",
+            "h1_accent": "mit im Werk gefertigten, gedämmten Elementen.",
+            "lead": "Bei der Fertigung von Fassadenelementen stützt sich EstNor auf umfassendes Fachwissen und jahrzehntelange Erfahrung und bietet beste Kompetenz zur Steigerung der Energieeffizienz von Gebäuden.",
+            "cta_primary": "Kontakt aufnehmen",
+            "cta_secondary": "Fassadenelement ansehen"
+        },
+        "why_left": {
+            "h2": "Warum werksgefertigte Elemente",
+            "items": [
+                "90 % der Fassadenarbeiten erfolgen im Werk, unter kontrollierten Bedingungen",
+                "Vorgefertigte Elemente steigern die Effizienz der Arbeiten vor Ort",
+                "Die Arbeiten vor Ort kommen ohne Gerüst aus",
+                "Eine für Bewohner sichere und angenehme Sanierungsmethode",
+                "Die Lösung erfüllt die Brandschutzanforderungen"
+            ]
+        },
+        "why_right": {
+            "h2": "Das bietet EstNor",
+            "items": [
+                "Gebäudevermessung und Auszugsfestigkeitsprüfungen der Befestigungen",
+                "Konstruktive Planung (BIM-Modell)",
+                "Werksseitige Fertigung der Elemente",
+                "Lüftungskanäle bereits im Werk in die Elemente eingebaut",
+                "Transport vom Werk zur Baustelle",
+                "Montage der Elemente sowie Vor- und Nacharbeiten vor Ort"
+            ]
+        },
+        "steps": {
+            "eyebrow": "So funktioniert es",
+            "h2": "Vom Gebäudescan zur montierten Fassade",
+            "items": [
+                {
+                    "title": "Scan",
+                    "desc": "Das Bestandsgebäude wird vom Boden und per Drohne 3D-gescannt — Ergebnis ist eine detaillierte Punktwolke."
+                },
+                {
+                    "title": "Modellierung",
+                    "desc": "Aus der Punktwolke entsteht ein BIM-Modell, auf dessen Grundlage die neuen Fassadenelemente geplant werden."
+                },
+                {
+                    "title": "Vorbereitung & Eckelemente",
+                    "desc": "Konsolen und Grundschiene werden montiert, danach die ersten Elemente an den Gebäudeecken."
+                },
+                {
+                    "title": "Montage & Fertigstellung",
+                    "desc": "Die Elemente werden Reihe für Reihe montiert, danach Lüftung, Treppenhaus, Regenwassersystem und Dachanschluss."
+                }
+            ]
+        },
+        "funding_left": {
+            "eyebrow": "KredEx-Sanierungsförderung 2022–2027",
+            "h2": "Ein staatliches Förderprogramm",
+            "p1": "Das KredEx-Förderprogramm finanziert die umfassende Sanierung von Mehrfamilienhäusern oder den Austausch der Heizungsanlage gegen eine Lösung auf Basis erneuerbarer Energie. Weitere Informationen: KredEx.ee.",
+            "p2": "Am ersten KredEx-Pilotprojekt (2022) nahm EstNor sehr erfolgreich teil und sicherte sich die Fertigung der Fassadenelemente für 12 Mehrfamilienhäuser — alle auf Holzrahmenbasis, mit Mineralwolldämmung, neuen PVC-Fenstern und bereits im Werk aufgebrachter Fassadenoberfläche. EstNor ist in diesem Programm der erste und volumenmäßig größte Hersteller."
+        },
+        "funding_right": {
+            "eyebrow": "Geschwindigkeit, die zählt",
+            "h2": "3–4 Wochen statt fast einem Jahr",
+            "p": "Während die Dämmung eines fünfgeschossigen Gebäudes mit fünf Treppenhäusern vor Ort mit EPS fast ein Jahr dauern kann, verkleidet unser werksgefertigtes Fassadenelement dieselbe Fassade in nur 3–4 Wochen. Ein Gerüst ist nicht nötig — es würde den Bewohnern die Aussicht nehmen und während der gesamten Sanierung ein Sicherheitsrisiko darstellen.",
+            "callout_label": "Ergebnis:",
+            "callout_text": "Alte Mehrfamilienhäuser gewinnen schnell an Energieeffizienz, die Bauzeit verkürzt sich, und die Nutzungsdauer des Gebäudes verlängert sich."
+        },
+        "explore": {
+            "eyebrow": "Mehr erfahren",
+            "h2": "Weiter erkunden",
+            "cards": [
+                {
+                    "title": "Fassadenelemente",
+                    "desc": "Wie das Fassadenelement aufgebaut ist — von der Vermessung bis zur fertigen Oberfläche.",
+                    "href": "facade-elements.php"
+                },
+                {
+                    "title": "Abgeschlossene Projekte",
+                    "desc": "12 im Rahmen des KredEx-Programms sanierte Mehrfamilienhäuser in ganz Estland.",
+                    "href": "references.php"
+                }
+            ]
+        },
+        "cta": {
+            "h2": "Planen Sie die Sanierung eines Mehrfamilienhauses?",
+            "body": "Schicken Sie uns die wichtigsten Eckdaten Ihres Gebäudes — Baujahr, Anzahl der Wohnungen, Fassadenfläche — und Sie erhalten eine erste Einschätzung.",
+            "button": "Kontakt aufnehmen"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Modernisering av flerbostadshus | EstNor",
+            "desc": "EstNor tillverkar isolerade fasadelement för fabriksbaserad modernisering av flerbostadshus — första och största tillverkaren i KredEx pilotprogram."
+        },
+        "hero": {
+            "crumb": "Startsida",
+            "label": "Modernisering av flerbostadshus",
+            "eyebrow": "Fabriksbaserad renovering",
+            "h1_line1": "Renovering för en ny era",
+            "h1_accent": "med fabrikstillverkade isolerade element.",
+            "lead": "Vid tillverkningen av fasadelement bygger EstNor på omfattande kunskap och decennier av erfarenhet, och erbjuder bästa kompetens för att höja byggnaders energieffektivitet.",
+            "cta_primary": "Kontakta oss",
+            "cta_secondary": "Se fasadelementet"
+        },
+        "why_left": {
+            "h2": "Varför fabrikstillverkade element",
+            "items": [
+                "90 % av fasadarbetet utförs i fabriken, i en kontrollerad miljö",
+                "Förtillverkade element gör arbetet på plats betydligt effektivare",
+                "Arbetet på plats kräver ingen byggnadsställning",
+                "Ett tryggt och bekvämt renoveringssätt för de boende",
+                "Lösningen uppfyller brandsäkerhetskraven"
+            ]
+        },
+        "why_right": {
+            "h2": "EstNor erbjuder",
+            "items": [
+                "Mätning av byggnaden och utdragsprovning av infästningar",
+                "Konstruktionsprojektering (BIM-modell)",
+                "Fabrikstillverkning av elementen",
+                "Ventilationskanaler monterade i elementen redan i fabriken",
+                "Transport från fabriken till byggplatsen",
+                "Montage av elementen samt för- och efterarbete på plats"
+            ]
+        },
+        "steps": {
+            "eyebrow": "Så här fungerar det",
+            "h2": "Från byggnadsskanning till monterad fasad",
+            "items": [
+                {
+                    "title": "Skanning",
+                    "desc": "Den befintliga byggnaden 3D-skannas från marken och med drönare — resultatet är ett detaljerat punktmoln."
+                },
+                {
+                    "title": "Modellering",
+                    "desc": "En BIM-modell skapas från punktmolnet, som ligger till grund för de nya fasadelementen."
+                },
+                {
+                    "title": "Förberedelse & hörnelement",
+                    "desc": "Konsoler och en bottenskena monteras, därefter de första elementen i byggnadens hörn."
+                },
+                {
+                    "title": "Montage & färdigställande",
+                    "desc": "Elementen monteras rad för rad, därefter ventilation, trapphus, dagvattensystem och takanslutning."
+                }
+            ]
+        },
+        "funding_left": {
+            "eyebrow": "KredEx renoveringsstöd 2022–2027",
+            "h2": "Ett statligt stödprogram",
+            "p1": "KredEx stödprogram finansierar en omfattande renovering av flerbostadshus eller byte av uppvärmningssystem till en lösning baserad på förnybar energi. Mer information: KredEx.ee.",
+            "p2": "EstNor deltog mycket framgångsrikt i det första KredEx-pilotprojektet (2022) och säkrade tillverkningen av fasadelement till 12 flerbostadshus — alla byggda på trästomme, med mineralullsisolering, nya PVC-fönster och fasadytan redan applicerad i fabriken. EstNor är den första och volymmässigt största tillverkaren i programmet."
+        },
+        "funding_right": {
+            "eyebrow": "Hastighet som räknas",
+            "h2": "3–4 veckor, inte nästan ett år",
+            "p": "Medan isolering av en 5-våningsbyggnad med 5 trapphus på plats med cellplast kan ta nästan ett år, klär vårt fabrikstillverkade fasadelement samma byggnads fasad på bara 3–4 veckor. Ingen byggnadsställning behövs — den skulle blockera de boendes utsikt och utgöra en säkerhetsrisk under hela renoveringen.",
+            "callout_label": "Resultat:",
+            "callout_text": "gamla flerbostadshus får snabbt bättre energieffektivitet, byggtiden kortas och byggnadens livslängd förlängs."
+        },
+        "explore": {
+            "eyebrow": "Läs mer",
+            "h2": "Utforska vidare",
+            "cards": [
+                {
+                    "title": "Fasad- och takelement",
+                    "desc": "Hur fasadelementet är uppbyggt — från mätning till färdig yta.",
+                    "href": "facade-elements.php"
+                },
+                {
+                    "title": "Genomförda projekt",
+                    "desc": "12 flerbostadshus renoverade runt om i Estland inom ramen för KredEx-programmet.",
+                    "href": "references.php"
+                }
+            ]
+        },
+        "cta": {
+            "h2": "Planerar du att renovera ett flerbostadshus?",
+            "body": "Skicka oss byggnadens nyckeldata — byggår, antal lägenheter, fasadyta — så återkommer vi med en första bedömning.",
+            "button": "Kontakta oss"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Modernisering av leilighetsbygg | EstNor",
+            "desc": "EstNor produserer isolerte fasadeelementer for fabrikkbasert modernisering av leilighetsbygg — første og største produsent i KredEx pilotprogram."
+        },
+        "hero": {
+            "crumb": "Forsiden",
+            "label": "Modernisering av leilighetsbygg",
+            "eyebrow": "Fabrikkbasert rehabilitering",
+            "h1_line1": "Rehabilitering for en ny æra",
+            "h1_accent": "med fabrikkproduserte isolerte elementer.",
+            "lead": "I produksjonen av fasadeelementer bygger EstNor på omfattende kunnskap og tiår med erfaring, og tilbyr den beste kompetansen for å heve bygningers energieffektivitet.",
+            "cta_primary": "Kontakt oss",
+            "cta_secondary": "Se fasadeelementet"
+        },
+        "why_left": {
+            "h2": "Hvorfor fabrikkproduserte elementer",
+            "items": [
+                "90 % av fasadearbeidet utføres i fabrikken, i et kontrollert miljø",
+                "Prefabrikkerte elementer gjør arbeidet på byggeplassen langt mer effektivt",
+                "Arbeidet på byggeplassen krever ikke stillas",
+                "En trygg og bekvem rehabiliteringsmetode for beboerne",
+                "Løsningen oppfyller brannsikkerhetskravene"
+            ]
+        },
+        "why_right": {
+            "h2": "EstNor tilbyr",
+            "items": [
+                "Oppmåling av bygget og utrivingstesting av festeanordninger",
+                "Konstruktiv prosjektering (BIM-modell)",
+                "Fabrikkproduksjon av elementene",
+                "Ventilasjonskanaler montert i elementene allerede i fabrikken",
+                "Transport fra fabrikken til byggeplassen",
+                "Montasje av elementene samt for- og etterarbeid på stedet"
+            ]
+        },
+        "steps": {
+            "eyebrow": "Slik fungerer det",
+            "h2": "Fra bygningsskanning til montert fasade",
+            "items": [
+                {
+                    "title": "Skanning",
+                    "desc": "Det eksisterende bygget 3D-skannes fra bakken og med drone — resultatet er en detaljert punktsky."
+                },
+                {
+                    "title": "Modellering",
+                    "desc": "En BIM-modell lages fra punktskyen, som de nye fasadeelementene prosjekteres etter."
+                },
+                {
+                    "title": "Forberedelse & hjørneelementer",
+                    "desc": "Konsoller og grunnskinne monteres, deretter de første elementene i bygningens hjørner."
+                },
+                {
+                    "title": "Montasje & ferdigstillelse",
+                    "desc": "Elementene monteres rad for rad, deretter ventilasjon, trapperom, regnvannssystem og takforbindelse."
+                }
+            ]
+        },
+        "funding_left": {
+            "eyebrow": "KredEx rehabiliteringsstøtte 2022–2027",
+            "h2": "En statlig støtteordning",
+            "p1": "KredEx-støtteordningen finansierer en helhetlig rehabilitering av leilighetsbygg eller utskifting av oppvarmingssystemet til en løsning basert på fornybar energi. Mer informasjon: KredEx.ee.",
+            "p2": "EstNor deltok svært vellykket i det første KredEx-pilotprosjektet (2022) og sikret produksjonen av fasadeelementer for 12 leilighetsbygg — alle bygget på trekonstruksjon, med mineralullisolasjon, nye PVC-vinduer og fasadeoverflaten allerede påført i fabrikken. EstNor er den første og volummessig største produsenten i programmet."
+        },
+        "funding_right": {
+            "eyebrow": "Hastighet som teller",
+            "h2": "3–4 uker, ikke nesten et år",
+            "p": "Mens isolering av et 5-etasjers bygg med 5 oppganger på stedet med ekspandert polystyren kan ta nesten et år, kler vårt fabrikkproduserte fasadeelement samme bygnings fasade på bare 3–4 uker. Stillas er ikke nødvendig — det ville blokkert beboernes utsikt og utgjort en sikkerhetsrisiko gjennom hele rehabiliteringen.",
+            "callout_label": "Resultat:",
+            "callout_text": "gamle leilighetsbygg får raskt bedre energieffektivitet, byggetiden forkortes, og bygningens levetid forlenges."
+        },
+        "explore": {
+            "eyebrow": "Les mer",
+            "h2": "Utforsk videre",
+            "cards": [
+                {
+                    "title": "Fasade- og takelementer",
+                    "desc": "Hvordan fasadeelementet er bygd opp — fra oppmåling til ferdig overflate.",
+                    "href": "facade-elements.php"
+                },
+                {
+                    "title": "Gjennomførte prosjekter",
+                    "desc": "12 leilighetsbygg rehabilitert over hele Estland gjennom KredEx-programmet.",
+                    "href": "references.php"
+                }
+            ]
+        },
+        "cta": {
+            "h2": "Planlegger du å rehabilitere et leilighetsbygg?",
+            "body": "Send oss nøkkeltallene for bygget — byggeår, antall leiligheter, fasadeareal — så kommer vi tilbake med en første vurdering.",
+            "button": "Kontakt oss"
+        }
+    }
+}
