@@ -41,7 +41,7 @@ $asset_v = '20260909a'; // bump on CSS/JS changes to bust the cache
       <span class="brand-caption"><?= e($T['brand_caption']) ?></span>
     </a>
     <div class="bar-right">
-      <div class="lang-switch" role="group" aria-label="Choose language">
+      <div id="lang-switch-bar" class="lang-switch" role="group" aria-label="Choose language">
 <?php foreach ($LANG_HOME as $code => $href): ?>
         <a href="<?= e($href) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a>
 <?php endforeach; ?>
@@ -63,6 +63,11 @@ $asset_v = '20260909a'; // bump on CSS/JS changes to bust the cache
           </li>
 <?php endforeach; ?>
         </ul>
+        <div id="lang-switch-nav" class="lang-switch" role="group" aria-label="Choose language">
+<?php foreach ($LANG_HOME as $code => $href): ?>
+          <a href="<?= e($href) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a>
+<?php endforeach; ?>
+        </div>
       </nav>
     </div>
   </div>

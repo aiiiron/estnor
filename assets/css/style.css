@@ -136,6 +136,10 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   gap: clamp(2rem, 5vw, 3.5rem);
   align-items: start;
 }
+/* Grid items don't shrink below their content's intrinsic size by default
+   — a replaced element like the contact-page map <iframe> can otherwise
+   force its whole column (and the page) wider than the viewport. */
+.split > * { min-width: 0; }
 @media (max-width: 860px) { .split { grid-template-columns: 1fr; } }
 
 .stack-sm > * + * { margin-top: .6rem; }
@@ -213,7 +217,12 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 .lang-switch a + a { border-left: 1px solid var(--line); }
 .lang-switch a:hover { color: var(--spruce-deep); background: var(--spruce-tint); }
 .lang-switch a[aria-current="true"] { background: var(--spruce); color: #fff; }
-@media (max-width: 1120px) { .lang-switch { margin-top: .25rem; } }
+
+/* Two copies of the language switcher exist (see partials/head.php): one
+   in the header bar for desktop, one inside the mobile nav drawer — only
+   one is ever visible at a time, so the 5-language pill row never has to
+   compete with the logo and burger for space on a phone-width screen. */
+#lang-switch-nav { display: none; }
 
 .nav-burger { display: none; }
 @media (max-width: 1120px) {
@@ -235,6 +244,15 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   .nav ul { flex-direction: column; gap: 1rem; }
   .nav a { font-size: 1.06rem; }
   .nav-toggle:checked ~ .nav { transform: translateY(0); opacity: 1; pointer-events: auto; }
+
+  /* Move the language switcher out of the header bar (no room next to the
+     logo + burger on a phone) and into the mobile nav drawer instead. */
+  #lang-switch-bar { display: none; }
+  #lang-switch-nav { display: inline-flex; margin-top: 1.5rem; }
+
+  /* Let a long tagline wrap instead of forcing the header wider than the
+     viewport (the base rule keeps it on one line on desktop, on purpose). */
+  .brand-caption { white-space: normal; max-width: 58vw; }
 
   /* On mobile the dropdown becomes a static indented list, no hover needed */
   .submenu {
@@ -428,6 +446,7 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 
 /* Contact form */
 .contact-form { display: grid; gap: 1.05rem; margin-top: 1.4rem; }
+.contact-form, .contact-form label, .contact-form select { min-width: 0; width: 100%; } /* a <select>'s widest <option> (varies by language) shouldn't force this grid wider */
 .contact-form label { display: grid; gap: .35rem; font-size: .86rem; font-weight: 600; color: var(--ink-soft); }
 .contact-form input, .contact-form textarea, .contact-form select {
   font: inherit; padding: .72em .9em;
