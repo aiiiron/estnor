@@ -45,10 +45,26 @@ assets/js/main.js              Mobile nav, scroll-reveal, header shadow
 assets/img/                    Logo mark & favicon (SVG)
 ```
 
-Plain HTML/CSS/JS — no build step. Serve locally with any static server, e.g.:
+Plain HTML/CSS/JS — no build step. All internal links and asset references
+use relative paths, so the site works both at a domain root and under a
+project subpath (e.g. GitHub Pages' `/estnor/`). Serve locally with any
+static server, e.g.:
 
 ```
 python3 -m http.server 8000
 ```
 
 then open `http://localhost:8000/`.
+
+## Deployment (GitHub Pages)
+
+A workflow at `.github/workflows/deploy-pages.yml` publishes this site to
+GitHub Pages on every push to `main` or `claude/estnor-website-clone-ayyetv`
+(and can be run manually via **Actions → Deploy to GitHub Pages → Run
+workflow**). It uploads the repo root as the Pages artifact — no build step
+required.
+
+**One-time setup** (repo admin, do this once): go to
+**Settings → Pages** and set **Source** to **GitHub Actions**. After that,
+the workflow deploys automatically on every push, and the Pages URL shown
+there (typically `https://<owner>.github.io/<repo>/`) stays up to date.
