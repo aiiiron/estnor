@@ -208,6 +208,13 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 .submenu li a { display: block; padding: .6em .75em; border-radius: var(--r-sm); font-size: .89rem; }
 .submenu li a:hover { background: var(--spruce-tint); color: var(--spruce-deep); }
 
+.lang-switch { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); flex-shrink: 0; }
+.lang-switch a { font-family: var(--font-display); font-size: .78rem; font-weight: 600; letter-spacing: .02em; text-decoration: none; color: var(--ink-soft); padding: .34em .68em; line-height: 1; }
+.lang-switch a + a { border-left: 1px solid var(--line); }
+.lang-switch a:hover { color: var(--spruce-deep); background: var(--spruce-tint); }
+.lang-switch a[aria-current="true"] { background: var(--spruce); color: #fff; }
+@media (max-width: 1120px) { .lang-switch { margin-top: .25rem; } }
+
 .nav-burger { display: none; }
 @media (max-width: 1120px) {
   .nav-burger {

@@ -1,0 +1,10 @@
+# Not public — only PHP's require()/include() should read these files.
+# PHP's own include() calls are unaffected by this; it only blocks direct
+# HTTP requests like https://example.com/inc/site.php.
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order allow,deny
+  Deny from all
+</IfModule>

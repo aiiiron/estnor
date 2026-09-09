@@ -1,85 +1,71 @@
-# EstNor — site concept
+# EstNor — multilingual site concept
 
-A static clone of the **EstNor** (estnor.ee) site structure and content:
-EstNor OÜ is an Estonian manufacturer of prefabricated element and modular
-timber houses, and of prefabricated facade elements for **serial renovation**,
-founded in 2000 in Kiili, Harju County, exporting mainly to Norway, Sweden,
-Estonia and the DACH region.
+A clone of **EstNor** (estnor.ee) — a prefabricated timber-house and
+facade-element manufacturer in Kiili, Estonia (est. 2000) — rebuilt on a
+modern, fast PHP stack in place of the original WordPress site.
 
-## Design system
+## Deployment
 
-The visual design is ported from **seriell-sanierung.de** — EstNor's own
-German-market marketing site for serial facade renovation
-(`github.com/aiiiron/seriell-sanierung`) — so the whole site shares one
-look: the same colour tokens (deep spruce green `#1f4d3a`, warm ochre accent
-`#dd8a2c`, warm paper background), the same type pairing (Bricolage
-Grotesque for display, Inter for body text, an italic EB Garamond accent in
-hero titles), and the same component set (`.wrap`, `.section`/`--alt`/`--tint`/
-`--dark`, `.card`, `.steps`, `.check`, `.buildup`, `.panel-stack`,
-`.project-card`, `.cta-band`, `.contact-dl`/`.contact-form`, `.foot-grid`,
-the checkbox-only mobile nav). `assets/css/style.css` documents this in
-full; a short "EstNor extensions" section at the bottom adds the few
-components that site didn't need (dropdown sub-nav, breadcrumbs, a history
-timeline, the image gallery) in the same token system.
+This repo is pulled directly by a **Hostinger** hosting account (the same
+git-based auto-deploy pattern used for `ajaraamat.ee`), which executes the
+`.php` files server-side. There is no build step and no database — pages
+render on request from plain PHP arrays.
 
-The real EstNor logo (`assets/img/estnor-logo-rgb.png` /
-`logo-mono-white-small.png`) and the real hero photograph
-(`assets/img/hero.jpg` / `.webp`) are copied from that same repo — both are
-genuine EstNor marketing assets, not recreations.
+## Multilingual architecture
 
-**Furniture and handcrafted log houses have been dropped** from this site
-(per request) — EstNor's product range here is Element Houses, Modular
-Houses, and Serial Renovation facade elements.
+Real content in 5 languages (Estonian, English, German, Swedish,
+Norwegian) was extracted from a `wget` mirror of the live estnor.ee site —
+see `content/extracted/README.md` for how, and its per-language JSON for
+the raw source text.
+
+- **Estonian lives at the root** (`/`), matching the real site's own
+  convention; **English, German, Swedish and Norwegian each get their own
+  folder** (`/en/`, `/de/`, `/sv/`, `/nb/`) — matching estnor.ee's actual
+  URL scheme found in its sitemap, so links stay meaningful and shareable
+  per language.
+- **`inc/i18n.php`** resolves language *only at the root URL*: explicit
+  `?lang=` → remembered `lang` cookie → the browser's `Accept-Language`
+  header → English if nothing matches. It then 302-redirects into the
+  right language folder and sets the cookie so the choice sticks for a
+  year. Every other URL is an explicit choice and is never redirected.
+- **`lang/<code>.php`** returns one array per language: nav labels,
+  footer strings, and page content, looked up as `$T['nav']`,
+  `$T['home']['h1']`, etc. `partials/head.php` and `partials/footer.php`
+  render the shared header/nav/footer from that array, so every page in
+  every language shares one template instead of duplicating markup.
+- **Only the homepage is fully translated into all 5 languages so far.**
+  Every inner page (Houses, Serial Renovation, Gallery, …) exists only in
+  English today; the other languages' nav/footer links point at the
+  English version until each section is translated and built out —
+  visible in each `lang/<code>.php` file's `_note`.
 
 ## Structure
 
 ```
-index.html                              Home
-about-us/index.html                     Company profile, history, certifications
-about-us/suppliers.html                 Suppliers & co-operators
-houses/index.html                       Houses overview
-houses/element-houses.html              Element houses
-houses/modular-houses.html              Modular houses
-serial-renovation/index.html            What is serial renovation? (concept, benefits, process, funding)
-serial-renovation/facade-elements.html  The facade element: build-up, prefabrication, installation, logistics
-serial-renovation/references.html       KredEx pilot programme, Loodusmaja, first export projects
-gallery.html                            Production / houses / elements gallery
-projects.html                           Featured new-build & renovation projects
-contact.html                            Contact details, map embed, contact form
-assets/css/style.css                    Shared design system (see above)
-assets/js/main.js                       Mobile nav close-on-click, demo contact form
-assets/img/                             Real EstNor logo, hero photo, favicon
+index.php                          Root — language detection + Estonian home
+en/ , de/ , sv/ , nb/               Each language's home (+ full site under en/)
+inc/site.php                       Company facts (address, VAT, register code, ...)
+inc/i18n.php                       Language detection + load_lang()/nav_active() helpers
+lang/{et,en,de,sv,nb}.php           Per-language nav, footer, and page strings
+partials/{head,footer,home}.php    Shared header/nav/head, footer, homepage layout
+assets/                            CSS, JS, images (shared by every language)
+content/extracted/                 Real scraped text per language (source material,
+                                    not served — see its own README)
+_source/                           The sitemap, URL list and page-text mirror this was
+                                    built from (kept for provenance; not linked from
+                                    any page)
 ```
 
-All internal links and asset references use relative paths, so the site
-works both at a domain root and under a project subpath (e.g. GitHub Pages'
-`/estnor/`). Plain HTML/CSS/JS — no build step. Serve locally with any
-static server, e.g.:
+`inc/`, `lang/`, `partials/`, `content/` and `_source/` each carry a
+`.htaccess` denying direct HTTP access — PHP's own `require`/`include`
+calls are unaffected, only browser requests to those paths are blocked.
+
+## Local preview
 
 ```
-python3 -m http.server 8000
+php -S localhost:8000
 ```
 
-then open `http://localhost:8000/`.
-
-## Content sourcing
-
-Company facts, product descriptions and the serial-renovation content are
-drawn from public estnor.ee/estnor.no pages, the Estonian business registry
-(Registrikood 10706304, VAT EE100650305), and the copy already written for
-seriell-sanierung.de. Where this session's network couldn't reach a source
-directly, content was reconstructed from indexed search snippets — flagged
-inline where it matters.
-
-## Deployment (GitHub Pages)
-
-A workflow at `.github/workflows/deploy-pages.yml` publishes this site to
-GitHub Pages on every push to `main` or `claude/estnor-website-clone-ayyetv`
-(and can be run manually via **Actions → Deploy to GitHub Pages → Run
-workflow**). It uploads the repo root as the Pages artifact — no build step
-required.
-
-**One-time setup** (repo admin, do this once): go to
-**Settings → Pages** and set **Source** to **GitHub Actions**. After that,
-the workflow deploys automatically on every push, and the Pages URL shown
-there (typically `https://<owner>.github.io/<repo>/`) stays up to date.
+then open `http://localhost:8000/`. Force a language while testing with
+`?lang=en` (etc.) on the root URL, or clear the `lang` cookie to see
+detection run again.
