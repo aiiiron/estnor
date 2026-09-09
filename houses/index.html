@@ -4,197 +4,174 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Houses — EstNor</title>
-<meta name="description" content="EstNor builds element houses, handcrafted log houses and modular houses at our factory in Kiili, Estonia.">
+<meta name="description" content="EstNor builds element houses and modular houses at our factory in Kiili, Estonia.">
 <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=EB+Garamond:ital,wght@1,500&family=Inter:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
-  <div class="container">
-    <a href="../index.html" class="brand">
-      <img src="../assets/img/logo-mark.svg" alt="" class="mark">
-      <span>EstNor<small>Timber Houses · Est. 2000</small></span>
+  <div class="wrap bar">
+    <a class="brand" href="../index.html">
+      <img class="brand-logo" src="../assets/img/estnor-logo-rgb.png" width="505" height="171" alt="EstNor" fetchpriority="high">
+      <span class="brand-caption">Timber houses &amp; facade elements · Est. 2000</span>
     </a>
-    <nav class="nav-primary">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li class="has-sub">
-          <a href="../about-us/index.html">About Us <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
-          <ul class="submenu">
-            <li><a href="../about-us/index.html">Company &amp; History</a></li>
-            <li><a href="../about-us/furniture.html">Furniture</a></li>
-            <li><a href="../about-us/suppliers.html">Suppliers &amp; Co-operators</a></li>
-          </ul>
-        </li>
-        <li class="has-sub active">
-          <a href="../houses/index.html">Houses <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
-          <ul class="submenu">
-            <li><a href="../houses/element-houses.html">Element Houses</a></li>
-            <li><a href="../houses/log-houses.html">Handcrafted Log Houses</a></li>
-            <li><a href="../houses/modular-houses.html">Modular Houses</a></li>
-          </ul>
-        </li>
-        <li><a href="../serial-renovation.html">Serial Renovation</a></li>
-        <li><a href="../gallery.html">Gallery</a></li>
-        <li><a href="../projects.html">Projects</a></li>
-      </ul>
-    </nav>
-    <div class="header-cta">
-      <a href="../contact.html" class="btn btn-outline">Contact us</a>
-      <button class="hamburger" aria-label="Open menu"><span></span></button>
+    <div class="bar-right">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+      <label for="nav-toggle" class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></label>
+      <nav class="nav" aria-label="Main navigation">
+        <ul>
+          <li class="has-sub">
+            <a href="../about-us/index.html">About Us <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+            <ul class="submenu">
+              <li><a href="../about-us/index.html">Company &amp; History</a></li>
+              <li><a href="../about-us/suppliers.html">Suppliers &amp; Co-operators</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="../houses/index.html" aria-current="page">Houses <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+            <ul class="submenu">
+              <li><a href="../houses/element-houses.html">Element Houses</a></li>
+              <li><a href="../houses/modular-houses.html">Modular Houses</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="../serial-renovation/index.html">Serial Renovation <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+            <ul class="submenu">
+              <li><a href="../serial-renovation/index.html">Overview</a></li>
+              <li><a href="../serial-renovation/facade-elements.html">Facade Elements</a></li>
+              <li><a href="../serial-renovation/references.html">References</a></li>
+            </ul>
+          </li>
+          <li><a href="../gallery.html">Gallery</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
 </header>
 
-<nav class="mobile-nav">
-  <button class="mobile-close" aria-label="Close menu">✕</button>
-  <ul>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="../about-us/index.html">About Us</a>
-      <div class="submenu-static">
-        <a href="../about-us/furniture.html">Furniture</a>
-        <a href="../about-us/suppliers.html">Suppliers &amp; Co-operators</a>
-      </div>
-    </li>
-    <li><a href="../houses/index.html">Houses</a>
-      <div class="submenu-static">
-        <a href="../houses/element-houses.html">Element Houses</a>
-        <a href="../houses/log-houses.html">Handcrafted Log Houses</a>
-        <a href="../houses/modular-houses.html">Modular Houses</a>
-      </div>
-    </li>
-    <li><a href="../serial-renovation.html">Serial Renovation</a></li>
-    <li><a href="../gallery.html">Gallery</a></li>
-    <li><a href="../projects.html">Projects</a></li>
-    <li><a href="../contact.html">Contact</a></li>
-  </ul>
-</nav>
+<main id="main">
 
-<main>
-  <section class="hero page-hero">
-    <div class="container">
+  <section class="section page-hero">
+    <div class="wrap">
       <div class="breadcrumb"><a href="../index.html">Home</a> / <span>Houses</span></div>
-      <h1>Three build methods, one factory standard</h1>
-      <p class="lede">Every EstNor house begins indoors. Choose the build method that fits your project — architecture, timeline and budget all play a part.</p>
+      <span class="eyebrow">Two build methods, one factory standard</span>
+      <h1 class="hero-title">Choose how your house is built</h1>
+      <p class="lead">Every EstNor house begins indoors. Choose the build method that fits your project — architecture, timeline and budget all play a part.</p>
     </div>
   </section>
 
-  <section>
-    <div class="container grid-3">
-      <div class="house-card" data-reveal>
+  <section class="section">
+    <div class="wrap grid cols-2">
+      <div class="house-card" style="min-height:400px;">
         <div class="art">
           <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-            <rect width="400" height="360" fill="#2E5346"/>
-            <g fill="#F0DCBB" opacity=".9"><rect x="60" y="150" width="280" height="130"/><polygon points="40,150 200,70 360,150"/></g>
-            <g fill="#1F3B32"><rect x="180" y="200" width="40" height="80"/></g>
+            <rect width="400" height="360" fill="#1f4d3a"/>
+            <g fill="#e9efe7" opacity=".9"><rect x="60" y="150" width="280" height="130"/><polygon points="40,150 200,70 360,150"/></g>
+            <g fill="#13342a"><rect x="180" y="200" width="40" height="80"/></g>
           </svg>
         </div>
         <div class="content">
           <span class="tag">Factory built</span>
           <h3>Element Houses</h3>
           <p>Walls, roofs and floors built indoors, then assembled on site — with no real limit on size or architectural complexity.</p>
-          <a href="../houses/element-houses.html" class="btn btn-ghost" style="padding:.6em 1.1em">Learn more</a>
+          <div class="btn-row" style="margin-top:1rem;"><a class="btn btn-ghost" style="border-color:#fff;color:#fff;" href="../houses/element-houses.html">Learn more</a></div>
         </div>
       </div>
-      <div class="house-card" data-reveal>
+      <div class="house-card" style="min-height:400px;">
         <div class="art">
           <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-            <rect width="400" height="360" fill="#2E5346"/>
-            <g fill="#C9803D" opacity=".85"><rect x="70" y="160" width="260" height="30"/><rect x="70" y="195" width="260" height="30"/><rect x="70" y="230" width="260" height="30"/><rect x="70" y="265" width="260" height="20"/></g>
-            <polygon points="55,160 200,90 345,160" fill="#F0DCBB"/>
-          </svg>
-        </div>
-        <div class="content">
-          <span class="tag">Handcrafted</span>
-          <h3>Log Houses</h3>
-          <p>Hand-hewn pine logs, cut and fitted by craftsmen trained in Norwegian log-building tradition.</p>
-          <a href="../houses/log-houses.html" class="btn btn-ghost" style="padding:.6em 1.1em">Learn more</a>
-        </div>
-      </div>
-      <div class="house-card" data-reveal>
-        <div class="art">
-          <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-            <rect width="400" height="360" fill="#14261F"/>
-            <g fill="#F0DCBB" opacity=".92"><rect x="55" y="140" width="130" height="140"/><rect x="215" y="100" width="130" height="180"/></g>
-            <g fill="#C9803D"><rect x="55" y="140" width="130" height="8"/><rect x="215" y="100" width="130" height="8"/></g>
+            <rect width="400" height="360" fill="#13342a"/>
+            <g fill="#e9efe7" opacity=".92"><rect x="55" y="140" width="130" height="140"/><rect x="215" y="100" width="130" height="180"/></g>
+            <g fill="#dd8a2c"><rect x="55" y="140" width="130" height="8"/><rect x="215" y="100" width="130" height="8"/></g>
           </svg>
         </div>
         <div class="content">
           <span class="tag">Modular</span>
           <h3>Modular Houses</h3>
           <p>Fully finished modules — including electrics, plumbing and heating — joined together on site into the finished building.</p>
-          <a href="../houses/modular-houses.html" class="btn btn-ghost" style="padding:.6em 1.1em">Learn more</a>
+          <div class="btn-row" style="margin-top:1rem;"><a class="btn btn-ghost" style="border-color:#fff;color:#fff;" href="../houses/modular-houses.html">Learn more</a></div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="band">
-    <div class="container">
-      <div class="section-head center" data-reveal>
-        <p class="eyebrow">Which method is right for you?</p>
-        <h2>Comparing the three build methods</h2>
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="eyebrow">Which method is right for you?</span>
+        <h2>Comparing the two build methods</h2>
       </div>
-      <div class="grid-3">
-        <div class="card" data-reveal>
+      <div class="grid cols-2">
+        <div class="card">
           <h3>Element Houses</h3>
           <p>Best for: large or architecturally complex homes and apartment buildings. Indoor-built walls, roofs and terraces assembled on site.</p>
         </div>
-        <div class="card" data-reveal>
-          <h3>Log Houses</h3>
-          <p>Best for: buyers who want the character of hand-hewn log walls, built to Norwegian tradition, turn-key or as a log-parts kit.</p>
-        </div>
-        <div class="card" data-reveal>
+        <div class="card">
           <h3>Modular Houses</h3>
           <p>Best for: fast-track projects — private houses, townhouses, apartment and public buildings — with &gt;90% of work done in-factory.</p>
         </div>
       </div>
     </div>
   </section>
+
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Already have a building?</span>
+        <h2>EstNor also renovates, not just builds new</h2>
+        <p class="lead">The same factory precision applies to serial renovation: prefabricated facade elements that upgrade an existing apartment building in weeks.</p>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-ghost" href="../serial-renovation/index.html">What is serial renovation?</a>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="../index.html" class="brand"><img src="../assets/img/logo-mark.svg" alt="" class="mark"><span>EstNor</span></a>
-        <p>Element, log and modular timber houses manufactured in Kiili, Estonia since 2000.</p>
-      </div>
-      <div class="footer-col">
-        <h5>Company</h5>
-        <ul>
-          <li><a href="../about-us/index.html">About &amp; history</a></li>
-          <li><a href="../about-us/furniture.html">Furniture</a></li>
-          <li><a href="../about-us/suppliers.html">Suppliers</a></li>
-          <li><a href="../gallery.html">Gallery</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h5>Houses</h5>
-        <ul>
-          <li><a href="../houses/element-houses.html">Element houses</a></li>
-          <li><a href="../houses/log-houses.html">Log houses</a></li>
-          <li><a href="../houses/modular-houses.html">Modular houses</a></li>
-          <li><a href="../serial-renovation.html">Serial renovation</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h5>Contact</h5>
-        <ul>
-          <li>Kurna tee 33, Kiili<br>75401 Harju County, Estonia</li>
-          <li><a href="tel:+3726516174">+372 651 6174</a></li>
-          <li><a href="mailto:info@estnor.ee">info@estnor.ee</a></li>
-        </ul>
-      </div>
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <p class="foot-logo"><img src="../assets/img/logo-mono-white-small.png" width="442" height="162" alt="EstNor"></p>
+      <p>Prefabricated timber houses and facade elements, manufactured at our factory in Kiili, Estonia, since 2000.</p>
     </div>
-    <div class="footer-bottom">
-      <span>© 2026 EstNor OÜ. All rights reserved.</span>
-      <span>Unofficial modern redesign concept — not affiliated with estnor.ee</span>
+    <div>
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="../about-us/index.html">About &amp; History</a></li>
+        <li><a href="../houses/index.html">Houses</a></li>
+        <li><a href="../gallery.html">Gallery</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+      </ul>
     </div>
+    <div>
+      <h2>Serial Renovation</h2>
+      <ul>
+        <li><a href="../serial-renovation/index.html">Overview</a></li>
+        <li><a href="../serial-renovation/facade-elements.html">Facade Elements</a></li>
+        <li><a href="../serial-renovation/references.html">References</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <ul>
+        <li><a href="mailto:info@estnor.ee">info@estnor.ee</a></li>
+        <li><a href="tel:+3726516174">+372 651 6174</a></li>
+        <li>Kurna tee 33, 75401 Kiili, Estonia</li>
+        <li><a href="https://ee.linkedin.com/company/estnor" rel="noopener">LinkedIn</a> · <a href="https://www.facebook.com/estnor/" rel="noopener">Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <p>&copy; 2026 EstNor OÜ. All rights reserved.</p>
+    <p>Manufacturer information and figures: estnor.ee · Unofficial redesign concept, not affiliated with EstNor OÜ</p>
   </div>
 </footer>
 

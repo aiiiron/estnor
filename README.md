@@ -1,53 +1,59 @@
-# EstNor — modern site concept
+# EstNor — site concept
 
-A modern, static clone of the **EstNor** (estnor.ee) site structure and content:
-EstNor OÜ is an Estonian manufacturer of element, handcrafted log and modular
-timber houses, founded in 2000 in Kiili, Harju County, exporting mainly to
-Norway, Sweden and Estonia.
+A static clone of the **EstNor** (estnor.ee) site structure and content:
+EstNor OÜ is an Estonian manufacturer of prefabricated element and modular
+timber houses, and of prefabricated facade elements for **serial renovation**,
+founded in 2000 in Kiili, Harju County, exporting mainly to Norway, Sweden,
+Estonia and the DACH region.
 
-## Important note on sourcing
+## Design system
 
-This session's sandboxed network could not reach `estnor.ee` (or any
-non-allowlisted domain) directly, so the live HTML, photos and logo file
-could not be scraped or copied. Instead:
+The visual design is ported from **seriell-sanierung.de** — EstNor's own
+German-market marketing site for serial facade renovation
+(`github.com/aiiiron/seriell-sanierung`) — so the whole site shares one
+look: the same colour tokens (deep spruce green `#1f4d3a`, warm ochre accent
+`#dd8a2c`, warm paper background), the same type pairing (Bricolage
+Grotesque for display, Inter for body text, an italic EB Garamond accent in
+hero titles), and the same component set (`.wrap`, `.section`/`--alt`/`--tint`/
+`--dark`, `.card`, `.steps`, `.check`, `.buildup`, `.panel-stack`,
+`.project-card`, `.cta-band`, `.contact-dl`/`.contact-form`, `.foot-grid`,
+the checkbox-only mobile nav). `assets/css/style.css` documents this in
+full; a short "EstNor extensions" section at the bottom adds the few
+components that site didn't need (dropdown sub-nav, breadcrumbs, a history
+timeline, the image gallery) in the same token system.
 
-- **Site structure and copy** were reconstructed from public search-indexed
-  snippets of estnor.ee/estnor.no pages, plus the Estonian business
-  registry (Ariregister/Inforegister), to keep the page hierarchy, company
-  facts (founding date, address, export markets, certifications, etc.) and
-  navigation faithful to the real site.
-- **Visual design is an original modern redesign** — a Nordic-timber colour
-  palette (deep pine green, warm amber/wood accent, cream background), a
-  recreated wordmark/mark (not the real EstNor logo file, which wasn't
-  reachable), and hand-built SVG illustrations in place of scraped photos.
+The real EstNor logo (`assets/img/estnor-logo-rgb.png` /
+`logo-mono-white-small.png`) and the real hero photograph
+(`assets/img/hero.jpg` / `.webp`) are copied from that same repo — both are
+genuine EstNor marketing assets, not recreations.
 
-If you can share the actual logo file or photos, drop them into
-`assets/img/` and I'll wire them in, and I'm happy to adjust the palette to
-match the real brand exactly if you can confirm it.
+**Furniture and handcrafted log houses have been dropped** from this site
+(per request) — EstNor's product range here is Element Houses, Modular
+Houses, and Serial Renovation facade elements.
 
 ## Structure
 
 ```
-index.html                     Home
-about-us/index.html            Company profile & history
-about-us/furniture.html        Furniture procurement
-about-us/suppliers.html        Suppliers & co-operators
-houses/index.html              Houses overview
-houses/element-houses.html     Element houses
-houses/log-houses.html         Handcrafted log houses
-houses/modular-houses.html     Modular houses
-serial-renovation.html         Renovation with factory elements
-gallery.html                   Production/houses gallery
-projects.html                  Featured projects (incl. Oslo apartment building)
-contact.html                   Contact details, map embed, contact form
-assets/css/style.css           Shared design system
-assets/js/main.js              Mobile nav, scroll-reveal, header shadow
-assets/img/                    Logo mark & favicon (SVG)
+index.html                              Home
+about-us/index.html                     Company profile, history, certifications
+about-us/suppliers.html                 Suppliers & co-operators
+houses/index.html                       Houses overview
+houses/element-houses.html              Element houses
+houses/modular-houses.html              Modular houses
+serial-renovation/index.html            What is serial renovation? (concept, benefits, process, funding)
+serial-renovation/facade-elements.html  The facade element: build-up, prefabrication, installation, logistics
+serial-renovation/references.html       KredEx pilot programme, Loodusmaja, first export projects
+gallery.html                            Production / houses / elements gallery
+projects.html                           Featured new-build & renovation projects
+contact.html                            Contact details, map embed, contact form
+assets/css/style.css                    Shared design system (see above)
+assets/js/main.js                       Mobile nav close-on-click, demo contact form
+assets/img/                             Real EstNor logo, hero photo, favicon
 ```
 
-Plain HTML/CSS/JS — no build step. All internal links and asset references
-use relative paths, so the site works both at a domain root and under a
-project subpath (e.g. GitHub Pages' `/estnor/`). Serve locally with any
+All internal links and asset references use relative paths, so the site
+works both at a domain root and under a project subpath (e.g. GitHub Pages'
+`/estnor/`). Plain HTML/CSS/JS — no build step. Serve locally with any
 static server, e.g.:
 
 ```
@@ -55,6 +61,15 @@ python3 -m http.server 8000
 ```
 
 then open `http://localhost:8000/`.
+
+## Content sourcing
+
+Company facts, product descriptions and the serial-renovation content are
+drawn from public estnor.ee/estnor.no pages, the Estonian business registry
+(Registrikood 10706304, VAT EE100650305), and the copy already written for
+seriell-sanierung.de. Where this session's network couldn't reach a source
+directly, content was reconstructed from indexed search snippets — flagged
+inline where it matters.
 
 ## Deployment (GitHub Pages)
 
