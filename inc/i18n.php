@@ -58,11 +58,21 @@ function set_lang_cookie(string $code): void {
     }
 }
 
+/** Home URL for each language, used by the header's language switcher. */
+$LANG_HOME = [
+    'et' => '/index.php',
+    'en' => '/en/index.php',
+    'de' => '/de/index.php',
+    'sv' => '/sv/index.php',
+    'nb' => '/nb/index.php',
+];
+
 /**
  * Resolve the language for the root page and, if it isn't 'et', redirect.
  * Call this as the very first thing in root index.php.
  */
 function i18n_resolve_root(array $langs, string $default, string $fallback): string {
+    global $LANG_HOME;
     $supported = array_keys($langs);
 
     if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $langs)) {
@@ -78,22 +88,16 @@ function i18n_resolve_root(array $langs, string $default, string $fallback): str
     }
 
     if ($lang !== $default && array_key_exists($lang, $langs) && !headers_sent()) {
-        $target = $lang === $default ? '/' : "/{$lang}/";
-        header("Location: {$target}", true, 302);
+        // Redirect to the explicit file (e.g. /en/index.php), not the bare
+        // directory (/en/) — a bare directory URL only resolves if the
+        // server is configured to auto-serve index.php for it, which isn't
+        // a safe assumption across every host.
+        header('Location: ' . $LANG_HOME[$lang], true, 302);
         exit;
     }
 
     return $default;
 }
-
-/** Home URL for each language, used by the header's language switcher. */
-$LANG_HOME = [
-    'et' => '/index.php',
-    'en' => '/en/index.php',
-    'de' => '/de/index.php',
-    'sv' => '/sv/index.php',
-    'nb' => '/nb/index.php',
-];
 
 // load_lang() and load_page() now live in inc/db.php — every page's
 // content (site chrome + page body alike) comes from the database, not
