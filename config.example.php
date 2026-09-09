@@ -12,9 +12,12 @@
  *      'dsn'/'user'/'pass' values below.
  *   3. Set 'base_path' (see below) to match where this site actually
  *      lives under its domain.
- *   4. Run `php db/migrate.php` once over SSH to create the tables and
- *      load the site's content into them. Re-run it any time a file
- *      under content/db/ changes.
+ *   4. Load the database: `php db/migrate.php` once over SSH, or — if
+ *      SSH isn't available on your plan — import db/seed.sql directly
+ *      through hPanel -> Databases -> phpMyAdmin -> your database ->
+ *      Import. Either way, re-run it any time a file under content/db/
+ *      changes (regenerate seed.sql first with db/generate_seed.php if
+ *      you're using the phpMyAdmin path).
  *
  * Local development: point 'dsn' at a SQLite file instead, e.g.
  *   'dsn' => 'sqlite:' . __DIR__ . '/db/dev.sqlite',

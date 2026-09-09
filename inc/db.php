@@ -11,20 +11,33 @@
  * called while rendering.
  */
 
+/** Print a plain, safe explanation and stop — never leak DB credentials in it. */
+function db_fail(string $message): never {
+    http_response_code(500);
+    header('Content-Type: text/plain; charset=utf-8');
+    die($message . "\n");
+}
+
 function db(): PDO {
     static $pdo = null;
     if ($pdo !== null) return $pdo;
 
     $configPath = __DIR__ . '/../config.php';
     if (!is_file($configPath)) {
-        http_response_code(500);
-        die('Missing config.php — copy config.example.php to config.php and fill in your database credentials.');
+        db_fail('Missing config.php — copy config.example.php to config.php and fill in your database credentials.');
     }
     $config = require $configPath;
-    $pdo = new PDO($config['dsn'], $config['user'] ?? null, $config['pass'] ?? null, [
-        PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    ]);
+    try {
+        $pdo = new PDO($config['dsn'], $config['user'] ?? null, $config['pass'] ?? null, [
+            PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+        ]);
+    } catch (PDOException $e) {
+        // Common causes: wrong host/db name/user/pass in config.php, the
+        // MySQL extension not enabled for this PHP version in hPanel, or
+        // the database user not yet attached to the database.
+        db_fail("Database connection failed: {$e->getMessage()}\n\nCheck config.php's dsn/user/pass against hPanel -> Databases -> MySQL Databases, and that this domain's PHP version has the mysqli/pdo_mysql extension enabled (hPanel -> Advanced -> PHP Configuration).");
+    }
     return $pdo;
 }
 
@@ -34,8 +47,14 @@ function db_get_section(string $lang, string $section): ?array {
     $key = $lang . ':' . $section;
     if (array_key_exists($key, $cache)) return $cache[$key];
 
-    $stmt = db()->prepare('SELECT content FROM i18n_strings WHERE lang_code = ? AND section = ?');
-    $stmt->execute([$lang, $section]);
+    try {
+        $stmt = db()->prepare('SELECT content FROM i18n_strings WHERE lang_code = ? AND section = ?');
+        $stmt->execute([$lang, $section]);
+    } catch (PDOException $e) {
+        // Most likely: db/migrate.php hasn't been run yet against this
+        // database, so the i18n_strings table doesn't exist.
+        db_fail("Database query failed: {$e->getMessage()}\n\nIf this says the table doesn't exist, the database is connected but empty — run db/migrate.php once (see db/seed.sql for a phpMyAdmin-importable alternative if you don't have SSH access).");
+    }
     $row = $stmt->fetch();
     return $cache[$key] = ($row ? json_decode($row['content'], true) : null);
 }

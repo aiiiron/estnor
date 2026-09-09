@@ -17,16 +17,30 @@ git-based auto-deploy pattern used for `ajaraamat.ee`), which executes the
 2. Copy `config.example.php` to `config.php` (same directory) and fill in
    the host/database/user/password Hostinger gave you. `config.php` is
    gitignored — it holds real credentials and is never committed.
-3. Run the migration once: `php db/migrate.php` over SSH (or see that
-   file's header comment for the no-SSH fallback). This creates the two
-   tables it needs and loads every language's content from the JSON files
-   under `content/db/` into them.
-4. Re-run `php db/migrate.php` any time a file under `content/db/`
-   changes — it's an upsert, safe to run repeatedly.
+3. Set `base_path` in `config.php` to match where the site actually lives
+   under its domain: `''` if it's served at the domain's root, or e.g.
+   `'/estnor-new'` if Hostinger's git deploy "root directory" points at a
+   subfolder rather than the domain's own document root. Every internal
+   link (nav, footer, language switcher, the root redirect) is built from
+   this — get it wrong and every link 404s even though the pages
+   themselves render fine.
+4. Load the database — two ways, pick whichever you have access to:
+   - **With SSH:** `php db/migrate.php`. Creates the tables and loads
+     every language's content from `content/db/*.json`.
+   - **Without SSH:** hPanel → Databases → phpMyAdmin → select your
+     database → Import → choose `db/seed.sql` → Go. Same content, as a
+     plain SQL file phpMyAdmin can run directly — no PHP CLI needed.
+5. Re-run whichever method you used any time a file under `content/db/`
+   changes — both are upserts, safe to run repeatedly. If you edit
+   `content/db/*.json` and only have phpMyAdmin access, regenerate
+   `db/seed.sql` first (`php db/generate_seed.php`, run locally where you
+   do have PHP) and re-import it.
 
 Local preview needs no MySQL server: `config.php` can point at a local
 SQLite file instead (see the comment in `config.example.php`) — the app
 is written against plain PDO, so the same code runs against either.
+`db/seed.sql` is MySQL-specific (used only for the phpMyAdmin import
+path above), so local SQLite preview always uses `db/migrate.php`.
 
 ## Multilingual architecture
 
