@@ -25,7 +25,7 @@ $h = $T['home'];
   <section class="section section--alt">
     <div class="wrap">
       <div class="bento-grid">
-        <a class="house-card span-2" href="<?= e(url($h['products'][0]['href'])) ?>">
+        <a class="house-card span-2 house-card--element" href="<?= e(url($h['products'][0]['href'])) ?>">
           <picture class="art">
             <source srcset="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][0]['photo']) ?>.webp" type="image/webp">
             <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][0]['photo']) ?>.jpg" alt="" width="1000" height="750" loading="lazy" decoding="async">
@@ -37,7 +37,7 @@ $h = $T['home'];
           </div>
         </a>
 
-        <a class="house-card" href="<?= e(url($h['products'][1]['href'])) ?>">
+        <a class="house-card house-card--modular" href="<?= e(url($h['products'][1]['href'])) ?>">
           <picture class="art">
             <source srcset="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][1]['photo']) ?>.webp" type="image/webp">
             <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][1]['photo']) ?>.jpg" alt="" width="1024" height="682" loading="lazy" decoding="async">
@@ -53,7 +53,7 @@ $h = $T['home'];
           <div><b><?= e($h['stats'][0]['value']) ?></b><span><?= e($h['stats'][0]['label']) ?></span></div>
         </div>
 
-        <a class="house-card span-2" href="<?= e(url($h['products'][2]['href'])) ?>">
+        <a class="house-card span-2 house-card--facade" href="<?= e(url($h['products'][2]['href'])) ?>">
           <picture class="art">
             <source srcset="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][2]['photo']) ?>.webp" type="image/webp">
             <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][2]['photo']) ?>.jpg" alt="" width="1400" height="787" loading="lazy" decoding="async">
