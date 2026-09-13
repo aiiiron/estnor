@@ -23,32 +23,61 @@ $h = $T['home'];
   </section>
 
   <section class="section section--alt">
-    <div class="wrap grid cols-3">
-<?php $swatches = ['#1f4d3a', '#13342a', '#2c5a45']; foreach ($h['products'] as $i => $p): ?>
-      <a class="house-card" href="<?= e(url($p['href'])) ?>">
-        <div class="art">
-          <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-            <rect width="400" height="360" fill="<?= e($swatches[$i % 3]) ?>"/>
-            <g fill="#e9efe7" opacity=".18"><rect x="60" y="150" width="280" height="130"/><polygon points="40,150 200,70 360,150"/></g>
-          </svg>
-        </div>
-        <div class="content">
-          <span class="tag"><?= e($p['tag']) ?></span>
-          <h3><?= e($p['label']) ?></h3>
-        </div>
-      </a>
-<?php endforeach; ?>
-    </div>
-    <div class="wrap btn-row">
-      <a class="btn btn-ghost" href="<?= e(url($h['renovation_href'])) ?>"><?= e($h['renovation_label']) ?> →</a>
-    </div>
-  </section>
+    <div class="wrap">
+      <div class="bento-grid">
+        <a class="house-card span-2" href="<?= e(url($h['products'][0]['href'])) ?>">
+          <picture class="art">
+            <source srcset="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][0]['photo']) ?>.webp" type="image/webp">
+            <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][0]['photo']) ?>.jpg" alt="" width="1000" height="750" loading="lazy" decoding="async">
+          </picture>
+          <div class="content">
+            <span class="tag"><?= e($h['products'][0]['tag']) ?></span>
+            <h3><?= e($h['products'][0]['label']) ?></h3>
+            <p><?= e($h['products'][0]['desc']) ?></p>
+          </div>
+        </a>
 
-  <section class="section section--dark">
-    <div class="wrap stat-row">
-<?php foreach ($h['stats'] as $s): ?>
-      <div class="stat"><b><?= e($s['value']) ?></b><span><?= e($s['label']) ?></span></div>
-<?php endforeach; ?>
+        <a class="house-card" href="<?= e(url($h['products'][1]['href'])) ?>">
+          <picture class="art">
+            <source srcset="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][1]['photo']) ?>.webp" type="image/webp">
+            <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][1]['photo']) ?>.jpg" alt="" width="1024" height="682" loading="lazy" decoding="async">
+          </picture>
+          <div class="content">
+            <span class="tag"><?= e($h['products'][1]['tag']) ?></span>
+            <h3><?= e($h['products'][1]['label']) ?></h3>
+          </div>
+        </a>
+
+        <div class="stat-cell stat-cell--dark">
+          <span class="tag"><?= e($h['stats'][0]['tag']) ?></span>
+          <div><b><?= e($h['stats'][0]['value']) ?></b><span><?= e($h['stats'][0]['label']) ?></span></div>
+        </div>
+
+        <a class="house-card span-2" href="<?= e(url($h['products'][2]['href'])) ?>">
+          <picture class="art">
+            <source srcset="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][2]['photo']) ?>.webp" type="image/webp">
+            <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][2]['photo']) ?>.jpg" alt="" width="1400" height="787" loading="lazy" decoding="async">
+          </picture>
+          <div class="content">
+            <span class="tag"><?= e($h['products'][2]['tag']) ?></span>
+            <h3><?= e($h['products'][2]['label']) ?></h3>
+            <p><?= e($h['products'][2]['desc']) ?></p>
+          </div>
+        </a>
+
+        <div class="stat-cell">
+          <span class="tag"><?= e($h['stats'][1]['tag']) ?></span>
+          <div><b><?= e($h['stats'][1]['value']) ?></b><span><?= e($h['stats'][1]['label']) ?></span></div>
+        </div>
+
+        <div class="stat-cell stat-cell--ochre">
+          <span class="tag"><?= e($h['stats'][2]['tag']) ?></span>
+          <div><b><?= e($h['stats'][2]['value']) ?></b><span><?= e($h['stats'][2]['label']) ?></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap btn-row" style="margin-top:1.75rem;">
+      <a class="btn btn-ghost" href="<?= e(url($h['renovation_href'])) ?>"><?= e($h['renovation_label']) ?> →</a>
     </div>
   </section>
 

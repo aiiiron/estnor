@@ -4,6 +4,12 @@
  * Renovation index page. Caller sets $LANG/$ASSET/$ACTIVE, requires
  * partials/head.php, and defines $P = load_page('serial-renovation',
  * $LANG) plus $HOME_HREF, $CONTACT_HREF, $FACADE_HREF.
+ *
+ * $P['references']['projects'] holds this page's own illustrated
+ * reference cards (the KredEx pilot programme etc.) — the nav's
+ * Serial Renovation > References child links to the #references
+ * anchor below. Each entry carries its own trusted, hand-authored SVG
+ * markup (illustrative sketches, not user content), rendered raw.
  */
 ?>
 
@@ -75,6 +81,34 @@
         <h2><?= e($P['funding_right']['h2']) ?></h2>
         <p><?= e($P['funding_right']['p']) ?></p>
         <div class="callout"><b><?= e($P['funding_right']['callout_label']) ?></b> <?= e($P['funding_right']['callout_text']) ?></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="references">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow"><?= e($P['references']['eyebrow']) ?></span>
+        <h2><?= e($P['references']['h2']) ?></h2>
+      </div>
+      <div class="grid cols-3">
+<?php foreach ($P['references']['projects'] as $proj): ?>
+        <article class="project-card">
+          <div class="project-figure" aria-hidden="true"><?= $proj['svg'] ?></div>
+          <div class="project-body">
+            <p class="meta"><?= e($proj['meta']) ?></p>
+            <h3><?= e($proj['title']) ?></h3>
+            <div class="tag-row"><?php foreach ($proj['tags'] as $tag): ?><span class="tag"><?= e($tag) ?></span><?php endforeach; ?></div>
+            <p><?= e($proj['desc']) ?></p>
+<?php if (!empty($proj['stats'])): ?>
+            <div class="project-stats"><?php foreach ($proj['stats'] as $s): ?><div><b><?= e($s['value']) ?></b><span><?= e($s['label']) ?></span></div><?php endforeach; ?></div>
+<?php endif; ?>
+<?php if (!empty($proj['addresses'])): ?>
+            <p class="form-note"><b><?= e($proj['addresses_label']) ?></b> <?= e(implode(' · ', $proj['addresses'])) ?></p>
+<?php endif; ?>
+          </div>
+        </article>
+<?php endforeach; ?>
       </div>
     </div>
   </section>

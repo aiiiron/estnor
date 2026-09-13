@@ -16,9 +16,9 @@
   --ink-soft:     #4b544d;
   --line:         #e3ddd0;
 
-  --spruce:       #1f4d3a;   /* Primary: spruce/timber + sustainability */
-  --spruce-deep:  #13342a;
-  --spruce-tint:  #e9efe7;
+  --spruce:       #1c4f23;   /* Primary: spruce/timber + sustainability (matches the real EstNor logo green) */
+  --spruce-deep:  #133517;
+  --spruce-tint:  #e8f0e9;
   --ochre:        #dd8a2c;   /* Accent: warm fibre-cement / brick tone   */
   --ochre-deep:   #b96f1c;
 
@@ -569,9 +569,43 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 /* House-type teaser cards (home, houses overview) */
 .house-card { position: relative; border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--shadow); background: var(--spruce-deep); min-height: 340px; display: flex; flex-direction: column; justify-content: flex-end; }
 .house-card .art { position: absolute; inset: 0; }
+.house-card .art img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .house-card .content { position: relative; padding: 1.7rem; background: linear-gradient(180deg, transparent, rgba(15,23,19,.88) 62%); }
 .house-card h3 { color: #fff; font-size: 1.3rem; }
 .house-card p { color: rgba(246,241,228,.8); font-size: .92rem; }
+
+/* Bento grid (home): mixes house-card product tiles with plain stat cells
+   in an asymmetric grid, instead of a separate product row + stat row. */
+.bento-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 220px; gap: 1.1rem; }
+.bento-grid .house-card { min-height: 0; }
+.bento-grid .house-card .content { padding: 1.4rem; }
+.bento-grid .house-card h3 { font-size: 1.15rem; margin: .1rem 0 .3rem; }
+.bento-grid .house-card p { font-size: .85rem; max-width: 42ch; }
+.bento-grid .span-2 { grid-column: span 2; }
+@media (max-width: 900px) {
+  .bento-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 200px; }
+}
+@media (max-width: 620px) {
+  .bento-grid { grid-template-columns: 1fr; grid-auto-rows: auto; }
+  .bento-grid .house-card { min-height: 220px; }
+  .bento-grid .span-2 { grid-column: span 1; }
+}
+
+.stat-cell {
+  border-radius: var(--r-lg); padding: 1.5rem; display: flex; flex-direction: column;
+  justify-content: space-between; background: var(--surface); border: 1px solid var(--line);
+}
+.stat-cell .tag { background: transparent; padding: 0; color: var(--ink-soft); }
+.stat-cell b { font-family: var(--font-display); font-size: 2.1rem; font-weight: 700; color: var(--spruce-deep); display: block; }
+.stat-cell span { font-size: .82rem; color: var(--ink-soft); margin-top: .2rem; display: block; }
+.stat-cell--dark { background: var(--spruce-deep); border-color: var(--spruce-deep); }
+.stat-cell--dark .tag { color: #9fb8ab; }
+.stat-cell--dark b { color: var(--ochre); }
+.stat-cell--dark span { color: #c9d6cd; }
+.stat-cell--ochre { background: var(--ochre); border-color: var(--ochre); }
+.stat-cell--ochre .tag { color: rgba(19,53,23,.7); }
+.stat-cell--ochre b { color: var(--spruce-deep); }
+.stat-cell--ochre span { color: var(--spruce-deep); }
 
 /* History timeline (About EstNor) */
 .timeline { list-style: none; margin: 0; padding: 0 0 0 2.1rem; border-left: 2px solid var(--line); display: flex; flex-direction: column; gap: 1.9rem; }
