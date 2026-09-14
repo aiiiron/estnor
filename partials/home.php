@@ -23,7 +23,7 @@ $h = $T['home'];
     </div>
   </section>
 
-  <section class="section section--alt">
+  <section class="section section--alt home-products">
     <div class="wrap">
       <div class="bento-grid">
         <a class="house-card span-2 house-card--element" href="<?= e(url($h['products'][0]['href'])) ?>">
