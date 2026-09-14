@@ -75,16 +75,13 @@
             "explore_heading": "Sisukord",
             "explore": [
                 {
-                    "label": "Ettevõte ja ajalugu",
-                    "href": "/about-us/index.php"
+                    "path": "about.about"
                 },
                 {
-                    "label": "Tooted",
-                    "href": "/houses/index.php"
+                    "path": "products"
                 },
                 {
-                    "label": "Tootmine",
-                    "href": "/about-us/production.php"
+                    "path": "about.production"
                 },
                 {
                     "label": "Projektid",
@@ -94,16 +91,13 @@
             "renovation_heading": "Tehaseline renoveerimine",
             "renovation": [
                 {
-                    "label": "Ülevaade",
-                    "href": "/serial-renovation/index.php"
+                    "path": "renovation.renovation"
                 },
                 {
-                    "label": "Fassaadi- ja katuseelemendid",
-                    "href": "/serial-renovation/facade-elements.php"
+                    "path": "renovation.facade"
                 },
                 {
-                    "label": "Referentsid",
-                    "href": "/serial-renovation/index.php#references"
+                    "path": "renovation.sr-references"
                 }
             ],
             "contact_heading": "Kontakt",
@@ -264,16 +258,13 @@
             "explore_heading": "Explore",
             "explore": [
                 {
-                    "label": "Company & History",
-                    "href": "/en/about-us/index.php"
+                    "path": "about.about"
                 },
                 {
-                    "label": "Products",
-                    "href": "/en/houses/index.php"
+                    "path": "products"
                 },
                 {
-                    "label": "Production",
-                    "href": "/en/about-us/production.php"
+                    "path": "about.production"
                 },
                 {
                     "label": "Projects",
@@ -283,16 +274,13 @@
             "renovation_heading": "Serial Renovation",
             "renovation": [
                 {
-                    "label": "Overview",
-                    "href": "/en/serial-renovation/index.php"
+                    "path": "renovation.renovation"
                 },
                 {
-                    "label": "Facade Elements",
-                    "href": "/en/serial-renovation/facade-elements.php"
+                    "path": "renovation.facade"
                 },
                 {
-                    "label": "References",
-                    "href": "/en/serial-renovation/index.php#references"
+                    "path": "renovation.sr-references"
                 }
             ],
             "contact_heading": "Contact",
@@ -454,16 +442,13 @@
             "explore_heading": "Entdecken",
             "explore": [
                 {
-                    "label": "Unternehmen & Geschichte",
-                    "href": "/de/about-us/index.php"
+                    "path": "about.about"
                 },
                 {
-                    "label": "Produkte",
-                    "href": "/de/houses/index.php"
+                    "path": "products"
                 },
                 {
-                    "label": "Produktion",
-                    "href": "/de/about-us/production.php"
+                    "path": "about.production"
                 },
                 {
                     "label": "Projekte",
@@ -473,16 +458,13 @@
             "renovation_heading": "Serielle Sanierung",
             "renovation": [
                 {
-                    "label": "Überblick",
-                    "href": "/de/serial-renovation/index.php"
+                    "path": "renovation.renovation"
                 },
                 {
-                    "label": "Fassadenelemente",
-                    "href": "/de/serial-renovation/facade-elements.php"
+                    "path": "renovation.facade"
                 },
                 {
-                    "label": "Referenzen",
-                    "href": "/de/serial-renovation/index.php#references"
+                    "path": "renovation.sr-references"
                 }
             ],
             "contact_heading": "Kontakt",
@@ -643,16 +625,13 @@
             "explore_heading": "Utforska",
             "explore": [
                 {
-                    "label": "Företag & historia",
-                    "href": "/sv/about-us/index.php"
+                    "path": "about.about"
                 },
                 {
-                    "label": "Produkter",
-                    "href": "/sv/houses/index.php"
+                    "path": "products"
                 },
                 {
-                    "label": "Produktion",
-                    "href": "/sv/about-us/production.php"
+                    "path": "about.production"
                 },
                 {
                     "label": "Projekt",
@@ -662,16 +641,13 @@
             "renovation_heading": "Modernisering av flerbostadshus",
             "renovation": [
                 {
-                    "label": "Översikt",
-                    "href": "/sv/serial-renovation/index.php"
+                    "path": "renovation.renovation"
                 },
                 {
-                    "label": "Fasad- och takelement",
-                    "href": "/sv/serial-renovation/facade-elements.php"
+                    "path": "renovation.facade"
                 },
                 {
-                    "label": "Referenser",
-                    "href": "/sv/serial-renovation/index.php#references"
+                    "path": "renovation.sr-references"
                 }
             ],
             "contact_heading": "Kontakt",
@@ -833,16 +809,13 @@
             "explore_heading": "Utforsk",
             "explore": [
                 {
-                    "label": "Selskap & historie",
-                    "href": "/nb/about-us/index.php"
+                    "path": "about.about"
                 },
                 {
-                    "label": "Produkter",
-                    "href": "/nb/houses/index.php"
+                    "path": "products"
                 },
                 {
-                    "label": "Produksjon",
-                    "href": "/nb/about-us/production.php"
+                    "path": "about.production"
                 },
                 {
                     "label": "Prosjekter",
@@ -852,16 +825,13 @@
             "renovation_heading": "Modernisering av leilighetsbygg",
             "renovation": [
                 {
-                    "label": "Oversikt",
-                    "href": "/nb/serial-renovation/index.php"
+                    "path": "renovation.renovation"
                 },
                 {
-                    "label": "Fasade- og takelementer",
-                    "href": "/nb/serial-renovation/facade-elements.php"
+                    "path": "renovation.facade"
                 },
                 {
-                    "label": "Referanser",
-                    "href": "/nb/serial-renovation/index.php#references"
+                    "path": "renovation.sr-references"
                 }
             ],
             "contact_heading": "Kontakt",

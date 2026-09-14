@@ -9,7 +9,7 @@
     <div>
       <h2><?= e($T['footer']['explore_heading']) ?></h2>
       <ul>
-<?php foreach ($T['footer']['explore'] as $item): ?>
+<?php foreach ($T['footer']['explore'] as $entry): $item = isset($entry['path']) ? nav_find($T['nav'], $entry['path']) : $entry; if ($item === null) continue; ?>
         <li><a href="<?= e(url($item['href'])) ?>"><?= e($item['label']) ?></a></li>
 <?php endforeach; ?>
       </ul>
@@ -17,7 +17,7 @@
     <div>
       <h2><?= e($T['footer']['renovation_heading']) ?></h2>
       <ul>
-<?php foreach ($T['footer']['renovation'] as $item): ?>
+<?php foreach ($T['footer']['renovation'] as $entry): $item = isset($entry['path']) ? nav_find($T['nav'], $entry['path']) : $entry; if ($item === null) continue; ?>
         <li><a href="<?= e(url($item['href'])) ?>"><?= e($item['label']) ?></a></li>
 <?php endforeach; ?>
       </ul>

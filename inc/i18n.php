@@ -110,3 +110,31 @@ function i18n_resolve_root(array $langs, string $default, string $fallback): str
 function nav_active(string $key, string $active): string {
     return $key === $active ? ' aria-current="page"' : '';
 }
+
+/**
+ * Look up one nav item's {label, href} by a dotted key path — 'products'
+ * for a top-level item, 'about.production' for the child keyed
+ * 'production' under the top-level item keyed 'about'. Returns null if
+ * the path doesn't resolve (a typo, or the item was removed from nav).
+ *
+ * Used by partials/footer.php so the footer's link lists reference nav
+ * items by key instead of duplicating their label/href — restructuring
+ * the nav (renaming a label, moving a child) then updates the footer
+ * automatically, with nothing to keep in sync by hand.
+ */
+function nav_find(array $nav, string $path): ?array {
+    [$topKey, $childKey] = array_pad(explode('.', $path, 2), 2, null);
+    foreach ($nav as $item) {
+        if ($item['key'] !== $topKey) continue;
+        if ($childKey === null) {
+            return ['label' => $item['label'], 'href' => $item['href']];
+        }
+        foreach ($item['children'] ?? [] as $child) {
+            if ($child['key'] === $childKey) {
+                return ['label' => $child['label'], 'href' => $child['href']];
+            }
+        }
+        return null;
+    }
+    return null;
+}
