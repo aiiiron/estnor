@@ -321,7 +321,8 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   position: relative;
   isolation: isolate;
   background: var(--paper);
-  min-height: clamp(24rem, 60vh, 34rem);
+  min-height: 100vh;   /* fallback for browsers without dvh */
+  min-height: 100dvh;  /* real visible viewport — ignores mobile browser chrome */
   display: flex;
   align-items: flex-start;
   padding-block: clamp(2.5rem, 6vw, 4rem) clamp(6.5rem, 13vw, 9.5rem);
@@ -355,7 +356,6 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 .hero .lead { margin-bottom: 0; max-width: 52ch; }
 .hero .btn-row { margin-top: 1.75rem; }
 @media (max-width: 700px) {
-  .hero { min-height: clamp(21rem, 60vh, 29rem); }
   .hero-bg::after {
     background:
       linear-gradient(to top, var(--paper) 3%, rgba(246,244,238,.68) 46%, rgba(246,244,238,.4) 100%),
