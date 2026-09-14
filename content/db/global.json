@@ -143,14 +143,22 @@
                     "label": "Moodulmajad",
                     "href": "/houses/modular-houses.php",
                     "tag": "Moodul",
-                    "photo": "product-modular-houses"
+                    "photo": "product-modular-houses",
+                    "desc": "Täielikult valmis moodulid — köök, vannituba, kõik — ühendatakse objektil vaid mõne päevaga."
                 },
                 {
                     "label": "Fassaadi- ja katuseelemendid",
                     "href": "/serial-renovation/facade-elements.php",
-                    "tag": "Tehaseline renoveerimine",
-                    "desc": "Tehases valmis fassaadipaneelid KredExi tehaselise renoveerimise programmi jaoks, paigaldatakse hoonet tühjendamata.",
+                    "tag": "Fassaadielemendid",
+                    "desc": "Tehases valmis fassaadi- ja katuseelemendid — sh puitvoodri ja avatäidetega — enne paigaldust täielikult viimistletud.",
                     "photo": "product-facade-elements"
+                },
+                {
+                    "label": "Tehaseline renoveerimine",
+                    "href": "/serial-renovation/index.php",
+                    "tag": "Renoveerimine",
+                    "desc": "Tehases valmis fassaadipaneelid, mis viivad olemasolevad kortermajad kaasaegsele energiatasemele, ilma elanikke välja kolimata.",
+                    "photo": "product-serial-renovation"
                 }
             ],
             "renovation_label": "Tehaseline renoveerimine",
@@ -324,14 +332,22 @@
                     "label": "Modular houses",
                     "href": "/en/houses/modular-houses.php",
                     "tag": "Modular",
-                    "photo": "product-modular-houses"
+                    "photo": "product-modular-houses",
+                    "desc": "Fully finished modules — kitchen, bathroom and all — connected on site in a matter of days."
                 },
                 {
                     "label": "Facade and roof elements",
                     "href": "/en/serial-renovation/facade-elements.php",
-                    "tag": "Serial renovation",
-                    "desc": "Factory-finished panels for the KredEx serial renovation programme, installed while buildings stay occupied.",
+                    "tag": "Facade elements",
+                    "desc": "Prefabricated facade and roof panels — including timber cladding and windows — factory-finished before installation.",
                     "photo": "product-facade-elements"
+                },
+                {
+                    "label": "Serial renovation",
+                    "href": "/en/serial-renovation/index.php",
+                    "tag": "Renovation",
+                    "desc": "Factory-finished facade panels that upgrade existing apartment buildings to modern energy standards while residents stay in place.",
+                    "photo": "product-serial-renovation"
                 }
             ],
             "renovation_label": "Serial renovation",
@@ -506,14 +522,22 @@
                     "label": "Modulhäuser",
                     "href": "/de/houses/modular-houses.php",
                     "tag": "Modular",
-                    "photo": "product-modular-houses"
+                    "photo": "product-modular-houses",
+                    "desc": "Vollständig fertiggestellte Module — Küche, Bad und alles Weitere — werden vor Ort in wenigen Tagen verbunden."
                 },
                 {
                     "label": "Fassaden- und Dachelemente",
                     "href": "/de/serial-renovation/facade-elements.php",
-                    "tag": "Serielle Sanierung",
-                    "desc": "Werksfertige Fassadenpaneele für das KredEx-Programm zur seriellen Sanierung, montiert bei bewohnten Gebäuden.",
+                    "tag": "Fassadenelemente",
+                    "desc": "Vorgefertigte Fassaden- und Dachpaneele — inklusive Holzverkleidung und Fenstern — werkseitig fertiggestellt vor der Montage.",
                     "photo": "product-facade-elements"
+                },
+                {
+                    "label": "Serielle Sanierung",
+                    "href": "/de/serial-renovation/index.php",
+                    "tag": "Sanierung",
+                    "desc": "Werksfertige Fassadenpaneele, die bestehende Mehrfamilienhäuser auf einen modernen Energiestandard bringen, während die Bewohner wohnen bleiben.",
+                    "photo": "product-serial-renovation"
                 }
             ],
             "renovation_label": "Serielle Sanierung",
@@ -687,14 +711,22 @@
                     "label": "Modulhus",
                     "href": "/sv/houses/modular-houses.php",
                     "tag": "Modulärt",
-                    "photo": "product-modular-houses"
+                    "photo": "product-modular-houses",
+                    "desc": "Helt färdiga moduler — kök, badrum och allt — kopplas samman på plats på bara några dagar."
                 },
                 {
                     "label": "Fasad- och takelement",
                     "href": "/sv/serial-renovation/facade-elements.php",
-                    "tag": "Modernisering",
-                    "desc": "Fabrikstillverkade fasadpaneler för KredEx program för seriell renovering, monteras medan husen är bebodda.",
+                    "tag": "Fasadelement",
+                    "desc": "Prefabricerade fasad- och takpaneler — inklusive träpanel och fönster — fabriksfärdiga före montering.",
                     "photo": "product-facade-elements"
+                },
+                {
+                    "label": "Modernisering av flerbostadshus",
+                    "href": "/sv/serial-renovation/index.php",
+                    "tag": "Modernisering",
+                    "desc": "Fabriksfärdiga fasadpaneler som uppgraderar befintliga flerbostadshus till moderna energistandarder medan de boende bor kvar.",
+                    "photo": "product-serial-renovation"
                 }
             ],
             "renovation_label": "Modernisering av flerbostadshus",
@@ -869,14 +901,22 @@
                     "label": "Modulhus",
                     "href": "/nb/houses/modular-houses.php",
                     "tag": "Modulært",
-                    "photo": "product-modular-houses"
+                    "photo": "product-modular-houses",
+                    "desc": "Helt ferdige moduler — kjøkken, bad og alt annet — kobles sammen på byggeplassen på bare noen dager."
                 },
                 {
                     "label": "Fasade- og takelementer",
                     "href": "/nb/serial-renovation/facade-elements.php",
-                    "tag": "Modernisering",
-                    "desc": "Fabrikkferdige fasadepaneler for KredEx-programmet for seriell rehabilitering, montert mens byggene er bebodd.",
+                    "tag": "Fasadeelementer",
+                    "desc": "Prefabrikkerte fasade- og takpaneler — inkludert trekledning og vinduer — fabrikkferdige før montering.",
                     "photo": "product-facade-elements"
+                },
+                {
+                    "label": "Modernisering av leilighetsbygg",
+                    "href": "/nb/serial-renovation/index.php",
+                    "tag": "Modernisering",
+                    "desc": "Fabrikkferdige fasadepaneler som oppgraderer eksisterende leilighetsbygg til moderne energistandard mens beboerne blir boende.",
+                    "photo": "product-serial-renovation"
                 }
             ],
             "renovation_label": "Modernisering av leilighetsbygg",

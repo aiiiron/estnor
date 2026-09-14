@@ -31,53 +31,44 @@ $h = $T['home'];
             <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][0]['photo']) ?>.jpg" alt="" width="1000" height="750" loading="lazy" decoding="async">
           </picture>
           <div class="content">
-            <span class="tag"><?= e($h['products'][0]['tag']) ?></span>
             <h3><?= e($h['products'][0]['label']) ?></h3>
             <p><?= e($h['products'][0]['desc']) ?></p>
           </div>
         </a>
 
-        <a class="house-card house-card--modular" href="<?= e(url($h['products'][1]['href'])) ?>">
+        <a class="house-card span-2 house-card--modular" href="<?= e(url($h['products'][1]['href'])) ?>">
           <picture class="art">
             <source srcset="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][1]['photo']) ?>.webp" type="image/webp">
             <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][1]['photo']) ?>.jpg" alt="" width="1024" height="682" loading="lazy" decoding="async">
           </picture>
           <div class="content">
-            <span class="tag"><?= e($h['products'][1]['tag']) ?></span>
             <h3><?= e($h['products'][1]['label']) ?></h3>
+            <p><?= e($h['products'][1]['desc']) ?></p>
           </div>
         </a>
-
-        <div class="stat-cell stat-cell--dark">
-          <span class="tag"><?= e($h['stats'][0]['tag']) ?></span>
-          <div><b><?= e($h['stats'][0]['value']) ?></b><span><?= e($h['stats'][0]['label']) ?></span></div>
-        </div>
 
         <a class="house-card span-2 house-card--facade" href="<?= e(url($h['products'][2]['href'])) ?>">
           <picture class="art">
             <source srcset="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][2]['photo']) ?>.webp" type="image/webp">
-            <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][2]['photo']) ?>.jpg" alt="" width="1400" height="787" loading="lazy" decoding="async">
+            <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][2]['photo']) ?>.jpg" alt="" width="1400" height="933" loading="lazy" decoding="async">
           </picture>
           <div class="content">
-            <span class="tag"><?= e($h['products'][2]['tag']) ?></span>
             <h3><?= e($h['products'][2]['label']) ?></h3>
             <p><?= e($h['products'][2]['desc']) ?></p>
           </div>
         </a>
 
-        <div class="stat-cell">
-          <span class="tag"><?= e($h['stats'][1]['tag']) ?></span>
-          <div><b><?= e($h['stats'][1]['value']) ?></b><span><?= e($h['stats'][1]['label']) ?></span></div>
-        </div>
-
-        <div class="stat-cell stat-cell--ochre">
-          <span class="tag"><?= e($h['stats'][2]['tag']) ?></span>
-          <div><b><?= e($h['stats'][2]['value']) ?></b><span><?= e($h['stats'][2]['label']) ?></span></div>
-        </div>
+        <a class="house-card span-2 house-card--renovation" href="<?= e(url($h['products'][3]['href'])) ?>">
+          <picture class="art">
+            <source srcset="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][3]['photo']) ?>.webp" type="image/webp">
+            <img src="<?= e($ASSET) ?>/assets/img/<?= e($h['products'][3]['photo']) ?>.jpg" alt="" width="1400" height="787" loading="lazy" decoding="async">
+          </picture>
+          <div class="content">
+            <h3><?= e($h['products'][3]['label']) ?></h3>
+            <p><?= e($h['products'][3]['desc']) ?></p>
+          </div>
+        </a>
       </div>
-    </div>
-    <div class="wrap btn-row" style="margin-top:1.75rem;">
-      <a class="btn btn-ghost" href="<?= e(url($h['renovation_href'])) ?>"><?= e($h['renovation_label']) ?> →</a>
     </div>
   </section>
 
