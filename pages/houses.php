@@ -21,9 +21,9 @@
       <div class="house-card" style="min-height:400px;">
         <div class="art">
           <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-            <rect width="400" height="360" fill="#1c4f23"/>
-            <g fill="#e8f0e9" opacity=".9"><rect x="60" y="150" width="280" height="130"/><polygon points="40,150 200,70 360,150"/></g>
-            <g fill="#133517"><rect x="180" y="200" width="40" height="80"/></g>
+            <rect width="400" height="360" fill="var(--spruce)"/>
+            <g fill="var(--spruce-tint)" opacity=".9"><rect x="60" y="150" width="280" height="130"/><polygon points="40,150 200,70 360,150"/></g>
+            <g fill="var(--spruce-deep)"><rect x="180" y="200" width="40" height="80"/></g>
           </svg>
         </div>
         <div class="content">
@@ -36,9 +36,9 @@
       <div class="house-card" style="min-height:400px;">
         <div class="art">
           <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-            <rect width="400" height="360" fill="#133517"/>
-            <g fill="#e8f0e9" opacity=".92"><rect x="55" y="140" width="130" height="140"/><rect x="215" y="100" width="130" height="180"/></g>
-            <g fill="#dd8a2c"><rect x="55" y="140" width="130" height="8"/><rect x="215" y="100" width="130" height="8"/></g>
+            <rect width="400" height="360" fill="var(--spruce-deep)"/>
+            <g fill="var(--spruce-tint)" opacity=".92"><rect x="55" y="140" width="130" height="140"/><rect x="215" y="100" width="130" height="180"/></g>
+            <g fill="var(--ochre)"><rect x="55" y="140" width="130" height="8"/><rect x="215" y="100" width="130" height="8"/></g>
           </svg>
         </div>
         <div class="content">

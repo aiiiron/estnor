@@ -26,9 +26,9 @@
       </div>
       <div class="card" style="padding:0; overflow:hidden;">
         <svg viewBox="0 0 400 320" preserveAspectRatio="xMidYMid slice" width="100%" height="100%">
-          <rect width="400" height="320" fill="#133517"/>
-          <g fill="#e8f0e9"><rect x="40" y="180" width="110" height="100"/><rect x="160" y="140" width="110" height="140"/><rect x="280" y="100" width="90" height="180"/></g>
-          <g fill="#dd8a2c"><rect x="40" y="180" width="110" height="8"/><rect x="160" y="140" width="110" height="8"/><rect x="280" y="100" width="90" height="8"/></g>
+          <rect width="400" height="320" fill="var(--spruce-deep)"/>
+          <g fill="var(--spruce-tint)"><rect x="40" y="180" width="110" height="100"/><rect x="160" y="140" width="110" height="140"/><rect x="280" y="100" width="90" height="180"/></g>
+          <g fill="var(--ochre)"><rect x="40" y="180" width="110" height="8"/><rect x="160" y="140" width="110" height="8"/><rect x="280" y="100" width="90" height="8"/></g>
         </svg>
       </div>
     </div>
@@ -52,11 +52,11 @@
     <div class="wrap split">
       <div class="card" style="padding:0; overflow:hidden;">
         <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 400 300" width="100%" height="100%">
-          <rect fill="#2c5a45" height="300" width="400"></rect>
-          <g fill="#e8f0e9" opacity=".95">
+          <rect fill="var(--spruce-deep)" height="300" width="400"></rect>
+          <g fill="var(--spruce-tint)" opacity=".95">
             <rect height="220" width="100" x="30" y="60"></rect><rect height="220" width="100" x="150" y="60"></rect><rect height="220" width="100" x="270" y="60"></rect>
           </g>
-          <g fill="#133517"><rect height="20" width="20" x="50" y="90"></rect><rect height="20" width="20" x="90" y="90"></rect><rect height="20" width="20" x="170" y="90"></rect><rect height="20" width="20" x="210" y="90"></rect><rect height="20" width="20" x="290" y="90"></rect><rect height="20" width="20" x="330" y="90"></rect></g>
+          <g fill="var(--spruce-deep)"><rect height="20" width="20" x="50" y="90"></rect><rect height="20" width="20" x="90" y="90"></rect><rect height="20" width="20" x="170" y="90"></rect><rect height="20" width="20" x="210" y="90"></rect><rect height="20" width="20" x="290" y="90"></rect><rect height="20" width="20" x="330" y="90"></rect></g>
         </svg>
       </div>
       <div>

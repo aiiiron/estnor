@@ -17,12 +17,12 @@
  * Renovation").
  */
 $tiles = [
-  ['class' => 'tile tall', 'svg' => '<svg viewBox="0 0 300 640" preserveAspectRatio="xMidYMid slice"><rect width="300" height="640" fill="#133517"/><g fill="#e8f0e9" opacity=".9"><rect x="40" y="60" width="220" height="18"/><rect x="40" y="100" width="220" height="18"/><rect x="40" y="140" width="220" height="18"/></g><rect x="40" y="200" width="220" height="380" fill="#1c4f23"/></svg>'],
-  ['class' => 'tile',      'svg' => '<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice"><rect width="300" height="300" fill="#1c4f23"/><polygon points="30,220 150,110 270,220" fill="#e8f0e9"/></svg>'],
-  ['class' => 'tile',      'svg' => '<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice"><rect width="300" height="300" fill="#dd8a2c"/><g fill="#133517" opacity=".85"><rect x="30" y="60" width="240" height="30"/><rect x="30" y="110" width="240" height="30"/><rect x="30" y="160" width="240" height="30"/></g></svg>'],
-  ['class' => 'tile',      'svg' => '<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice"><rect width="300" height="300" fill="#133517"/><rect x="60" y="60" width="180" height="180" fill="#f6f4ee"/></svg>'],
-  ['class' => 'tile',      'svg' => '<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice"><rect width="300" height="300" fill="#e8f0e9"/><circle cx="150" cy="150" r="90" fill="#1c4f23"/></svg>'],
-  ['class' => 'tile tall', 'svg' => '<svg viewBox="0 0 300 640" preserveAspectRatio="xMidYMid slice"><rect width="300" height="640" fill="#1c4f23"/><rect x="40" y="300" width="220" height="300" fill="#e8f0e9"/><polygon points="20,300 150,180 280,300" fill="#f6f4ee"/></svg>'],
+  ['class' => 'tile tall', 'svg' => '<svg viewBox="0 0 300 640" preserveAspectRatio="xMidYMid slice"><rect width="300" height="640" fill="var(--spruce-deep)"/><g fill="var(--spruce-tint)" opacity=".9"><rect x="40" y="60" width="220" height="18"/><rect x="40" y="100" width="220" height="18"/><rect x="40" y="140" width="220" height="18"/></g><rect x="40" y="200" width="220" height="380" fill="var(--spruce)"/></svg>'],
+  ['class' => 'tile',      'svg' => '<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice"><rect width="300" height="300" fill="var(--spruce)"/><polygon points="30,220 150,110 270,220" fill="var(--spruce-tint)"/></svg>'],
+  ['class' => 'tile',      'svg' => '<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice"><rect width="300" height="300" fill="var(--ochre)"/><g fill="var(--spruce-deep)" opacity=".85"><rect x="30" y="60" width="240" height="30"/><rect x="30" y="110" width="240" height="30"/><rect x="30" y="160" width="240" height="30"/></g></svg>'],
+  ['class' => 'tile',      'svg' => '<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice"><rect width="300" height="300" fill="var(--spruce-deep)"/><rect x="60" y="60" width="180" height="180" fill="var(--paper)"/></svg>'],
+  ['class' => 'tile',      'svg' => '<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice"><rect width="300" height="300" fill="var(--spruce-tint)"/><circle cx="150" cy="150" r="90" fill="var(--spruce)"/></svg>'],
+  ['class' => 'tile tall', 'svg' => '<svg viewBox="0 0 300 640" preserveAspectRatio="xMidYMid slice"><rect width="300" height="640" fill="var(--spruce)"/><rect x="40" y="300" width="220" height="300" fill="var(--spruce-tint)"/><polygon points="20,300 150,180 280,300" fill="var(--paper)"/></svg>'],
 ];
 ?>
 

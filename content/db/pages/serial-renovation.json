@@ -96,7 +96,7 @@
             "h2": "Renoveerimisreferentsid",
             "projects": [
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><g fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/></g></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><g fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/></g></svg>",
                     "meta": "Eesti · 2022–2027",
                     "title": "KredEx pilootprogramm tehaselise renoveerimise jaoks",
                     "tags": [
@@ -132,7 +132,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"/><g fill=\"#1c4f23\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1c4f23\" opacity=\".4\"/></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"var(--ochre)\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"/><g fill=\"var(--spruce)\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"var(--spruce)\" opacity=\".4\"/></svg>",
                     "meta": "Tallinn, Eesti",
                     "title": "Loodusmaja — keskkonnahoone Tallinnas",
                     "tags": [
@@ -153,7 +153,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"var(--ochre-deep)\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"var(--ochre-deep)\">?</text></svg>",
                     "meta": "Ettevalmistamisel",
                     "title": "Esimesed projektid väljaspool Eestit",
                     "tags": [
@@ -263,7 +263,7 @@
             "h2": "Renovation references",
             "projects": [
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><g fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/></g></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><g fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/></g></svg>",
                     "meta": "Estonia · 2022–2027",
                     "title": "KredEx pilot programme for serial renovation",
                     "tags": [
@@ -299,7 +299,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"/><g fill=\"#1c4f23\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1c4f23\" opacity=\".4\"/></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"var(--ochre)\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"/><g fill=\"var(--spruce)\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"var(--spruce)\" opacity=\".4\"/></svg>",
                     "meta": "Tallinn, Estonia",
                     "title": "Loodusmaja — environmental building, Tallinn",
                     "tags": [
@@ -320,7 +320,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"var(--ochre-deep)\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"var(--ochre-deep)\">?</text></svg>",
                     "meta": "In preparation",
                     "title": "First projects beyond Estonia",
                     "tags": [
@@ -430,7 +430,7 @@
             "h2": "Referenzen zur seriellen Sanierung",
             "projects": [
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><g fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/></g></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><g fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/></g></svg>",
                     "meta": "Estland · 2022–2027",
                     "title": "KredEx-Pilotprogramm für serielle Sanierung",
                     "tags": [
@@ -466,7 +466,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"/><g fill=\"#1c4f23\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1c4f23\" opacity=\".4\"/></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"var(--ochre)\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"/><g fill=\"var(--spruce)\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"var(--spruce)\" opacity=\".4\"/></svg>",
                     "meta": "Tallinn, Estland",
                     "title": "Loodusmaja – Umwelthaus Tallinn",
                     "tags": [
@@ -487,7 +487,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"var(--ochre-deep)\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"var(--ochre-deep)\">?</text></svg>",
                     "meta": "Deutschland · in Vorbereitung",
                     "title": "Erste Projekte in Deutschland",
                     "tags": [
@@ -597,7 +597,7 @@
             "h2": "Referenser för modernisering",
             "projects": [
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><g fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/></g></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><g fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/></g></svg>",
                     "meta": "Estland · 2022–2027",
                     "title": "KredEx-pilotprogram för seriell renovering",
                     "tags": [
@@ -633,7 +633,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"/><g fill=\"#1c4f23\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1c4f23\" opacity=\".4\"/></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"var(--ochre)\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"/><g fill=\"var(--spruce)\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"var(--spruce)\" opacity=\".4\"/></svg>",
                     "meta": "Tallinn, Estland",
                     "title": "Nature Hub — miljöbyggnad",
                     "tags": [
@@ -653,7 +653,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"var(--ochre-deep)\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"var(--ochre-deep)\">?</text></svg>",
                     "meta": "Nya marknader · under förberedelse",
                     "title": "Fler EstNor-projekt på gång",
                     "tags": [
@@ -762,7 +762,7 @@
             "h2": "Referanser for modernisering",
             "projects": [
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><g fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"#1c4f23\" opacity=\".25\"/></g></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><g fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"20\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"25\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"20\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"24\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"52\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"56\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/><rect x=\"84\" y=\"54\" width=\"26\" height=\"28\" rx=\"2\"/><rect x=\"88\" y=\"59\" width=\"9\" height=\"18\" fill=\"var(--spruce)\" opacity=\".25\"/></g></svg>",
                     "meta": "Estland · 2022–2027",
                     "title": "KredEx-pilotprogram for seriell rehabilitering",
                     "tags": [
@@ -798,7 +798,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"#dd8a2c\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"#1c4f23\" stroke-width=\"2\"/><g fill=\"#1c4f23\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"#1c4f23\" opacity=\".4\"/></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><path d=\"M40 55 L100 25 L160 55 Z\" fill=\"var(--ochre)\"/><rect x=\"45\" y=\"55\" width=\"110\" height=\"80\" fill=\"none\" stroke=\"var(--spruce)\" stroke-width=\"2\"/><g fill=\"var(--spruce)\" opacity=\".25\"><rect x=\"58\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"91\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"68\" width=\"18\" height=\"22\"/><rect x=\"58\" y=\"100\" width=\"18\" height=\"22\"/><rect x=\"124\" y=\"100\" width=\"18\" height=\"22\"/></g><rect x=\"91\" y=\"100\" width=\"18\" height=\"35\" fill=\"var(--spruce)\" opacity=\".4\"/></svg>",
                     "meta": "Tallinn, Estland",
                     "title": "Nature Hub — miljøbygg",
                     "tags": [
@@ -818,7 +818,7 @@
                     ]
                 },
                 {
-                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"#e8f0e9\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"#b96f1c\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"#b96f1c\">?</text></svg>",
+                    "svg": "<svg viewBox=\"0 0 200 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"150\" fill=\"var(--spruce-tint)\"/><rect x=\"45\" y=\"35\" width=\"110\" height=\"95\" fill=\"none\" stroke=\"var(--ochre-deep)\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-family=\"Bricolage Grotesque, sans-serif\" font-size=\"15\" fill=\"var(--ochre-deep)\">?</text></svg>",
                     "meta": "Nye markeder · under forberedelse",
                     "title": "Flere EstNor-prosjekter på vei",
                     "tags": [
