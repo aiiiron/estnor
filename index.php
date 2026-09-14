@@ -9,7 +9,7 @@ require_once __DIR__ . '/inc/site.php';
 require_once __DIR__ . '/inc/i18n.php';
 
 $LANG   = i18n_resolve_root($LANGS, $LANG_DEFAULT, $LANG_FALLBACK_FOREIGN); // redirects and exits if not 'et'
-$ASSET  = '.';
+$ASSET  = base_path();
 $ACTIVE = '';
 $T      = load_lang($LANG);
 $PAGE_TITLE = $T['meta']['home']['title'];

@@ -50,21 +50,39 @@ publicly.
   right language folder and sets the cookie so the choice sticks for a
   year. Every other URL is an explicit choice and is never redirected.
 
-## One template per page, content read straight from JSON
+## One template per page, one router, content read straight from JSON
 
 Every page exists as a **single shared template** in `pages/`, regardless
 of language. A page's own text — hero copy, card titles, checklists, form
 labels, everything — lives in `content/db/*.json` as one JSON blob per
-(language, page) pair, not hardcoded in PHP. The 60 files under the
-language folders (`about-us/index.php`, `en/about-us/index.php`, …) are
-thin routing shims of about a dozen lines each: they set which language
-and asset path apply, load that language's content, and hand off to the
-one real template. Fixing a layout bug, or restructuring a section, means
-editing one file in `pages/` instead of five nearly identical copies —
-which is exactly the maintenance problem this rearchitecture replaced (an
-earlier version of this site had the full markup duplicated five times
-per page, and every bug fix had to be applied five times to match).
+(language, page) pair, not hardcoded in PHP. Fixing a layout bug, or
+restructuring a section, means editing one file in `pages/` — which is
+exactly the maintenance problem this rearchitecture replaced (an earlier
+version of this site had the full markup duplicated five times per page,
+one per language, and every bug fix had to be applied five times to
+match).
 
+The 59 files under the language folders (`about-us/index.php`,
+`en/about-us/index.php`, …) are now **one-line routing shims** —
+`<?php require __DIR__ . '/../inc/route.php';` (with as many `../` as
+needed to reach `inc/`) — that never need to change again once written.
+All the actual routing logic lives in two files instead of being
+duplicated across all 60:
+
+- **`inc/route.php`** — the shared entry point every shim requires. Reads
+  the requested URL itself (`$_SERVER['SCRIPT_NAME']`) to work out the
+  language and the page's slug (no per-file variables to keep in sync),
+  looks the slug up in `inc/pages.php`, builds the cross-page links that
+  page's template needs (`$HOME_HREF`, `$CONTACT_HREF`, and whatever else
+  — `$ELEMENT_HREF`, `$FACADE_HREF`, `$PARENT_HREF`, ... — per that
+  page's entry) as absolute URLs via `page_url()`, loads its content, and
+  hands off to the one real template in `pages/`.
+- **`inc/pages.php`** — one entry per page (12 total, independent of
+  language): which `pages/*.php` template renders it, which
+  `content/db/pages/*.json` file its content comes from, its nav
+  `$ACTIVE` key, and any extra cross-page links its template needs beyond
+  the two every page gets automatically. Adding a page means one new
+  entry here plus its template and content file — not five new shims.
 - **`inc/db.php`** — despite the name (left as-is so nothing importing it
   had to change), this is no longer database-backed: `load_lang($code)`
   returns the site-chrome strings (nav, footer, homepage hero) for a
@@ -81,16 +99,25 @@ per page, and every bug fix had to be applied five times to match).
   header/nav/footer from `$T` (the `load_lang()` result); **`pages/*.php`**
   render each page's own body from `$P` (the `load_page()` result).
 
+The root `/index.php` is the one page that stays a real, standalone file
+rather than a routing shim — it alone runs the language-detection /
+redirect logic (`i18n_resolve_root()`), which only makes sense at the
+one URL a first-time visitor actually lands on.
+
 ## Structure
 
 ```
-index.php                          Root — language detection + Estonian home
-en/ , de/ , sv/ , nb/               Each language's routing shims (about-us/, houses/, ...)
+index.php                          Root — language detection + Estonian home (the one
+                                    page that isn't a routing shim; see above)
+en/ , de/ , sv/ , nb/               Each language's one-line routing shims (about-us/,
+                                    houses/, ...) — all require inc/route.php
 about-us/ , houses/ , ...           Estonian routing shims (same page set, at root)
 pages/*.php                         The actual page templates — one per page, shared by
                                     every language
+inc/route.php                      The router every shim requires — see above
+inc/pages.php                      The slug -> template/content/links table the router reads
 inc/site.php                       Company facts (address, VAT, register code, ...);
-                                    base_path()/url() for subfolder deployment
+                                    base_path()/url()/page_url() for building every link
 inc/i18n.php                       Language detection + nav_active() helper
 inc/db.php                         load_lang() / load_page() — reads content/db/*.json
                                     directly (see "content read straight from JSON" above)

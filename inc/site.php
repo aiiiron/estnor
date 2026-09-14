@@ -61,3 +61,19 @@ function url(string $path): string {
     if ($path === '' || $path[0] !== '/') return $path;
     return base_path() . $path;
 }
+
+/**
+ * Build the absolute URL for a page, given its language and slug (the
+ * same slug keys used in inc/pages.php and content/db/pages/*.json,
+ * e.g. 'index', 'contact', 'houses/element-houses'). Estonian lives at
+ * the domain root with no language prefix; every other language gets
+ * its own top-level folder — see content/db/global.json's nav for the
+ * same convention. Used by inc/route.php to build every cross-page link
+ * (home, contact, etc.) a page template needs, as an absolute path, so
+ * it resolves correctly regardless of how deep the current page's own
+ * URL is nested.
+ */
+function page_url(string $lang, string $slug): string {
+    $prefix = $lang === 'et' ? '' : "/$lang";
+    return url("$prefix/$slug.php");
+}

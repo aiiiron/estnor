@@ -2,7 +2,8 @@
 /**
  * partials/home.php — shared homepage content for every language.
  * Included between head.php and footer.php; expects $T (= load_lang($LANG))
- * and $ASSET already set by the calling index.php.
+ * and $ASSET already set (by inc/route.php, or root index.php's own
+ * language-detection path for the Estonian homepage).
  */
 $h = $T['home'];
 ?>

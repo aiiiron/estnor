@@ -4,7 +4,7 @@
  *
  * Before including this, each page must set:
  *   $LANG        e.g. 'en'                          (drives html lang + $T)
- *   $ASSET       relative path back to /assets, e.g. '..', '../..', '.'
+ *   $ASSET       absolute prefix for /assets links — base_path(), e.g. '' or '/estnor-new'
  *   $ACTIVE      top-level nav key for aria-current, or '' on the homepage
  *   $T           = load_lang($LANG)
  *   $PAGE_TITLE  page <title>
