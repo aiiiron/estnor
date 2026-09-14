@@ -1,44 +1,29 @@
 <?php
 /**
- * config.php — deployment settings: database connection + base URL path.
- * NOT committed to git (see .gitignore) since it holds real credentials
- * once filled in.
+ * config.php — deployment settings: only the base URL path, these days.
+ * NOT committed to git (see .gitignore).
  *
- * Setup on Hostinger:
- *   1. hPanel -> Databases -> MySQL Databases -> create a database, a user,
- *      and attach the user to the database. Hostinger shows you the host
- *      (usually "localhost"), database name, username and password.
- *   2. Copy this file to config.php (same directory) and fill in the
- *      'dsn'/'user'/'pass' values below.
- *   3. Set 'base_path' (see below) to match where this site actually
- *      lives under its domain.
- *   4. Load the database: `php db/migrate.php` once over SSH, or — if
- *      SSH isn't available on your plan — import db/seed.sql directly
- *      through hPanel -> Databases -> phpMyAdmin -> your database ->
- *      Import. Either way, re-run it any time a file under content/db/
- *      changes (regenerate seed.sql first with db/generate_seed.php if
- *      you're using the phpMyAdmin path).
+ * Content used to live in a MySQL database that db/migrate.php loaded
+ * content/db/*.json into, so this file also held DB credentials and every
+ * content change needed a separate database re-import after deploying.
+ * Content is now read straight from content/db/*.json at request time —
+ * a deploy alone is enough. This file (and config.php entirely) is only
+ * needed at all if the site is deployed into a URL subfolder.
  *
- * Local development: point 'dsn' at a SQLite file instead, e.g.
- *   'dsn' => 'sqlite:' . __DIR__ . '/db/dev.sqlite',
- * and leave 'user'/'pass' as null. Everything else in the app is written
- * against plain PDO + ANSI-ish SQL, so it runs unchanged against SQLite or
- * MySQL — only this file's 'dsn' needs to differ between the two.
+ * If the site is served from its domain's root (https://example.com/),
+ * you don't need a config.php at all — skip this file entirely.
+ *
+ * If it's deployed into a subfolder instead — e.g. Hostinger's git deploy
+ * "root directory" is set to something other than the site's actual
+ * document root, so it's reachable at https://example.com/some-folder/ —
+ * copy this file to config.php (same directory) and set 'base_path' to
+ * that folder's path, e.g. '/some-folder'.
  */
 return [
-    'dsn'  => 'mysql:host=localhost;dbname=YOUR_DB_NAME;charset=utf8mb4',
-    'user' => 'YOUR_DB_USER',
-    'pass' => 'YOUR_DB_PASSWORD',
-
     // The URL path this site is mounted under, with no trailing slash.
-    // '' if it's served from its domain's root (https://example.com/).
-    // If it's deployed into a subfolder instead — e.g. Hostinger's git
-    // deploy "root directory" is set to something other than the site's
-    // actual document root, so it's reachable at
-    // https://example.com/some-folder/ — set this to that folder's path,
-    // e.g. '/some-folder'. Every absolute internal link (nav, footer,
-    // language switcher, the root language-detection redirect) is built
-    // from this, via the url() helper in inc/site.php — page-relative
-    // links (most of the site) don't need it and aren't affected.
-    'base_path' => '',
+    // Every absolute internal link (nav, footer, language switcher, the
+    // root language-detection redirect) is built from this, via the
+    // url() helper in inc/site.php — page-relative links (most of the
+    // site) don't need it and aren't affected.
+    'base_path' => '/some-folder',
 ];

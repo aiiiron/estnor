@@ -1,62 +1,59 @@
 <?php
 /**
- * inc/db.php — thin PDO wrapper + content lookup for the DB-backed
- * multilingual content (see db/schema.sql and db/migrate.php).
+ * inc/db.php — content lookup, reading directly from the JSON files under
+ * content/db/ (no database in between).
  *
- * One page load needs at most two rows: the 'global' section (nav, footer,
- * home hero — everything partials/head.php and partials/footer.php need)
- * and the current page's own "page:{slug}" section. Both are cached in a
- * static array for the lifetime of the request, so a page never issues more
- * than 2 queries no matter how many times load_lang()/load_page() are
+ * This used to be a PDO wrapper over a MySQL table that db/migrate.php
+ * loaded content/db/*.json into — every content change needed a code
+ * deploy AND a separate database re-import. It now reads those same JSON
+ * files straight off disk at request time, so a deploy alone is enough;
+ * there is nothing left to re-import. The file keeps its old name and
+ * these two functions' exact signatures/behavior so nothing elsewhere
+ * (partials/head.php, partials/footer.php, every pages/*.php template)
+ * needed to change.
+ *
+ * One page load needs at most two files: content/db/global.json (nav,
+ * footer, home hero) and the current page's own content/db/pages/{slug}.json.
+ * Each file is decoded at most once per request (cached by path in a
+ * static array), no matter how many times load_lang()/load_page() are
  * called while rendering.
  */
 
-/** Print a plain, safe explanation and stop — never leak DB credentials in it. */
-function db_fail(string $message): never {
+/** Print a plain, safe explanation and stop. */
+function content_fail(string $message): never {
     http_response_code(500);
     header('Content-Type: text/plain; charset=utf-8');
     die($message . "\n");
 }
 
-function db(): PDO {
-    static $pdo = null;
-    if ($pdo !== null) return $pdo;
+/** Decode one content/db/*.json file, cached per request by its path. */
+function load_content_file(string $path): array {
+    static $cache = [];
+    if (array_key_exists($path, $cache)) return $cache[$path];
 
-    $configPath = __DIR__ . '/../config.php';
-    if (!is_file($configPath)) {
-        db_fail('Missing config.php — copy config.example.php to config.php and fill in your database credentials.');
+    if (!is_file($path)) {
+        content_fail("Missing content file: " . basename($path) . "\n\nExpected it at content/db/ (or content/db/pages/) — check the file wasn't renamed or deleted.");
     }
-    $config = require $configPath;
-    try {
-        $pdo = new PDO($config['dsn'], $config['user'] ?? null, $config['pass'] ?? null, [
-            PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-        ]);
-    } catch (PDOException $e) {
-        // Common causes: wrong host/db name/user/pass in config.php, the
-        // MySQL extension not enabled for this PHP version in hPanel, or
-        // the database user not yet attached to the database.
-        db_fail("Database connection failed: {$e->getMessage()}\n\nCheck config.php's dsn/user/pass against hPanel -> Databases -> MySQL Databases, and that this domain's PHP version has the mysqli/pdo_mysql extension enabled (hPanel -> Advanced -> PHP Configuration).");
+    $raw = file_get_contents($path);
+    $data = ($raw === false) ? null : json_decode($raw, true);
+    if (!is_array($data)) {
+        content_fail("Malformed JSON in content file: " . basename($path) . (json_last_error() !== JSON_ERROR_NONE ? ' — ' . json_last_error_msg() : ''));
     }
-    return $pdo;
+    return $cache[$path] = $data;
 }
 
-/** Fetch one (lang_code, section) row's JSON content, decoded. Null if absent. */
-function db_get_section(string $lang, string $section): ?array {
-    static $cache = [];
-    $key = $lang . ':' . $section;
-    if (array_key_exists($key, $cache)) return $cache[$key];
-
-    try {
-        $stmt = db()->prepare('SELECT content FROM i18n_strings WHERE lang_code = ? AND section = ?');
-        $stmt->execute([$lang, $section]);
-    } catch (PDOException $e) {
-        // Most likely: db/migrate.php hasn't been run yet against this
-        // database, so the i18n_strings table doesn't exist.
-        db_fail("Database query failed: {$e->getMessage()}\n\nIf this says the table doesn't exist, the database is connected but empty — run db/migrate.php once (see db/seed.sql for a phpMyAdmin-importable alternative if you don't have SSH access).");
+/** Fetch one (lang, section) content block. Null if that language/section is absent. */
+function content_get_section(string $lang, string $section): ?array {
+    if ($section === 'global') {
+        $path = __DIR__ . '/../content/db/global.json';
+    } elseif (str_starts_with($section, 'page:')) {
+        $slug = substr($section, 5);
+        $path = __DIR__ . '/../content/db/pages/' . $slug . '.json';
+    } else {
+        content_fail("Unknown content section: {$section}");
     }
-    $row = $stmt->fetch();
-    return $cache[$key] = ($row ? json_decode($row['content'], true) : null);
+    $data = load_content_file($path);
+    return $data[$lang] ?? null;
 }
 
 /**
@@ -64,24 +61,24 @@ function db_get_section(string $lang, string $section): ?array {
  * meta/home) — same shape the old lang/{code}.php files returned, so
  * partials/head.php, partials/footer.php and partials/home.php need no
  * changes. Falls back to English, then Estonian, if a language is missing
- * (should not happen once db/migrate.php has run, but keeps a bad/partial
- * DB from producing a hard crash).
+ * (should not happen once content/db/global.json has that language, but
+ * keeps a partial edit from producing a hard crash).
  */
 function load_lang(string $code): array {
-    return db_get_section($code, 'global')
-        ?? db_get_section('en', 'global')
-        ?? db_get_section('et', 'global')
+    return content_get_section($code, 'global')
+        ?? content_get_section('en', 'global')
+        ?? content_get_section('et', 'global')
         ?? [];
 }
 
 /**
  * Load one page's own body content (hero copy, cards, steps, etc.) for a
  * language. Every page template in pages/*.php reads its content through
- * this, keyed by the same slug used in its DB section name ("page:{slug}").
+ * this, keyed by the same slug used in its content/db/pages/{slug}.json filename.
  */
 function load_page(string $slug, string $code): array {
-    return db_get_section($code, "page:{$slug}")
-        ?? db_get_section('en', "page:{$slug}")
-        ?? db_get_section('et', "page:{$slug}")
+    return content_get_section($code, "page:{$slug}")
+        ?? content_get_section('en', "page:{$slug}")
+        ?? content_get_section('et', "page:{$slug}")
         ?? [];
 }

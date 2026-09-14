@@ -2,7 +2,7 @@
 /**
  * pages/about-us.php — shared body template for the About Us page, in
  * every language. Content comes from load_page('about-us', $LANG); see
- * content/db/pages/about-us.json for what db/migrate.php loads.
+ * content/db/pages/about-us.json for the source.
  *
  * Caller must already have set $LANG/$ASSET/$ACTIVE, required
  * partials/head.php, and defined $P = load_page('about-us', $LANG) plus

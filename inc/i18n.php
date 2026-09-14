@@ -102,9 +102,9 @@ function i18n_resolve_root(array $langs, string $default, string $fallback): str
     return $default;
 }
 
-// load_lang() and load_page() now live in inc/db.php — every page's
-// content (site chrome + page body alike) comes from the database, not
-// per-language PHP files. See db/schema.sql and db/migrate.php.
+// load_lang() and load_page() live in inc/db.php — every page's content
+// (site chrome + page body alike) comes from content/db/*.json, read
+// directly at request time, not from per-language PHP files.
 
 /** aria-current="page" helper for the top-level nav item matching $active. */
 function nav_active(string $key, string $active): string {

@@ -2,45 +2,32 @@
 
 A clone of **EstNor** (estnor.ee) — a prefabricated timber-house and
 facade-element manufacturer in Kiili, Estonia (est. 2000) — rebuilt on a
-modern, fast PHP + MySQL stack in place of the original WordPress site.
+modern, fast, dependency-free PHP stack in place of the original
+WordPress site.
 
 ## Deployment
 
 This repo is pulled directly by a **Hostinger** hosting account (the same
 git-based auto-deploy pattern used for `ajaraamat.ee`), which executes the
-`.php` files server-side.
+`.php` files server-side. There is no database and nothing to build —
+deploying is pulling the repo, full stop. Content lives in
+`content/db/*.json` and is read straight off disk on each request, so a
+content change goes live the moment the file is deployed, same as a code
+change.
 
-**One-time setup after cloning to Hostinger:**
+**One-time setup after cloning to Hostinger** — only needed if the site is
+deployed into a URL subfolder rather than served at its domain's root:
 
-1. hPanel → Databases → MySQL Databases → create a database and a user,
-   attach the user to the database.
-2. Copy `config.example.php` to `config.php` (same directory) and fill in
-   the host/database/user/password Hostinger gave you. `config.php` is
-   gitignored — it holds real credentials and is never committed.
-3. Set `base_path` in `config.php` to match where the site actually lives
-   under its domain: `''` if it's served at the domain's root, or e.g.
-   `'/estnor-new'` if Hostinger's git deploy "root directory" points at a
-   subfolder rather than the domain's own document root. Every internal
-   link (nav, footer, language switcher, the root redirect) is built from
-   this — get it wrong and every link 404s even though the pages
-   themselves render fine.
-4. Load the database — two ways, pick whichever you have access to:
-   - **With SSH:** `php db/migrate.php`. Creates the tables and loads
-     every language's content from `content/db/*.json`.
-   - **Without SSH:** hPanel → Databases → phpMyAdmin → select your
-     database → Import → choose `db/seed.sql` → Go. Same content, as a
-     plain SQL file phpMyAdmin can run directly — no PHP CLI needed.
-5. Re-run whichever method you used any time a file under `content/db/`
-   changes — both are upserts, safe to run repeatedly. If you edit
-   `content/db/*.json` and only have phpMyAdmin access, regenerate
-   `db/seed.sql` first (`php db/generate_seed.php`, run locally where you
-   do have PHP) and re-import it.
+1. Copy `config.example.php` to `config.php` (same directory) and set
+   `base_path` to match where the site actually lives under its domain —
+   e.g. `'/estnor-new'` if Hostinger's git deploy "root directory" points
+   at a subfolder rather than the domain's own document root. Every
+   internal link (nav, footer, language switcher, the root redirect) is
+   built from this — get it wrong and every link 404s even though the
+   pages themselves render fine.
 
-Local preview needs no MySQL server: `config.php` can point at a local
-SQLite file instead (see the comment in `config.example.php`) — the app
-is written against plain PDO, so the same code runs against either.
-`db/seed.sql` is MySQL-specific (used only for the phpMyAdmin import
-path above), so local SQLite preview always uses `db/migrate.php`.
+If the site is served at its domain's root, skip this — `config.php` is
+optional and `base_path` defaults to `''` when it's absent.
 
 ## Multilingual architecture
 
@@ -63,32 +50,33 @@ publicly.
   right language folder and sets the cookie so the choice sticks for a
   year. Every other URL is an explicit choice and is never redirected.
 
-## One template per page, content from the database
+## One template per page, content read straight from JSON
 
 Every page exists as a **single shared template** in `pages/`, regardless
 of language. A page's own text — hero copy, card titles, checklists, form
-labels, everything — lives in the database as one JSON blob per
+labels, everything — lives in `content/db/*.json` as one JSON blob per
 (language, page) pair, not hardcoded in PHP. The 60 files under the
 language folders (`about-us/index.php`, `en/about-us/index.php`, …) are
-now thin routing shims of about a dozen lines each: they set which
-language and asset path apply, load that language's content, and hand off
-to the one real template. Fixing a layout bug, or restructuring a
-section, now means editing one file in `pages/` instead of five nearly
-identical copies — which is exactly the maintenance problem this
-rearchitecture replaced (an earlier version of this site had the full
-markup duplicated five times per page, and every bug fix had to be
-applied five times to match).
+thin routing shims of about a dozen lines each: they set which language
+and asset path apply, load that language's content, and hand off to the
+one real template. Fixing a layout bug, or restructuring a section, means
+editing one file in `pages/` instead of five nearly identical copies —
+which is exactly the maintenance problem this rearchitecture replaced (an
+earlier version of this site had the full markup duplicated five times
+per page, and every bug fix had to be applied five times to match).
 
-- **`inc/db.php`** — a thin PDO wrapper. `load_lang($code)` returns the
-  site-chrome strings (nav, footer, homepage hero) for a language;
-  `load_page($slug, $code)` returns one page's own content. Both read
-  from the `i18n_strings` table and cache per request, so a page never
-  issues more than two queries.
+- **`inc/db.php`** — despite the name (left as-is so nothing importing it
+  had to change), this is no longer database-backed: `load_lang($code)`
+  returns the site-chrome strings (nav, footer, homepage hero) for a
+  language and `load_page($slug, $code)` returns one page's own content,
+  both by reading the matching `content/db/*.json` file directly and
+  caching the decoded result per request, so a page never re-parses the
+  same file twice.
 - **`content/db/global.json`** and **`content/db/pages/*.json`** are the
-  human-editable source of truth, one file per page, each holding all 5
-  languages side by side (`{"et": {...}, "en": {...}, ...}`). Edit these
-  and re-run `db/migrate.php` to publish a change — never edit the
-  database rows directly, or the next migrate will overwrite them.
+  human-editable source of truth AND what actually gets read at request
+  time — one file per page, each holding all 5 languages side by side
+  (`{"et": {...}, "en": {...}, ...}`). Edit these and deploy; there is no
+  separate publish step.
 - **`partials/head.php`** and **`partials/footer.php`** render the shared
   header/nav/footer from `$T` (the `load_lang()` result); **`pages/*.php`**
   render each page's own body from `$P` (the `load_page()` result).
@@ -101,13 +89,13 @@ en/ , de/ , sv/ , nb/               Each language's routing shims (about-us/, ho
 about-us/ , houses/ , ...           Estonian routing shims (same page set, at root)
 pages/*.php                         The actual page templates — one per page, shared by
                                     every language
-inc/site.php                       Company facts (address, VAT, register code, ...)
+inc/site.php                       Company facts (address, VAT, register code, ...);
+                                    base_path()/url() for subfolder deployment
 inc/i18n.php                       Language detection + nav_active() helper
-inc/db.php                         PDO connection + load_lang() / load_page()
-config.example.php                 DB connection template — copy to config.php, fill in
-db/schema.sql                      Table definitions (documentation; migrate.php also
-                                    creates them)
-db/migrate.php                     Loads content/db/*.json into the database
+inc/db.php                         load_lang() / load_page() — reads content/db/*.json
+                                    directly (see "content read straight from JSON" above)
+config.example.php                 base_path template — copy to config.php, fill in
+                                    (only needed for a subfolder deployment)
 content/db/global.json             Nav/footer/home strings, all 5 languages
 content/db/pages/*.json            Each page's own content, all 5 languages
 partials/{head,footer,home}.php    Shared header/nav/head, footer, homepage layout
@@ -118,19 +106,17 @@ _source/                           The sitemap, URL list and page-text mirror th
                                     content was extracted from (kept for provenance)
 ```
 
-`inc/`, `partials/`, `content/`, `db/` and `_source/` each carry a
-`.htaccess` denying direct HTTP access — PHP's own `require`/`include`
-calls are unaffected, only browser requests to those paths are blocked.
+`inc/`, `partials/`, `content/` and `_source/` each carry a `.htaccess`
+denying direct HTTP access — PHP's own `require`/`include` calls are
+unaffected, only browser requests to those paths are blocked.
 
 ## Local preview
 
 ```
-cp config.example.php config.php
-# edit config.php: 'dsn' => 'sqlite:' . __DIR__ . '/db/dev.sqlite', 'user' => null, 'pass' => null,
-php db/migrate.php
 php -S localhost:8000
 ```
 
-then open `http://localhost:8000/`. Force a language while testing with
-`?lang=en` (etc.) on the root URL, or clear the `lang` cookie to see
+then open `http://localhost:8000/`. No setup step needed — content is
+read straight from `content/db/*.json`. Force a language while testing
+with `?lang=en` (etc.) on the root URL, or clear the `lang` cookie to see
 detection run again.

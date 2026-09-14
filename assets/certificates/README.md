@@ -2,7 +2,7 @@
 
 Real certificate/compliance PDF files go here (ISO 9001, ETA, membership
 certificates, etc.), publicly downloadable — this folder has no
-`.htaccess` restriction, unlike `content/`, `inc/`, `pages/` and `db/`.
+`.htaccess` restriction, unlike `content/`, `inc/` and `pages/`.
 
 To link one from the About Us page's "Certificates & memberships"
 checklist:
@@ -12,8 +12,8 @@ checklist:
    `certs.items` (once per language) and set its `"pdf"` field to the
    filename, e.g. `"pdf": "iso-9001.pdf"` — currently every item has
    `"pdf": null`, which hides the download link.
-3. Run `php db/migrate.php` (or regenerate + import `db/seed.sql` — see
-   the main README) to publish the change.
+3. Deploy — content is read straight from this JSON file, no separate
+   publish step.
 
 No files are checked in here yet — real certificate scans need to come
 from EstNor.
