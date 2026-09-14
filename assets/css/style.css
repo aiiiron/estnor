@@ -584,9 +584,12 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 .bento-grid .span-2 { grid-column: span 2; }
 /* Pull the grid up so its top row overlaps the hero's bottom edge —
    scoped to the homepage product section only (.bento-grid is reused
-   without this effect wherever else it might appear). */
+   without this effect wherever else it might appear). The hero is full
+   viewport height now, so the offset scales with vh (clamped so it
+   never crowds the hero text on a short window or shrinks to nothing
+   on a tall one) instead of a single fixed rem value. */
 .home-products { padding-block-start: 0; }
-.home-products .bento-grid { margin-top: -6.5rem; position: relative; }
+.home-products .bento-grid { margin-top: clamp(-22rem, -36vh, -14rem); position: relative; }
 /* Full-height, brand-tinted photo overlay (replaces the generic dark
    fade elsewhere) — sits on .art, before .content in source order, so it
    washes the whole photo while staying under the text. */
@@ -597,16 +600,16 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 .house-card--renovation .art::after { background: linear-gradient(180deg, rgba(37,106,47,.2) 0%, rgba(37,106,47,.6) 50%, rgba(37,106,47,.94) 100%); }
 @media (max-width: 900px) {
   .bento-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 200px; }
-  .home-products .bento-grid { margin-top: -4rem; }
+  .home-products .bento-grid { margin-top: clamp(-19rem, -32vh, -12rem); }
 }
 @media (max-width: 620px) {
   .bento-grid { grid-template-columns: 1fr; grid-auto-rows: auto; }
   .bento-grid .house-card { min-height: 220px; }
   .bento-grid .span-2 { grid-column: span 1; }
-  /* A single stacked column of cards overlapping a shortened hero reads as
-     cramped rather than layered, so drop the effect at this width. */
-  .home-products { padding-block-start: var(--pad-section); }
-  .home-products .bento-grid { margin-top: 0; }
+  /* The hero is full height here too now, so keep the overlap — just a
+     touch gentler, since a single stacked column has less room either
+     side of the first card. */
+  .home-products .bento-grid { margin-top: clamp(-17rem, -28vh, -10rem); }
 }
 
 .stat-cell {
