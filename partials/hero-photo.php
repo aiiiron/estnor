@@ -2,7 +2,7 @@
 /**
  * partials/hero-photo.php — the full-bleed photo hero (same component as
  * the homepage and Serial Renovation heroes) for a section landing page:
- * Products, References, Contact. Caller sets, before requiring:
+ * Products, References, Contact, About Us. Caller sets, before requiring:
  *
  *   $heroImage   basename under assets/img/, without extension — both a
  *                .jpg and a .webp must exist (e.g. 'hero-products')

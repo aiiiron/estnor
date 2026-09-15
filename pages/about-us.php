@@ -11,14 +11,11 @@
  */
 ?>
 
-  <section class="section page-hero">
-    <div class="wrap">
-      <div class="breadcrumb"><a href="<?= e($HOME_HREF) ?>"><?= e($P['hero']['crumb']) ?></a> / <span><?= e($P['hero']['eyebrow']) ?></span></div>
-      <span class="eyebrow"><?= e($P['hero']['eyebrow']) ?></span>
-      <h1 class="hero-title"><?= e($P['hero']['h1']) ?></h1>
-      <p class="lead"><?= e($P['hero']['lead']) ?></p>
-    </div>
-  </section>
+<?php
+$heroImage = 'hero-about-us';
+$heroSize  = [1900, 1067];
+require __DIR__ . '/../partials/hero-photo.php';
+?>
 
   <section class="section">
     <div class="wrap">
