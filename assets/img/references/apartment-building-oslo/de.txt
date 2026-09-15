@@ -1,5 +1,0 @@
-Product type: Modulhäuser
-Name: Mehrfamilienhaus in Oslo
-Location: Oslo, Norwegen
-Date: 2024-03-01
-Description: Ein mehrgeschossiges Wohngebäude in Oslo, errichtet aus werksfertigen EstNor-Modulen. Jedes Modul wurde vollständig ausgestattet — Küche, Bad und alles Weitere — bevor es zur Baustelle kam.

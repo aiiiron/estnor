@@ -1,5 +1,0 @@
-Product type: Moodulmajad
-Name: Suvilate arendus
-Location: Eesti
-Date: 2023-04-01
-Description: Kiilis toodetud moodulsuvilate kompleks, tarnitud valmis viimistletuna Eesti rannikualale.

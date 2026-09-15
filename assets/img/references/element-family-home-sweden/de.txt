@@ -1,5 +1,0 @@
-Product type: Elementhäuser
-Name: Einfamilienhaus aus Elementen
-Location: Schweden
-Date: 2023-08-01
-Description: Ein großes Einfamilienhaus in Schweden, errichtet aus werksgefertigten Außen- und Innenelementen für eine schnelle, präzise Montage vor Ort.

@@ -1,12 +1,15 @@
 # Deployment settings (base_path) — copy config.example.php to config.php.
 /config.php
 
-# Reference project photos — uploaded straight to the server per project
-# folder (see assets/img/references/README.md), not tracked here: there
-# can be many, and pushing them through git on every deploy is slow.
-# Each project's .txt info files ARE tracked — plain text, not bulky
-# like photos. (Ignoring only files inside each folder, not the folder
-# itself, so git still tracks the per-project folders via their .gitkeep.)
+# Reference project content (photos AND .txt info files) — edited
+# straight on the server (FTP / file manager) per project folder, see
+# assets/img/references/README.md. NONE of it is tracked here, on
+# purpose: deploying this site re-syncs every git-tracked file from
+# this repo, which would silently overwrite anything edited on the
+# live server the same way photos are — a .txt file used to be a
+# tracked exception to that and got wiped by a deploy for exactly that
+# reason. (Ignoring only files inside each folder, not the folder
+# itself, so git still tracks the per-project folders via their
+# .gitkeep — empty placeholders, never real content.)
 /assets/img/references/*/*
 !/assets/img/references/*/.gitkeep
-!/assets/img/references/*/*.txt

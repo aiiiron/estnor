@@ -1,5 +1,0 @@
-Product type: Element houses
-Name: Element-built family home
-Location: Sweden
-Date: 2023-08-01
-Description: A large family home in Sweden, built from factory-produced exterior and interior elements for fast, precise assembly on site.

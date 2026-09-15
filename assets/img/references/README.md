@@ -103,12 +103,15 @@ actually there at page-load time:
 That's it — no code, no other file, nothing to touch in git. The new
 project appears the next time the page loads.
 
-## Why photos aren't tracked in git (but the `.txt` files are)
+## Why none of this is tracked in git
 
-Photos are uploaded straight to the server (FTP, or your host's file
-manager) and are **not** part of this repository — there can be many
-per project, and pushing them through git on every code deploy is
-slow. The small `.txt` files, on the other hand, are tracked normally,
-so they're backed up and versioned along with the rest of the site —
-but you can still edit them the same way, straight on the server, and
-those edits show up immediately without needing a deploy at all.
+Everything in this folder — photos and `.txt` files alike — is edited
+straight on the server (FTP, or your host's file manager) and is
+**not** part of this git repository. Deploying the site re-syncs every
+git-tracked file from the repo, which would silently overwrite
+anything edited here the same way a code change is deployed — so
+nothing real ever gets committed here, on purpose, and a code deploy
+can never touch it. (An earlier version of this tracked the `.txt`
+files in git, reasoning they were small enough not to matter — that
+was a mistake: a deploy reset them to the repo's placeholder content
+and wiped real edits. Fixed by untracking them, same as photos.)

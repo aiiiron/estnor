@@ -1,5 +1,0 @@
-Product type: Elementhus
-Name: Nature Hub
-Location: Estland
-Date: 2024-06-01
-Description: Ett litet elementhus i trästomme, tillverkat i sin helhet på EstNors fabrik i Kiili och levererat helt färdigställt till platsen.

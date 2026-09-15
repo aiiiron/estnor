@@ -1,5 +1,0 @@
-Product type: Fassaadi- ja katuseelemendid
-Name: Stroomi Rannahoone
-Location: Pärnu, Eesti
-Date: 2024-09-01
-Description: Rannaäärne puithoone Pärnus, ehitatud EstNori element- ja fassaaditehnoloogiaga. Fassaadi- ja katuseelemendid valmistati tehases millimeetritäpsusega ning paigaldati mõne nädalaga.
