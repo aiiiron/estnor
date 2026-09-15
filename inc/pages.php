@@ -29,7 +29,7 @@ return [
         'active'   => 'about',
     ],
     'about-us/production' => [
-        'template' => 'gallery.php',
+        'template' => 'production.php',
         'content'  => 'about-us-production',
         'active'   => 'production',
         'links'    => ['PARENT' => 'about-us/index', 'CTA' => 'references'],

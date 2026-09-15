@@ -66,7 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function open(card) {
     openerEl = card;
     photos = JSON.parse(card.dataset.photos || '[]');
-    index = 0;
+    // data-index lets a photo grid open the album at the tile that was
+    // clicked (reference cards have none, so they start at the cover).
+    index = Math.min(Math.max(parseInt(card.dataset.index || '0', 10) || 0, 0), Math.max(photos.length - 1, 0));
 
     category.textContent = card.dataset.category || '';
     title.textContent = card.dataset.title || '';

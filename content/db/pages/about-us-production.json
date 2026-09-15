@@ -6,24 +6,47 @@
         },
         "hero": {
             "crumb": "Avaleht",
-            "eyebrow": "Tehasest objektile",
-            "h1": "Tootmine, ehitusjärgus majad ja valmis majad",
-            "lead": "Pilguheit Kiili tehase tootmisele, ehitusjärgus objektidele ja valminud majadele.",
+            "eyebrow": "Tehase seest",
+            "h1": "Tootmine Kiilis",
+            "lead": "Pilk EstNori tehasesse Kiilis, Harjumaal — kus element- ja moodulmajad ning fassaadielemendid valmivad ilmastikukindlas ja kontrollitud keskkonnas. Klõpsa fotol, et galerii avada.",
             "label": "Tootmine",
             "parent_label": "Ettevõttest"
         },
-        "captions": [
-            "Tootmine",
-            "Tootmine",
-            "Ehitusjärgus",
-            "Ehitusjärgus",
-            "Valmismajad",
-            "Valmismajad"
-        ],
         "cta": {
             "h2": "Soovid rohkem näha?",
             "body": "Vaata meie tehtud projekte või võta ühendust tehasekülastuse kokkuleppimiseks.",
             "button": "Vaata projekte ja referentse"
+        },
+        "gallery": {
+            "title": "EstNori tehas Kiilis",
+            "category": "Tootmine",
+            "location": "Kiili, Eesti",
+            "description": "Element- ja moodulmajade ning fassaadielementide tootmine EstNori tehases Kiilis, Harjumaal.",
+            "order": [
+                1,
+                20,
+                21,
+                2,
+                23,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                22,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
         }
     },
     "en": {
@@ -33,24 +56,47 @@
         },
         "hero": {
             "crumb": "Home",
-            "eyebrow": "Inside the factory, and out on site",
-            "h1": "Production, houses and facade elements",
-            "lead": "A visual look at production in Kiili, the houses that leave our factory floor, and the facade elements shipped for serial renovation.",
+            "eyebrow": "Inside the factory",
+            "h1": "Production in Kiili",
+            "lead": "A look inside EstNor's factory in Kiili, Harju County — where element and modular houses and facade elements are built in a weatherproof, controlled environment. Click a photo to open the gallery.",
             "label": "Production",
             "parent_label": "About Us"
         },
-        "captions": [
-            "Production floor",
-            "Element assembly",
-            "Facade elements ready to ship",
-            "Finished module",
-            "Interior finishing",
-            "Delivered house"
-        ],
         "cta": {
             "h2": "Want to see more?",
             "body": "Browse a full project write-up, or get in touch to arrange a factory visit.",
             "button": "See projects & references"
+        },
+        "gallery": {
+            "title": "EstNor factory in Kiili",
+            "category": "Production",
+            "location": "Kiili, Estonia",
+            "description": "Element and modular houses and facade elements being built at EstNor's factory in Kiili, Harju County.",
+            "order": [
+                1,
+                20,
+                21,
+                2,
+                23,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                22,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
         }
     },
     "de": {
@@ -60,24 +106,47 @@
         },
         "hero": {
             "crumb": "Startseite",
-            "eyebrow": "Vom Werk bis zur Baustelle",
-            "h1": "Produktion, Häuser im Bau und fertige Häuser",
-            "lead": "Ein Einblick in die Produktion in Kiili, Häuser im Bauzustand und fertiggestellte Häuser.",
+            "eyebrow": "Im Werk",
+            "h1": "Produktion in Kiili",
+            "lead": "Ein Blick in das EstNor-Werk in Kiili, Harjumaa — wo Element- und Modulhäuser sowie Fassadenelemente in einer wetterfesten, kontrollierten Umgebung entstehen. Klicken Sie auf ein Foto, um die Galerie zu öffnen.",
             "label": "Produktion",
             "parent_label": "Über EstNor"
         },
-        "captions": [
-            "Produktion",
-            "Produktion",
-            "Im Bau",
-            "Im Bau",
-            "Fertige Häuser",
-            "Fertige Häuser"
-        ],
         "cta": {
             "h2": "Möchten Sie mehr sehen?",
             "body": "Sehen Sie sich unsere Projekte an oder vereinbaren Sie einen Werksbesuch.",
             "button": "Projekte & Referenzen ansehen"
+        },
+        "gallery": {
+            "title": "EstNor-Werk in Kiili",
+            "category": "Produktion",
+            "location": "Kiili, Estland",
+            "description": "Fertigung von Element- und Modulhäusern sowie Fassadenelementen im EstNor-Werk in Kiili, Harjumaa.",
+            "order": [
+                1,
+                20,
+                21,
+                2,
+                23,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                22,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
         }
     },
     "sv": {
@@ -87,24 +156,47 @@
         },
         "hero": {
             "crumb": "Startsida",
-            "eyebrow": "Från fabrik till byggplats",
-            "h1": "Tillverkning, hus under uppförande och färdiga hus",
-            "lead": "En inblick i produktionen i Kiili, hus under uppförande och färdigställda hus.",
+            "eyebrow": "Inne i fabriken",
+            "h1": "Produktion i Kiili",
+            "lead": "En titt in i EstNors fabrik i Kiili, Harjumaa — där element- och modulhus samt fasadelement byggs i en väderskyddad, kontrollerad miljö. Klicka på en bild för att öppna galleriet.",
             "label": "Produktion",
             "parent_label": "Om EstNor"
         },
-        "captions": [
-            "Tillverkning",
-            "Tillverkning",
-            "Under uppförande",
-            "Under uppförande",
-            "Färdiga hus",
-            "Färdiga hus"
-        ],
         "cta": {
             "h2": "Vill du se mer?",
             "body": "Se våra projekt eller kontakta oss för att boka ett fabriksbesök.",
             "button": "Se projekt & referenser"
+        },
+        "gallery": {
+            "title": "EstNors fabrik i Kiili",
+            "category": "Produktion",
+            "location": "Kiili, Estland",
+            "description": "Tillverkning av element- och modulhus samt fasadelement i EstNors fabrik i Kiili, Harjumaa.",
+            "order": [
+                1,
+                20,
+                21,
+                2,
+                23,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                22,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
         }
     },
     "nb": {
@@ -114,24 +206,47 @@
         },
         "hero": {
             "crumb": "Forsiden",
-            "eyebrow": "Fra fabrikk til byggeplass",
-            "h1": "Produksjon, hus under oppføring og ferdige hus",
-            "lead": "Et innblikk i produksjonen i Kiili, hus under oppføring og ferdigstilte hus.",
+            "eyebrow": "Inne i fabrikken",
+            "h1": "Produksjon i Kiili",
+            "lead": "Et blikk inn i EstNors fabrikk i Kiili, Harjumaa — der element- og modulhus samt fasadeelementer bygges i et værbeskyttet, kontrollert miljø. Klikk på et bilde for å åpne galleriet.",
             "label": "Produksjon",
             "parent_label": "Om EstNor"
         },
-        "captions": [
-            "Produksjon",
-            "Produksjon",
-            "Under oppføring",
-            "Under oppføring",
-            "Ferdige hus",
-            "Ferdige hus"
-        ],
         "cta": {
             "h2": "Vil du se mer?",
             "body": "Se prosjektene våre, eller ta kontakt for å avtale et fabrikkbesøk.",
             "button": "Se prosjekter & referanser"
+        },
+        "gallery": {
+            "title": "EstNors fabrikk i Kiili",
+            "category": "Produksjon",
+            "location": "Kiili, Estland",
+            "description": "Produksjon av element- og modulhus samt fasadeelementer i EstNors fabrikk i Kiili, Harjumaa.",
+            "order": [
+                1,
+                20,
+                21,
+                2,
+                23,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                22,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
         }
     }
 }

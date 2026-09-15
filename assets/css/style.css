@@ -608,6 +608,16 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 @media (max-width: 900px) { .cert-grid, .registry-dl { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 460px) { .cert-grid { grid-template-columns: 1fr; } }
 
+/* Production page photo mosaic: 3 equal 4:3 tiles per row, the first one
+   spanning 2x2 as a feature; tiles are buttons opening the shared lightbox. */
+.photo-mosaic { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.photo-tile { margin: 0; padding: 0; border: 0; background: var(--spruce-deep); border-radius: var(--r-md); overflow: hidden; aspect-ratio: 4 / 3; cursor: pointer; display: block; box-shadow: var(--shadow); }
+.photo-tile img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s ease; }
+.photo-tile:hover img, .photo-tile:focus-visible img { transform: scale(1.03); }
+.photo-tile:focus-visible { outline: 3px solid var(--ochre); outline-offset: 2px; }
+.photo-tile--feature { grid-column: span 2; grid-row: span 2; aspect-ratio: auto; }
+@media (max-width: 700px) { .photo-mosaic { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; } .photo-tile--feature { grid-column: span 2; grid-row: auto; aspect-ratio: 4 / 3; } }
+
 /* 5) SEITENSPEZIFISCH ---------------------------------------------------- */
 
 .badge-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.9rem; align-items: center; }
