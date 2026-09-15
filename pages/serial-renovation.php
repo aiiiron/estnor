@@ -3,7 +3,7 @@
  * pages/serial-renovation.php — shared body template for the Serial
  * Renovation index page. Caller sets $LANG/$ASSET/$ACTIVE, requires
  * partials/head.php, and defines $P = load_page('serial-renovation',
- * $LANG) plus $HOME_HREF, $CONTACT_HREF, $FACADE_HREF.
+ * $LANG) plus $HOME_HREF, $CONTACT_HREF.
  *
  * The #references section (the nav's Serial Renovation > References
  * child links to that anchor) lists the renovated buildings as photo
@@ -31,7 +31,7 @@
       <p class="lead"><?= e($P['hero']['lead']) ?></p>
       <div class="btn-row">
         <a class="btn btn-primary" href="<?= e($CONTACT_HREF) ?>"><?= e($P['hero']['cta_primary']) ?></a>
-        <a class="btn btn-ghost" href="<?= e($FACADE_HREF) ?>"><?= e($P['hero']['cta_secondary']) ?></a>
+        <a class="btn btn-ghost" href="#references"><?= e($P['hero']['cta_secondary']) ?></a>
       </div>
     </div>
   </section>

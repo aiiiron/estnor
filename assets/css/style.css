@@ -633,6 +633,13 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 /* Reference cards — homepage teaser (3 latest) and the full References
    page grid. Same house-card visual language as the bento product tiles,
    but these are buttons that open .ref-lightbox instead of links. */
+/* Real photos in content sections (modular houses page): a bordered
+   card with the image filling it, and a 3-up row of them. */
+.photo-card { margin: 0; border-radius: var(--r-md); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); background: var(--surface); aspect-ratio: 4 / 3; }
+.photo-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+@media (max-width: 700px) { .photo-row { grid-template-columns: 1fr; } }
+
 /* References page category filter (?type=...) */
 .ref-filter { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 2rem; }
 .ref-filter a {

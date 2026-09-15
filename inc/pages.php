@@ -68,13 +68,6 @@ return [
         'template' => 'serial-renovation.php',
         'content'  => 'serial-renovation',
         'active'   => 'renovation',
-        'links'    => ['FACADE' => 'serial-renovation/facade-elements'],
-    ],
-    'serial-renovation/facade-elements' => [
-        'template' => 'serial-renovation-facade-elements.php',
-        'content'  => 'serial-renovation-facade-elements',
-        'active'   => 'renovation', // off the nav now (reached from the renovation hero's secondary CTA) — highlight its parent
-        'links'    => ['RENOVATION' => 'serial-renovation/index'],
     ],
     'serial-renovation/gallery' => [
         'template' => 'gallery.php',

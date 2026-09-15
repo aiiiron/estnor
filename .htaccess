@@ -1,3 +1,6 @@
 # Old URLs: the products section used to live under /houses/. Works
 # whether the site is at the domain root or in a subfolder (base_path).
 RedirectMatch 301 ^(.*?)/((?:en|de|sv|nb)/)?houses/(.*)$ $1/$2products/$3
+# The facade-elements page moved from Serial Renovation to Products (and is
+# about new buildings now).
+RedirectMatch 301 ^(.*?)/((?:en|de|sv|nb)/)?serial-renovation/facade-elements\.php$ $1/$2products/facade-elements.php

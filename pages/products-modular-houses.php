@@ -1,10 +1,19 @@
 <?php
 /**
- * pages/products-modular-houses.php — shared body template for the Modular
- * Houses page. Caller sets $LANG/$ASSET/$ACTIVE, requires
+ * pages/products-modular-houses.php — shared body template for the
+ * Modular Houses page. Caller sets $LANG/$ASSET/$ACTIVE, requires
  * partials/head.php, and defines $P = load_page('products-modular-houses',
  * $LANG) plus $HOME_HREF, $PRODUCTS_HREF, $REFERENCES_HREF, $CONTACT_HREF.
+ *
+ * Text and photos follow the old estnor.ee/moodulmajad/ page; the photos
+ * live in assets/img/modular/ (jpg + webp pairs). The reference albums
+ * come from the general references collection filtered to the 'modular'
+ * category — see partials/reference-albums.php.
  */
+$modularPhoto = function (string $name, string $alt = '') use ($ASSET): string {
+  $base = e($ASSET) . '/assets/img/modular/' . $name;
+  return '<picture><source srcset="' . $base . '.webp" type="image/webp"><img src="' . $base . '.jpg" alt="' . e($alt) . '" loading="lazy" decoding="async"></picture>';
+};
 ?>
 
   <section class="section page-hero">
@@ -24,24 +33,18 @@
         <p><?= e($para) ?></p>
 <?php endforeach; ?>
       </div>
-      <div class="card" style="padding:0; overflow:hidden;">
-        <svg viewBox="0 0 400 320" preserveAspectRatio="xMidYMid slice" width="100%" height="100%">
-          <rect width="400" height="320" fill="var(--spruce-deep)"/>
-          <g fill="var(--spruce-tint)"><rect x="40" y="180" width="110" height="100"/><rect x="160" y="140" width="110" height="140"/><rect x="280" y="100" width="90" height="180"/></g>
-          <g fill="var(--ochre)"><rect x="40" y="180" width="110" height="8"/><rect x="160" y="140" width="110" height="8"/><rect x="280" y="100" width="90" height="8"/></g>
-        </svg>
-      </div>
+      <figure class="photo-card"><?= $modularPhoto('crane-lift', $P['photos']['crane_lift']) ?></figure>
     </div>
   </section>
 
   <section class="section section--alt">
     <div class="wrap">
       <div class="section-head">
-        <span class="eyebrow"><?= e($P['suitable']['eyebrow']) ?></span>
-        <h2><?= e($P['suitable']['h2']) ?></h2>
+        <span class="eyebrow"><?= e($P['benefits']['eyebrow']) ?></span>
+        <h2><?= e($P['benefits']['h2']) ?></h2>
       </div>
       <div class="grid cols-4">
-<?php foreach ($P['suitable']['cards'] as $card): ?>
+<?php foreach ($P['benefits']['cards'] as $card): ?>
         <div class="card"><h3><?= e($card['title']) ?></h3><p><?= e($card['desc']) ?></p></div>
 <?php endforeach; ?>
       </div>
@@ -49,24 +52,51 @@
   </section>
 
   <section class="section">
-    <div class="wrap split">
-      <div class="card" style="padding:0; overflow:hidden;">
-        <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 400 300" width="100%" height="100%">
-          <rect fill="var(--spruce-deep)" height="300" width="400"></rect>
-          <g fill="var(--spruce-tint)" opacity=".95">
-            <rect height="220" width="100" x="30" y="60"></rect><rect height="220" width="100" x="150" y="60"></rect><rect height="220" width="100" x="270" y="60"></rect>
-          </g>
-          <g fill="var(--spruce-deep)"><rect height="20" width="20" x="50" y="90"></rect><rect height="20" width="20" x="90" y="90"></rect><rect height="20" width="20" x="170" y="90"></rect><rect height="20" width="20" x="210" y="90"></rect><rect height="20" width="20" x="290" y="90"></rect><rect height="20" width="20" x="330" y="90"></rect></g>
-        </svg>
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow"><?= e($P['suitable']['eyebrow']) ?></span>
+        <h2><?= e($P['suitable']['h2']) ?></h2>
+        <p class="lead"><?= e($P['suitable']['lead']) ?></p>
       </div>
+      <div class="photo-row">
+        <figure class="photo-card"><?= $modularPhoto('factory-hall', $P['photos']['factory_hall']) ?></figure>
+        <figure class="photo-card"><?= $modularPhoto('transport', $P['photos']['transport']) ?></figure>
+        <figure class="photo-card"><?= $modularPhoto('finished-house', $P['photos']['finished_house']) ?></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="eyebrow"><?= e($P['steps']['eyebrow']) ?></span>
+        <h2><?= e($P['steps']['h2']) ?></h2>
+        <p class="lead"><?= e($P['steps']['lead']) ?></p>
+      </div>
+      <ol class="steps">
+<?php foreach ($P['steps']['items'] as $step): ?>
+        <li><h3><?= e($step['title']) ?></h3><p><?= e($step['desc']) ?></p></li>
+<?php endforeach; ?>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <figure class="photo-card"><?= $modularPhoto('module-factory', $P['photos']['module_factory']) ?></figure>
       <div>
         <span class="eyebrow"><?= e($P['pattern']['eyebrow']) ?></span>
         <h2><?= e($P['pattern']['h2']) ?></h2>
         <p><?= e($P['pattern']['body_pre']) ?><strong><?= e($P['pattern']['bold']) ?></strong><?= e($P['pattern']['body_post']) ?></p>
-        <div class="btn-row"><a class="btn btn-ghost" href="<?= e($REFERENCES_HREF) ?>"><?= e($P['pattern']['cta']) ?></a></div>
       </div>
     </div>
   </section>
+
+<?php
+$albumsCategory = 'modular';
+$albumsHead     = $P['albums'];
+require __DIR__ . '/../partials/reference-albums.php';
+?>
 
   <section class="section section--dark">
     <div class="wrap cta-band">

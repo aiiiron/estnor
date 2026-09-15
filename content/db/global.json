@@ -148,7 +148,7 @@
                 },
                 {
                     "label": "Fassaadi- ja katuseelemendid",
-                    "href": "/serial-renovation/facade-elements.php",
+                    "href": "/products/facade-elements.php",
                     "tag": "Fassaadielemendid",
                     "desc": "Tehases valmis fassaadi- ja katuseelemendid — sh puitvoodri ja avatäidetega — enne paigaldust täielikult viimistletud.",
                     "photo": "product-facade-elements"
@@ -332,7 +332,7 @@
                 },
                 {
                     "label": "Facade and roof elements",
-                    "href": "/en/serial-renovation/facade-elements.php",
+                    "href": "/en/products/facade-elements.php",
                     "tag": "Facade elements",
                     "desc": "Prefabricated facade and roof panels — including timber cladding and windows — factory-finished before installation.",
                     "photo": "product-facade-elements"
@@ -516,7 +516,7 @@
                 },
                 {
                     "label": "Fassaden- und Dachelemente",
-                    "href": "/de/serial-renovation/facade-elements.php",
+                    "href": "/de/products/facade-elements.php",
                     "tag": "Fassadenelemente",
                     "desc": "Vorgefertigte Fassaden- und Dachpaneele — inklusive Holzverkleidung und Fenstern — werkseitig fertiggestellt vor der Montage.",
                     "photo": "product-facade-elements"
@@ -700,7 +700,7 @@
                 },
                 {
                     "label": "Fasad- och takelement",
-                    "href": "/sv/serial-renovation/facade-elements.php",
+                    "href": "/sv/products/facade-elements.php",
                     "tag": "Fasadelement",
                     "desc": "Prefabricerade fasad- och takpaneler — inklusive träpanel och fönster — fabriksfärdiga före montering.",
                     "photo": "product-facade-elements"
@@ -884,7 +884,7 @@
                 },
                 {
                     "label": "Fasade- og takelementer",
-                    "href": "/nb/serial-renovation/facade-elements.php",
+                    "href": "/nb/products/facade-elements.php",
                     "tag": "Fasadeelementer",
                     "desc": "Prefabrikkerte fasade- og takpaneler — inkludert trekledning og vinduer — fabrikkferdige før montering.",
                     "photo": "product-facade-elements"

@@ -2,9 +2,12 @@
 /**
  * pages/products-facade-elements.php — shared body template for the
  * Facade and Roof Elements product page: prefabricated envelope elements
- * for NEW buildings (schools, offices, student housing, ...). Not to be
- * confused with pages/serial-renovation-facade-elements.php, which is
- * the renovation element for existing apartment blocks.
+ * for NEW buildings (schools, offices, student housing, ...). This is
+ * the former Serial Renovation > Facade Elements page moved under
+ * Products and rewritten around new buildings; its generic sections
+ * (element build-up, logistics, quality & certification) carried over.
+ * The renovation element itself is described on the Serial Renovation
+ * index (process steps + per-building albums).
  *
  * Caller sets $LANG/$ASSET/$ACTIVE, requires partials/head.php, and
  * defines $P = load_page('products-facade-elements', $LANG) plus
@@ -52,6 +55,41 @@
 <?php foreach ($P['deliver']['cards'] as $card): ?>
         <div class="card"><h3><?= e($card['title']) ?></h3><p><?= e($card['desc']) ?></p></div>
 <?php endforeach; ?>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <h2><?= e($P['buildup']['h2']) ?></h2>
+        <ul class="buildup">
+<?php foreach ($P['buildup']['items'] as $i => $item): ?>
+          <li><b><?= $i + 1 ?></b><span><?= e($item) ?></span></li>
+<?php endforeach; ?>
+        </ul>
+      </div>
+      <div class="panel-stack" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow"><?= e($P['logistics']['eyebrow']) ?></span>
+        <h2><?= e($P['logistics']['h2']) ?></h2>
+        <p><?= e($P['logistics']['body']) ?></p>
+      </div>
+      <div>
+        <span class="eyebrow"><?= e($P['quality']['eyebrow']) ?></span>
+        <ul class="check">
+<?php foreach ($P['quality']['items'] as $item): ?>
+          <li><?= e($item) ?></li>
+<?php endforeach; ?>
+        </ul>
+        <div class="callout"><b><?= e($P['quality']['callout_label']) ?></b> <?= e($P['quality']['callout_text']) ?></div>
       </div>
     </div>
   </section>
