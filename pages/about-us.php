@@ -62,20 +62,27 @@ require __DIR__ . '/../partials/hero-photo.php';
   </section>
 
   <section class="section section--tint">
-    <div class="wrap split">
-      <div>
+    <div class="wrap">
+      <div class="section-head">
         <span class="eyebrow"><?= e($P['certs']['eyebrow']) ?></span>
         <h2><?= e($P['certs']['h2']) ?></h2>
-        <ul class="check">
-<?php foreach ($P['certs']['items'] as $item): ?>
-          <li><?= e($item['text']) ?><?php if (!empty($item['pdf'])): ?> <a class="pdf-link" href="<?= e($ASSET) ?>/assets/certificates/<?= e($item['pdf']) ?>" target="_blank" rel="noopener"><?= e($P['certs']['pdf_label']) ?></a><?php endif; ?></li>
-<?php endforeach; ?>
-        </ul>
       </div>
-      <div>
+      <ul class="cert-grid">
+<?php foreach ($P['certs']['items'] as $item): ?>
+        <li>
+          <div class="cert-logos">
+<?php foreach ((array) ($item['logos'] ?? []) as $logo): ?>
+            <img src="<?= e($ASSET) ?>/assets/img/certificates/<?= e($logo) ?>" alt="" loading="lazy" decoding="async">
+<?php endforeach; ?>
+          </div>
+          <p><?= e($item['text']) ?><?php if (!empty($item['pdf'])): ?> <a class="pdf-link" href="<?= e($ASSET) ?>/assets/certificates/<?= e($item['pdf']) ?>" target="_blank" rel="noopener"><?= e($P['certs']['pdf_label']) ?></a><?php endif; ?></p>
+        </li>
+<?php endforeach; ?>
+      </ul>
+      <div class="registry">
         <span class="eyebrow"><?= e($P['registry']['eyebrow']) ?></span>
         <h2><?= e($P['registry']['h2']) ?></h2>
-        <dl class="contact-dl">
+        <dl class="contact-dl registry-dl">
 <?php foreach ($P['registry']['rows'] as $row): ?>
           <div><dt><?= e($row['label']) ?></dt><dd><?= e($row['value']) ?></dd></div>
 <?php endforeach; ?>

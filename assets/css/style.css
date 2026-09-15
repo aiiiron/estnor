@@ -594,6 +594,20 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 .foot-bottom { margin-top: 2.75rem; padding-top: 1.4rem; border-top: 1px solid rgba(255,255,255,.12); display: flex; gap: 1rem 2rem; flex-wrap: wrap; justify-content: space-between; }
 .foot-bottom p { margin: 0; font-size: .82rem; color: #8ba393; }
 
+/* About Us: certificates & memberships as a logo wall — one card per mark
+   (a card may carry two logos, e.g. Sentral godkjenning + DiBK), with the
+   company registry data in a compact two-column list beneath. */
+.cert-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem; }
+.cert-grid li { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); padding: 1.25rem 1.25rem 1.1rem; display: flex; flex-direction: column; gap: .9rem; }
+.cert-logos { height: 64px; display: flex; align-items: center; gap: 1rem; }
+.cert-logos img { max-height: 64px; max-width: 100%; width: auto; height: auto; object-fit: contain; display: block; }
+.cert-logos img[src$=".svg"] { height: 40px; }
+.cert-grid p { margin: 0; font-size: .9rem; color: var(--ink-soft); line-height: 1.5; }
+.registry { margin-top: 3rem; }
+.registry-dl { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem 2rem; }
+@media (max-width: 900px) { .cert-grid, .registry-dl { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 460px) { .cert-grid { grid-template-columns: 1fr; } }
+
 /* 5) SEITENSPEZIFISCH ---------------------------------------------------- */
 
 .badge-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.9rem; align-items: center; }

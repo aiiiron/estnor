@@ -98,19 +98,60 @@
             "h2": "Sertifikaadid ja liikmesused",
             "items": [
                 {
-                    "text": "ISO 9001 kvaliteedijuhtimissüsteem (alates 2015)",
+                    "text": "ISO 9001 kvaliteedijuhtimissüsteem — sertifitseerinud Bureau Veritas (alates 2015)",
+                    "logos": [
+                        "iso-9001.png"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Euroopa tehniline hinnang (ETA, alates 2019)",
+                    "text": "Euroopa tehniline hinnang (ETA) — EOTA (alates 2019)",
+                    "logos": [
+                        "eota.jpg"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Elementide CE-märgistus",
+                    "logos": [
+                        "ce.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Ü-märk (Übereinstimmungszeichen) — vastavustunnistus Saksamaa turule, sertifitseerija BMF Cert",
+                    "logos": [
+                        "bmf-cert.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "StartBANK — Norra ehitussektori kvalifitseeritud tarnijate register",
+                    "logos": [
+                        "startbank.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Sentral godkjenning — Norra ettevõtte keskne heakskiit (Direktoratet for byggkvalitet, DiBK)",
+                    "logos": [
+                        "sentralt-godkjent.jpg",
+                        "dibk.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "SINTEF Byggforsk (Norra ehitusuuringute instituut) tehniline heakskiit",
+                    "logos": [
+                        "byggforsk.png"
+                    ],
                     "pdf": null
                 },
                 {
                     "text": "Eesti Puitmajaliidu liige",
-                    "pdf": null
-                },
-                {
-                    "text": "Majad toodetakse SINTEF ehitusnormide järgi; Norra turul TEK 10, passiivmajadel TEK 15 nõuete kohaselt",
+                    "logos": [
+                        "woodhouse-estonia.svg"
+                    ],
                     "pdf": null
                 }
             ],
@@ -254,19 +295,60 @@
             "h2": "Zertifikate & Mitgliedschaften",
             "items": [
                 {
-                    "text": "Qualitätsmanagement nach ISO 9001 (seit 2015)",
+                    "text": "ISO-9001-Qualitätsmanagementsystem — zertifiziert durch Bureau Veritas (seit 2015)",
+                    "logos": [
+                        "iso-9001.png"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Europäische Technische Bewertung (ETA, seit 2019)",
+                    "text": "Europäische Technische Bewertung (ETA) — EOTA (seit 2019)",
+                    "logos": [
+                        "eota.jpg"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Mitglied im Estnischen Holzhausverband",
+                    "text": "CE-Kennzeichnung der Elemente",
+                    "logos": [
+                        "ce.png"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Fertigung nach SINTEF-Baunormen; auf dem norwegischen Markt nach TEK 10, bei Passivhäusern nach TEK 15",
+                    "text": "Ü-Zeichen (Übereinstimmungszeichen) für den deutschen Markt, zertifiziert durch BMF Cert",
+                    "logos": [
+                        "bmf-cert.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "StartBANK — Lieferantenregister der norwegischen Bauwirtschaft",
+                    "logos": [
+                        "startbank.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Sentral godkjenning — zentrale Zulassung des Unternehmens in Norwegen (Direktoratet for byggkvalitet, DiBK)",
+                    "logos": [
+                        "sentralt-godkjent.jpg",
+                        "dibk.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Technische Zulassung von SINTEF Byggforsk (Norwegisches Bauforschungsinstitut)",
+                    "logos": [
+                        "byggforsk.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Mitglied des Estnischen Holzhausverbands",
+                    "logos": [
+                        "woodhouse-estonia.svg"
+                    ],
                     "pdf": null
                 }
             ],
@@ -410,19 +492,60 @@
             "h2": "Certifikat & medlemskap",
             "items": [
                 {
-                    "text": "Kvalitetsledning enligt ISO 9001 (sedan 2015)",
+                    "text": "ISO 9001-kvalitetsledningssystem — certifierat av Bureau Veritas (sedan 2015)",
+                    "logos": [
+                        "iso-9001.png"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Europeisk teknisk bedömning (ETA, sedan 2019)",
+                    "text": "Europeisk teknisk bedömning (ETA) — EOTA (sedan 2019)",
+                    "logos": [
+                        "eota.jpg"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Medlem i Estniska Trähusförbundet",
+                    "text": "CE-märkning av elementen",
+                    "logos": [
+                        "ce.png"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Tillverkning enligt SINTEF-byggnormer; på den norska marknaden enligt TEK 10, för passivhus TEK 15",
+                    "text": "Ü-märke (Übereinstimmungszeichen) — tysk överensstämmelsedeklaration, certifierad av BMF Cert",
+                    "logos": [
+                        "bmf-cert.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "StartBANK — den norska byggbranschens leverantörsregister",
+                    "logos": [
+                        "startbank.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Sentral godkjenning — norskt centralt godkännande av företaget (Direktoratet for byggkvalitet, DiBK)",
+                    "logos": [
+                        "sentralt-godkjent.jpg",
+                        "dibk.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Tekniskt godkännande från SINTEF Byggforsk (Norges byggforskningsinstitut)",
+                    "logos": [
+                        "byggforsk.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Medlem i Estlands trähusförening",
+                    "logos": [
+                        "woodhouse-estonia.svg"
+                    ],
                     "pdf": null
                 }
             ],
@@ -566,19 +689,60 @@
             "h2": "Sertifikater & medlemskap",
             "items": [
                 {
-                    "text": "Kvalitetsstyring etter ISO 9001 (siden 2015)",
+                    "text": "ISO 9001 kvalitetsstyringssystem — sertifisert av Bureau Veritas (siden 2015)",
+                    "logos": [
+                        "iso-9001.png"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Europeisk teknisk vurdering (ETA, siden 2019)",
+                    "text": "Europeisk teknisk bedømmelse (ETA) — EOTA (siden 2019)",
+                    "logos": [
+                        "eota.jpg"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Medlem av Estisk Trehusforening",
+                    "text": "CE-merking av elementene",
+                    "logos": [
+                        "ce.png"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "Produksjon etter SINTEF-byggenormer; på det norske markedet etter TEK 10, for passivhus TEK 15",
+                    "text": "Ü-merke (Übereinstimmungszeichen) — tysk samsvarserklæring, sertifisert av BMF Cert",
+                    "logos": [
+                        "bmf-cert.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "StartBANK — byggenæringens leverandørregister",
+                    "logos": [
+                        "startbank.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Sentral godkjenning for ansvarsrett (Direktoratet for byggkvalitet, DiBK)",
+                    "logos": [
+                        "sentralt-godkjent.jpg",
+                        "dibk.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Teknisk godkjenning fra SINTEF Byggforsk (Norges byggforskningsinstitutt)",
+                    "logos": [
+                        "byggforsk.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Medlem av Estlands trehusforening",
+                    "logos": [
+                        "woodhouse-estonia.svg"
+                    ],
                     "pdf": null
                 }
             ],
@@ -722,19 +886,60 @@
             "h2": "Certificates & memberships",
             "items": [
                 {
-                    "text": "Quality management to ISO 9001 (since 2015)",
+                    "text": "ISO 9001 quality management system — certified by Bureau Veritas (since 2015)",
+                    "logos": [
+                        "iso-9001.png"
+                    ],
                     "pdf": null
                 },
                 {
-                    "text": "European Technical Assessment (ETA, since 2019)",
+                    "text": "European Technical Assessment (ETA) — EOTA (since 2019)",
+                    "logos": [
+                        "eota.jpg"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "CE marking of the elements",
+                    "logos": [
+                        "ce.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Ü-mark (Übereinstimmungszeichen) — German declaration of conformity, certified by BMF Cert",
+                    "logos": [
+                        "bmf-cert.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "StartBANK — the Norwegian construction industry's register of qualified suppliers",
+                    "logos": [
+                        "startbank.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "Sentral godkjenning — Norwegian central approval of the company (Directorate for Building Quality, DiBK)",
+                    "logos": [
+                        "sentralt-godkjent.jpg",
+                        "dibk.png"
+                    ],
+                    "pdf": null
+                },
+                {
+                    "text": "SINTEF Byggforsk (Norwegian Building Research Institute) technical approval",
+                    "logos": [
+                        "byggforsk.png"
+                    ],
                     "pdf": null
                 },
                 {
                     "text": "Member of the Estonian Woodhouse Association",
-                    "pdf": null
-                },
-                {
-                    "text": "Manufactured to SINTEF building standards; to TEK 10 for the Norwegian market, TEK 15 for passive houses",
+                    "logos": [
+                        "woodhouse-estonia.svg"
+                    ],
                     "pdf": null
                 }
             ],
