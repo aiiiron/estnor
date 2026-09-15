@@ -16,10 +16,10 @@
  */
 ?>
 
-  <section class="hero">
+  <section class="hero hero--renovation">
     <picture class="hero-bg" aria-hidden="true">
-      <source srcset="<?= e($ASSET) ?>/assets/img/hero.webp" type="image/webp">
-      <img src="<?= e($ASSET) ?>/assets/img/hero.jpg" alt="" width="1844" height="1230" fetchpriority="high" decoding="async">
+      <source srcset="<?= e($ASSET) ?>/assets/img/hero-serial-renovation.webp" type="image/webp">
+      <img src="<?= e($ASSET) ?>/assets/img/hero-serial-renovation.jpg" alt="" width="1900" height="1665" fetchpriority="high" decoding="async">
     </picture>
     <div class="hero-inner wrap">
       <div class="breadcrumb"><a href="<?= e($HOME_HREF) ?>"><?= e($P['hero']['crumb']) ?></a> / <span><?= e($P['hero']['label']) ?></span></div>
@@ -36,7 +36,7 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="section renovation-intro">
     <div class="wrap split">
       <div>
         <h2><?= e($P['why_left']['h2']) ?></h2>

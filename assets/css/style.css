@@ -25,9 +25,11 @@
   --font-display: 'Bricolage Grotesque', 'Helvetica Neue', Arial, sans-serif;
   --font-body:    'Inter', 'Helvetica Neue', Arial, sans-serif;
 
-  --r-sm: 7px;
-  --r-md: 14px;
-  --r-lg: 22px;
+  /* One corner radius everywhere — the product cards' 4px. The three
+     names are kept so nothing has to be re-classed, but they're equal. */
+  --r-sm: 4px;
+  --r-md: 4px;
+  --r-lg: 4px;
 
   --wrap: 1140px;
   --pad-section: clamp(3.5rem, 8vw, 6.5rem);
@@ -363,6 +365,22 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   }
 }
 
+/* Serial Renovation page: its own photo (a renovated apartment block)
+   and the intro split pulled up over the hero's faded base, the same
+   way the homepage floats its product grid — otherwise the full-height
+   hero leaves a lot of empty space above the first section. Two
+   side-by-side text columns on a bare photo would be hard to read, so
+   the split gets a surface panel. */
+.hero--renovation .hero-bg img { object-position: 50% 45%; }
+.renovation-intro { padding-block-start: 0; }
+.renovation-intro .split {
+  position: relative; margin-top: clamp(-18rem, -30vh, -10rem);
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md);
+  box-shadow: var(--shadow); padding: clamp(1.5rem, 3.5vw, 2.75rem);
+}
+@media (max-width: 900px) { .renovation-intro .split { margin-top: clamp(-14rem, -24vh, -8rem); } }
+@media (max-width: 700px) { .renovation-intro .split { margin-top: clamp(-12rem, -20vh, -6rem); } }
+
 /* Smaller inner-page hero (no photo — used on section/sub-pages) */
 .page-hero { min-height: 0; padding-block: clamp(2.6rem, 6vw, 4rem); background: var(--paper-alt); }
 .page-hero .hero-title { max-width: 34ch; }
@@ -577,7 +595,7 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 /* Bento grid (home): mixes house-card product tiles with plain stat cells
    in an asymmetric grid, instead of a separate product row + stat row. */
 .bento-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 220px; gap: 1.1rem; }
-.bento-grid .house-card { min-height: 0; border-radius: 4px; }
+.bento-grid .house-card { min-height: 0; border-radius: var(--r-sm); }
 .bento-grid .house-card .content { padding: 1.4rem; background: none; }
 .bento-grid .house-card h3 { font-size: 1.15rem; margin: .1rem 0 .3rem; }
 .bento-grid .house-card p { font-size: .85rem; max-width: 42ch; }
@@ -680,7 +698,7 @@ body.ref-lightbox-open { overflow: hidden; }
 .ref-lightbox-prev[hidden], .ref-lightbox-next[hidden], .ref-lightbox-count[hidden], .ref-lightbox-thumbs[hidden] { display: none; }
 .ref-lightbox-thumbs { display: flex; gap: .6rem; padding: 1rem 1.5rem; overflow-x: auto; flex-shrink: 0; -webkit-overflow-scrolling: touch; }
 .ref-lightbox-thumbs button {
-  flex: 0 0 auto; width: 74px; height: 52px; padding: 0; border-radius: 8px; overflow: hidden;
+  flex: 0 0 auto; width: 74px; height: 52px; padding: 0; border-radius: var(--r-sm); overflow: hidden;
   border: 2px solid transparent; background: var(--paper-alt); opacity: .55; cursor: pointer;
 }
 .ref-lightbox-thumbs button.is-active { opacity: 1; border-color: var(--ochre); }
@@ -691,6 +709,7 @@ body.ref-lightbox-open { overflow: hidden; }
   text-transform: uppercase; color: var(--ochre-deep); margin-bottom: .8em;
 }
 .ref-lightbox-title { margin: 0 0 .5em; font-size: 1.6rem; color: var(--spruce-deep); }
+.ref-lightbox-location[hidden] { display: none; }
 .ref-lightbox-location { display: flex; align-items: center; gap: .4em; color: var(--ink-soft); font-size: .95rem; margin-bottom: .9em; }
 .ref-lightbox-desc { color: var(--ink-soft); line-height: 1.55; max-width: 68ch; margin: 0 0 1em; }
 .ref-lightbox-cta { font-family: var(--font-display); font-weight: 600; font-size: .95rem; }
@@ -704,7 +723,7 @@ body.ref-lightbox-open { overflow: hidden; }
 }
 
 .stat-cell {
-  border-radius: 4px; padding: 1.5rem; display: flex; flex-direction: column;
+  border-radius: var(--r-sm); padding: 1.5rem; display: flex; flex-direction: column;
   justify-content: space-between; background: var(--surface); border: 1px solid var(--line);
 }
 .stat-cell .tag { background: transparent; padding: 0; color: var(--ink-soft); }

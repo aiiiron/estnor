@@ -71,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     category.textContent = card.dataset.category || '';
     title.textContent = card.dataset.title || '';
     locationText.textContent = card.dataset.location || '';
+    locationText.parentElement.hidden = !card.dataset.location; // no pin icon for a project with no location
     desc.textContent = card.dataset.description || '';
 
     buildThumbs();

@@ -13,7 +13,7 @@
  * inc/site.php and inc/i18n.php must already be required (for $SITE,
  * $LANG_HOME, load_lang(), nav_active(), e()).
  */
-$asset_v = '20260915'; // bump on CSS/JS changes to bust the cache
+$asset_v = '20260915b'; // bump on CSS/JS changes to bust the cache
 ?><!doctype html>
 <html lang="<?= e($LANG) ?>">
 <head>
@@ -22,6 +22,8 @@ $asset_v = '20260915'; // bump on CSS/JS changes to bust the cache
   <title><?= e($PAGE_TITLE) ?></title>
   <meta name="description" content="<?= e($PAGE_DESC) ?>">
   <link rel="icon" href="<?= e($ASSET) ?>/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="<?= e($ASSET) ?>/assets/img/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="apple-touch-icon" href="<?= e($ASSET) ?>/assets/img/apple-touch-icon.png">
 <?php foreach ($LANG_HOME as $code => $href): ?>
   <link rel="alternate" hreflang="<?= e($code) ?>" href="<?= e(url($href)) ?>">
 <?php endforeach; ?>

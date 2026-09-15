@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="7" fill="#14352a"/>
-  <g fill="none" stroke="#e0912f" stroke-width="2">
-    <rect x="7" y="7" width="8" height="18" rx="1"/>
-    <rect x="17" y="7" width="8" height="8" rx="1"/>
-    <rect x="17" y="17" width="8" height="8" rx="1"/>
+  <!-- EstNor logo mark: house outline with chimney, same green as the logo -->
+  <g fill="none" stroke="#39B549" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 17 L16 5 L29 17"/>
+    <path d="M21 9.6 V4 H25.5 V13.5"/>
+    <path d="M7 14 V28.5 H25 V14"/>
   </g>
 </svg>
