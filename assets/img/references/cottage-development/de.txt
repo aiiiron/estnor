@@ -1,0 +1,5 @@
+Product type: Modulhäuser
+Name: Ferienhaus-Siedlung
+Location: Estland
+Date: 2023-04-01
+Description: Ein in Kiili gefertigter Ferienhauskomplex aus Modulen, komplett ausgestattet an die estnische Küste geliefert.

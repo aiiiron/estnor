@@ -6,6 +6,15 @@ homepage's "3 latest" teaser) is just one folder here — its photos
 edit: adding, renaming or removing a folder is the whole content
 system.
 
+**This folder's contents are part of the git repository** and get
+deployed along with everything else — add photos and text here in
+your local checkout, then commit, push, and deploy as usual. (An
+earlier version of this tried to keep photos and text out of git,
+edited directly on the live server via FTP instead — that doesn't work
+on this host: its deploy rebuilds the entire live site from git every
+time, so anything not actually committed gets silently wiped on the
+next deploy. Committing it here is what makes it survive.)
+
 ## Folder = one project
 
 ```
@@ -30,9 +39,7 @@ Two ways — pick whichever's easier:
    `20-nature-hub`, ... — shown in ascending order (lowest number
    first). **Recommended.** Leave gaps (10, 20, 30 — not 1, 2, 3) so a
    new "most recent" project can be inserted later as `5-...` without
-   renaming anything else. Renaming a folder in an FTP client moves
-   its contents with it automatically, so this is a single, safe
-   rename whenever you want to reorder or promote a project.
+   renaming anything else.
 2. **A `Date:` line** in the text file (see below) — projects with no
    number in their folder name sort by this, newest first, after every
    numbered folder. Simple, but Date is read per-language, so if you
@@ -76,15 +83,13 @@ language automatically shows the English text (or Estonian, if English
 is missing too), same as everywhere else on the site. A project with
 **no** text file in any language doesn't appear at all.
 
-Save these as plain `.txt`, UTF-8 encoded (the default in Notepad,
-TextEdit, and any FTP client's built-in editor) so accented letters
-(ä, õ, ü, ...) show up correctly.
+Save these as plain `.txt`, UTF-8 encoded, so accented letters (ä, õ,
+ü, ...) show up correctly.
 
 ## The photos
 
-Drop any number of `.jpg`, `.jpeg`, `.png`, `.webp` or `.avif` files
-directly into the project's folder. The site reads whatever is
-actually there at page-load time:
+Add any number of `.jpg`, `.jpeg`, `.png`, `.webp` or `.avif` files
+directly into the project's folder:
 
 - **No photos yet** → the card and its album overlay show a
   placeholder, nothing breaks.
@@ -94,24 +99,16 @@ actually there at page-load time:
   `1.jpg`, `2.jpg`, `3.jpg`, ... if you want to control which photo
   shows first; otherwise plain alphabetical order is used.
 
+Since these ARE committed to git now, it's worth keeping them
+web-sized (a couple thousand pixels wide, reasonably compressed) —
+good for page load speed regardless, and keeps the repository from
+growing huge with full-resolution camera originals.
+
 ## Adding a brand-new reference project
 
 1. Create a new folder here, named however you like.
 2. Add its text file(s) (`en.txt` at least).
-3. Upload its photos.
+3. Add its photos.
+4. Commit, push, deploy.
 
-That's it — no code, no other file, nothing to touch in git. The new
-project appears the next time the page loads.
-
-## Why none of this is tracked in git
-
-Everything in this folder — photos and `.txt` files alike — is edited
-straight on the server (FTP, or your host's file manager) and is
-**not** part of this git repository. Deploying the site re-syncs every
-git-tracked file from the repo, which would silently overwrite
-anything edited here the same way a code change is deployed — so
-nothing real ever gets committed here, on purpose, and a code deploy
-can never touch it. (An earlier version of this tracked the `.txt`
-files in git, reasoning they were small enough not to matter — that
-was a mistake: a deploy reset them to the repo's placeholder content
-and wiped real edits. Fixed by untracking them, same as photos.)
+That's it — no other file to touch, no code change.

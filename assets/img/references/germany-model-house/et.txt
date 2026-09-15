@@ -1,0 +1,5 @@
+Product type: Elementmajad
+Name: Saksamaa näidismaja
+Location: Saksamaa
+Date: 2023-11-01
+Description: Näidiselamu Saksamaal, ehitatud EstNori elementehituse tehnoloogiaga uue turu tutvustamiseks.

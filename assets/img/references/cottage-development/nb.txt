@@ -1,0 +1,5 @@
+Product type: Modulhus
+Name: Hytteutbygging
+Location: Estland
+Date: 2023-04-01
+Description: En klynge modulære hytter produsert i Kiili, levert ferdigstilt til den estiske kysten.

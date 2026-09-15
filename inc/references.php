@@ -10,14 +10,13 @@
  *     en.txt, et.txt, de.txt, sv.txt, nb.txt   — one per language, all optional
  *     1.jpg, 2.jpg, ...                        — any number, any names
  *
- * Both photos and text are uploaded straight to the server (FTP / your
- * host's file manager) — neither is tracked as bulky content in this
- * git repo (photos are gitignored entirely; the .txt files ARE tracked,
- * since they're small plain-text content, not bulky like photos — see
- * assets/img/references/README.md for the exact format and workflow).
- * A deploy (git pull) never needs to touch this folder for a photo or
- * text change to go live, and adding a whole new reference project
- * needs no code change at all — just a new folder.
+ * Both photos and text ARE tracked in this git repo (see
+ * assets/img/references/README.md) — this site's host rebuilds its
+ * entire deployed directory from git on every deploy, so anything not
+ * actually committed here gets wiped on the next deploy regardless of
+ * .gitignore. Add or edit a reference project locally, commit, push,
+ * deploy, same as any other change to the site. Adding a whole new
+ * reference project needs no code change — just a new folder.
  *
  * A language's .txt file is "Label: value" lines, in any order:
  *
