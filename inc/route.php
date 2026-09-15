@@ -49,6 +49,21 @@ if (!isset($pagesTable[$slug])) {
 }
 $route = $pagesTable[$slug];
 
+// The same page in every language, for the header's language switcher
+// and the hreflang alternates (site-relative paths, like $LANG_HOME).
+$LANG_PAGES = [];
+foreach (array_keys($LANGS) as $code) {
+    $LANG_PAGES[$code] = page_path($code, $slug);
+}
+// A switcher link carries ?lang=<its language> so the choice is
+// remembered for the next visit to the bare root URL (which is the only
+// place the cookie is otherwise set). Only honour it when it matches the
+// language this URL actually serves — a stray ?lang=de on /en/... must
+// not quietly re-label the visitor as German.
+if (($_GET['lang'] ?? null) === $LANG) {
+    set_lang_cookie($LANG);
+}
+
 $ASSET  = base_path();
 $ACTIVE = $route['active'];
 $T      = load_lang($LANG);

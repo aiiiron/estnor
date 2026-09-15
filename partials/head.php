@@ -10,6 +10,10 @@
  *   $PAGE_TITLE  page <title>
  *   $PAGE_DESC   meta description
  *
+ *   $LANG_PAGES  [lang => site-relative path] of THIS page in every
+ *                language — what the language switcher and the hreflang
+ *                alternates link to (set by inc/route.php / index.php)
+ *
  * inc/site.php and inc/i18n.php must already be required (for $SITE,
  * $LANG_HOME, load_lang(), nav_active(), e()).
  */
@@ -24,10 +28,10 @@ $asset_v = '20260915b'; // bump on CSS/JS changes to bust the cache
   <link rel="icon" href="<?= e($ASSET) ?>/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="<?= e($ASSET) ?>/assets/img/favicon.ico" sizes="16x16 32x32 48x48">
   <link rel="apple-touch-icon" href="<?= e($ASSET) ?>/assets/img/apple-touch-icon.png">
-<?php foreach ($LANG_HOME as $code => $href): ?>
+<?php foreach ($LANG_PAGES as $code => $href): ?>
   <link rel="alternate" hreflang="<?= e($code) ?>" href="<?= e(url($href)) ?>">
 <?php endforeach; ?>
-  <link rel="alternate" hreflang="x-default" href="<?= e(url('/en/index.php')) ?>">
+  <link rel="alternate" hreflang="x-default" href="<?= e(url($LANG_PAGES['en'])) ?>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=EB+Garamond:ital,wght@1,500&family=Inter:wght@400;500;600&display=swap">
@@ -63,8 +67,8 @@ $asset_v = '20260915b'; // bump on CSS/JS changes to bust the cache
         <div id="lang-switch-nav" class="lang-switch" role="group" aria-label="Choose language">
           <button type="button" class="lang-switch-trigger" aria-haspopup="true"><?= e(strtoupper($LANG)) ?> <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
           <ul class="lang-switch-menu">
-<?php foreach ($LANG_HOME as $code => $href): ?>
-            <li><a href="<?= e(url($href . ($code === $LANG_DEFAULT ? '?lang=' . $code : ''))) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a></li>
+<?php foreach ($LANG_PAGES as $code => $href): ?>
+            <li><a href="<?= e(url($href . '?lang=' . $code)) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a></li>
 <?php endforeach; ?>
           </ul>
         </div>
@@ -72,8 +76,8 @@ $asset_v = '20260915b'; // bump on CSS/JS changes to bust the cache
       <div id="lang-switch-bar" class="lang-switch" role="group" aria-label="Choose language">
         <button type="button" class="lang-switch-trigger" aria-haspopup="true"><?= e(strtoupper($LANG)) ?> <svg class="chev" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
         <ul class="lang-switch-menu">
-<?php foreach ($LANG_HOME as $code => $href): ?>
-          <li><a href="<?= e(url($href . ($code === $LANG_DEFAULT ? '?lang=' . $code : ''))) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a></li>
+<?php foreach ($LANG_PAGES as $code => $href): ?>
+          <li><a href="<?= e(url($href . '?lang=' . $code)) ?>" hreflang="<?= e($code) ?>" lang="<?= e($code) ?>"<?= $code === $LANG ? ' aria-current="true"' : '' ?>><?= e(strtoupper($code)) ?></a></li>
 <?php endforeach; ?>
         </ul>
       </div>

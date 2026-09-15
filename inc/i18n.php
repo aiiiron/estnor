@@ -58,7 +58,14 @@ function set_lang_cookie(string $code): void {
     }
 }
 
-/** Home URL for each language, used by the header's language switcher. */
+/**
+ * Home URL for each language — the root redirect target and the header's
+ * brand link. The language SWITCHER does not use this: it uses
+ * $LANG_PAGES (set per request by inc/route.php / index.php), which maps
+ * each language to the *current page* in that language, so switching
+ * language on e.g. the Serial Renovation page stays on Serial
+ * Renovation instead of jumping home.
+ */
 $LANG_HOME = [
     'et' => '/index.php',
     'en' => '/en/index.php',

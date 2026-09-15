@@ -11,6 +11,7 @@ require_once __DIR__ . '/inc/references.php';
 
 $LANG   = i18n_resolve_root($LANGS, $LANG_DEFAULT, $LANG_FALLBACK_FOREIGN); // redirects and exits if not 'et'
 $ASSET  = base_path();
+$LANG_PAGES = $LANG_HOME; // root = the home page, so the switcher's targets are the language homes
 $ACTIVE = '';
 $T      = load_lang($LANG);
 $REFERENCES_HREF = page_url($LANG, 'references');

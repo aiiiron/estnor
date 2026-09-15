@@ -74,6 +74,11 @@ function url(string $path): string {
  * URL is nested.
  */
 function page_url(string $lang, string $slug): string {
+    return url(page_path($lang, $slug));
+}
+
+/** Same as page_url() but without the deployment base path — the site-relative path only. */
+function page_path(string $lang, string $slug): string {
     $prefix = $lang === 'et' ? '' : "/$lang";
-    return url("$prefix/$slug.php");
+    return "$prefix/$slug.php";
 }
