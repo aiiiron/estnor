@@ -7,7 +7,7 @@
  */
 $h = $T['home'];
 ?>
-  <section class="hero">
+  <section class="hero hero--home">
     <picture class="hero-bg" aria-hidden="true">
       <source srcset="<?= e($ASSET) ?>/assets/img/hero.webp" type="image/webp">
       <img src="<?= e($ASSET) ?>/assets/img/hero.jpg" alt="" width="1844" height="1230" fetchpriority="high" decoding="async">

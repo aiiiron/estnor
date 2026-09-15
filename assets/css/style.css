@@ -210,6 +210,10 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   opacity: 0; visibility: hidden; transform: translateY(6px);
   transition: opacity .14s ease, transform .14s ease, visibility .14s;
 }
+/* The right-most dropdown (About Us) opens to the right of its trigger like
+   the others; near the burger breakpoint that put its 230px past the viewport
+   edge and gave the page a few px of sideways scroll. Anchor it right instead. */
+.nav > ul > li.has-sub:last-child .submenu { left: auto; right: -.9rem; }
 .has-sub:focus-within .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
 .submenu li a { display: block; padding: .6em .75em; border-radius: var(--r-sm); font-size: .89rem; }
 .submenu li a:hover { background: var(--spruce-tint); color: var(--spruce-deep); }
@@ -375,14 +379,15 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
    side-by-side text columns on a bare photo would be hard to read, so
    the split gets a surface panel. */
 .hero--renovation .hero-bg img { object-position: 50% 45%; }
+.hero--renovation { padding-block-end: calc(clamp(10rem, 30vh, 18rem) + 2.5rem); }
 .renovation-intro { padding-block-start: 0; }
 .renovation-intro .split {
   position: relative; margin-top: clamp(-18rem, -30vh, -10rem);
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md);
   box-shadow: var(--shadow); padding: clamp(1.5rem, 3.5vw, 2.75rem);
 }
-@media (max-width: 900px) { .renovation-intro .split { margin-top: clamp(-14rem, -24vh, -8rem); } }
-@media (max-width: 700px) { .renovation-intro .split { margin-top: clamp(-12rem, -20vh, -6rem); } }
+@media (max-width: 900px) { .renovation-intro .split { margin-top: clamp(-14rem, -24vh, -8rem); } .hero--renovation { padding-block-end: calc(clamp(8rem, 24vh, 14rem) + 2.5rem); } }
+@media (max-width: 700px) { .renovation-intro .split { margin-top: clamp(-12rem, -20vh, -6rem); } .hero--renovation { padding-block-end: calc(clamp(6rem, 20vh, 12rem) + 2rem); } }
 
 /* Section landing pages (Products, References, Contact) use the same
    photo hero, but shorter than the homepage's full-viewport one — the
@@ -627,12 +632,19 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
    on a tall one) instead of a single fixed rem value. */
 .home-products { padding-block-start: 0; }
 .home-products .bento-grid { margin-top: clamp(-22rem, -36vh, -14rem); position: relative; }
+/* The hero's bottom padding must always be at least that overlap plus a
+   gap, so the pulled-up grid lands below the hero text on every screen —
+   with a short viewport (tablet in landscape) the text otherwise ran
+   under the cards. Each breakpoint mirrors the grid's own margin-top. */
+.hero--home { padding-block-end: calc(clamp(14rem, 36vh, 22rem) + 2.5rem); }
 /* Full-height, brand-tinted photo overlay (replaces the generic dark
    fade elsewhere) — sits on .art, before .content in source order, so it
    washes the whole photo while staying under the text. */
 .bento-grid .house-card .art::after, .products-grid .house-card .art::after { content: ""; position: absolute; inset: 0; }
 /* Products index: same photo cards + brand tint as the homepage bento, text over the tint rather than a second gradient */
 .products-grid .house-card .content { background: none; }
+/* Three cards don't split evenly into two columns — stack them on tablets instead of leaving one orphan */
+@media (max-width: 900px) { .products-grid { grid-template-columns: 1fr; } .products-grid .house-card { min-height: 300px !important; } }
 .house-card--element .art::after { background: linear-gradient(180deg, rgba(19,53,23,.15) 0%, rgba(19,53,23,.55) 55%, rgba(19,53,23,.93) 100%); }
 .house-card--modular .art::after { background: linear-gradient(180deg, rgba(28,79,35,.2) 0%, rgba(28,79,35,.6) 55%, rgba(28,79,35,.94) 100%); }
 .house-card--facade .art::after { background: linear-gradient(180deg, rgba(147,93,26,.2) 0%, rgba(147,93,26,.6) 50%, rgba(80,50,14,.94) 100%); }
@@ -640,6 +652,7 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 @media (max-width: 900px) {
   .bento-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 200px; }
   .home-products .bento-grid { margin-top: clamp(-19rem, -32vh, -12rem); }
+  .hero--home { padding-block-end: calc(clamp(12rem, 32vh, 19rem) + 2.5rem); }
 }
 @media (max-width: 620px) {
   .bento-grid { grid-template-columns: 1fr; grid-auto-rows: auto; }
@@ -649,6 +662,7 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
      touch gentler, since a single stacked column has less room either
      side of the first card. */
   .home-products .bento-grid { margin-top: clamp(-17rem, -28vh, -10rem); }
+  .hero--home { padding-block-end: calc(clamp(10rem, 28vh, 17rem) + 2rem); }
 }
 
 /* Reference cards — homepage teaser (3 latest) and the full References
