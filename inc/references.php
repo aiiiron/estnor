@@ -35,13 +35,13 @@
  * teaser and the order cards appear in on the References page) — pick
  * whichever's easier:
  *
- *   1. Name the FOLDER with a leading number: "10-stroomi-rannahoone",
- *      "20-nature-hub", ... — sorted ascending (lowest number first).
- *      Leave gaps (10, 20, 30, not 1, 2, 3) so a new "most recent"
- *      project can be inserted as "5-..." without renaming anything
- *      else. This is the recommended way: one rename, nothing to keep
- *      in sync, and renaming a folder in an FTP client moves its
- *      contents with it automatically.
+ *   1. Name the FOLDER with a leading number: "1-germany-model-house",
+ *      "2-nature-hub", "3-stroomi-rannahoone", ... — the HIGHEST number
+ *      shows first, so the most recent project always gets the biggest
+ *      number. Adding a new project means giving it one more than the
+ *      current highest — nothing else needs renaming. This is the
+ *      recommended way: one rename, nothing to keep in sync, and the
+ *      same numbering shows the order in a local file browser too.
  *   2. A "Date:" line in the .txt file (below) — undated projects, and
  *      any project whose folder has no number prefix, sort after every
  *      numbered one, newest date first. Simple, but Date is read from
@@ -111,14 +111,14 @@ function reference_fields(string $slug, string $lang): ?array {
     return null;
 }
 
-/** A folder's leading "<number>-" order prefix (e.g. 10 from "10-stroomi-rannahoone"), or null if it has none. */
+/** A folder's leading "<number>-" order prefix (e.g. 3 from "3-stroomi-rannahoone"), or null if it has none. */
 function reference_order_prefix(string $slug): ?int {
     return preg_match('/^(\d+)-/', $slug, $m) ? (int) $m[1] : null;
 }
 
 /**
  * Every reference project for $lang, ordered per this file's doc
- * comment (a numbered folder first, ascending; then by "Date", newest
+ * comment (a numbered folder first, highest number first; then by "Date", newest
  * first; undated/unnumbered ties broken alphabetically by slug). A
  * project with no .txt file in any language is skipped — nothing to
  * show for it yet.
@@ -140,8 +140,9 @@ function load_references(string $lang): array {
     }
 
     usort($refs, function ($a, $b) {
-        // A numbered folder always outranks an unnumbered one.
-        if ($a['order'] !== null && $b['order'] !== null) return $a['order'] <=> $b['order'];
+        // A numbered folder always outranks an unnumbered one; among
+        // numbered ones the highest number (= most recent) comes first.
+        if ($a['order'] !== null && $b['order'] !== null) return $b['order'] <=> $a['order'];
         if ($a['order'] !== null) return -1;
         if ($b['order'] !== null) return 1;
 

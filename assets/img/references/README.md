@@ -35,11 +35,12 @@ whatever's easy to recognize.
 
 Two ways — pick whichever's easier:
 
-1. **Name the folder with a leading number**: `10-stroomi-rannahoone`,
-   `20-nature-hub`, ... — shown in ascending order (lowest number
-   first). **Recommended.** Leave gaps (10, 20, 30 — not 1, 2, 3) so a
-   new "most recent" project can be inserted later as `5-...` without
-   renaming anything else.
+1. **Name the folder with a leading number**: `1-germany-model-house`,
+   `2-nature-hub`, `3-stroomi-rannahoone`, ... — the **highest number
+   shows first**, so the most recent project always has the biggest
+   number. **Recommended.** To add a new project, give it one more
+   than the current highest (`4-...`) — nothing else needs renaming.
+   The same numbering shows the order in your local file browser too.
 2. **A `Date:` line** in the text file (see below) — projects with no
    number in their folder name sort by this, newest first, after every
    numbered folder. Simple, but Date is read per-language, so if you
