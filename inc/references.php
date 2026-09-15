@@ -32,10 +32,27 @@
  * values after the colon change — so there's one template to remember
  * regardless of which language you're filling in. A missing language
  * falls back to English, then Estonian, same as the rest of the site.
- * "Date" (optional; anything strtotime() understands, e.g. YYYY-MM-DD)
- * only controls display order — newest first — for the homepage's
- * "3 latest" teaser; projects without one sort after those that have
- * one, alphabetically by slug among themselves.
+ * Two ways to control display order (used for the homepage's "3 latest"
+ * teaser and the order cards appear in on the References page) — pick
+ * whichever's easier:
+ *
+ *   1. Name the FOLDER with a leading number: "10-stroomi-rannahoone",
+ *      "20-nature-hub", ... — sorted ascending (lowest number first).
+ *      Leave gaps (10, 20, 30, not 1, 2, 3) so a new "most recent"
+ *      project can be inserted as "5-..." without renaming anything
+ *      else. This is the recommended way: one rename, nothing to keep
+ *      in sync, and renaming a folder in an FTP client moves its
+ *      contents with it automatically.
+ *   2. A "Date:" line in the .txt file (below) — undated projects, and
+ *      any project whose folder has no number prefix, sort after every
+ *      numbered one, newest date first. Simple, but Date is read from
+ *      whichever language's file is showing, so if you only update
+ *      one language's Date the project can rank differently across
+ *      languages — the folder-number method doesn't have that problem,
+ *      since a folder has only one name.
+ *
+ * A numbered folder always outranks an unnumbered one, regardless of
+ * Date.
  */
 
 const REFERENCE_PHOTO_EXTENSIONS = ['jpg', 'jpeg', 'png', 'webp', 'avif'];
@@ -95,10 +112,17 @@ function reference_fields(string $slug, string $lang): ?array {
     return null;
 }
 
+/** A folder's leading "<number>-" order prefix (e.g. 10 from "10-stroomi-rannahoone"), or null if it has none. */
+function reference_order_prefix(string $slug): ?int {
+    return preg_match('/^(\d+)-/', $slug, $m) ? (int) $m[1] : null;
+}
+
 /**
- * Every reference project for $lang, newest first (by "Date"; undated
- * ones last, alphabetically by slug). A project with no .txt file in
- * any language is skipped — nothing to show for it yet.
+ * Every reference project for $lang, ordered per this file's doc
+ * comment (a numbered folder first, ascending; then by "Date", newest
+ * first; undated/unnumbered ties broken alphabetically by slug). A
+ * project with no .txt file in any language is skipped — nothing to
+ * show for it yet.
  */
 function load_references(string $lang): array {
     $refs = [];
@@ -107,6 +131,7 @@ function load_references(string $lang): array {
         if ($fields === null) continue;
         $refs[] = [
             'slug'        => $slug,
+            'order'       => reference_order_prefix($slug),
             'title'       => $fields['title'] ?? $slug,
             'location'    => $fields['location'] ?? '',
             'category'    => $fields['category'] ?? '',
@@ -116,9 +141,15 @@ function load_references(string $lang): array {
     }
 
     usort($refs, function ($a, $b) {
+        // A numbered folder always outranks an unnumbered one.
+        if ($a['order'] !== null && $b['order'] !== null) return $a['order'] <=> $b['order'];
+        if ($a['order'] !== null) return -1;
+        if ($b['order'] !== null) return 1;
+
+        // Neither is numbered — fall back to Date, newest first.
         $tsA = $a['date'] ? strtotime($a['date']) : false;
         $tsB = $b['date'] ? strtotime($b['date']) : false;
-        if ($tsA !== false && $tsB !== false) return $tsB <=> $tsA; // newest first
+        if ($tsA !== false && $tsB !== false) return $tsB <=> $tsA;
         if ($tsA !== false) return -1;  // dated before undated
         if ($tsB !== false) return 1;
         return $a['slug'] <=> $b['slug'];
