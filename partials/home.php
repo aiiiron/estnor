@@ -78,11 +78,13 @@ $h = $T['home'];
       <div class="section-head">
         <span class="eyebrow"><?= e($h['references_heading']) ?></span>
       </div>
-      <div class="grid cols-3">
-<?php foreach ($h['references'] as $r): ?>
-        <div class="card"><h3><?= e($r) ?></h3></div>
+      <div class="ref-grid">
+<?php foreach (array_slice(load_references($LANG), 0, 3) as $ref): ?>
+<?php require __DIR__ . '/reference-card.php'; ?>
 <?php endforeach; ?>
       </div>
-      <div class="btn-row"><a class="btn btn-ghost" href="<?= e(url($h['see_all_href'])) ?>"><?= e($T['common']['see_all']) ?></a></div>
+      <div class="btn-row"><a class="btn btn-ghost" href="<?= e($REFERENCES_HREF) ?>"><?= e($T['common']['see_all']) ?></a></div>
     </div>
   </section>
+
+<?php require __DIR__ . '/reference-lightbox.php'; ?>

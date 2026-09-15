@@ -3,7 +3,7 @@
  * pages/houses-modular-houses.php — shared body template for the Modular
  * Houses page. Caller sets $LANG/$ASSET/$ACTIVE, requires
  * partials/head.php, and defines $P = load_page('houses-modular-houses',
- * $LANG) plus $HOME_HREF, $HOUSES_HREF, $PROJECTS_HREF, $CONTACT_HREF.
+ * $LANG) plus $HOME_HREF, $HOUSES_HREF, $REFERENCES_HREF, $CONTACT_HREF.
  */
 ?>
 
@@ -63,7 +63,7 @@
         <span class="eyebrow"><?= e($P['pattern']['eyebrow']) ?></span>
         <h2><?= e($P['pattern']['h2']) ?></h2>
         <p><?= e($P['pattern']['body_pre']) ?><strong><?= e($P['pattern']['bold']) ?></strong><?= e($P['pattern']['body_post']) ?></p>
-        <div class="btn-row"><a class="btn btn-ghost" href="<?= e($PROJECTS_HREF) ?>"><?= e($P['pattern']['cta']) ?></a></div>
+        <div class="btn-row"><a class="btn btn-ghost" href="<?= e($REFERENCES_HREF) ?>"><?= e($P['pattern']['cta']) ?></a></div>
       </div>
     </div>
   </section>

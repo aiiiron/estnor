@@ -1,41 +1,15 @@
 {
     "et": {
         "meta": {
-            "title": "Projektid — EstNor",
+            "title": "Referentsid — EstNor",
             "desc": "Valik EstNori puitmaja- ja elemendiehitusprojekte Eestis, Norras ja Rootsis."
         },
         "hero": {
             "crumb": "Avaleht",
-            "label": "Projektid",
-            "eyebrow": "Projektid",
+            "label": "Referentsid",
+            "eyebrow": "Referentsid",
             "h1": "Kodud ja hooned, valminud",
             "lead": "Valik kodusid ja hooneid, mille EstNor on üle andnud — Eestis, Norras, Rootsis ja mujal. Tehaselise renoveerimise referentsid leiad Tehaselise renoveerimise lehelt."
-        },
-        "other_section": {
-            "eyebrow": "Uusehitised",
-            "h2": "Muud projektid",
-            "cards": [
-                {
-                    "tag": "Pärnu, Eesti",
-                    "title": "Stroomi Rannahoone",
-                    "desc": "Rannaäärne puithoone, ehitatud EstNori element- ja fassaaditehnoloogiaga."
-                },
-                {
-                    "tag": "Oslo, Norra",
-                    "title": "Kortermaja Oslos",
-                    "desc": "Mitmekorruseline kortermaja, ehitatud EstNori tehases valminud moodulitest."
-                },
-                {
-                    "tag": "Rootsi",
-                    "title": "Elementmajast pere-elamu",
-                    "desc": "Suur pereelamu, ehitatud tehases toodetud välis- ja siseelementidest."
-                },
-                {
-                    "tag": "Eesti",
-                    "title": "Suvilate arendus",
-                    "desc": "Kiilis toodetud moodulsuvilate kompleks, tarnitud valmis viimistletuna Eesti rannikualale."
-                }
-            ]
         },
         "context_left": {
             "eyebrow": "Kontekst",
@@ -56,41 +30,15 @@
     },
     "en": {
         "meta": {
-            "title": "Projects — EstNor",
+            "title": "References — EstNor",
             "desc": "A selection of EstNor timber house and element-building projects across Estonia, Norway and Sweden."
         },
         "hero": {
             "crumb": "Home",
-            "label": "Projects",
-            "eyebrow": "Projects",
+            "label": "References",
+            "eyebrow": "References",
             "h1": "Homes and buildings, delivered",
             "lead": "A selection of the houses and buildings EstNor has delivered — across Estonia, Norway, Sweden and beyond. Looking for our serial renovation references? See the Serial Renovation page."
-        },
-        "other_section": {
-            "eyebrow": "New builds",
-            "h2": "Other projects",
-            "cards": [
-                {
-                    "tag": "Pärnu, Estonia",
-                    "title": "Stroomi Rannahoone",
-                    "desc": "A seaside building in Pärnu, built using EstNor's element and facade technology."
-                },
-                {
-                    "tag": "Oslo, Norway",
-                    "title": "Oslo apartment building",
-                    "desc": "A multi-storey apartment building built from EstNor's factory-finished modules."
-                },
-                {
-                    "tag": "Sweden",
-                    "title": "Element-built family home",
-                    "desc": "A large family home built from factory-produced exterior and interior elements."
-                },
-                {
-                    "tag": "Estonia",
-                    "title": "Cottage development",
-                    "desc": "A cluster of modular cottages manufactured in Kiili, delivered fully finished to the Estonian coast."
-                }
-            ]
         },
         "context_left": {
             "eyebrow": "Context",
@@ -111,41 +59,15 @@
     },
     "de": {
         "meta": {
-            "title": "Projekte — EstNor",
+            "title": "Referenzen — EstNor",
             "desc": "Eine Auswahl an EstNor-Holzhaus- und Elementbauprojekten in Estland, Norwegen und Schweden."
         },
         "hero": {
             "crumb": "Startseite",
-            "label": "Projekte",
-            "eyebrow": "Projekte",
+            "label": "Referenzen",
+            "eyebrow": "Referenzen",
             "h1": "Häuser und Gebäude, fertiggestellt",
             "lead": "Eine Auswahl der Häuser und Gebäude, die EstNor geliefert hat — in Estland, Norwegen, Schweden und darüber hinaus. Referenzen zur seriellen Sanierung finden Sie auf der Seite Serielle Sanierung."
-        },
-        "other_section": {
-            "eyebrow": "Neubauten",
-            "h2": "Weitere Projekte",
-            "cards": [
-                {
-                    "tag": "Pärnu, Estland",
-                    "title": "Stroomi Rannahoone",
-                    "desc": "Gebäude am Strand, errichtet mit EstNor-Element- und Fassadentechnik."
-                },
-                {
-                    "tag": "Oslo, Norwegen",
-                    "title": "Mehrfamilienhaus in Oslo",
-                    "desc": "Mehrgeschossiges Wohngebäude, errichtet aus werksfertigen EstNor-Modulen."
-                },
-                {
-                    "tag": "Schweden",
-                    "title": "Einfamilienhaus aus Elementen",
-                    "desc": "Großes Einfamilienhaus, errichtet mit werksgefertigten Außen- und Innenelementen."
-                },
-                {
-                    "tag": "Estland",
-                    "title": "Ferienhaus-Siedlung",
-                    "desc": "In Kiili gefertigte modulare Ferienhäuser, komplett ausgestattet an die estnische Küste geliefert."
-                }
-            ]
         },
         "context_left": {
             "eyebrow": "Einordnung",
@@ -166,41 +88,15 @@
     },
     "sv": {
         "meta": {
-            "title": "Projekt — EstNor",
+            "title": "Referenser — EstNor",
             "desc": "Ett urval av EstNors trähus- och elementbyggprojekt i Estland, Norge och Sverige."
         },
         "hero": {
             "crumb": "Startsida",
-            "label": "Projekt",
-            "eyebrow": "Projekt",
+            "label": "Referenser",
+            "eyebrow": "Referenser",
             "h1": "Hem och byggnader, levererade",
             "lead": "Ett urval av husen och byggnaderna som EstNor har levererat — i Estland, Norge, Sverige och bortom. Referenser för seriell renovering hittar du på sidan Modernisering av flerbostadshus."
-        },
-        "other_section": {
-            "eyebrow": "Nybyggnation",
-            "h2": "Övriga projekt",
-            "cards": [
-                {
-                    "tag": "Pärnu, Estland",
-                    "title": "Stroomi Rannahoone",
-                    "desc": "En byggnad vid havet i Pärnu, byggd med EstNors element- och fasadteknik."
-                },
-                {
-                    "tag": "Oslo, Norge",
-                    "title": "Hyreshus i Oslo",
-                    "desc": "Ett flerbostadshus uppfört med EstNors fabrikstillverkade moduler."
-                },
-                {
-                    "tag": "Sverige",
-                    "title": "Villa i elementbyggnad",
-                    "desc": "En större villa byggd med fabrikstillverkade ytter- och innerelement."
-                },
-                {
-                    "tag": "Estland",
-                    "title": "Fritidshusområde",
-                    "desc": "Ett kluster av modulära fritidshus tillverkade i Kiili, levererade färdigställda till estniska kusten."
-                }
-            ]
         },
         "context_left": {
             "eyebrow": "Sammanhang",
@@ -221,41 +117,15 @@
     },
     "nb": {
         "meta": {
-            "title": "Prosjekter — EstNor",
+            "title": "Referanser — EstNor",
             "desc": "Et utvalg av EstNors trehus- og elementbyggprosjekter i Estland, Norge og Sverige."
         },
         "hero": {
             "crumb": "Forsiden",
-            "label": "Prosjekter",
-            "eyebrow": "Prosjekter",
+            "label": "Referanser",
+            "eyebrow": "Referanser",
             "h1": "Hjem og bygg, levert",
             "lead": "Et utvalg av husene og byggene EstNor har levert — i Estland, Norge, Sverige og utover. Referanser for seriell rehabilitering finner du på siden Modernisering av leilighetsbygg."
-        },
-        "other_section": {
-            "eyebrow": "Nybygg",
-            "h2": "Andre prosjekter",
-            "cards": [
-                {
-                    "tag": "Pärnu, Estland",
-                    "title": "Stroomi Rannahoone",
-                    "desc": "En bygning ved sjøen i Pärnu, bygget med EstNors element- og fasadeteknikk."
-                },
-                {
-                    "tag": "Oslo, Norge",
-                    "title": "Leilighetsbygg i Oslo",
-                    "desc": "Et leilighetsbygg oppført med EstNors fabrikkferdige moduler."
-                },
-                {
-                    "tag": "Sverige",
-                    "title": "Enebolig i elementbygg",
-                    "desc": "En stor enebolig bygget med fabrikkproduserte ytter- og innerelementer."
-                },
-                {
-                    "tag": "Estland",
-                    "title": "Hytteutbygging",
-                    "desc": "En klynge modulære hytter produsert i Kiili, levert ferdigstilt til den estiske kysten."
-                }
-            ]
         },
         "context_left": {
             "eyebrow": "Sammenheng",

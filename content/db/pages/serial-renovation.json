@@ -82,7 +82,7 @@
                 {
                     "title": "Tehtud projektid",
                     "desc": "KredEx programmi raames renoveeritud 12 kortermaja üle Eesti.",
-                    "href": "../projects.php"
+                    "href": "../references.php"
                 }
             ]
         },
@@ -249,7 +249,7 @@
                 {
                     "title": "Completed Projects",
                     "desc": "12 apartment buildings renovated across Estonia under the KredEx programme.",
-                    "href": "../projects.php"
+                    "href": "../references.php"
                 }
             ]
         },
@@ -416,7 +416,7 @@
                 {
                     "title": "Abgeschlossene Projekte",
                     "desc": "12 im Rahmen des KredEx-Programms sanierte Mehrfamilienhäuser in ganz Estland.",
-                    "href": "../projects.php"
+                    "href": "../references.php"
                 }
             ]
         },
@@ -583,7 +583,7 @@
                 {
                     "title": "Genomförda projekt",
                     "desc": "12 flerbostadshus renoverade runt om i Estland inom ramen för KredEx-programmet.",
-                    "href": "../projects.php"
+                    "href": "../references.php"
                 }
             ]
         },
@@ -748,7 +748,7 @@
                 {
                     "title": "Gjennomførte prosjekter",
                     "desc": "12 leilighetsbygg rehabilitert over hele Estland gjennom KredEx-programmet.",
-                    "href": "../projects.php"
+                    "href": "../references.php"
                 }
             ]
         },

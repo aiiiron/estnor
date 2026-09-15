@@ -18,6 +18,7 @@
  */
 require_once __DIR__ . '/site.php';
 require_once __DIR__ . '/i18n.php';
+require_once __DIR__ . '/references.php';
 
 // $LANGS (from inc/i18n.php) is 'et' => ... , 'en' => ... , etc. — every
 // key except 'et' gets its own URL prefix; 'et' lives at the domain root.

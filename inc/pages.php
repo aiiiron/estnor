@@ -21,6 +21,7 @@
 return [
     'index' => [
         'active' => '',
+        'links'  => ['REFERENCES' => 'references'],
     ],
     'about-us/index' => [
         'template' => 'about-us.php',
@@ -31,7 +32,7 @@ return [
         'template' => 'gallery.php',
         'content'  => 'about-us-production',
         'active'   => 'production',
-        'links'    => ['PARENT' => 'about-us/index', 'CTA' => 'projects'],
+        'links'    => ['PARENT' => 'about-us/index', 'CTA' => 'references'],
     ],
     'about-us/suppliers' => [
         'template' => 'about-us-suppliers.php',
@@ -55,7 +56,7 @@ return [
         'template' => 'houses-modular-houses.php',
         'content'  => 'houses-modular-houses',
         'active'   => 'modular',
-        'links'    => ['HOUSES' => 'houses/index', 'PROJECTS' => 'projects'],
+        'links'    => ['HOUSES' => 'houses/index', 'REFERENCES' => 'references'],
     ],
     'serial-renovation/index' => [
         'template' => 'serial-renovation.php',
@@ -73,16 +74,16 @@ return [
         'template' => 'gallery.php',
         'content'  => 'serial-renovation-gallery',
         'active'   => 'gallery-ren', // orphaned: not in nav, still reachable directly
-        'links'    => ['PARENT' => 'serial-renovation/index', 'CTA' => 'projects'],
+        'links'    => ['PARENT' => 'serial-renovation/index', 'CTA' => 'references'],
     ],
     'contact' => [
         'template' => 'contact.php',
         'content'  => 'contact',
         'active'   => 'contact',
     ],
-    'projects' => [
-        'template' => 'projects.php',
-        'content'  => 'projects',
-        'active'   => 'projects', // orphaned: not in nav, still reachable directly
+    'references' => [
+        'template' => 'references.php',
+        'content'  => 'references',
+        'active'   => 'references',
     ],
 ];

@@ -4,7 +4,11 @@
             "skip_to_content": "Liigu sisu juurde",
             "menu": "Menüü",
             "contact_cta": "Võta ühendust",
-            "see_all": "Vaata kõiki projekte"
+            "see_all": "Vaata kõiki referentse",
+            "close": "Sulge",
+            "previous_photo": "Eelmine foto",
+            "next_photo": "Järgmine foto",
+            "discuss_similar_project": "Aruta sarnast projekti"
         },
         "brand_caption": "Puitmajad ja fassaadielemendid · Est. 2000",
         "nav": [
@@ -48,6 +52,11 @@
                 ]
             },
             {
+                "key": "references",
+                "label": "Referentsid",
+                "href": "/references.php"
+            },
+            {
                 "key": "about",
                 "label": "Ettevõttest",
                 "href": "/about-us/index.php",
@@ -84,8 +93,7 @@
                     "path": "about.production"
                 },
                 {
-                    "label": "Projektid",
-                    "href": "/projects.php"
+                    "path": "references"
                 }
             ],
             "renovation_heading": "Tehaseline renoveerimine",
@@ -174,12 +182,7 @@
                     "tag": "turud"
                 }
             ],
-            "references_heading": "Referentsid",
-            "references": [
-                "Loodusmaja",
-                "Stroomi Rannahoone"
-            ],
-            "see_all_href": "/projects.php"
+            "references_heading": "Referentsid"
         }
     },
     "en": {
@@ -187,7 +190,11 @@
             "skip_to_content": "Skip to content",
             "menu": "Menu",
             "contact_cta": "Contact us",
-            "see_all": "See all projects"
+            "see_all": "See all references",
+            "close": "Close",
+            "previous_photo": "Previous photo",
+            "next_photo": "Next photo",
+            "discuss_similar_project": "Discuss a similar project"
         },
         "brand_caption": "Timber houses & facade elements · Est. 2000",
         "nav": [
@@ -231,6 +238,11 @@
                 ]
             },
             {
+                "key": "references",
+                "label": "References",
+                "href": "/en/references.php"
+            },
+            {
                 "key": "about",
                 "label": "About Us",
                 "href": "/en/about-us/index.php",
@@ -267,8 +279,7 @@
                     "path": "about.production"
                 },
                 {
-                    "label": "Projects",
-                    "href": "/en/projects.php"
+                    "path": "references"
                 }
             ],
             "renovation_heading": "Serial Renovation",
@@ -357,13 +368,7 @@
                     "tag": "markets"
                 }
             ],
-            "references_heading": "References",
-            "references": [
-                "Nature Hub",
-                "Germany Model House",
-                "Apartment buildings in Norway"
-            ],
-            "see_all_href": "/en/projects.php"
+            "references_heading": "References"
         }
     },
     "de": {
@@ -371,7 +376,11 @@
             "skip_to_content": "Zum Inhalt springen",
             "menu": "Menü",
             "contact_cta": "Kontakt aufnehmen",
-            "see_all": "Alle Projekte ansehen"
+            "see_all": "Alle Referenzen ansehen",
+            "close": "Schließen",
+            "previous_photo": "Vorheriges Foto",
+            "next_photo": "Nächstes Foto",
+            "discuss_similar_project": "Ähnliches Projekt besprechen"
         },
         "brand_caption": "Holzhäuser & Fassadenelemente · Gegr. 2000",
         "nav": [
@@ -415,6 +424,11 @@
                 ]
             },
             {
+                "key": "references",
+                "label": "Referenzen",
+                "href": "/de/references.php"
+            },
+            {
                 "key": "about",
                 "label": "Über EstNor",
                 "href": "/de/about-us/index.php",
@@ -451,8 +465,7 @@
                     "path": "about.production"
                 },
                 {
-                    "label": "Projekte",
-                    "href": "/de/projects.php"
+                    "path": "references"
                 }
             ],
             "renovation_heading": "Serielle Sanierung",
@@ -541,12 +554,7 @@
                     "tag": "märkte"
                 }
             ],
-            "references_heading": "Referenzen",
-            "references": [
-                "Nature Hub",
-                "Deutsches Musterhaus"
-            ],
-            "see_all_href": "/de/projects.php"
+            "references_heading": "Referenzen"
         }
     },
     "sv": {
@@ -554,7 +562,11 @@
             "skip_to_content": "Hoppa till innehåll",
             "menu": "Meny",
             "contact_cta": "Kontakta oss",
-            "see_all": "Se alla projekt"
+            "see_all": "Se alla referenser",
+            "close": "Stäng",
+            "previous_photo": "Föregående foto",
+            "next_photo": "Nästa foto",
+            "discuss_similar_project": "Diskutera ett liknande projekt"
         },
         "brand_caption": "Trähus & fasadelement · Grundat 2000",
         "nav": [
@@ -598,6 +610,11 @@
                 ]
             },
             {
+                "key": "references",
+                "label": "Referenser",
+                "href": "/sv/references.php"
+            },
+            {
                 "key": "about",
                 "label": "Om EstNor",
                 "href": "/sv/about-us/index.php",
@@ -634,8 +651,7 @@
                     "path": "about.production"
                 },
                 {
-                    "label": "Projekt",
-                    "href": "/sv/projects.php"
+                    "path": "references"
                 }
             ],
             "renovation_heading": "Modernisering av flerbostadshus",
@@ -724,13 +740,7 @@
                     "tag": "marknader"
                 }
             ],
-            "references_heading": "Referenser",
-            "references": [
-                "Nature Hub",
-                "Hyreshus i Norge",
-                "Byggnadskomplex på Island"
-            ],
-            "see_all_href": "/sv/projects.php"
+            "references_heading": "Referenser"
         }
     },
     "nb": {
@@ -738,7 +748,11 @@
             "skip_to_content": "Hopp til innhold",
             "menu": "Meny",
             "contact_cta": "Kontakt oss",
-            "see_all": "Se alle prosjekter"
+            "see_all": "Se alle referanser",
+            "close": "Lukk",
+            "previous_photo": "Forrige bilde",
+            "next_photo": "Neste bilde",
+            "discuss_similar_project": "Diskuter et lignende prosjekt"
         },
         "brand_caption": "Trehus & fasadeelementer · Etablert 2000",
         "nav": [
@@ -782,6 +796,11 @@
                 ]
             },
             {
+                "key": "references",
+                "label": "Referanser",
+                "href": "/nb/references.php"
+            },
+            {
                 "key": "about",
                 "label": "Om EstNor",
                 "href": "/nb/about-us/index.php",
@@ -818,8 +837,7 @@
                     "path": "about.production"
                 },
                 {
-                    "label": "Prosjekter",
-                    "href": "/nb/projects.php"
+                    "path": "references"
                 }
             ],
             "renovation_heading": "Modernisering av leilighetsbygg",
@@ -908,13 +926,7 @@
                     "tag": "markeder"
                 }
             ],
-            "references_heading": "Referanser",
-            "references": [
-                "Nature Hub",
-                "Leilighetsbygg i Norge",
-                "Bygningskompleks på Island"
-            ],
-            "see_all_href": "/nb/projects.php"
+            "references_heading": "Referanser"
         }
     }
 }

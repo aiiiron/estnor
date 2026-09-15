@@ -41,5 +41,8 @@
 </footer>
 
 <script src="<?= e($ASSET) ?>/assets/js/main.js"></script>
+<?php if (!empty($NEEDS_REFERENCES_JS)): ?>
+<script src="<?= e($ASSET) ?>/assets/js/references.js"></script>
+<?php endif; ?>
 </body>
 </html>

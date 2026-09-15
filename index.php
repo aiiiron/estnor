@@ -7,11 +7,13 @@
  */
 require_once __DIR__ . '/inc/site.php';
 require_once __DIR__ . '/inc/i18n.php';
+require_once __DIR__ . '/inc/references.php';
 
 $LANG   = i18n_resolve_root($LANGS, $LANG_DEFAULT, $LANG_FALLBACK_FOREIGN); // redirects and exits if not 'et'
 $ASSET  = base_path();
 $ACTIVE = '';
 $T      = load_lang($LANG);
+$REFERENCES_HREF = page_url($LANG, 'references');
 $PAGE_TITLE = $T['meta']['home']['title'];
 $PAGE_DESC  = $T['meta']['home']['desc'];
 require __DIR__ . '/partials/head.php';

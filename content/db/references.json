@@ -1,0 +1,222 @@
+{
+    "et": [
+        {
+            "slug": "stroomi-rannahoone",
+            "title": "Stroomi Rannahoone",
+            "location": "Pärnu, Eesti",
+            "category": "Fassaadi- ja katuseelemendid",
+            "description": "Rannaäärne puithoone Pärnus, ehitatud EstNori element- ja fassaaditehnoloogiaga. Fassaadi- ja katuseelemendid valmistati tehases millimeetritäpsusega ning paigaldati mõne nädalaga."
+        },
+        {
+            "slug": "nature-hub",
+            "title": "Loodusmaja",
+            "location": "Eesti",
+            "category": "Elementmajad",
+            "description": "Väike puitkarkassist elementmaja, mis toodeti täies mahus EstNori tehases Kiilis ja tarniti objektile valmis viimistletuna."
+        },
+        {
+            "slug": "apartment-building-oslo",
+            "title": "Kortermaja Oslos",
+            "location": "Oslo, Norra",
+            "category": "Moodulmajad",
+            "description": "Mitmekorruseline kortermaja Oslos, ehitatud EstNori tehases valminud moodulitest. Iga moodul viimistleti täielikult — köök, vannituba ja kõik muu — enne objektile toomist."
+        },
+        {
+            "slug": "germany-model-house",
+            "title": "Saksamaa näidismaja",
+            "location": "Saksamaa",
+            "category": "Elementmajad",
+            "description": "Näidiselamu Saksamaal, ehitatud EstNori elementehituse tehnoloogiaga uue turu tutvustamiseks."
+        },
+        {
+            "slug": "element-family-home-sweden",
+            "title": "Elementmajast pere-elamu",
+            "location": "Rootsi",
+            "category": "Elementmajad",
+            "description": "Suur pereelamu Rootsis, ehitatud tehases toodetud välis- ja siseelementidest kiireks ja täpseks kokkupanekuks objektil."
+        },
+        {
+            "slug": "cottage-development",
+            "title": "Suvilate arendus",
+            "location": "Eesti",
+            "category": "Moodulmajad",
+            "description": "Kiilis toodetud moodulsuvilate kompleks, tarnitud valmis viimistletuna Eesti rannikualale."
+        }
+    ],
+    "en": [
+        {
+            "slug": "stroomi-rannahoone",
+            "title": "Stroomi Rannahoone",
+            "location": "Pärnu, Estonia",
+            "category": "Facade and roof elements",
+            "description": "A seaside building in Pärnu, built using EstNor's element and facade technology. The facade and roof elements were manufactured off-site to millimetre tolerances and installed in a matter of weeks."
+        },
+        {
+            "slug": "nature-hub",
+            "title": "Nature Hub",
+            "location": "Estonia",
+            "category": "Element houses",
+            "description": "A small timber-frame element house, built in full at EstNor's factory in Kiili and delivered to site fully finished."
+        },
+        {
+            "slug": "apartment-building-oslo",
+            "title": "Apartment building in Oslo",
+            "location": "Oslo, Norway",
+            "category": "Modular houses",
+            "description": "A multi-storey apartment building in Oslo, built from EstNor's factory-finished modules. Each module was completed in full — kitchen, bathroom and all — before reaching the site."
+        },
+        {
+            "slug": "germany-model-house",
+            "title": "Germany Model House",
+            "location": "Germany",
+            "category": "Element houses",
+            "description": "A model house in Germany, built using EstNor's element construction method to introduce the technology to a new market."
+        },
+        {
+            "slug": "element-family-home-sweden",
+            "title": "Element-built family home",
+            "location": "Sweden",
+            "category": "Element houses",
+            "description": "A large family home in Sweden, built from factory-produced exterior and interior elements for fast, precise assembly on site."
+        },
+        {
+            "slug": "cottage-development",
+            "title": "Cottage development",
+            "location": "Estonia",
+            "category": "Modular houses",
+            "description": "A cluster of modular cottages manufactured in Kiili, delivered fully finished to Estonia's coast."
+        }
+    ],
+    "de": [
+        {
+            "slug": "stroomi-rannahoone",
+            "title": "Stroomi Rannahoone",
+            "location": "Pärnu, Estland",
+            "category": "Fassaden- und Dachelemente",
+            "description": "Ein Gebäude am Meer in Pärnu, errichtet mit EstNor-Element- und Fassadentechnik. Die Fassaden- und Dachelemente wurden werksseitig mit Millimetergenauigkeit gefertigt und innerhalb weniger Wochen montiert."
+        },
+        {
+            "slug": "nature-hub",
+            "title": "Nature Hub",
+            "location": "Estland",
+            "category": "Elementhäuser",
+            "description": "Ein kleines Elementhaus in Holzrahmenbauweise, komplett im EstNor-Werk in Kiili gefertigt und fertig ausgestattet zur Baustelle geliefert."
+        },
+        {
+            "slug": "apartment-building-oslo",
+            "title": "Mehrfamilienhaus in Oslo",
+            "location": "Oslo, Norwegen",
+            "category": "Modulhäuser",
+            "description": "Ein mehrgeschossiges Wohngebäude in Oslo, errichtet aus werksfertigen EstNor-Modulen. Jedes Modul wurde vollständig ausgestattet — Küche, Bad und alles Weitere — bevor es zur Baustelle kam."
+        },
+        {
+            "slug": "germany-model-house",
+            "title": "Deutsches Musterhaus",
+            "location": "Deutschland",
+            "category": "Elementhäuser",
+            "description": "Ein Musterhaus in Deutschland, errichtet mit der EstNor-Elementbauweise, um die Technologie in einem neuen Markt vorzustellen."
+        },
+        {
+            "slug": "element-family-home-sweden",
+            "title": "Einfamilienhaus aus Elementen",
+            "location": "Schweden",
+            "category": "Elementhäuser",
+            "description": "Ein großes Einfamilienhaus in Schweden, errichtet aus werksgefertigten Außen- und Innenelementen für eine schnelle, präzise Montage vor Ort."
+        },
+        {
+            "slug": "cottage-development",
+            "title": "Ferienhaus-Siedlung",
+            "location": "Estland",
+            "category": "Modulhäuser",
+            "description": "Ein in Kiili gefertigter Ferienhauskomplex aus Modulen, komplett ausgestattet an die estnische Küste geliefert."
+        }
+    ],
+    "sv": [
+        {
+            "slug": "stroomi-rannahoone",
+            "title": "Stroomi Rannahoone",
+            "location": "Pärnu, Estland",
+            "category": "Fasad- och takelement",
+            "description": "En byggnad vid havet i Pärnu, byggd med EstNors element- och fasadteknik. Fasad- och takelementen tillverkades i fabrik med millimeterprecision och monterades på några veckor."
+        },
+        {
+            "slug": "nature-hub",
+            "title": "Nature Hub",
+            "location": "Estland",
+            "category": "Elementhus",
+            "description": "Ett litet elementhus i trästomme, tillverkat i sin helhet på EstNors fabrik i Kiili och levererat helt färdigställt till platsen."
+        },
+        {
+            "slug": "apartment-building-oslo",
+            "title": "Hyreshus i Oslo",
+            "location": "Oslo, Norge",
+            "category": "Modulhus",
+            "description": "Ett flerbostadshus i Oslo, uppfört med EstNors fabrikstillverkade moduler. Varje modul färdigställdes helt — kök, badrum och allt annat — innan den nådde byggplatsen."
+        },
+        {
+            "slug": "germany-model-house",
+            "title": "Tysklands modellhus",
+            "location": "Tyskland",
+            "category": "Elementhus",
+            "description": "Ett modellhus i Tyskland, byggt med EstNors elementbyggteknik för att introducera tekniken på en ny marknad."
+        },
+        {
+            "slug": "element-family-home-sweden",
+            "title": "Villa i elementbyggnad",
+            "location": "Sverige",
+            "category": "Elementhus",
+            "description": "En stor villa i Sverige, byggd med fabrikstillverkade ytter- och innerelement för snabb och exakt montering på plats."
+        },
+        {
+            "slug": "cottage-development",
+            "title": "Fritidshusområde",
+            "location": "Estland",
+            "category": "Modulhus",
+            "description": "Ett kluster av modulära fritidshus tillverkade i Kiili, levererade helt färdigställda till Estlands kust."
+        }
+    ],
+    "nb": [
+        {
+            "slug": "stroomi-rannahoone",
+            "title": "Stroomi Rannahoone",
+            "location": "Pärnu, Estland",
+            "category": "Fasade- og takelementer",
+            "description": "En bygning ved sjøen i Pärnu, bygget med EstNors fasade- og elementteknikk. Fasade- og takelementene ble produsert på fabrikken med millimeterpresisjon og montert i løpet av noen uker."
+        },
+        {
+            "slug": "nature-hub",
+            "title": "Nature Hub",
+            "location": "Estland",
+            "category": "Elementhus",
+            "description": "Et lite elementhus i trekonstruksjon, produsert i sin helhet ved EstNors fabrikk i Kiili og levert ferdigstilt til byggeplassen."
+        },
+        {
+            "slug": "apartment-building-oslo",
+            "title": "Leilighetsbygg i Oslo",
+            "location": "Oslo, Norge",
+            "category": "Modulhus",
+            "description": "Et flerbolighus i Oslo, oppført med EstNors fabrikkferdige moduler. Hver modul ble ferdigstilt fullstendig — kjøkken, bad og alt annet — før den nådde byggeplassen."
+        },
+        {
+            "slug": "germany-model-house",
+            "title": "Tysklands modellhus",
+            "location": "Tyskland",
+            "category": "Elementhus",
+            "description": "Et modellhus i Tyskland, bygget med EstNors elementbyggeteknikk for å introdusere teknologien i et nytt marked."
+        },
+        {
+            "slug": "element-family-home-sweden",
+            "title": "Enebolig i elementbygg",
+            "location": "Sverige",
+            "category": "Elementhus",
+            "description": "En stor enebolig i Sverige, bygget med fabrikkproduserte ytter- og innerelementer for rask og presis montering på byggeplassen."
+        },
+        {
+            "slug": "cottage-development",
+            "title": "Hytteutbygging",
+            "location": "Estland",
+            "category": "Modulhus",
+            "description": "En klynge modulære hytter produsert i Kiili, levert ferdigstilt til den estiske kysten."
+        }
+    ]
+}

@@ -1,2 +1,10 @@
 # Deployment settings (base_path) — copy config.example.php to config.php.
 /config.php
+
+# Reference project photos — uploaded straight to the server per project
+# folder (see assets/img/references/README.md), not tracked here: there
+# can be many, and pushing them through git on every deploy is slow.
+# (Ignoring only the files inside each folder, not the folder itself, so
+# git still tracks the per-project folders via their .gitkeep.)
+/assets/img/references/*/*
+!/assets/img/references/*/.gitkeep
