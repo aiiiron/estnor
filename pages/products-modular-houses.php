@@ -1,15 +1,15 @@
 <?php
 /**
- * pages/houses-modular-houses.php — shared body template for the Modular
+ * pages/products-modular-houses.php — shared body template for the Modular
  * Houses page. Caller sets $LANG/$ASSET/$ACTIVE, requires
- * partials/head.php, and defines $P = load_page('houses-modular-houses',
- * $LANG) plus $HOME_HREF, $HOUSES_HREF, $REFERENCES_HREF, $CONTACT_HREF.
+ * partials/head.php, and defines $P = load_page('products-modular-houses',
+ * $LANG) plus $HOME_HREF, $PRODUCTS_HREF, $REFERENCES_HREF, $CONTACT_HREF.
  */
 ?>
 
   <section class="section page-hero">
     <div class="wrap">
-      <div class="breadcrumb"><a href="<?= e($HOME_HREF) ?>"><?= e($P['hero']['crumb']) ?></a> / <a href="<?= e($HOUSES_HREF) ?>"><?= e($P['hero']['parent_label']) ?></a> / <span><?= e($P['hero']['label']) ?></span></div>
+      <div class="breadcrumb"><a href="<?= e($HOME_HREF) ?>"><?= e($P['hero']['crumb']) ?></a> / <a href="<?= e($PRODUCTS_HREF) ?>"><?= e($P['hero']['parent_label']) ?></a> / <span><?= e($P['hero']['label']) ?></span></div>
       <span class="eyebrow"><?= e($P['hero']['eyebrow']) ?></span>
       <h1 class="hero-title"><?= e($P['hero']['h1']) ?></h1>
       <p class="lead"><?= e($P['hero']['lead']) ?></p>

@@ -110,8 +110,8 @@ one URL a first-time visitor actually lands on.
 index.php                          Root — language detection + Estonian home (the one
                                     page that isn't a routing shim; see above)
 en/ , de/ , sv/ , nb/               Each language's one-line routing shims (about-us/,
-                                    houses/, ...) — all require inc/route.php
-about-us/ , houses/ , ...           Estonian routing shims (same page set, at root)
+                                    products/, ...) — all require inc/route.php
+about-us/ , products/ , ...           Estonian routing shims (same page set, at root)
 pages/*.php                         The actual page templates — one per page, shared by
                                     every language
 inc/route.php                      The router every shim requires — see above

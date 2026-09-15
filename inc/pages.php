@@ -12,9 +12,9 @@
  * content/db/pages/*.json file) — not five new routing shims.
  *
  * The slug is the page's URL path with the language prefix and ".php"
- * stripped (see inc/route.php) — 'houses/element-houses' for both
- * /houses/element-houses.php (Estonian, at the root) and
- * /en/houses/element-houses.php. It's also the key content/db/pages/*.json
+ * stripped (see inc/route.php) — 'products/element-houses' for both
+ * /products/element-houses.php (Estonian, at the root) and
+ * /en/products/element-houses.php. It's also the key content/db/pages/*.json
  * is loaded by (a page with no 'content' entry, like the homepage, has no
  * such file — its content lives in global.json's own "home" key instead).
  */
@@ -40,23 +40,23 @@ return [
         'active'   => 'suppliers', // orphaned: not in nav, still reachable directly
         'links'    => ['ABOUT' => 'about-us/index'],
     ],
-    'houses/index' => [
-        'template' => 'houses.php',
-        'content'  => 'houses',
+    'products/index' => [
+        'template' => 'products.php',
+        'content'  => 'products',
         'active'   => 'products',
-        'links'    => ['ELEMENT' => 'houses/element-houses', 'MODULAR' => 'houses/modular-houses', 'RENOVATION' => 'serial-renovation/index'],
+        'links'    => ['ELEMENT' => 'products/element-houses', 'MODULAR' => 'products/modular-houses', 'RENOVATION' => 'serial-renovation/index'],
     ],
-    'houses/element-houses' => [
-        'template' => 'houses-element-houses.php',
-        'content'  => 'houses-element-houses',
+    'products/element-houses' => [
+        'template' => 'products-element-houses.php',
+        'content'  => 'products-element-houses',
         'active'   => 'element',
-        'links'    => ['HOUSES' => 'houses/index'],
+        'links'    => ['HOUSES' => 'products/index'],
     ],
-    'houses/modular-houses' => [
-        'template' => 'houses-modular-houses.php',
-        'content'  => 'houses-modular-houses',
+    'products/modular-houses' => [
+        'template' => 'products-modular-houses.php',
+        'content'  => 'products-modular-houses',
         'active'   => 'modular',
-        'links'    => ['HOUSES' => 'houses/index', 'REFERENCES' => 'references'],
+        'links'    => ['HOUSES' => 'products/index', 'REFERENCES' => 'references'],
     ],
     'serial-renovation/index' => [
         'template' => 'serial-renovation.php',

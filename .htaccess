@@ -1,0 +1,3 @@
+# Old URLs: the products section used to live under /houses/. Works
+# whether the site is at the domain root or in a subfolder (base_path).
+RedirectMatch 301 ^(.*?)/((?:en|de|sv|nb)/)?houses/(.*)$ $1/$2products/$3

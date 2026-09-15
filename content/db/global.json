@@ -37,17 +37,17 @@
             {
                 "key": "products",
                 "label": "Tooted",
-                "href": "/houses/index.php",
+                "href": "/products/index.php",
                 "children": [
                     {
                         "key": "element",
                         "label": "Elementmajad",
-                        "href": "/houses/element-houses.php"
+                        "href": "/products/element-houses.php"
                     },
                     {
                         "key": "modular",
                         "label": "Moodulmajad",
-                        "href": "/houses/modular-houses.php"
+                        "href": "/products/modular-houses.php"
                     }
                 ]
             },
@@ -131,19 +131,19 @@
             },
             "cta_secondary": {
                 "label": "Vaata meie maju",
-                "href": "/houses/index.php"
+                "href": "/products/index.php"
             },
             "products": [
                 {
                     "label": "Elementmajad",
-                    "href": "/houses/element-houses.php",
+                    "href": "/products/element-houses.php",
                     "tag": "Tehases toodetud",
                     "desc": "Seina-, põranda- ja katuseelemendid, mis pannakse objektil kokku päevade, mitte kuudega.",
                     "photo": "product-element-houses"
                 },
                 {
                     "label": "Moodulmajad",
-                    "href": "/houses/modular-houses.php",
+                    "href": "/products/modular-houses.php",
                     "tag": "Moodul",
                     "photo": "product-modular-houses",
                     "desc": "Täielikult valmis moodulid — köök, vannituba, kõik — ühendatakse objektil vaid mõne päevaga."
@@ -223,17 +223,17 @@
             {
                 "key": "products",
                 "label": "Products",
-                "href": "/en/houses/index.php",
+                "href": "/en/products/index.php",
                 "children": [
                     {
                         "key": "element",
                         "label": "Element Houses",
-                        "href": "/en/houses/element-houses.php"
+                        "href": "/en/products/element-houses.php"
                     },
                     {
                         "key": "modular",
                         "label": "Modular Houses",
-                        "href": "/en/houses/modular-houses.php"
+                        "href": "/en/products/modular-houses.php"
                     }
                 ]
             },
@@ -317,19 +317,19 @@
             },
             "cta_secondary": {
                 "label": "Explore our houses",
-                "href": "/en/houses/index.php"
+                "href": "/en/products/index.php"
             },
             "products": [
                 {
                     "label": "Element houses",
-                    "href": "/en/houses/element-houses.php",
+                    "href": "/en/products/element-houses.php",
                     "tag": "Factory built",
                     "desc": "Wall, floor and roof elements assembled on site in days, not months.",
                     "photo": "product-element-houses"
                 },
                 {
                     "label": "Modular houses",
-                    "href": "/en/houses/modular-houses.php",
+                    "href": "/en/products/modular-houses.php",
                     "tag": "Modular",
                     "photo": "product-modular-houses",
                     "desc": "Fully finished modules — kitchen, bathroom and all — connected on site in a matter of days."
@@ -409,17 +409,17 @@
             {
                 "key": "products",
                 "label": "Produkte",
-                "href": "/de/houses/index.php",
+                "href": "/de/products/index.php",
                 "children": [
                     {
                         "key": "element",
                         "label": "Elementhäuser",
-                        "href": "/de/houses/element-houses.php"
+                        "href": "/de/products/element-houses.php"
                     },
                     {
                         "key": "modular",
                         "label": "Modulhäuser",
-                        "href": "/de/houses/modular-houses.php"
+                        "href": "/de/products/modular-houses.php"
                     }
                 ]
             },
@@ -503,19 +503,19 @@
             },
             "cta_secondary": {
                 "label": "Unsere Häuser entdecken",
-                "href": "/de/houses/index.php"
+                "href": "/de/products/index.php"
             },
             "products": [
                 {
                     "label": "Elementhäuser",
-                    "href": "/de/houses/element-houses.php",
+                    "href": "/de/products/element-houses.php",
                     "tag": "Werksgefertigt",
                     "desc": "Wand-, Boden- und Dachelemente, die vor Ort in Tagen statt Monaten montiert werden.",
                     "photo": "product-element-houses"
                 },
                 {
                     "label": "Modulhäuser",
-                    "href": "/de/houses/modular-houses.php",
+                    "href": "/de/products/modular-houses.php",
                     "tag": "Modular",
                     "photo": "product-modular-houses",
                     "desc": "Vollständig fertiggestellte Module — Küche, Bad und alles Weitere — werden vor Ort in wenigen Tagen verbunden."
@@ -595,17 +595,17 @@
             {
                 "key": "products",
                 "label": "Produkter",
-                "href": "/sv/houses/index.php",
+                "href": "/sv/products/index.php",
                 "children": [
                     {
                         "key": "element",
                         "label": "Elementhus",
-                        "href": "/sv/houses/element-houses.php"
+                        "href": "/sv/products/element-houses.php"
                     },
                     {
                         "key": "modular",
                         "label": "Modulhus",
-                        "href": "/sv/houses/modular-houses.php"
+                        "href": "/sv/products/modular-houses.php"
                     }
                 ]
             },
@@ -689,19 +689,19 @@
             },
             "cta_secondary": {
                 "label": "Utforska våra hus",
-                "href": "/sv/houses/index.php"
+                "href": "/sv/products/index.php"
             },
             "products": [
                 {
                     "label": "Elementhus",
-                    "href": "/sv/houses/element-houses.php",
+                    "href": "/sv/products/element-houses.php",
                     "tag": "Fabrikstillverkat",
                     "desc": "Vägg-, golv- och takelement som monteras på plats på dagar, inte månader.",
                     "photo": "product-element-houses"
                 },
                 {
                     "label": "Modulhus",
-                    "href": "/sv/houses/modular-houses.php",
+                    "href": "/sv/products/modular-houses.php",
                     "tag": "Modulärt",
                     "photo": "product-modular-houses",
                     "desc": "Helt färdiga moduler — kök, badrum och allt — kopplas samman på plats på bara några dagar."
@@ -781,17 +781,17 @@
             {
                 "key": "products",
                 "label": "Produkter",
-                "href": "/nb/houses/index.php",
+                "href": "/nb/products/index.php",
                 "children": [
                     {
                         "key": "element",
                         "label": "Elementhus",
-                        "href": "/nb/houses/element-houses.php"
+                        "href": "/nb/products/element-houses.php"
                     },
                     {
                         "key": "modular",
                         "label": "Modulhus",
-                        "href": "/nb/houses/modular-houses.php"
+                        "href": "/nb/products/modular-houses.php"
                     }
                 ]
             },
@@ -875,19 +875,19 @@
             },
             "cta_secondary": {
                 "label": "Utforsk husene våre",
-                "href": "/nb/houses/index.php"
+                "href": "/nb/products/index.php"
             },
             "products": [
                 {
                     "label": "Elementhus",
-                    "href": "/nb/houses/element-houses.php",
+                    "href": "/nb/products/element-houses.php",
                     "tag": "Fabrikkbygget",
                     "desc": "Vegg-, gulv- og takelementer som monteres på byggeplassen på dager, ikke måneder.",
                     "photo": "product-element-houses"
                 },
                 {
                     "label": "Modulhus",
-                    "href": "/nb/houses/modular-houses.php",
+                    "href": "/nb/products/modular-houses.php",
                     "tag": "Modulært",
                     "photo": "product-modular-houses",
                     "desc": "Helt ferdige moduler — kjøkken, bad og alt annet — kobles sammen på byggeplassen på bare noen dager."

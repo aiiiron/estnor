@@ -1,8 +1,8 @@
 <?php
 /**
- * pages/houses.php — shared body template for the Houses index page.
+ * pages/products.php — shared body template for the Houses index page.
  * Caller sets $LANG/$ASSET/$ACTIVE, requires partials/head.php, and
- * defines $P = load_page('houses', $LANG) plus $HOME_HREF,
+ * defines $P = load_page('products', $LANG) plus $HOME_HREF,
  * $ELEMENT_HREF, $MODULAR_HREF, $RENOVATION_HREF.
  */
 ?>
