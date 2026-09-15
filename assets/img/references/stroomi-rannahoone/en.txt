@@ -1,0 +1,5 @@
+Product type: Facade and roof elements
+Name: Stroomi Rannahoone
+Location: Pärnu, Estonia
+Date: 2024-09-01
+Description: A seaside building in Pärnu, built using EstNor's element and facade technology. The facade and roof elements were manufactured off-site to millimetre tolerances and installed in a matter of weeks.

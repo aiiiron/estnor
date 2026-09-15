@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Enebolig i elementbygg
+Location: Sverige
+Date: 2023-08-01
+Description: En stor enebolig i Sverige, bygget med fabrikkproduserte ytter- og innerelementer for rask og presis montering på byggeplassen.

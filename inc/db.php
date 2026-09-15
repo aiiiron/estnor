@@ -46,8 +46,6 @@ function load_content_file(string $path): array {
 function content_get_section(string $lang, string $section): ?array {
     if ($section === 'global') {
         $path = __DIR__ . '/../content/db/global.json';
-    } elseif ($section === 'references') {
-        $path = __DIR__ . '/../content/db/references.json';
     } elseif (str_starts_with($section, 'page:')) {
         $slug = substr($section, 5);
         $path = __DIR__ . '/../content/db/pages/' . $slug . '.json';
@@ -85,16 +83,8 @@ function load_page(string $slug, string $code): array {
         ?? [];
 }
 
-/**
- * Load the canonical list of reference projects (content/db/references.json)
- * for a language — one shared list, ordered newest-first, that both the
- * homepage (its 3 latest) and pages/references.php (all of them) read
- * from, instead of each keeping its own separate, hand-typed copy.
- * Photos are not stored here — see inc/references.php.
- */
-function load_references(string $code): array {
-    return content_get_section($code, 'references')
-        ?? content_get_section('en', 'references')
-        ?? content_get_section('et', 'references')
-        ?? [];
-}
+// load_references() — the reference-project list both the homepage's "3
+// latest" and pages/references.php read from — lives in inc/references.php,
+// not here: it's read straight off assets/img/references/ on disk (one
+// folder per project, holding both its .txt content and its photos), not
+// from a content/db/*.json file like everything else in this file.

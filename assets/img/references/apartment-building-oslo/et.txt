@@ -1,0 +1,5 @@
+Product type: Moodulmajad
+Name: Kortermaja Oslos
+Location: Oslo, Norra
+Date: 2024-03-01
+Description: Mitmekorruseline kortermaja Oslos, ehitatud EstNori tehases valminud moodulitest. Iga moodul viimistleti täielikult — köök, vannituba ja kõik muu — enne objektile toomist.

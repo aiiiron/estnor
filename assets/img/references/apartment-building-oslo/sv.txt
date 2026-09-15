@@ -1,0 +1,5 @@
+Product type: Modulhus
+Name: Hyreshus i Oslo
+Location: Oslo, Norge
+Date: 2024-03-01
+Description: Ett flerbostadshus i Oslo, uppfört med EstNors fabrikstillverkade moduler. Varje modul färdigställdes helt — kök, badrum och allt annat — innan den nådde byggplatsen.

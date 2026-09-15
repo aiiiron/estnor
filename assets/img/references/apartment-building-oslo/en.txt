@@ -1,0 +1,5 @@
+Product type: Modular houses
+Name: Apartment building in Oslo
+Location: Oslo, Norway
+Date: 2024-03-01
+Description: A multi-storey apartment building in Oslo, built from EstNor's factory-finished modules. Each module was completed in full — kitchen, bathroom and all — before reaching the site.

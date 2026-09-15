@@ -4,7 +4,9 @@
 # Reference project photos — uploaded straight to the server per project
 # folder (see assets/img/references/README.md), not tracked here: there
 # can be many, and pushing them through git on every deploy is slow.
-# (Ignoring only the files inside each folder, not the folder itself, so
-# git still tracks the per-project folders via their .gitkeep.)
+# Each project's .txt info files ARE tracked — plain text, not bulky
+# like photos. (Ignoring only files inside each folder, not the folder
+# itself, so git still tracks the per-project folders via their .gitkeep.)
 /assets/img/references/*/*
 !/assets/img/references/*/.gitkeep
+!/assets/img/references/*/*.txt
