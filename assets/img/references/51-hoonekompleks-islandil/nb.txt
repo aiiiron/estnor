@@ -1,0 +1,4 @@
+Product type: Elementhus
+Name: Bygningskompleks på Island
+Location: Island
+Description: Et bygningskompleks bestående av tre hus på Island.

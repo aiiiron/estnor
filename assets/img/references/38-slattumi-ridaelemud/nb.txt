@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Slattum rekkehus
+Location: Slattum, Norge
+Description: Totalt 9 bygg, rekkehusenheter for 25 familier.
+Translation: automatic, from the Estonian text — please review

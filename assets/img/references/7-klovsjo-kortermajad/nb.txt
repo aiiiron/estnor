@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Klövsjö leilighetsbygg
+Location: Klövsjö, Sverige
+Description: To leilighetsbygg, totalt 8 leiligheter
+Translation: automatic, from the Estonian text — please review

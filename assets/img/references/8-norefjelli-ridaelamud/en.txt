@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Norefjell terraced houses
+Location: Norefjell, Norway
+Description: Terraced houses
+Translation: automatic, from the Estonian text — please review

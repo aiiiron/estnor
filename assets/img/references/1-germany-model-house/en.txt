@@ -1,5 +1,0 @@
-Product type: Element houses
-Name: Germany Model House
-Location: Germany
-Date: 2023-11-01
-Description: A model house in Germany, built using EstNor's element construction method to introduce the technology to a new market.

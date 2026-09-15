@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Sjøhagen Einfamilienhäuser
+Location: Sjøhagen, Norwegen
+Description: 3 Einfamilienhäuser
+Translation: automatic, from the Estonian text — please review

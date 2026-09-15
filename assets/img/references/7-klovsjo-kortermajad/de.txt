@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Klövsjö Wohngebäude
+Location: Klövsjö, Schweden
+Description: Zwei Wohngebäude, insgesamt 8 Wohnungen
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Office and warehouse building in Gothenburg
+Location: Göteborg, Sweden
+Description: 
+Translation: automatic, from the Estonian text — please review

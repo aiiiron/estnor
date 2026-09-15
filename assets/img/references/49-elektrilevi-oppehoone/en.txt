@@ -1,0 +1,4 @@
+Product type: Element houses
+Name: Elektrilevi Training Center
+Location: Kiili, Estonia
+Description: Turnkey public procurement project

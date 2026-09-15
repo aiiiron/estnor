@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Spikkestad Einfamilienhaus
+Location: Spikkestad, Norwegen
+Description: Einfamilienhaus, Elementhaus.
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,4 @@
+Product type: Elementhäuser
+Name: Wohngebäude in Norwegen
+Location: Norwegen
+Description: Wohngebäude in Norwegen.

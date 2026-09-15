@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Beitostølen leilighetsbygg
+Location: Beitostølen, Norge
+Description: Totalt 16 bygg, 70 leiligheter.
+Translation: automatic, from the Estonian text — please review

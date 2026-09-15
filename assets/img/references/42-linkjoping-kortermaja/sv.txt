@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Linköping flerbostadshus
+Location: Linköping, Sverige
+Description: Flerbostadshus
+Translation: automatic, from the Estonian text — please review

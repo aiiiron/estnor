@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Linköping Wohngebäude
+Location: Linköping, Schweden
+Description: Wohngebäude
+Translation: automatic, from the Estonian text — please review

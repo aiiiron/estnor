@@ -1,0 +1,5 @@
+Product type: Fassaden- und Dachelemente
+Name: Fassadenelemente für drei Bürogebäude in Trondheim
+Location: Trondheim, Norwegen
+Description: Fassadenelemente für drei Bürogebäude
+Translation: automatic, from the Estonian text — please review

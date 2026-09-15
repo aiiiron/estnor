@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Hokksund detached house
+Location: Hokksund, Norway
+Description: Detached house
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Lemonsjøen fritidsboliger
+Location: Lemonsjøen, Norge
+Description: Totalt 30 fritidsboliger
+Translation: automatic, from the Estonian text — please review

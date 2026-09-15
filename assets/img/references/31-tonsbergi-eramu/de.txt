@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Tønsberg Einfamilienhaus
+Location: Tønsberg, Norwegen
+Description: Einfamilienhaus, Elementhaus
+Translation: automatic, from the Estonian text — please review

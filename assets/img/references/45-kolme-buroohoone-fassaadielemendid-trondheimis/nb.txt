@@ -1,0 +1,5 @@
+Product type: Fasade- og takelementer
+Name: Fasadeelementer til tre kontorbygg i Trondheim
+Location: Trondheim, Norge
+Description: Fasadeelementer til tre kontorbygg
+Translation: automatic, from the Estonian text — please review

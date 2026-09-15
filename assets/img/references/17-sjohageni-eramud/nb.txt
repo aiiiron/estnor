@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Sjøhagen eneboliger
+Location: Sjøhagen, Norge
+Description: 3 eneboliger
+Translation: automatic, from the Estonian text — please review

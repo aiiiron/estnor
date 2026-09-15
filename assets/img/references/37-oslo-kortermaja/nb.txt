@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Oslo leilighetsbygg
+Location: Holmenkollen, Oslo, Norge
+Description: Leilighetsbygg: 5 leiligheter
+Translation: automatic, from the Estonian text — please review

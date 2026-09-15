@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Hemsedal tomannsboliger
+Location: Hemsedal, Norge
+Description: To tomannsboliger. Laftet konstruksjon
+Translation: automatic, from the Estonian text — please review

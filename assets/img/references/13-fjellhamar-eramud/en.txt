@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Fjellhamar detached houses
+Location: Fjellhamar, Norway
+Description: 2 detached houses + 1 semi-detached house
+Translation: automatic, from the Estonian text — please review

@@ -1,5 +1,0 @@
-Product type: Modular houses
-Name: Cottage development
-Location: Estonia
-Date: 2023-04-01
-Description: A cluster of modular cottages manufactured in Kiili, delivered fully finished to Estonia's coast.

@@ -1,0 +1,4 @@
+Product type: Elementhus
+Name: Hyreshus i Norge
+Location: Norge
+Description: Hyreshus i Norge.

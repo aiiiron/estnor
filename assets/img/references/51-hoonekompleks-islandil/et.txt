@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Hoonekompleks Islandil
+Location: Island
+Description: Kolmest majast koosnev hoonekompleks Islandil.

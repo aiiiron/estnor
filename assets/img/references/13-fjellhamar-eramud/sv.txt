@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Fjellhamar villor
+Location: Fjellhamar, Norge
+Description: 2 villor + 1 parhus
+Translation: automatic, from the Estonian text — please review

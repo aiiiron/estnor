@@ -1,0 +1,5 @@
+Product type: Modernisering av leilighetsbygg
+Name: Modernisering av leilighetsbygg
+Location: 
+Description: Fasader på et leilighetsbygg fornyet med EstNors industrielle renovering. Mer informasjon: Modernisering av leilighetsbygg
+Translation: automatic, from the Estonian text — please review

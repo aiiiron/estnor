@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Beitostølen Wohngebäude
+Location: Beitostølen, Norwegen
+Description: Insgesamt 16 Gebäude, 70 Wohnungen.
+Translation: automatic, from the Estonian text — please review

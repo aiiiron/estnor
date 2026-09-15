@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Norefjell Reihenhäuser
+Location: Norefjell, Norwegen
+Description: Reihenhäuser
+Translation: automatic, from the Estonian text — please review

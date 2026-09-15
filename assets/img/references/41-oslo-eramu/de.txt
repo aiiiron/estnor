@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Oslo Einfamilienhaus
+Location: Oslo, Norwegen
+Description: Einfamilienhaus. Bauunternehmer: EstNor
+Translation: automatic, from the Estonian text — please review

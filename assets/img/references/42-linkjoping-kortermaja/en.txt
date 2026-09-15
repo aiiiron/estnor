@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Linköping apartment building
+Location: Linköping, Sweden
+Description: Apartment building
+Translation: automatic, from the Estonian text — please review

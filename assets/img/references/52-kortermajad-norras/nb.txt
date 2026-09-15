@@ -1,0 +1,4 @@
+Product type: Elementhus
+Name: Leilighetsbygg i Norge
+Location: Norge
+Description: Leilighetsbygg i Norge.

@@ -1,5 +1,0 @@
-Product type: Elementhus
-Name: Villa i elementbyggnad
-Location: Sverige
-Date: 2023-08-01
-Description: En stor villa i Sverige, byggd med fabrikstillverkade ytter- och innerelement för snabb och exakt montering på plats.

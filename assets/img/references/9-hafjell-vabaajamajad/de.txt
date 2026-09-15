@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Hafjell Ferienhäuser
+Location: Hafjell, Norwegen
+Description: 14 Ferienhäuser
+Translation: automatic, from the Estonian text — please review

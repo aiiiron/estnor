@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Vaela leilighetsbygg
+Location: Vaela, Kiili, Estland
+Description: Totalt 4 leilighetsbygg (32 leiligheter) og to næringsbygg.
+Translation: automatic, from the Estonian text — please review

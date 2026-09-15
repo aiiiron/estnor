@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Kontor- og lagerbygg i Göteborg
+Location: Göteborg, Sverige
+Description: 
+Translation: automatic, from the Estonian text — please review

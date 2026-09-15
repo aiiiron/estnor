@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Geilo parhus
+Location: Geilo, Norge
+Description: 3 parhus, timmerstomme
+Translation: automatic, from the Estonian text — please review

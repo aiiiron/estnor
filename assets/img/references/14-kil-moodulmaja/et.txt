@@ -1,0 +1,4 @@
+Product type: Moodulmajad
+Name: Kil moodulmaja
+Location: Kil, Rootsi
+Description: Sotsiaalmaja, 14 korterit. Moodulmaja

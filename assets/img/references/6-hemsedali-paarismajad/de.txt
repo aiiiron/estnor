@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Hemsedal Doppelhäuser
+Location: Hemsedal, Norwegen
+Description: Zwei Doppelhäuser. Blockrahmenbauweise
+Translation: automatic, from the Estonian text — please review

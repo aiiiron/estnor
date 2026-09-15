@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Nittedal tomannsboliger
+Location: Nittedal, Norge
+Description: To tomannsboliger
+Translation: automatic, from the Estonian text — please review

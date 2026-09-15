@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Lemonsjøen holiday homes
+Location: Lemonsjøen, Norway
+Description: 30 holiday homes in total
+Translation: automatic, from the Estonian text — please review

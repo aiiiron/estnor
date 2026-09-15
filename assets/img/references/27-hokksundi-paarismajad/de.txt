@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Hokksund Doppelhäuser
+Location: Hokksund, Norwegen
+Description: Zwei Doppelhäuser
+Translation: automatic, from the Estonian text — please review

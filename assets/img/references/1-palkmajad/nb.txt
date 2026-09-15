@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Laftehus
+Location: 
+Description: 
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,5 @@
+Product type: Fassaden- und Dachelemente
+Name: Skøyen Atrium III Fassadenelemente
+Location: Oslo, Norwegen
+Description: Fassadenelemente für ein Bürogebäude
+Translation: automatic, from the Estonian text — please review

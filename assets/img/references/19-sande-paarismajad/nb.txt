@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Sande tomannsboliger
+Location: Sande, Norge
+Description: Tomannsbolig, elementhus
+Translation: automatic, from the Estonian text — please review

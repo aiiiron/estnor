@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Revetal detached house
+Location: Revetal, Norway
+Description: Detached house
+Translation: automatic, from the Estonian text — please review

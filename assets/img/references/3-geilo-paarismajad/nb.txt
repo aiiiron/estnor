@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Geilo tomannsboliger
+Location: Geilo, Norge
+Description: 3 tomannsboliger, laftet konstruksjon
+Translation: automatic, from the Estonian text — please review

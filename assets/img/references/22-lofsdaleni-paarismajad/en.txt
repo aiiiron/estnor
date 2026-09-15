@@ -1,0 +1,4 @@
+Product type: Element houses
+Name: Lofsdalen semi-detached houses
+Location: Lofsdalen, Sweden
+Description: 5 semi-detached houses (10 units)

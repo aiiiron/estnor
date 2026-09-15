@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Malmön eneboliger
+Location: Bohus Malmön, Sverige
+Description: Totalt 5 hus
+Translation: automatic, from the Estonian text — please review

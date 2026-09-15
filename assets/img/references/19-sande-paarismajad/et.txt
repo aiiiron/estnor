@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Sande paarismajad
+Location: Sande, Norra
+Description: Paarismaja, elementmaja

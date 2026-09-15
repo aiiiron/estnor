@@ -1,0 +1,4 @@
+Product type: Elementhus
+Name: Hokksund tomannsbolig
+Location: Hokksund, Norge
+Description: Tomannsbolig; elementhus.

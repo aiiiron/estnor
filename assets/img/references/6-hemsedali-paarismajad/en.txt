@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Hemsedal semi-detached houses
+Location: Hemsedal, Norway
+Description: Two semi-detached houses. Log-frame construction
+Translation: automatic, from the Estonian text — please review

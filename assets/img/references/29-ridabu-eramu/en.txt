@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Ridabu detached house
+Location: Ridabu, Norway
+Description: Detached house, element house.
+Translation: automatic, from the Estonian text — please review

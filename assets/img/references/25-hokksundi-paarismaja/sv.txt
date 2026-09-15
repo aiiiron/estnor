@@ -1,0 +1,4 @@
+Product type: Elementhus
+Name: Hokksund parhus
+Location: Hokksund, Norge
+Description: Parhus, prefabricerat hus.

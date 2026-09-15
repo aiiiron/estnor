@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Hafjell fritidsboliger
+Location: Hafjell, Norge
+Description: 14 fritidsboliger
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,4 @@
+Product type: Facade and roof elements
+Name: Stroomi Beach House
+Location: Tallinn, Estonia
+Description: Turnkey public procurement project

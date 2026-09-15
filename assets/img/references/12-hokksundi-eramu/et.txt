@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Hokksundi eramu
+Location: Hokksund, Norra
+Description: Eramu

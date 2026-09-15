@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Beitostølen apartment buildings
+Location: Beitostølen, Norway
+Description: 16 buildings, 70 apartments in total.
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Revetal Einfamilienhaus
+Location: Revetal, Norwegen
+Description: Einfamilienhaus
+Translation: automatic, from the Estonian text — please review

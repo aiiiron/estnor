@@ -1,0 +1,4 @@
+Product type: Modulhäuser
+Name: Deutsches Musterhaus
+Location: Hamburg, Deutschland
+Description: Schlüsselfertiges Modulhaus, EstNor Musterhaus

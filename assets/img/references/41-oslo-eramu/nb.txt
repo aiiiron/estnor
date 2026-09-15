@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Oslo enebolig
+Location: Oslo, Norge
+Description: Enebolig. Entreprenør: EstNor
+Translation: automatic, from the Estonian text — please review

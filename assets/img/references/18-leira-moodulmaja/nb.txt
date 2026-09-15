@@ -1,0 +1,5 @@
+Product type: Modulhus
+Name: Leira modulhus
+Location: Leira, Norge
+Description: Bolig. Modulhus. Arkitektur: TEMPT architects
+Translation: automatic, from the Estonian text — please review

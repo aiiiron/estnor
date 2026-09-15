@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Tønsberg villor
+Location: Tønsberg, Norge
+Description: Två villor. Elementhus
+Translation: automatic, from the Estonian text — please review

@@ -1,5 +1,0 @@
-Product type: Elementhäuser
-Name: Deutsches Musterhaus
-Location: Deutschland
-Date: 2023-11-01
-Description: Ein Musterhaus in Deutschland, errichtet mit der EstNor-Elementbauweise, um die Technologie in einem neuen Markt vorzustellen.

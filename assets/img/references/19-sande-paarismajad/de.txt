@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Sande Doppelhäuser
+Location: Sande, Norwegen
+Description: Doppelhaus, Elementhaus
+Translation: automatic, from the Estonian text — please review

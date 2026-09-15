@@ -1,0 +1,4 @@
+Product type: Fasade- og takelementer
+Name: Fasadeelementer på Fjerdingsby skolebygg
+Location: Fjerdingsby, Norge
+Description: Fasadeelementer på skolebygget

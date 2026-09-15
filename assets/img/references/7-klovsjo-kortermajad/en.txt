@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Klövsjö apartment buildings
+Location: Klövsjö, Sweden
+Description: Two apartment buildings, 8 apartments in total
+Translation: automatic, from the Estonian text — please review

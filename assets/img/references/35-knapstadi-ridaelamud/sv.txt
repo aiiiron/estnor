@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Knapstad radhus
+Location: Knapstad, Norge
+Description: 4 radhus, totalt 14 lägenheter
+Translation: automatic, from the Estonian text — please review

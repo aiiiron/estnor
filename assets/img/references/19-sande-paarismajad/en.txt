@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Sande semi-detached houses
+Location: Sande, Norway
+Description: Semi-detached house, element house
+Translation: automatic, from the Estonian text — please review

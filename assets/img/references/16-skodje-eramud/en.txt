@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Skodje detached houses
+Location: Skodje, Norway
+Description: 4 detached houses with garages. Builder: EstNor
+Translation: automatic, from the Estonian text — please review

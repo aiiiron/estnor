@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Vanvikan detached house
+Location: Vanvikan, Norway
+Description: Detached house. Element house.
+Translation: automatic, from the Estonian text — please review

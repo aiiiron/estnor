@@ -1,0 +1,5 @@
+Product type: Modulhäuser
+Name: Kil Modulhaus
+Location: Kil, Schweden
+Description: Sozialwohnungsbau, 14 Wohnungen. Modulhaus
+Translation: automatic, from the Estonian text — please review

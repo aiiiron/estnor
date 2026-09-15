@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Nittedal semi-detached houses
+Location: Nittedal, Norway
+Description: Two semi-detached houses
+Translation: automatic, from the Estonian text — please review

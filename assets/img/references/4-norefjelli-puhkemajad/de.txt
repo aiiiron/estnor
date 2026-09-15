@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Norefjell Ferienhäuser
+Location: Norefjell, Norwegen
+Description: Zwei Häuser
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,4 @@
+Product type: Facade and roof elements
+Name: Facade elements of Trondheim student house
+Location: Trondheim, Norway
+Description: Facade elements of the student house

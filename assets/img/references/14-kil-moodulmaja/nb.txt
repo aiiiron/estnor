@@ -1,0 +1,5 @@
+Product type: Modulhus
+Name: Kil modulhus
+Location: Kil, Sverige
+Description: Sosialboliger, 14 leiligheter. Modulhus
+Translation: automatic, from the Estonian text — please review

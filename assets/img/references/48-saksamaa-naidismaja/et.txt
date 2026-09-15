@@ -1,0 +1,4 @@
+Product type: Moodulmajad
+Name: Saksamaa näidismaja
+Location: Hamburg, Saksamaa
+Description: Võtmed-kätte moodulmaja, EstNor’i näidismaja

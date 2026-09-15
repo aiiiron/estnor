@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Hokksundi paarismaja
+Location: Hokksund, Norra
+Description: Paarismaja, elementmaja.

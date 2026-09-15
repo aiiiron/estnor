@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Ski tomannsboliger
+Location: Ski, Norge
+Description: Tomannsboliger
+Translation: automatic, from the Estonian text — please review

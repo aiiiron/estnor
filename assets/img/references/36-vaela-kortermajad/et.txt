@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Vaela kortermajad
+Location: Vaela küla, Kiili vald, Harjumaa
+Description: Kokku 4 kortermaja (32 korterit) ja kaks ärihoonet.

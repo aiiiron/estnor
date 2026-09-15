@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Fjellhamar Einfamilienhäuser
+Location: Fjellhamar, Norwegen
+Description: 2 Einfamilienhäuser + 1 Doppelhaus
+Translation: automatic, from the Estonian text — please review

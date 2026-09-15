@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Geilo Doppelhäuser
+Location: Geilo, Norwegen
+Description: 3 Doppelhäuser, Blockrahmenbauweise
+Translation: automatic, from the Estonian text — please review

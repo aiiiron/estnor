@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Revetal enebolig
+Location: Revetal, Norge
+Description: Enebolig
+Translation: automatic, from the Estonian text — please review

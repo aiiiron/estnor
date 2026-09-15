@@ -1,0 +1,5 @@
+Product type: Serial renovation
+Name: Serial renovation
+Location: 
+Description: Apartment-building facades renewed with EstNor's serial renovation. More information: Serial renovation
+Translation: automatic, from the Estonian text — please review

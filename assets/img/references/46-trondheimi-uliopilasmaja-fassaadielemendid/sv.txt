@@ -1,0 +1,4 @@
+Product type: Fasad- och takelement
+Name: Fasadelement av Trondheim studenthus
+Location: Trondheim, Norge
+Description: Fasadelement av studenthuset

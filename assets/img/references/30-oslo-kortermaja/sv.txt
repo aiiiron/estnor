@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Oslo flerbostadshus
+Location: Oslo, Norge
+Description: Flerbostadshus: 5 lägenheter
+Translation: automatic, from the Estonian text — please review

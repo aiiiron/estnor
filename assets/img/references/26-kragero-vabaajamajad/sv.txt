@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Kragerø fritidshus
+Location: Kragerø, Norge
+Description: 4 fritidshus
+Translation: automatic, from the Estonian text — please review

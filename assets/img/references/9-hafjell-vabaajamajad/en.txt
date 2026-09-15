@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Hafjell holiday homes
+Location: Hafjell, Norway
+Description: 14 holiday homes
+Translation: automatic, from the Estonian text — please review

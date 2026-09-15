@@ -1,0 +1,4 @@
+Product type: Facade and roof elements
+Name: Skøyen Atrium III facade elements
+Location: Oslo, Norway
+Description: Office, facade elements

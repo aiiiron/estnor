@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Revetal eramu
+Location: Revetal, Norra
+Description: Eramu

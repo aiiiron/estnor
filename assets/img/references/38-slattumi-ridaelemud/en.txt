@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Slattum terraced houses
+Location: Slattum, Norway
+Description: 9 buildings, terraced-house units for 25 families.
+Translation: automatic, from the Estonian text — please review

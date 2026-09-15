@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Blockhäuser
+Location: 
+Description: 
+Translation: automatic, from the Estonian text — please review

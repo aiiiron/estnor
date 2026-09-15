@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Ski Doppelhäuser
+Location: Ski, Norwegen
+Description: Doppelhäuser
+Translation: automatic, from the Estonian text — please review

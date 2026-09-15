@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Vanvikan villa
+Location: Vanvikan, Norge
+Description: Villa. Elementhus.
+Translation: automatic, from the Estonian text — please review

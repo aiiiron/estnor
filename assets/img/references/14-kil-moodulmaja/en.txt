@@ -1,0 +1,5 @@
+Product type: Modular houses
+Name: Kil modular house
+Location: Kil, Sweden
+Description: Social housing, 14 apartments. Modular house
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,4 @@
+Product type: Elementhäuser
+Name: Hokksund  Doppelhaushälfte
+Location: Hokksund, Norwegen
+Description: Doppelhaushälfte, Fertighaus.

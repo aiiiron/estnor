@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Skodje eneboliger
+Location: Skodje, Norge
+Description: 4 eneboliger med garasje. Entreprenør: EstNor
+Translation: automatic, from the Estonian text — please review

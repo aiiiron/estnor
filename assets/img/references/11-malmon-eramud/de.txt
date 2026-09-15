@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Malmön Einfamilienhäuser
+Location: Bohus Malmön, Schweden
+Description: Insgesamt 5 Häuser
+Translation: automatic, from the Estonian text — please review

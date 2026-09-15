@@ -1,5 +1,0 @@
-Product type: Element houses
-Name: Nature Hub
-Location: Estonia
-Date: 2024-06-01
-Description: A small timber-frame element house, built in full at EstNor's factory in Kiili and delivered to site fully finished.

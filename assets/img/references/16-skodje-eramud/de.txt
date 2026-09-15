@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Skodje Einfamilienhäuser
+Location: Skodje, Norwegen
+Description: 4 Einfamilienhäuser mit Garage. Bauunternehmer: EstNor
+Translation: automatic, from the Estonian text — please review

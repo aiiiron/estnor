@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Tønsberg eneboliger
+Location: Tønsberg, Norge
+Description: To eneboliger, elementhus
+Translation: automatic, from the Estonian text — please review

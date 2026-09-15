@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Linkjöping kortermaja
+Location: Linkjöping, Rootsi
+Description: Kortermaja

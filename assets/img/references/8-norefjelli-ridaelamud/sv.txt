@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Norefjell radhus
+Location: Norefjell, Norge
+Description: Radhus
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,4 @@
+Product type: Element houses
+Name: Vaela apartment houses
+Location: Vaela, Kiili, Estonia
+Description: Total 4 apartment houses (32 units).

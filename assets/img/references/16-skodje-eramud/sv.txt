@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Skodje villor
+Location: Skodje, Norge
+Description: 4 villor med garage. Byggare: EstNor
+Translation: automatic, from the Estonian text — please review

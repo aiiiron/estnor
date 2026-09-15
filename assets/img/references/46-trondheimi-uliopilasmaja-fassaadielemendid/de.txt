@@ -1,0 +1,4 @@
+Product type: Fassaden- und Dachelemente
+Name: Fassadenelemente des Studentenwohnheims Trondheim
+Location: Trondheim, Norwegen
+Description: Fassadenelemente des Studentenhauses

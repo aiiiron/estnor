@@ -1,5 +1,0 @@
-Product type: Elementmajad
-Name: Elementmajast pere-elamu
-Location: Rootsi
-Date: 2023-08-01
-Description: Suur pereelamu Rootsis, ehitatud tehases toodetud välis- ja siseelementidest kiireks ja täpseks kokkupanekuks objektil.

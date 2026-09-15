@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Fjellhamar eneboliger
+Location: Fjellhamar, Norge
+Description: 2 eneboliger + 1 tomannsbolig
+Translation: automatic, from the Estonian text — please review

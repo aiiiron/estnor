@@ -1,0 +1,4 @@
+Product type: Facade and roof elements
+Name: Facade elements of the Fjerdingsby school building
+Location: Fjerdingsby, Norway
+Description: Facade elements of the school building

@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Hokksund villa
+Location: Hokksund, Norge
+Description: Villa
+Translation: automatic, from the Estonian text — please review

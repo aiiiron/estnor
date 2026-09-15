@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Elektrilevi Õppehoone
+Location: Kiili, Eesti
+Description: Võtmed-kätte riigihanke projekt

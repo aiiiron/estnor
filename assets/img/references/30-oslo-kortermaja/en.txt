@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Oslo apartment building
+Location: Oslo, Norway
+Description: Apartment building: 5 apartments
+Translation: automatic, from the Estonian text — please review

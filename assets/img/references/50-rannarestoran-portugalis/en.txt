@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Beach restaurant in Portugal
+Location: Setúbal, Portugal
+Description: Exclusive beach restaurant. Setúbal, Portugal.
+Translation: automatic, from the Estonian text — please review

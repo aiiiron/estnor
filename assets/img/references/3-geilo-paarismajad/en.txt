@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Geilo semi-detached houses
+Location: Geilo, Norway
+Description: 3 semi-detached houses, log-frame construction
+Translation: automatic, from the Estonian text — please review

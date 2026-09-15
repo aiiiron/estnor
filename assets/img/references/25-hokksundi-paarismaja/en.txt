@@ -1,0 +1,4 @@
+Product type: Element houses
+Name: Hokksundi semi-detached house
+Location: Hokksund, Norway
+Description: Semi-detached house; element house

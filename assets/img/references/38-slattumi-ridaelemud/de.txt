@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Slattum Reihenhäuser
+Location: Slattum, Norwegen
+Description: Insgesamt 9 Gebäude, Reihenhauseinheiten für 25 Familien.
+Translation: automatic, from the Estonian text — please review

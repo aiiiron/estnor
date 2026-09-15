@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Tønsberg detached houses
+Location: Tønsberg, Norway
+Description: Two detached houses, element houses
+Translation: automatic, from the Estonian text — please review

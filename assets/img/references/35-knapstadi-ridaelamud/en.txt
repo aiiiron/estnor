@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Knapstad terraced houses
+Location: Knapstad, Norway
+Description: 4 terraced houses, 14 units in total
+Translation: automatic, from the Estonian text — please review

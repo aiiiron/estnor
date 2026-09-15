@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Hafjell vabaajamajad
+Location: Hafjell, Norra
+Description: 14 vabaajamaja

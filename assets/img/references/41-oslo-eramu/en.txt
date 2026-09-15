@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Oslo detached house
+Location: Oslo, Norway
+Description: Detached house. Builder: EstNor
+Translation: automatic, from the Estonian text — please review

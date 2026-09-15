@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Hokksund tomannsboliger
+Location: Hokksund, Norge
+Description: To tomannsboliger
+Translation: automatic, from the Estonian text — please review

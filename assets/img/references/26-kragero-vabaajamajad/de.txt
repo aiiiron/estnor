@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Kragerø Ferienhäuser
+Location: Kragerø, Norwegen
+Description: 4 Ferienhäuser
+Translation: automatic, from the Estonian text — please review

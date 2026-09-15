@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Tønsberg leilighetsbygg
+Location: Tønsberg, Norge
+Description: 7 leiligheter
+Translation: automatic, from the Estonian text — please review

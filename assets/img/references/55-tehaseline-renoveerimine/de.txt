@@ -1,0 +1,4 @@
+Product type: Serielle Sanierung
+Name: Serielle Sanierung
+Location: 
+Description: Fassaden eines im Zuge der EstNor-Werkssanierung renovierten Wohnhauses. Weitere Informationen finden Sie hier: Seriell Sanierung

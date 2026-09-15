@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Vanvikan enebolig
+Location: Vanvikan, Norge
+Description: Enebolig. Elementhus.
+Translation: automatic, from the Estonian text — please review

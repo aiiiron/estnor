@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Oslo Wohngebäude
+Location: Holmenkollen, Oslo, Norwegen
+Description: Wohngebäude: 5 Wohnungen
+Translation: automatic, from the Estonian text — please review

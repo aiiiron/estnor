@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Büro- und Lagergebäude in Göteborg
+Location: Göteborg, Schweden
+Description: 
+Translation: automatic, from the Estonian text — please review

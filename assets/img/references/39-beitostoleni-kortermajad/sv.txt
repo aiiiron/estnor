@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Beitostølen flerbostadshus
+Location: Beitostølen, Norge
+Description: Totalt 16 hus, 70 lägenheter.
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Norefjell fritidsboliger
+Location: Norefjell, Norge
+Description: Elementhus
+Translation: automatic, from the Estonian text — please review

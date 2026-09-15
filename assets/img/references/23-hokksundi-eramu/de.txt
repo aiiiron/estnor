@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Hokksund Einfamilienhaus
+Location: Hokksund, Norwegen
+Description: Einfamilienhaus
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Spikkestad enebolig
+Location: Spikkestad, Norge
+Description: Enebolig, elementhus.
+Translation: automatic, from the Estonian text — please review

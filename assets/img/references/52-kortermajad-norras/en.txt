@@ -1,0 +1,4 @@
+Product type: Element houses
+Name: Apartment buildings in Norway
+Location: Norway
+Description: Apartment buildings in Norway.

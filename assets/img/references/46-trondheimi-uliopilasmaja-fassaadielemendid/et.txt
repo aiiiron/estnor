@@ -1,0 +1,4 @@
+Product type: Fassaadi- ja katuseelemendid
+Name: Trondheimi üliõpilasmaja fassaadielemendid
+Location: Trondheim, Norra
+Description: Üliõpilasmaja fassaadielemendid

@@ -1,0 +1,4 @@
+Product type: Fassaadi- ja katuseelemendid
+Name: Fjerdingsby koolimaja fassaadielemendid
+Location: Fjerdingsby, Norra
+Description: Koolimaja fassaadielemendid

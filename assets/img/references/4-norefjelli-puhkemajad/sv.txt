@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Norefjell fritidshus
+Location: Norefjell, Norge
+Description: Två hus
+Translation: automatic, from the Estonian text — please review

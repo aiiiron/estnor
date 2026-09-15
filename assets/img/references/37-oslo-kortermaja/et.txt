@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Oslo kortermaja
+Location: Holmenkollen, Oslo, Norra
+Description: Kortermaja: 5 korterit

@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Tønsberg Wohngebäude
+Location: Tønsberg, Norwegen
+Description: 7 Wohnungen
+Translation: automatic, from the Estonian text — please review

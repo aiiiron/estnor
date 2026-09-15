@@ -1,0 +1,5 @@
+Product type: Facade and roof elements
+Name: Facade elements for three office buildings in Trondheim
+Location: Trondheim, Norway
+Description: Facade elements for three office buildings
+Translation: automatic, from the Estonian text — please review

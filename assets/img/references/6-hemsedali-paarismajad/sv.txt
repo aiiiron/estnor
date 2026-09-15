@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Hemsedal parhus
+Location: Hemsedal, Norge
+Description: Två parhus. Timmerstomme
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Tønsberg villa
+Location: Tønsberg, Norge
+Description: Villa, elementhus
+Translation: automatic, from the Estonian text — please review

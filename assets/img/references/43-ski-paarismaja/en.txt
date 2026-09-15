@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Ski semi-detached houses
+Location: Ski, Norway
+Description: Semi-detached houses
+Translation: automatic, from the Estonian text — please review

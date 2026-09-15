@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Slattum radhus
+Location: Slattum, Norge
+Description: Totalt 9 hus, radhuslägenheter för 25 familjer.
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Strandrestaurang i Portugal
+Location: Setúbal, Portugal
+Description: Exklusiv strandrestaurang. Setúbal, Portugal.
+Translation: automatic, from the Estonian text — please review

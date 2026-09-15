@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Hokksund parhus
+Location: Hokksund, Norge
+Description: Två parhus
+Translation: automatic, from the Estonian text — please review

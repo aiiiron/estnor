@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Nittedal parhus
+Location: Nittedal, Norge
+Description: Två parhus
+Translation: automatic, from the Estonian text — please review

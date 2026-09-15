@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Norefjell holiday cabins
+Location: Norefjell, Norway
+Description: Two houses
+Translation: automatic, from the Estonian text — please review

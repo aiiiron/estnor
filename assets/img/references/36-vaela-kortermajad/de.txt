@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Vaela Wohngebäude
+Location: Vaela, Kiili, Estland
+Description: Insgesamt 4 Wohngebäude (32 Wohnungen) und zwei Geschäftsgebäude.
+Translation: automatic, from the Estonian text — please review

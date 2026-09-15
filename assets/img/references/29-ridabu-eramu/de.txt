@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Ridabu Einfamilienhaus
+Location: Ridabu, Norwegen
+Description: Einfamilienhaus, Elementhaus.
+Translation: automatic, from the Estonian text — please review

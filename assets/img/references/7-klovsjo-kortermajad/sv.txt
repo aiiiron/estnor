@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Klövsjö flerbostadshus
+Location: Klövsjö, Sverige
+Description: Två flerbostadshus, totalt 8 lägenheter
+Translation: automatic, from the Estonian text — please review

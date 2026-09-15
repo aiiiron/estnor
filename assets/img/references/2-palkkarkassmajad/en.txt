@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Log-frame houses
+Location: 
+Description: 
+Translation: automatic, from the Estonian text — please review

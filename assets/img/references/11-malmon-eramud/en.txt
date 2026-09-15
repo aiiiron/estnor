@@ -1,0 +1,5 @@
+Product type: Element houses
+Name: Malmön detached houses
+Location: Bohus Malmön, Sweden
+Description: 5 houses in total
+Translation: automatic, from the Estonian text — please review

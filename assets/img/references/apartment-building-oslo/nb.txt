@@ -1,5 +1,0 @@
-Product type: Modulhus
-Name: Leilighetsbygg i Oslo
-Location: Oslo, Norge
-Date: 2024-03-01
-Description: Et flerbolighus i Oslo, oppført med EstNors fabrikkferdige moduler. Hver modul ble ferdigstilt fullstendig — kjøkken, bad og alt annet — før den nådde byggeplassen.

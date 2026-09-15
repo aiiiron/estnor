@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Ridabu villa
+Location: Ridabu, Norge
+Description: Villa, elementhus.
+Translation: automatic, from the Estonian text — please review

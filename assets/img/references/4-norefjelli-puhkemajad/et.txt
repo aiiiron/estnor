@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Norefjelli puhkemajad
+Location: Norefjell, Norra
+Description: Kaks maja

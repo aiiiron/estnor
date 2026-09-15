@@ -1,5 +1,0 @@
-Product type: Elementmajad
-Name: Loodusmaja
-Location: Eesti
-Date: 2024-06-01
-Description: Väike puitkarkassist elementmaja, mis toodeti täies mahus EstNori tehases Kiilis ja tarniti objektile valmis viimistletuna.

@@ -1,0 +1,4 @@
+Product type: Elementhus
+Name: Lofsdalen tomannsbolig
+Location: Lofsdalen, Sverige
+Description: 5 tomannsbolig

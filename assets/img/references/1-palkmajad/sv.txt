@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Timmerhus
+Location: 
+Description: 
+Translation: automatic, from the Estonian text — please review

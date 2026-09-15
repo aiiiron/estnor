@@ -1,0 +1,4 @@
+Product type: Modular houses
+Name: Germany Model House
+Location: Hamburg, Germany
+Description: Turnkey Modular House, EstNor Model House

@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Vaela flerbostadshus
+Location: Vaela, Kiili, Estland
+Description: Totalt 4 flerbostadshus (32 lägenheter) och två kommersiella byggnader.
+Translation: automatic, from the Estonian text — please review

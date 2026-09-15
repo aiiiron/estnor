@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Oslo villa
+Location: Oslo, Norge
+Description: Villa. Byggare: EstNor
+Translation: automatic, from the Estonian text — please review

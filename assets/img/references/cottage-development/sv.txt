@@ -1,5 +1,0 @@
-Product type: Modulhus
-Name: Fritidshusområde
-Location: Estland
-Date: 2023-04-01
-Description: Ett kluster av modulära fritidshus tillverkade i Kiili, levererade helt färdigställda till Estlands kust.

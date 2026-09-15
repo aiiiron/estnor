@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Spikkestad villa
+Location: Spikkestad, Norge
+Description: Villa, elementhus.
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Spikkestadi eramu
+Location: Spikkestad, Norra
+Description: Eramu, elementmaja.

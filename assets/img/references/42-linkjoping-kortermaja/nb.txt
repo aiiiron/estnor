@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Linköping leilighetsbygg
+Location: Linköping, Sverige
+Description: Leilighetsbygg
+Translation: automatic, from the Estonian text — please review

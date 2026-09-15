@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Ski parhus
+Location: Ski, Norge
+Description: Parhus
+Translation: automatic, from the Estonian text — please review

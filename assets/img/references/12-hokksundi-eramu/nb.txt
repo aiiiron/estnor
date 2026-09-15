@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Hokksund enebolig
+Location: Hokksund, Norge
+Description: Enebolig
+Translation: automatic, from the Estonian text — please review

@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Knapstad Reihenhäuser
+Location: Knapstad, Norwegen
+Description: 4 Reihenhäuser, insgesamt 14 Einheiten
+Translation: automatic, from the Estonian text — please review

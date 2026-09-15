@@ -1,5 +1,0 @@
-Product type: Elementhus
-Name: Tysklands modellhus
-Location: Tyskland
-Date: 2023-11-01
-Description: Et modellhus i Tyskland, bygget med EstNors elementbyggeteknikk for å introdusere teknologien i et nytt marked.

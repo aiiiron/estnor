@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Norefjell rekkehus
+Location: Norefjell, Norge
+Description: Rekkehus
+Translation: automatic, from the Estonian text — please review

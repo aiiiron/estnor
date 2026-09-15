@@ -1,0 +1,5 @@
+Product type: Elementhus
+Name: Sjøhagen villor
+Location: Sjøhagen, Norge
+Description: 3 villor
+Translation: automatic, from the Estonian text — please review

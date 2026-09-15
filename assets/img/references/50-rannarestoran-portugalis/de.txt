@@ -1,0 +1,5 @@
+Product type: Elementhäuser
+Name: Strandrestaurant in Portugal
+Location: Setúbal, Portugal
+Description: Exklusives Strandrestaurant. Setúbal, Portugal.
+Translation: automatic, from the Estonian text — please review

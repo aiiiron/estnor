@@ -1,0 +1,4 @@
+Product type: Elementmajad
+Name: Kortermajad Norras
+Location: Norra
+Description: Kortermajad Norras.
