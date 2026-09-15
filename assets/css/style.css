@@ -381,6 +381,12 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 @media (max-width: 900px) { .renovation-intro .split { margin-top: clamp(-14rem, -24vh, -8rem); } }
 @media (max-width: 700px) { .renovation-intro .split { margin-top: clamp(-12rem, -20vh, -6rem); } }
 
+/* Section landing pages (Products, References, Contact) use the same
+   photo hero, but shorter than the homepage's full-viewport one — the
+   page's own content should start within the first screen. */
+.hero--page { min-height: 62vh; min-height: 62dvh; padding-block: clamp(2.5rem, 6vw, 4rem) clamp(4rem, 8vw, 6rem); }
+.hero--page .hero-bg img { object-position: 50% 50%; }
+
 /* Smaller inner-page hero (no photo — used on section/sub-pages) */
 .page-hero { min-height: 0; padding-block: clamp(2.6rem, 6vw, 4rem); background: var(--paper-alt); }
 .page-hero .hero-title { max-width: 34ch; }
