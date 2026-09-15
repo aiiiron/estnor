@@ -660,9 +660,10 @@ body.ref-lightbox-open { overflow: hidden; }
   background: var(--surface); border-radius: var(--r-lg); overflow: hidden;
   box-shadow: 0 24px 64px -16px rgba(10,20,14,.5);
 }
-.ref-lightbox-media { position: relative; flex-shrink: 0; background: var(--paper-alt); }
+.ref-lightbox-media { position: relative; flex-shrink: 0; background: var(--spruce-deep); }
 .ref-media-frame { position: relative; width: 100%; aspect-ratio: 16 / 10; overflow: hidden; }
-.ref-media-frame img, .ref-media-frame .ref-photo-placeholder { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* contain, not cover: an album photo must never be cropped — wide before/after composites and portrait shots letterbox on the dark ground instead */
+.ref-media-frame img, .ref-media-frame .ref-photo-placeholder { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
 .ref-lightbox-close, .ref-lightbox-prev, .ref-lightbox-next {
   position: absolute; width: 40px; height: 40px; border: 0; border-radius: 999px; padding: 0; cursor: pointer;
   display: flex; align-items: center; justify-content: center;
