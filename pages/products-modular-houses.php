@@ -83,7 +83,7 @@ $modularPhoto = function (string $name, string $alt = '') use ($ASSET): string {
 
   <section class="section">
     <div class="wrap split">
-      <figure class="photo-card"><?= $modularPhoto('module-factory', $P['photos']['module_factory']) ?></figure>
+      <figure class="photo-card photo-card--portrait"><?= $modularPhoto('pattern-buildings', $P['photos']['pattern_buildings']) ?></figure>
       <div>
         <span class="eyebrow"><?= e($P['pattern']['eyebrow']) ?></span>
         <h2><?= e($P['pattern']['h2']) ?></h2>

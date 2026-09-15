@@ -52,7 +52,8 @@
             "factory_hall": "Moodulite tootmine EstNori tehasehallis",
             "transport": "Valmis moodul teel ehitusplatsile",
             "finished_house": "Valmis moodulmaja",
-            "module_factory": "Viimistletud moodul tehases enne väljastamist"
+            "module_factory": "Viimistletud moodul tehases enne väljastamist",
+            "pattern_buildings": "369 Pattern Buildings süsteemi järgi ehitatud moodulmaja"
         },
         "steps": {
             "eyebrow": "Ehitusprotsess",
@@ -161,7 +162,8 @@
             "factory_hall": "Module production in EstNor's factory hall",
             "transport": "A finished module on its way to site",
             "finished_house": "A finished modular house",
-            "module_factory": "A finished module in the factory before dispatch"
+            "module_factory": "A finished module in the factory before dispatch",
+            "pattern_buildings": "A modular house built to the 369 Pattern Buildings system"
         },
         "steps": {
             "eyebrow": "Construction process",
@@ -270,7 +272,8 @@
             "factory_hall": "Modulfertigung in der Werkshalle von EstNor",
             "transport": "Ein fertiges Modul auf dem Weg zur Baustelle",
             "finished_house": "Ein fertiges Modulhaus",
-            "module_factory": "Ein fertiges Modul im Werk vor dem Versand"
+            "module_factory": "Ein fertiges Modul im Werk vor dem Versand",
+            "pattern_buildings": "Ein nach dem 369-Pattern-Buildings-System gebautes Modulhaus"
         },
         "steps": {
             "eyebrow": "Bauprozess",
@@ -379,7 +382,8 @@
             "factory_hall": "Modultillverkning i EstNors fabrikshall",
             "transport": "En färdig modul på väg till byggplatsen",
             "finished_house": "Ett färdigt modulhus",
-            "module_factory": "En färdig modul i fabriken före leverans"
+            "module_factory": "En färdig modul i fabriken före leverans",
+            "pattern_buildings": "Ett modulhus byggt enligt 369 Pattern Buildings-systemet"
         },
         "steps": {
             "eyebrow": "Byggprocess",
@@ -488,7 +492,8 @@
             "factory_hall": "Modulproduksjon i EstNors fabrikkhall",
             "transport": "En ferdig modul på vei til byggeplassen",
             "finished_house": "Et ferdig modulhus",
-            "module_factory": "En ferdig modul i fabrikken før levering"
+            "module_factory": "En ferdig modul i fabrikken før levering",
+            "pattern_buildings": "Et modulhus bygget etter 369 Pattern Buildings-systemet"
         },
         "steps": {
             "eyebrow": "Byggeprosess",
