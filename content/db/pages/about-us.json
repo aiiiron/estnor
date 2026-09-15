@@ -26,7 +26,7 @@
             },
             {
                 "value": "90%",
-                "label": "eksport, peamiselt Norrasse"
+                "label": "eksport, peamiselt Skandinaaviasse ja Lääne-Euroopasse"
             }
         ],
         "who": {
@@ -182,7 +182,7 @@
             },
             {
                 "value": "90 %",
-                "label": "Exportanteil, vor allem nach Norwegen"
+                "label": "Exportanteil, vor allem nach Skandinavien und Westeuropa"
             }
         ],
         "who": {
@@ -338,7 +338,7 @@
             },
             {
                 "value": "90 %",
-                "label": "export, främst till Norge"
+                "label": "export, främst till Skandinavien och Västeuropa"
             }
         ],
         "who": {
@@ -494,7 +494,7 @@
             },
             {
                 "value": "90 %",
-                "label": "eksport, hovedsakelig til Norge"
+                "label": "eksport, hovedsakelig til Skandinavia og Vest-Europa"
             }
         ],
         "who": {
@@ -650,7 +650,7 @@
             },
             {
                 "value": "90%",
-                "label": "export, mainly to Norway"
+                "label": "export, mainly to Scandinavia and Western Europe"
             }
         ],
         "who": {
