@@ -1,0 +1,4 @@
+Product type: Tehaseline renoveerimine
+Name: Kooli 5, Sindi
+Location: Sindi, Eesti
+Description: Kortermaja fassaad on uuendatud EstNori tehaseliselt toodetud fassaadielementidega.

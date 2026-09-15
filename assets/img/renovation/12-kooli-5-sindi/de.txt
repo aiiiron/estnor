@@ -1,0 +1,4 @@
+Product type: Serielle Sanierung
+Name: Kooli 5, Sindi
+Location: Sindi, Estland
+Description: Wohngebäudefassade, erneuert mit werkseitig gefertigten Fassadenelementen von EstNor.

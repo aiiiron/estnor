@@ -5,11 +5,14 @@
  * partials/head.php, and defines $P = load_page('serial-renovation',
  * $LANG) plus $HOME_HREF, $CONTACT_HREF, $FACADE_HREF.
  *
- * $P['references']['projects'] holds this page's own illustrated
- * reference cards (the KredEx pilot programme etc.) — the nav's
- * Serial Renovation > References child links to the #references
- * anchor below. Each entry carries its own trusted, hand-authored SVG
- * markup (illustrative sketches, not user content), rendered raw.
+ * The #references section (the nav's Serial Renovation > References
+ * child links to that anchor) lists the renovated buildings as photo
+ * albums — one card per building, opening the same lightbox as the
+ * References page. They come from the 'renovation' collection
+ * (assets/img/renovation/<building>/, see inc/references.php), which is
+ * deliberately separate from the general References page: there, the
+ * renovation work appears as one combined album so a visitor browsing
+ * only References still finds it; here it's split per building.
  */
 ?>
 
@@ -90,24 +93,13 @@
       <div class="section-head">
         <span class="eyebrow"><?= e($P['references']['eyebrow']) ?></span>
         <h2><?= e($P['references']['h2']) ?></h2>
+<?php if (!empty($P['references']['lead'])): ?>
+        <p class="lead"><?= e($P['references']['lead']) ?></p>
+<?php endif; ?>
       </div>
-      <div class="grid cols-3">
-<?php foreach ($P['references']['projects'] as $proj): ?>
-        <article class="project-card">
-          <div class="project-figure" aria-hidden="true"><?= $proj['svg'] ?></div>
-          <div class="project-body">
-            <p class="meta"><?= e($proj['meta']) ?></p>
-            <h3><?= e($proj['title']) ?></h3>
-            <div class="tag-row"><?php foreach ($proj['tags'] as $tag): ?><span class="tag"><?= e($tag) ?></span><?php endforeach; ?></div>
-            <p><?= e($proj['desc']) ?></p>
-<?php if (!empty($proj['stats'])): ?>
-            <div class="project-stats"><?php foreach ($proj['stats'] as $s): ?><div><b><?= e($s['value']) ?></b><span><?= e($s['label']) ?></span></div><?php endforeach; ?></div>
-<?php endif; ?>
-<?php if (!empty($proj['addresses'])): ?>
-            <p class="form-note"><b><?= e($proj['addresses_label']) ?></b> <?= e(implode(' · ', $proj['addresses'])) ?></p>
-<?php endif; ?>
-          </div>
-        </article>
+      <div class="ref-grid">
+<?php foreach (load_references($LANG, 'renovation') as $ref): ?>
+<?php require __DIR__ . '/../partials/reference-card.php'; ?>
 <?php endforeach; ?>
       </div>
     </div>
@@ -139,3 +131,5 @@
       <a class="btn btn-primary" href="<?= e($CONTACT_HREF) ?>"><?= e($P['cta']['button']) ?></a>
     </div>
   </section>
+
+<?php require __DIR__ . '/../partials/reference-lightbox.php'; ?>

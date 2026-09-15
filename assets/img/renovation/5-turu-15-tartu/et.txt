@@ -1,0 +1,4 @@
+Product type: Tehaseline renoveerimine
+Name: Turu 15, Tartu
+Location: Tartu, Eesti
+Description: Kortermaja fassaad on uuendatud EstNori tehaseliselt toodetud fassaadielementidega.

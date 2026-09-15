@@ -52,14 +52,35 @@
  *
  * A numbered folder always outranks an unnumbered one, regardless of
  * Date.
+ *
+ * There are two independent collections of such folders, each a
+ * separate root directory with the same folder-per-project layout:
+ *
+ *   'references'  assets/img/references/  — the References page + homepage teaser
+ *   'renovation'  assets/img/renovation/  — the Serial Renovation page's own
+ *                                           per-building albums (#references)
+ *
+ * Every function below takes the collection name as its last argument,
+ * defaulting to 'references'. A project can deliberately exist in both
+ * (e.g. one combined "Tehaseline renoveerimine" album under references,
+ * and the same photos split per building under renovation).
  */
 
 const REFERENCE_PHOTO_EXTENSIONS = ['jpg', 'jpeg', 'png', 'webp', 'avif'];
 const REFERENCE_TEXT_LANGS_FALLBACK = ['en', 'et']; // tried in order after the requested language
+const REFERENCE_COLLECTIONS = ['references', 'renovation']; // each is a folder under assets/img/
 
-/** Every reference project's folder name, unsorted. */
-function reference_slugs(): array {
-    $root = __DIR__ . '/../assets/img/references';
+/** Absolute filesystem root of one collection's project folders. */
+function reference_root(string $collection = 'references'): string {
+    if (!in_array($collection, REFERENCE_COLLECTIONS, true)) {
+        throw new InvalidArgumentException("Unknown reference collection: $collection");
+    }
+    return __DIR__ . '/../assets/img/' . $collection;
+}
+
+/** Every reference project's folder name in a collection, unsorted. */
+function reference_slugs(string $collection = 'references'): array {
+    $root = reference_root($collection);
     if (!is_dir($root)) return [];
 
     $slugs = [];
@@ -77,8 +98,8 @@ function reference_slugs(): array {
  * with no recognized match is silently skipped rather than erroring —
  * a typo'd line just doesn't show up, instead of breaking the page.
  */
-function reference_text_fields(string $slug, string $lang): ?array {
-    $path = __DIR__ . '/../assets/img/references/' . $slug . '/' . $lang . '.txt';
+function reference_text_fields(string $slug, string $lang, string $collection = 'references'): ?array {
+    $path = reference_root($collection) . '/' . $slug . '/' . $lang . '.txt';
     if (!is_file($path)) return null;
 
     $labelMap = [
@@ -103,9 +124,9 @@ function reference_text_fields(string $slug, string $lang): ?array {
 }
 
 /** One reference's fields for $lang, falling back to English then Estonian. */
-function reference_fields(string $slug, string $lang): ?array {
+function reference_fields(string $slug, string $lang, string $collection = 'references'): ?array {
     foreach (array_unique([$lang, ...REFERENCE_TEXT_LANGS_FALLBACK]) as $tryLang) {
-        $fields = reference_text_fields($slug, $tryLang);
+        $fields = reference_text_fields($slug, $tryLang, $collection);
         if ($fields !== null) return $fields;
     }
     return null;
@@ -123,13 +144,14 @@ function reference_order_prefix(string $slug): ?int {
  * project with no .txt file in any language is skipped — nothing to
  * show for it yet.
  */
-function load_references(string $lang): array {
+function load_references(string $lang, string $collection = 'references'): array {
     $refs = [];
-    foreach (reference_slugs() as $slug) {
-        $fields = reference_fields($slug, $lang);
+    foreach (reference_slugs($collection) as $slug) {
+        $fields = reference_fields($slug, $lang, $collection);
         if ($fields === null) continue;
         $refs[] = [
             'slug'        => $slug,
+            'collection'  => $collection,
             'order'       => reference_order_prefix($slug),
             'title'       => $fields['title'] ?? $slug,
             'location'    => $fields['location'] ?? '',
@@ -163,8 +185,8 @@ function load_references(string $lang): array {
  * naturally sorted by filename. Empty array if the folder doesn't exist
  * yet or has no recognized image files.
  */
-function reference_photo_files(string $slug): array {
-    $dir = __DIR__ . '/../assets/img/references/' . $slug;
+function reference_photo_files(string $slug, string $collection = 'references'): array {
+    $dir = reference_root($collection) . '/' . $slug;
     if (!is_dir($dir)) return [];
 
     $files = [];
@@ -184,15 +206,15 @@ function reference_photo_files(string $slug): array {
  * browser can load — $ASSET-prefixed so they resolve from any page depth
  * (root Estonian pages vs. /en/, /de/, ... folders).
  */
-function reference_photo_urls(string $ASSET, string $slug): array {
+function reference_photo_urls(string $ASSET, string $slug, string $collection = 'references'): array {
     $urls = [];
-    foreach (reference_photo_files($slug) as $name) {
-        $urls[] = $ASSET . '/assets/img/references/' . rawurlencode($slug) . '/' . rawurlencode($name);
+    foreach (reference_photo_files($slug, $collection) as $name) {
+        $urls[] = $ASSET . '/assets/img/' . $collection . '/' . rawurlencode($slug) . '/' . rawurlencode($name);
     }
     return $urls;
 }
 
 /** The reference's first photo URL for its card cover, or null if it has none yet. */
-function reference_cover_url(string $ASSET, string $slug): ?string {
-    return reference_photo_urls($ASSET, $slug)[0] ?? null;
+function reference_cover_url(string $ASSET, string $slug, string $collection = 'references'): ?string {
+    return reference_photo_urls($ASSET, $slug, $collection)[0] ?? null;
 }

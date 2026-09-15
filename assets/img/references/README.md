@@ -31,6 +31,10 @@ assets/img/references/
 The folder name (its "slug") is never shown to visitors — call it
 whatever's easy to recognize.
 
+(`../renovation/` is a second, independent set of folders with exactly
+this layout, feeding the Serial Renovation page's per-building albums —
+see its own README.)
+
 ## Controlling display order
 
 Two ways — pick whichever's easier:

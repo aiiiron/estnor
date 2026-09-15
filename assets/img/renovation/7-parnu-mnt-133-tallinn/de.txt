@@ -1,0 +1,4 @@
+Product type: Serielle Sanierung
+Name: Pärnu mnt 133, Tallinn
+Location: Tallinn, Estland
+Description: Wohngebäudefassade, erneuert mit werkseitig gefertigten Fassadenelementen von EstNor.

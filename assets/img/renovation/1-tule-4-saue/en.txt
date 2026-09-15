@@ -1,0 +1,4 @@
+Product type: Serial renovation
+Name: Tule 4, Saue
+Location: Saue, Estonia
+Description: Apartment-building facade renewed with EstNor's factory-made facade elements.

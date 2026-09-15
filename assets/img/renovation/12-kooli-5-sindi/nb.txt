@@ -1,0 +1,4 @@
+Product type: Modernisering av leilighetsbygg
+Name: Kooli 5, Sindi
+Location: Sindi, Estland
+Description: Leilighetsbyggfasade fornyet med EstNors fabrikkproduserte fasadeelementer.

@@ -1,9 +1,10 @@
 <?php
 /**
  * partials/reference-card.php — one reference project's card, used both
- * by the homepage's "3 latest" teaser and pages/references.php's full
- * grid. Expects $ref (one entry from load_references()) and $ASSET
- * already set by the caller.
+ * by the homepage's "3 latest" teaser, pages/references.php's full grid
+ * and the Serial Renovation page's per-building albums. Expects $ref
+ * (one entry from load_references(), which records which collection it
+ * came from) and $ASSET already set by the caller.
  *
  * It's a <button>, not a link: clicking it doesn't navigate anywhere, it
  * opens partials/reference-lightbox.php's overlay — assets/js/references.js
@@ -12,8 +13,8 @@
  * inc/references.php's filesystem lookup, not from content JSON — see
  * assets/img/references/README.md.
  */
-$refCover  = reference_cover_url($ASSET, $ref['slug']);
-$refPhotos = reference_photo_urls($ASSET, $ref['slug']);
+$refCover  = reference_cover_url($ASSET, $ref['slug'], $ref['collection']);
+$refPhotos = reference_photo_urls($ASSET, $ref['slug'], $ref['collection']);
 ?>
 <button
   type="button"

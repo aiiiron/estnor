@@ -1,0 +1,4 @@
+Product type: Serial renovation
+Name: Anne 2, Tartu
+Location: Tartu, Estonia
+Description: Apartment-building facade renewed with EstNor's factory-made facade elements.

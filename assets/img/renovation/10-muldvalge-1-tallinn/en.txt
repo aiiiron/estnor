@@ -1,0 +1,4 @@
+Product type: Serial renovation
+Name: Muldvalge 1, Tallinn
+Location: Tallinn, Estonia
+Description: Apartment-building facade renewed with EstNor's factory-made facade elements.

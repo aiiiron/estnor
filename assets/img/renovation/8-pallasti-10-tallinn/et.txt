@@ -1,0 +1,4 @@
+Product type: Tehaseline renoveerimine
+Name: Pallasti 10, Tallinn
+Location: Tallinn, Eesti
+Description: Kortermaja fassaad on uuendatud EstNori tehaseliselt toodetud fassaadielementidega.

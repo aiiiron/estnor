@@ -1,0 +1,4 @@
+Product type: Serial renovation
+Name: Kooli 5, Sindi
+Location: Sindi, Estonia
+Description: Apartment-building facade renewed with EstNor's factory-made facade elements.

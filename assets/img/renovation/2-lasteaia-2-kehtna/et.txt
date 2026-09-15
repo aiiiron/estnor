@@ -1,0 +1,4 @@
+Product type: Tehaseline renoveerimine
+Name: Lasteaia 2, Kehtna
+Location: Kehtna, Eesti
+Description: Kortermaja fassaad on uuendatud EstNori tehaseliselt toodetud fassaadielementidega.
