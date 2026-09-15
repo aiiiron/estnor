@@ -245,7 +245,10 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   transition: opacity .14s ease, transform .14s ease, visibility .14s;
   z-index: 20;
 }
-.lang-switch:focus-within .lang-switch-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+.lang-switch:focus-within .lang-switch-menu,
+.lang-switch.is-open .lang-switch-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+.lang-switch.is-open .lang-switch-trigger { color: var(--spruce-deep); border-color: var(--spruce); }
+.lang-switch.is-open .lang-switch-trigger .chev { transform: rotate(180deg); }
 .lang-switch-menu a {
   display: block; padding: .42em .3em; border-radius: var(--r-sm); text-align: center;
   font-family: var(--font-display); font-size: .78rem; font-weight: 600; letter-spacing: .02em;

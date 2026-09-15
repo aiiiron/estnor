@@ -36,9 +36,9 @@
   </div>
 </footer>
 
-<script src="<?= e($ASSET) ?>/assets/js/main.js"></script>
+<script src="<?= e($ASSET) ?>/assets/js/main.js?v=<?= $asset_v ?>"></script>
 <?php if (!empty($NEEDS_REFERENCES_JS)): ?>
-<script src="<?= e($ASSET) ?>/assets/js/references.js"></script>
+<script src="<?= e($ASSET) ?>/assets/js/references.js?v=<?= $asset_v ?>"></script>
 <?php endif; ?>
 </body>
 </html>
