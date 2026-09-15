@@ -8,7 +8,8 @@
             "close": "Sulge",
             "previous_photo": "Eelmine foto",
             "next_photo": "Järgmine foto",
-            "discuss_similar_project": "Aruta sarnast projekti"
+            "discuss_similar_project": "Aruta sarnast projekti",
+            "all": "Kõik"
         },
         "brand_caption": "Puitmajad ja fassaadielemendid · Est. 2000",
         "nav": [
@@ -21,11 +22,6 @@
                         "key": "renovation",
                         "label": "Ülevaade",
                         "href": "/serial-renovation/index.php"
-                    },
-                    {
-                        "key": "facade",
-                        "label": "Fassaadi- ja katuseelemendid",
-                        "href": "/serial-renovation/facade-elements.php"
                     },
                     {
                         "key": "sr-references",
@@ -48,6 +44,11 @@
                         "key": "modular",
                         "label": "Moodulmajad",
                         "href": "/products/modular-houses.php"
+                    },
+                    {
+                        "key": "facade-roof",
+                        "label": "Fassaadi- ja katuseelemendid",
+                        "href": "/products/facade-elements.php"
                     }
                 ]
             },
@@ -100,9 +101,6 @@
             "renovation": [
                 {
                     "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.facade"
                 },
                 {
                     "path": "renovation.sr-references"
@@ -194,7 +192,8 @@
             "close": "Close",
             "previous_photo": "Previous photo",
             "next_photo": "Next photo",
-            "discuss_similar_project": "Discuss a similar project"
+            "discuss_similar_project": "Discuss a similar project",
+            "all": "All"
         },
         "brand_caption": "Timber houses & facade elements · Est. 2000",
         "nav": [
@@ -207,11 +206,6 @@
                         "key": "renovation",
                         "label": "Overview",
                         "href": "/en/serial-renovation/index.php"
-                    },
-                    {
-                        "key": "facade",
-                        "label": "Facade Elements",
-                        "href": "/en/serial-renovation/facade-elements.php"
                     },
                     {
                         "key": "sr-references",
@@ -234,6 +228,11 @@
                         "key": "modular",
                         "label": "Modular Houses",
                         "href": "/en/products/modular-houses.php"
+                    },
+                    {
+                        "key": "facade-roof",
+                        "label": "Facade and Roof Elements",
+                        "href": "/en/products/facade-elements.php"
                     }
                 ]
             },
@@ -286,9 +285,6 @@
             "renovation": [
                 {
                     "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.facade"
                 },
                 {
                     "path": "renovation.sr-references"
@@ -380,7 +376,8 @@
             "close": "Schließen",
             "previous_photo": "Vorheriges Foto",
             "next_photo": "Nächstes Foto",
-            "discuss_similar_project": "Ähnliches Projekt besprechen"
+            "discuss_similar_project": "Ähnliches Projekt besprechen",
+            "all": "Alle"
         },
         "brand_caption": "Holzhäuser & Fassadenelemente · Gegr. 2000",
         "nav": [
@@ -393,11 +390,6 @@
                         "key": "renovation",
                         "label": "Überblick",
                         "href": "/de/serial-renovation/index.php"
-                    },
-                    {
-                        "key": "facade",
-                        "label": "Fassadenelemente",
-                        "href": "/de/serial-renovation/facade-elements.php"
                     },
                     {
                         "key": "sr-references",
@@ -420,6 +412,11 @@
                         "key": "modular",
                         "label": "Modulhäuser",
                         "href": "/de/products/modular-houses.php"
+                    },
+                    {
+                        "key": "facade-roof",
+                        "label": "Fassaden- und Dachelemente",
+                        "href": "/de/products/facade-elements.php"
                     }
                 ]
             },
@@ -472,9 +469,6 @@
             "renovation": [
                 {
                     "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.facade"
                 },
                 {
                     "path": "renovation.sr-references"
@@ -566,7 +560,8 @@
             "close": "Stäng",
             "previous_photo": "Föregående foto",
             "next_photo": "Nästa foto",
-            "discuss_similar_project": "Diskutera ett liknande projekt"
+            "discuss_similar_project": "Diskutera ett liknande projekt",
+            "all": "Alla"
         },
         "brand_caption": "Trähus & fasadelement · Grundat 2000",
         "nav": [
@@ -579,11 +574,6 @@
                         "key": "renovation",
                         "label": "Översikt",
                         "href": "/sv/serial-renovation/index.php"
-                    },
-                    {
-                        "key": "facade",
-                        "label": "Fasad- och takelement",
-                        "href": "/sv/serial-renovation/facade-elements.php"
                     },
                     {
                         "key": "sr-references",
@@ -606,6 +596,11 @@
                         "key": "modular",
                         "label": "Modulhus",
                         "href": "/sv/products/modular-houses.php"
+                    },
+                    {
+                        "key": "facade-roof",
+                        "label": "Fasad- och takelement",
+                        "href": "/sv/products/facade-elements.php"
                     }
                 ]
             },
@@ -658,9 +653,6 @@
             "renovation": [
                 {
                     "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.facade"
                 },
                 {
                     "path": "renovation.sr-references"
@@ -752,7 +744,8 @@
             "close": "Lukk",
             "previous_photo": "Forrige bilde",
             "next_photo": "Neste bilde",
-            "discuss_similar_project": "Diskuter et lignende prosjekt"
+            "discuss_similar_project": "Diskuter et lignende prosjekt",
+            "all": "Alle"
         },
         "brand_caption": "Trehus & fasadeelementer · Etablert 2000",
         "nav": [
@@ -765,11 +758,6 @@
                         "key": "renovation",
                         "label": "Oversikt",
                         "href": "/nb/serial-renovation/index.php"
-                    },
-                    {
-                        "key": "facade",
-                        "label": "Fasade- og takelementer",
-                        "href": "/nb/serial-renovation/facade-elements.php"
                     },
                     {
                         "key": "sr-references",
@@ -792,6 +780,11 @@
                         "key": "modular",
                         "label": "Modulhus",
                         "href": "/nb/products/modular-houses.php"
+                    },
+                    {
+                        "key": "facade-roof",
+                        "label": "Fasade- og takelementer",
+                        "href": "/nb/products/facade-elements.php"
                     }
                 ]
             },
@@ -844,9 +837,6 @@
             "renovation": [
                 {
                     "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.facade"
                 },
                 {
                     "path": "renovation.sr-references"

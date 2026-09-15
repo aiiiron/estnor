@@ -6,7 +6,7 @@
         },
         "hero": {
             "crumb": "Avaleht",
-            "parent_label": "Majad",
+            "parent_label": "Tooted",
             "label": "Elementmaja",
             "eyebrow": "Tehases toodetud",
             "h1": "Elementmajast lähemalt",
@@ -84,6 +84,12 @@
             "h2": "Planeerid suurt või keerukat ehitist?",
             "body": "Elementmaja võib olla õige valik — räägi meiega oma projektist.",
             "button": "Võta ühendust"
+        },
+        "albums": {
+            "eyebrow": "Referentsid",
+            "h2": "Meie ehitatud elementmajad",
+            "lead": "Eramud, paaris- ja ridaelamud, vabaajamajad ja kortermajad, mille oleme tarninud elementmajadena. Ava album, et fotosid sirvida.",
+            "more": "Vaata kõiki elementmajade referentse"
         }
     },
     "de": {
@@ -93,7 +99,7 @@
         },
         "hero": {
             "crumb": "Startseite",
-            "parent_label": "Häuser",
+            "parent_label": "Produkte",
             "label": "Elementhaus",
             "eyebrow": "Werksgefertigt",
             "h1": "Das Elementhaus im Detail",
@@ -171,6 +177,12 @@
             "h2": "Planen Sie ein großes oder anspruchsvolles Bauvorhaben?",
             "body": "Das Elementhaus könnte die richtige Wahl sein — sprechen Sie mit uns über Ihr Projekt.",
             "button": "Kontakt aufnehmen"
+        },
+        "albums": {
+            "eyebrow": "Referenzen",
+            "h2": "Von uns gebaute Elementhäuser",
+            "lead": "Einfamilien-, Doppel- und Reihenhäuser, Ferienhäuser und Wohngebäude, die wir als Elementhäuser geliefert haben. Öffnen Sie ein Album, um die Fotos anzusehen.",
+            "more": "Alle Referenzen zu Elementhäusern ansehen"
         }
     },
     "sv": {
@@ -180,7 +192,7 @@
         },
         "hero": {
             "crumb": "Startsida",
-            "parent_label": "Hus",
+            "parent_label": "Produkter",
             "label": "Elementhus",
             "eyebrow": "Fabrikstillverkat",
             "h1": "Mer om elementhus",
@@ -258,6 +270,12 @@
             "h2": "Planerar du ett stort eller komplext byggprojekt?",
             "body": "Elementhus kan vara rätt val — berätta om ditt projekt för oss.",
             "button": "Kontakta oss"
+        },
+        "albums": {
+            "eyebrow": "Referenser",
+            "h2": "Elementhus vi har byggt",
+            "lead": "Villor, parhus, radhus, fritidshus och flerbostadshus levererade som elementhus. Öppna ett album för att bläddra bland bilderna.",
+            "more": "Se alla referenser för elementhus"
         }
     },
     "nb": {
@@ -267,7 +285,7 @@
         },
         "hero": {
             "crumb": "Forsiden",
-            "parent_label": "Hus",
+            "parent_label": "Produkter",
             "label": "Elementhus",
             "eyebrow": "Fabrikkbygget",
             "h1": "Nærmere om elementhus",
@@ -345,6 +363,12 @@
             "h2": "Planlegger du et stort eller krevende byggeprosjekt?",
             "body": "Elementhus kan være riktig valg — fortell oss om prosjektet ditt.",
             "button": "Kontakt oss"
+        },
+        "albums": {
+            "eyebrow": "Referanser",
+            "h2": "Elementhus vi har bygget",
+            "lead": "Eneboliger, tomannsboliger, rekkehus, fritidsboliger og leilighetsbygg levert som elementhus. Åpne et album for å bla i bildene.",
+            "more": "Se alle referanser for elementhus"
         }
     },
     "en": {
@@ -354,7 +378,7 @@
         },
         "hero": {
             "crumb": "Home",
-            "parent_label": "Houses",
+            "parent_label": "Products",
             "label": "Element Houses",
             "eyebrow": "Factory built",
             "h1": "The element house, in detail",
@@ -432,6 +456,12 @@
             "h2": "Planning a large or complex build?",
             "body": "An element house could be the right choice — talk to us about your project.",
             "button": "Contact EstNor"
+        },
+        "albums": {
+            "eyebrow": "References",
+            "h2": "Element houses we have built",
+            "lead": "Detached, semi-detached and terraced houses, holiday homes and apartment buildings delivered as element houses. Open an album to browse the photos.",
+            "more": "See all element-house references"
         }
     }
 }

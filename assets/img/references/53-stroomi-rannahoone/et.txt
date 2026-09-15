@@ -1,4 +1,4 @@
-Product type: Fassaadi- ja katuseelemendid
+Product type: Moodulmajad
 Name: Stroomi Rannahoone
 Location: Tallinn, Eesti
 Description: Võtmed-kätte riigihanke projekt

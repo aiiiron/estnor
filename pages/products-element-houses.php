@@ -67,6 +67,12 @@
     </div>
   </section>
 
+<?php
+$albumsCategory = 'element';
+$albumsHead     = $P['albums'];
+require __DIR__ . '/../partials/reference-albums.php';
+?>
+
   <section class="section section--dark">
     <div class="wrap cta-band">
       <div>

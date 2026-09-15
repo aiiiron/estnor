@@ -27,8 +27,29 @@
 
   <section class="section section--alt">
     <div class="wrap">
+<?php
+// Optional ?type=<REFERENCE_CATEGORIES key> narrows the grid to one product
+// category — the product pages' "See all ..." buttons link here that way.
+// Chip labels are the category names as written in this language's .txt
+// files, so they follow the content with no separate translation table.
+$refsAll  = load_references($LANG);
+$refType  = $_GET['type'] ?? '';
+if (!array_key_exists($refType, REFERENCE_CATEGORIES)) $refType = '';
+$refTypes = [];
+foreach ($refsAll as $r) {
+    if ($r['category_key'] !== null && !isset($refTypes[$r['category_key']])) $refTypes[$r['category_key']] = $r['category'];
+}
+$refsShown = $refType === '' ? $refsAll : array_values(array_filter($refsAll, fn($r) => $r['category_key'] === $refType));
+$refsBase  = page_url($LANG, 'references');
+?>
+      <nav class="ref-filter" aria-label="<?= e($P['hero']['label']) ?>">
+        <a href="<?= e($refsBase) ?>"<?= $refType === '' ? ' aria-current="true"' : '' ?>><?= e($T['common']['all']) ?> (<?= count($refsAll) ?>)</a>
+<?php foreach ($refTypes as $key => $label): ?>
+        <a href="<?= e($refsBase . '?type=' . rawurlencode($key)) ?>"<?= $refType === $key ? ' aria-current="true"' : '' ?>><?= e($label) ?></a>
+<?php endforeach; ?>
+      </nav>
       <div class="ref-grid">
-<?php foreach (load_references($LANG) as $ref): ?>
+<?php foreach ($refsShown as $ref): ?>
 <?php require __DIR__ . '/../partials/reference-card.php'; ?>
 <?php endforeach; ?>
       </div>

@@ -633,6 +633,14 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 /* Reference cards — homepage teaser (3 latest) and the full References
    page grid. Same house-card visual language as the bento product tiles,
    but these are buttons that open .ref-lightbox instead of links. */
+/* References page category filter (?type=...) */
+.ref-filter { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 2rem; }
+.ref-filter a {
+  display: inline-block; padding: .45em 1em; border-radius: var(--r-sm); font-size: .88rem; font-weight: 600;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink); text-decoration: none;
+}
+.ref-filter a:hover { border-color: var(--spruce); color: var(--spruce); }
+.ref-filter a[aria-current="true"] { background: var(--spruce-deep); border-color: var(--spruce-deep); color: #fff; }
 .ref-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.75rem; }
 .ref-card {
   position: relative; display: block; width: 100%; height: 280px;

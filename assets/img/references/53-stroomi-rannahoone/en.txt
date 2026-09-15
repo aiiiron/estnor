@@ -1,4 +1,4 @@
-Product type: Facade and roof elements
+Product type: Modular houses
 Name: Stroomi Beach House
 Location: Tallinn, Estonia
 Description: Turnkey public procurement project

@@ -14,6 +14,8 @@
  * assets/js/references.js. Expects $T and $CONTACT_HREF already set.
  */
 $NEEDS_REFERENCES_JS = true;
+if (!empty($REF_LIGHTBOX_INCLUDED)) return; // one overlay per page, however many sections include this
+$REF_LIGHTBOX_INCLUDED = true;
 ?>
 <div class="ref-lightbox" id="ref-lightbox" hidden>
   <div class="ref-lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="ref-lightbox-title">

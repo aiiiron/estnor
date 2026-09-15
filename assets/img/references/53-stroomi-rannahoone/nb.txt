@@ -1,4 +1,4 @@
-Product type: Fasade- og takelementer
+Product type: Modulhus
 Name: Stroomi Strandhus
 Location: Tallinn, Eesti
 Description: Nøkkelferdig offentlig anskaffelsesprosjekt

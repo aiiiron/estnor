@@ -1,0 +1,327 @@
+{
+    "en": {
+        "meta": {
+            "title": "Facade and Roof Elements — EstNor",
+            "desc": "Prefabricated, insulated facade and roof elements for new buildings — designed, manufactured and installed by EstNor."
+        },
+        "hero": {
+            "crumb": "Home",
+            "parent_label": "Products",
+            "label": "Facade and roof elements",
+            "eyebrow": "Prefabricated building envelope",
+            "h1": "Facade and roof elements for new buildings",
+            "lead": "Insulated timber-frame facade and roof elements for schools, offices, student housing, public and commercial buildings — manufactured to the millimetre in our factory in Kiili and installed on site in days."
+        },
+        "intro": {
+            "h2": "Large buildings, factory precision",
+            "paragraphs": [
+                "For a new building, EstNor designs, manufactures and installs the complete facade and roof envelope as prefabricated elements. Each element leaves the factory with insulation, wind barrier and battens in place — and, where the project calls for it, the windows, doors and finished exterior cladding as well.",
+                "Because the envelope is produced indoors while the frame or foundations are still being built, the building is closed and weather-tight far sooner, and the site needs no months of scaffold-based facade work."
+            ]
+        },
+        "why": {
+            "h2": "Why prefabricated",
+            "items": [
+                "Design, production and installation from one partner",
+                "Structural design and a BIM model of every element",
+                "Windows, doors and cladding fitted in the factory",
+                "Building closed and weather-tight in days, not months",
+                "Millimetre tolerances, checked before dispatch",
+                "Suits timber, concrete and steel main frames"
+            ]
+        },
+        "deliver": {
+            "eyebrow": "What we deliver",
+            "h2": "The whole envelope, element by element",
+            "cards": [
+                {
+                    "title": "Facade elements",
+                    "desc": "Insulated timber-frame wall elements up to full storey height and transport width, with the exterior finish of your choice."
+                },
+                {
+                    "title": "Roof elements",
+                    "desc": "Insulated roof elements with the underlay already in place, lifted straight onto the frame."
+                },
+                {
+                    "title": "Windows and doors",
+                    "desc": "Fitted, sealed and flashed in the factory, so no site work is needed around the openings."
+                },
+                {
+                    "title": "Exterior finish",
+                    "desc": "Timber cladding, boards or panels applied indoors — ready to face the weather from day one."
+                }
+            ]
+        },
+        "albums": {
+            "eyebrow": "References",
+            "h2": "Buildings with EstNor facade and roof elements",
+            "lead": "A selection of new buildings whose envelope we delivered as prefabricated elements. Open an album to browse the photos.",
+            "more": "See all facade and roof element references"
+        },
+        "cta": {
+            "h2": "Planning a building with a prefabricated envelope?",
+            "body": "Send us the drawings or an outline of the project and we'll come back with a proposal for the facade and roof elements.",
+            "button": "Contact EstNor"
+        }
+    },
+    "et": {
+        "meta": {
+            "title": "Fassaadi- ja katuseelemendid — EstNor",
+            "desc": "Tehases toodetud soojustatud fassaadi- ja katuseelemendid uutele hoonetele — EstNor projekteerib, toodab ja paigaldab."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "parent_label": "Tooted",
+            "label": "Fassaadi- ja katuseelemendid",
+            "eyebrow": "Tehases valmistatud välispiire",
+            "h1": "Fassaadi- ja katuseelemendid uutele hoonetele",
+            "lead": "Soojustatud puitkarkass-fassaadi- ja katuseelemendid koolidele, büroohoonetele, üliõpilaselamutele, ühiskondlikele ja ärihoonetele — toodetud millimeetri täpsusega meie Kiili tehases ja paigaldatud objektil päevadega."
+        },
+        "intro": {
+            "h2": "Suured hooned, tehase täpsus",
+            "paragraphs": [
+                "Uue hoone puhul projekteerib, toodab ja paigaldab EstNor kogu fassaadi- ja katusepiirde tehases valmistatud elementidena. Iga element lahkub tehasest koos soojustuse, tuuletõkke ja roovitusega — ning kui projekt seda ette näeb, ka akende, uste ja valmis välisviimistlusega.",
+                "Kuna välispiire valmib siseruumides samal ajal, kui objektil ehitatakse veel karkassi või vundamenti, saab hoone kinni ja ilmastikukindlaks palju varem ning objektil pole vaja kuudepikkust tellingutel tehtavat fassaaditööd."
+            ]
+        },
+        "why": {
+            "h2": "Miks tehases toodetud",
+            "items": [
+                "Projekteerimine, tootmine ja paigaldus ühelt partnerilt",
+                "Iga elemendi konstruktiivne projekt ja BIM-mudel",
+                "Aknad, uksed ja välisviimistlus paigaldatakse tehases",
+                "Hoone kinni ja ilmastikukindel päevade, mitte kuudega",
+                "Millimeetri täpsus, kontrollitud enne väljastamist",
+                "Sobib puit-, betoon- ja teraskarkassile"
+            ]
+        },
+        "deliver": {
+            "eyebrow": "Mida me tarnime",
+            "h2": "Kogu välispiire, element elemendi haaval",
+            "cards": [
+                {
+                    "title": "Fassaadielemendid",
+                    "desc": "Soojustatud puitkarkass-seinaelemendid kuni täiskorruse kõrguse ja transpordilaiuseni, sinu valitud välisviimistlusega."
+                },
+                {
+                    "title": "Katuseelemendid",
+                    "desc": "Soojustatud katuseelemendid, aluskate juba peal, tõstetakse otse karkassile."
+                },
+                {
+                    "title": "Aknad ja uksed",
+                    "desc": "Paigaldatud, tihendatud ja plekitud tehases — avade ümber pole objektil tööd vaja teha."
+                },
+                {
+                    "title": "Välisviimistlus",
+                    "desc": "Puitlaudis, laudade või plaatidega viimistlus tehtud siseruumides — valmis ilmastikule vastu pidama esimesest päevast."
+                }
+            ]
+        },
+        "albums": {
+            "eyebrow": "Referentsid",
+            "h2": "Hooned EstNori fassaadi- ja katuseelementidega",
+            "lead": "Valik uusi hooneid, mille välispiirde tarnisime tehases valmistatud elementidena. Ava album, et fotosid sirvida.",
+            "more": "Vaata kõiki fassaadi- ja katuseelementide referentse"
+        },
+        "cta": {
+            "h2": "Plaanid hoonet tehases valmistatud välispiirdega?",
+            "body": "Saada meile joonised või projekti lühikirjeldus ning teeme fassaadi- ja katuseelementide pakkumise.",
+            "button": "Võta ühendust"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Fassaden- und Dachelemente — EstNor",
+            "desc": "Vorgefertigte, gedämmte Fassaden- und Dachelemente für Neubauten — von EstNor geplant, gefertigt und montiert."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "parent_label": "Produkte",
+            "label": "Fassaden- und Dachelemente",
+            "eyebrow": "Vorgefertigte Gebäudehülle",
+            "h1": "Fassaden- und Dachelemente für Neubauten",
+            "lead": "Gedämmte Holzrahmen-Fassaden- und Dachelemente für Schulen, Bürogebäude, Studentenwohnheime, öffentliche und gewerbliche Gebäude — millimetergenau in unserem Werk in Kiili gefertigt und in wenigen Tagen vor Ort montiert."
+        },
+        "intro": {
+            "h2": "Große Gebäude, Werkspräzision",
+            "paragraphs": [
+                "Für einen Neubau plant, fertigt und montiert EstNor die komplette Fassaden- und Dachhülle als vorgefertigte Elemente. Jedes Element verlässt das Werk mit Dämmung, Windsperre und Lattung — und, wenn das Projekt es vorsieht, auch mit Fenstern, Türen und fertiger Außenverkleidung.",
+                "Da die Hülle in der Halle entsteht, während auf der Baustelle noch Tragwerk oder Fundament gebaut werden, ist das Gebäude viel früher geschlossen und wetterdicht — und monatelange Fassadenarbeiten vom Gerüst entfallen."
+            ]
+        },
+        "why": {
+            "h2": "Warum vorgefertigt",
+            "items": [
+                "Planung, Produktion und Montage aus einer Hand",
+                "Tragwerksplanung und BIM-Modell jedes Elements",
+                "Fenster, Türen und Verkleidung werkseitig montiert",
+                "Gebäude in Tagen statt Monaten geschlossen und wetterdicht",
+                "Millimetertoleranzen, vor dem Versand geprüft",
+                "Passend für Holz-, Beton- und Stahltragwerke"
+            ]
+        },
+        "deliver": {
+            "eyebrow": "Was wir liefern",
+            "h2": "Die ganze Hülle, Element für Element",
+            "cards": [
+                {
+                    "title": "Fassadenelemente",
+                    "desc": "Gedämmte Holzrahmen-Wandelemente bis zu voller Geschosshöhe und Transportbreite, mit der Außenoberfläche Ihrer Wahl."
+                },
+                {
+                    "title": "Dachelemente",
+                    "desc": "Gedämmte Dachelemente mit bereits aufgebrachter Unterdeckbahn, direkt auf das Tragwerk gehoben."
+                },
+                {
+                    "title": "Fenster und Türen",
+                    "desc": "Im Werk eingebaut, abgedichtet und verblecht — an den Öffnungen ist auf der Baustelle keine Arbeit mehr nötig."
+                },
+                {
+                    "title": "Außenverkleidung",
+                    "desc": "Holzschalung, Bretter oder Platten in der Halle angebracht — vom ersten Tag an wetterfest."
+                }
+            ]
+        },
+        "albums": {
+            "eyebrow": "Referenzen",
+            "h2": "Gebäude mit Fassaden- und Dachelementen von EstNor",
+            "lead": "Eine Auswahl von Neubauten, deren Hülle wir als vorgefertigte Elemente geliefert haben. Öffnen Sie ein Album, um die Fotos anzusehen.",
+            "more": "Alle Referenzen zu Fassaden- und Dachelementen ansehen"
+        },
+        "cta": {
+            "h2": "Planen Sie ein Gebäude mit vorgefertigter Hülle?",
+            "body": "Schicken Sie uns die Zeichnungen oder eine Projektskizze — wir melden uns mit einem Angebot für die Fassaden- und Dachelemente.",
+            "button": "EstNor kontaktieren"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Fasad- och takelement — EstNor",
+            "desc": "Prefabricerade, isolerade fasad- och takelement för nya byggnader — projekterade, tillverkade och monterade av EstNor."
+        },
+        "hero": {
+            "crumb": "Hem",
+            "parent_label": "Produkter",
+            "label": "Fasad- och takelement",
+            "eyebrow": "Prefabricerat klimatskal",
+            "h1": "Fasad- och takelement för nya byggnader",
+            "lead": "Isolerade fasad- och takelement med träregelstomme för skolor, kontor, studentbostäder, offentliga och kommersiella byggnader — tillverkade med millimeterprecision i vår fabrik i Kiili och monterade på plats på några dagar."
+        },
+        "intro": {
+            "h2": "Stora byggnader, fabriksprecision",
+            "paragraphs": [
+                "För en ny byggnad projekterar, tillverkar och monterar EstNor hela fasad- och takskalet som prefabricerade element. Varje element lämnar fabriken med isolering, vindskydd och läkt på plats — och när projektet kräver det även fönster, dörrar och färdig fasadbeklädnad.",
+                "Eftersom klimatskalet tillverkas inomhus medan stommen eller grunden fortfarande byggs på plats blir byggnaden tät och väderskyddad mycket tidigare, och byggplatsen slipper månader av fasadarbete från ställning."
+            ]
+        },
+        "why": {
+            "h2": "Varför prefabricerat",
+            "items": [
+                "Projektering, produktion och montage från en partner",
+                "Konstruktionsritningar och BIM-modell för varje element",
+                "Fönster, dörrar och beklädnad monterade i fabriken",
+                "Byggnaden tät och väderskyddad på dagar, inte månader",
+                "Millimetertoleranser, kontrollerade före leverans",
+                "Passar stommar i trä, betong och stål"
+            ]
+        },
+        "deliver": {
+            "eyebrow": "Vad vi levererar",
+            "h2": "Hela klimatskalet, element för element",
+            "cards": [
+                {
+                    "title": "Fasadelement",
+                    "desc": "Isolerade väggelement med träregelstomme upp till full våningshöjd och transportbredd, med den fasadyta du väljer."
+                },
+                {
+                    "title": "Takelement",
+                    "desc": "Isolerade takelement med underlagstäckning redan på plats, lyfts direkt upp på stommen."
+                },
+                {
+                    "title": "Fönster och dörrar",
+                    "desc": "Monterade, tätade och plåtade i fabriken — inget arbete runt öppningarna behövs på plats."
+                },
+                {
+                    "title": "Fasadbeklädnad",
+                    "desc": "Träpanel, brädor eller skivor monterade inomhus — redo att möta vädret från dag ett."
+                }
+            ]
+        },
+        "albums": {
+            "eyebrow": "Referenser",
+            "h2": "Byggnader med EstNors fasad- och takelement",
+            "lead": "Ett urval nya byggnader vars klimatskal vi levererat som prefabricerade element. Öppna ett album för att bläddra bland bilderna.",
+            "more": "Se alla referenser för fasad- och takelement"
+        },
+        "cta": {
+            "h2": "Planerar du en byggnad med prefabricerat klimatskal?",
+            "body": "Skicka oss ritningarna eller en projektbeskrivning så återkommer vi med ett förslag på fasad- och takelement.",
+            "button": "Kontakta EstNor"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Fasade- og takelementer — EstNor",
+            "desc": "Prefabrikkerte, isolerte fasade- og takelementer for nybygg — prosjektert, produsert og montert av EstNor."
+        },
+        "hero": {
+            "crumb": "Hjem",
+            "parent_label": "Produkter",
+            "label": "Fasade- og takelementer",
+            "eyebrow": "Prefabrikkert klimaskall",
+            "h1": "Fasade- og takelementer for nybygg",
+            "lead": "Isolerte fasade- og takelementer med trebindingsverk for skoler, kontorbygg, studentboliger, offentlige bygg og næringsbygg — produsert med millimeterpresisjon i fabrikken vår i Kiili og montert på byggeplassen på få dager."
+        },
+        "intro": {
+            "h2": "Store bygg, fabrikkpresisjon",
+            "paragraphs": [
+                "For et nybygg prosjekterer, produserer og monterer EstNor hele fasade- og takskallet som prefabrikkerte elementer. Hvert element forlater fabrikken med isolasjon, vindsperre og lekter på plass — og når prosjektet krever det, også vinduer, dører og ferdig utvendig kledning.",
+                "Fordi klimaskallet produseres innendørs mens bæresystemet eller fundamentet fortsatt bygges på plassen, blir bygget lukket og værtett mye tidligere, og byggeplassen slipper måneder med fasadearbeid fra stillas."
+            ]
+        },
+        "why": {
+            "h2": "Hvorfor prefabrikkert",
+            "items": [
+                "Prosjektering, produksjon og montering fra én partner",
+                "Konstruksjonstegninger og BIM-modell av hvert element",
+                "Vinduer, dører og kledning montert i fabrikken",
+                "Bygget lukket og værtett på dager, ikke måneder",
+                "Millimetertoleranser, kontrollert før levering",
+                "Passer bæresystemer i tre, betong og stål"
+            ]
+        },
+        "deliver": {
+            "eyebrow": "Hva vi leverer",
+            "h2": "Hele klimaskallet, element for element",
+            "cards": [
+                {
+                    "title": "Fasadeelementer",
+                    "desc": "Isolerte veggelementer med trebindingsverk opp til full etasjehøyde og transportbredde, med den utvendige overflaten du velger."
+                },
+                {
+                    "title": "Takelementer",
+                    "desc": "Isolerte takelementer med undertak allerede på plass, løftet rett opp på bæresystemet."
+                },
+                {
+                    "title": "Vinduer og dører",
+                    "desc": "Montert, tettet og beslått i fabrikken — ingen arbeid rundt åpningene på byggeplassen."
+                },
+                {
+                    "title": "Utvendig kledning",
+                    "desc": "Trekledning, bord eller plater montert innendørs — klar til å møte været fra første dag."
+                }
+            ]
+        },
+        "albums": {
+            "eyebrow": "Referanser",
+            "h2": "Bygg med EstNors fasade- og takelementer",
+            "lead": "Et utvalg nybygg der vi leverte klimaskallet som prefabrikkerte elementer. Åpne et album for å bla i bildene.",
+            "more": "Se alle referanser for fasade- og takelementer"
+        },
+        "cta": {
+            "h2": "Planlegger du et bygg med prefabrikkert klimaskall?",
+            "body": "Send oss tegningene eller en kort prosjektbeskrivelse, så kommer vi tilbake med et forslag til fasade- og takelementer.",
+            "button": "Kontakt EstNor"
+        }
+    }
+}

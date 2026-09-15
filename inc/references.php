@@ -70,6 +70,33 @@ const REFERENCE_PHOTO_EXTENSIONS = ['jpg', 'jpeg', 'png', 'webp', 'avif'];
 const REFERENCE_TEXT_LANGS_FALLBACK = ['en', 'et']; // tried in order after the requested language
 const REFERENCE_COLLECTIONS = ['references', 'renovation']; // each is a folder under assets/img/
 
+/**
+ * The "Product type:" values a .txt file can carry, in every language,
+ * keyed by a language-independent category. This is what lets a product
+ * page pull "its" albums out of the general references collection
+ * (Element houses shows the element-house projects, etc.) without a
+ * separate album folder to keep in sync — see load_references_by_category().
+ * Matching is case-insensitive; a Product type not listed here simply
+ * belongs to no category (it still shows on the References page).
+ */
+const REFERENCE_CATEGORIES = [
+    'element'    => ['Elementmajad', 'Element houses', 'Elementhäuser', 'Elementhus'],
+    'modular'    => ['Moodulmajad', 'Modular houses', 'Modulhäuser', 'Modulhus'],
+    'facade'     => ['Fassaadi- ja katuseelemendid', 'Facade and roof elements', 'Fassaden- und Dachelemente', 'Fasad- och takelement', 'Fasade- og takelementer'],
+    'renovation' => ['Tehaseline renoveerimine', 'Serial renovation', 'Serielle Sanierung', 'Modernisering av flerbostadshus', 'Modernisering av leilighetsbygg'],
+];
+
+/** The REFERENCE_CATEGORIES key a "Product type:" value belongs to, or null. */
+function reference_category_key(string $productType): ?string {
+    $needle = mb_strtolower(trim($productType));
+    foreach (REFERENCE_CATEGORIES as $key => $names) {
+        foreach ($names as $name) {
+            if (mb_strtolower($name) === $needle) return $key;
+        }
+    }
+    return null;
+}
+
 /** Absolute filesystem root of one collection's project folders. */
 function reference_root(string $collection = 'references'): string {
     if (!in_array($collection, REFERENCE_COLLECTIONS, true)) {
@@ -156,6 +183,7 @@ function load_references(string $lang, string $collection = 'references'): array
             'title'       => $fields['title'] ?? $slug,
             'location'    => $fields['location'] ?? '',
             'category'    => $fields['category'] ?? '',
+            'category_key'=> reference_category_key($fields['category'] ?? ''),
             'description' => $fields['description'] ?? '',
             'date'        => $fields['date'] ?? null,
         ];
@@ -178,6 +206,19 @@ function load_references(string $lang, string $collection = 'references'): array
     });
 
     return $refs;
+}
+
+/**
+ * load_references() narrowed to one REFERENCE_CATEGORIES key — the
+ * albums a product page shows ("the element-house projects"). Same
+ * order as the References page. Deliberately a view over the same
+ * folders, not a second copy: add a project once, it appears in both.
+ */
+function load_references_by_category(string $lang, string $categoryKey, string $collection = 'references'): array {
+    return array_values(array_filter(
+        load_references($lang, $collection),
+        fn($ref) => $ref['category_key'] === $categoryKey
+    ));
 }
 
 /**

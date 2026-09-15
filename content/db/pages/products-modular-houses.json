@@ -6,7 +6,7 @@
         },
         "hero": {
             "crumb": "Avaleht",
-            "parent_label": "Majad",
+            "parent_label": "Tooted",
             "label": "Moodulmaja",
             "eyebrow": "Moodul",
             "h1": "Moodulmajast lähemalt",
@@ -63,7 +63,7 @@
         },
         "hero": {
             "crumb": "Startseite",
-            "parent_label": "Häuser",
+            "parent_label": "Produkte",
             "label": "Modulhaus",
             "eyebrow": "Modular",
             "h1": "Das Modulhaus im Detail",
@@ -120,7 +120,7 @@
         },
         "hero": {
             "crumb": "Startsida",
-            "parent_label": "Hus",
+            "parent_label": "Produkter",
             "label": "Modulhus",
             "eyebrow": "Modulärt",
             "h1": "Mer om modulhus",
@@ -177,7 +177,7 @@
         },
         "hero": {
             "crumb": "Forsiden",
-            "parent_label": "Hus",
+            "parent_label": "Produkter",
             "label": "Modulhus",
             "eyebrow": "Modulært",
             "h1": "Nærmere om modulhus",
@@ -234,7 +234,7 @@
         },
         "hero": {
             "crumb": "Home",
-            "parent_label": "Houses",
+            "parent_label": "Products",
             "label": "Modular Houses",
             "eyebrow": "Modular",
             "h1": "Modules finished in the factory, joined on site",

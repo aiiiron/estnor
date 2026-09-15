@@ -3,7 +3,7 @@
  * pages/products.php — shared body template for the Houses index page.
  * Caller sets $LANG/$ASSET/$ACTIVE, requires partials/head.php, and
  * defines $P = load_page('products', $LANG) plus $HOME_HREF,
- * $ELEMENT_HREF, $MODULAR_HREF, $RENOVATION_HREF.
+ * $ELEMENT_HREF, $MODULAR_HREF, $FACADE_HREF, $RENOVATION_HREF.
  */
 ?>
 
@@ -17,7 +17,7 @@
   </section>
 
   <section class="section">
-    <div class="wrap grid cols-2">
+    <div class="wrap grid cols-3">
       <div class="house-card" style="min-height:400px;">
         <div class="art">
           <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
@@ -46,6 +46,21 @@
           <h3><?= e($P['modular']['title']) ?></h3>
           <p><?= e($P['modular']['desc']) ?></p>
           <div class="btn-row" style="margin-top:1rem;"><a class="btn btn-ghost" style="border-color:#fff;color:#fff;" href="<?= e($MODULAR_HREF) ?>"><?= e($P['modular']['cta']) ?></a></div>
+        </div>
+      </div>
+      <div class="house-card" style="min-height:400px;">
+        <div class="art">
+          <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="360" fill="var(--ochre-deep)"/>
+            <g fill="var(--paper)" opacity=".9"><rect x="50" y="80" width="300" height="60"/><rect x="50" y="160" width="300" height="60"/><rect x="50" y="240" width="300" height="60"/></g>
+            <g fill="var(--spruce-deep)" opacity=".85"><rect x="80" y="95" width="40" height="30"/><rect x="180" y="95" width="40" height="30"/><rect x="280" y="95" width="40" height="30"/><rect x="80" y="175" width="40" height="30"/><rect x="180" y="175" width="40" height="30"/><rect x="280" y="175" width="40" height="30"/></g>
+          </svg>
+        </div>
+        <div class="content">
+          <span class="tag"><?= e($P['facade']['tag']) ?></span>
+          <h3><?= e($P['facade']['title']) ?></h3>
+          <p><?= e($P['facade']['desc']) ?></p>
+          <div class="btn-row" style="margin-top:1rem;"><a class="btn btn-ghost" style="border-color:#fff;color:#fff;" href="<?= e($FACADE_HREF) ?>"><?= e($P['facade']['cta']) ?></a></div>
         </div>
       </div>
     </div>

@@ -44,13 +44,19 @@ return [
         'template' => 'products.php',
         'content'  => 'products',
         'active'   => 'products',
-        'links'    => ['ELEMENT' => 'products/element-houses', 'MODULAR' => 'products/modular-houses', 'RENOVATION' => 'serial-renovation/index'],
+        'links'    => ['ELEMENT' => 'products/element-houses', 'MODULAR' => 'products/modular-houses', 'FACADE' => 'products/facade-elements', 'RENOVATION' => 'serial-renovation/index'],
     ],
     'products/element-houses' => [
         'template' => 'products-element-houses.php',
         'content'  => 'products-element-houses',
         'active'   => 'element',
         'links'    => ['HOUSES' => 'products/index'],
+    ],
+    'products/facade-elements' => [
+        'template' => 'products-facade-elements.php',
+        'content'  => 'products-facade-elements',
+        'active'   => 'facade-roof',
+        'links'    => ['PRODUCTS' => 'products/index'],
     ],
     'products/modular-houses' => [
         'template' => 'products-modular-houses.php',
@@ -67,7 +73,7 @@ return [
     'serial-renovation/facade-elements' => [
         'template' => 'serial-renovation-facade-elements.php',
         'content'  => 'serial-renovation-facade-elements',
-        'active'   => 'facade',
+        'active'   => 'renovation', // off the nav now (reached from the renovation hero's secondary CTA) — highlight its parent
         'links'    => ['RENOVATION' => 'serial-renovation/index'],
     ],
     'serial-renovation/gallery' => [
