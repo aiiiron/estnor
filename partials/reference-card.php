@@ -35,7 +35,9 @@ $refPhotos = reference_photo_urls($ASSET, $ref['slug']);
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M16 3h3a2 2 0 0 1 2 2v3"/><path d="M21 16v3a2 2 0 0 1-2 2h-3"/><path d="M8 21H5a2 2 0 0 1-2-2v-3"/></svg>
   </span>
   <span class="ref-card-content">
+<?php if ($ref['location'] !== ''): ?>
     <span class="ref-tag"><?= e($ref['location']) ?></span>
+<?php endif; ?>
     <h3 class="ref-card-title"><?= e($ref['title']) ?></h3>
     <span class="ref-card-category"><?= e($ref['category']) ?></span>
   </span>
