@@ -82,36 +82,10 @@
         ],
         "footer": {
             "tagline": "Eesti tehases Kiilis valmistatud puitmajad ja fassaadielemendid alates 2000. aastast.",
-            "explore_heading": "Sisukord",
-            "explore": [
-                {
-                    "path": "about.about"
-                },
-                {
-                    "path": "products"
-                },
-                {
-                    "path": "about.production"
-                },
-                {
-                    "path": "references"
-                }
-            ],
-            "renovation_heading": "Tehaseline renoveerimine",
-            "renovation": [
-                {
-                    "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.sr-references"
-                }
-            ],
-            "contact_heading": "Kontakt",
             "address_lines": [
                 "Kurna tee 33, 75401 Kiili, Eesti"
             ],
-            "rights": "Kõik õigused kaitstud.",
-            "source_note": "Tootja andmed ja arvud: estnor.ee · Mitteametlik disainikontseptsioon, ei ole seotud EstNor OÜ-ga"
+            "rights": "Kõik õigused kaitstud."
         },
         "meta": {
             "home": {
@@ -266,36 +240,10 @@
         ],
         "footer": {
             "tagline": "Prefabricated timber houses and facade elements, manufactured at our factory in Kiili, Estonia, since 2000.",
-            "explore_heading": "Explore",
-            "explore": [
-                {
-                    "path": "about.about"
-                },
-                {
-                    "path": "products"
-                },
-                {
-                    "path": "about.production"
-                },
-                {
-                    "path": "references"
-                }
-            ],
-            "renovation_heading": "Serial Renovation",
-            "renovation": [
-                {
-                    "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.sr-references"
-                }
-            ],
-            "contact_heading": "Contact",
             "address_lines": [
                 "Kurna tee 33, 75401 Kiili, Estonia"
             ],
-            "rights": "All rights reserved.",
-            "source_note": "Manufacturer information and figures: estnor.ee · Unofficial redesign concept, not affiliated with EstNor OÜ"
+            "rights": "All rights reserved."
         },
         "meta": {
             "home": {
@@ -450,36 +398,10 @@
         ],
         "footer": {
             "tagline": "Vorgefertigte Holzhäuser und Fassadenelemente, hergestellt in unserem Werk in Kiili, Estland, seit dem Jahr 2000.",
-            "explore_heading": "Entdecken",
-            "explore": [
-                {
-                    "path": "about.about"
-                },
-                {
-                    "path": "products"
-                },
-                {
-                    "path": "about.production"
-                },
-                {
-                    "path": "references"
-                }
-            ],
-            "renovation_heading": "Serielle Sanierung",
-            "renovation": [
-                {
-                    "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.sr-references"
-                }
-            ],
-            "contact_heading": "Kontakt",
             "address_lines": [
                 "Kurna tee 33, 75401 Kiili, Estland"
             ],
-            "rights": "Alle Rechte vorbehalten.",
-            "source_note": "Herstellerinformationen und Kennzahlen: estnor.ee · Inoffizielles Redesign-Konzept, nicht verbunden mit der EstNor OÜ"
+            "rights": "Alle Rechte vorbehalten."
         },
         "meta": {
             "home": {
@@ -634,36 +556,10 @@
         ],
         "footer": {
             "tagline": "Prefabricerade trähus och fasadelement, tillverkade på vår fabrik i Kiili, Estland, sedan år 2000.",
-            "explore_heading": "Utforska",
-            "explore": [
-                {
-                    "path": "about.about"
-                },
-                {
-                    "path": "products"
-                },
-                {
-                    "path": "about.production"
-                },
-                {
-                    "path": "references"
-                }
-            ],
-            "renovation_heading": "Modernisering av flerbostadshus",
-            "renovation": [
-                {
-                    "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.sr-references"
-                }
-            ],
-            "contact_heading": "Kontakt",
             "address_lines": [
                 "Kurna tee 33, 75401 Kiili, Estland"
             ],
-            "rights": "Alla rättigheter förbehållna.",
-            "source_note": "Tillverkarinformation och siffror: estnor.ee · Inofficiellt designkoncept, ej anknutet till EstNor OÜ"
+            "rights": "Alla rättigheter förbehållna."
         },
         "meta": {
             "home": {
@@ -818,36 +714,10 @@
         ],
         "footer": {
             "tagline": "Prefabrikkerte trehus og fasadeelementer, produsert på vår fabrikk i Kiili, Estland, siden år 2000.",
-            "explore_heading": "Utforsk",
-            "explore": [
-                {
-                    "path": "about.about"
-                },
-                {
-                    "path": "products"
-                },
-                {
-                    "path": "about.production"
-                },
-                {
-                    "path": "references"
-                }
-            ],
-            "renovation_heading": "Modernisering av leilighetsbygg",
-            "renovation": [
-                {
-                    "path": "renovation.renovation"
-                },
-                {
-                    "path": "renovation.sr-references"
-                }
-            ],
-            "contact_heading": "Kontakt",
             "address_lines": [
                 "Kurna tee 33, 75401 Kiili, Estland"
             ],
-            "rights": "Alle rettigheter forbeholdt.",
-            "source_note": "Produsentinformasjon og tall: estnor.ee · Uoffisielt designkonsept, ikke tilknyttet EstNor OÜ"
+            "rights": "Alle rettigheter forbeholdt."
         },
         "meta": {
             "home": {

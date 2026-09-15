@@ -88,7 +88,17 @@
     </div>
   </section>
 
-  <section class="section" id="references">
+  <section class="section section--dark">
+    <div class="wrap cta-band">
+      <div>
+        <h2><?= e($P['cta']['h2']) ?></h2>
+        <p><?= e($P['cta']['body']) ?></p>
+      </div>
+      <a class="btn btn-primary" href="<?= e($CONTACT_HREF) ?>"><?= e($P['cta']['button']) ?></a>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="references">
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow"><?= e($P['references']['eyebrow']) ?></span>
@@ -102,33 +112,6 @@
 <?php require __DIR__ . '/../partials/reference-card.php'; ?>
 <?php endforeach; ?>
       </div>
-    </div>
-  </section>
-
-  <section class="section section--alt">
-    <div class="wrap">
-      <div class="section-head center">
-        <span class="eyebrow"><?= e($P['explore']['eyebrow']) ?></span>
-        <h2><?= e($P['explore']['h2']) ?></h2>
-      </div>
-      <div class="grid cols-2">
-<?php foreach ($P['explore']['cards'] as $card): ?>
-        <a class="card" href="<?= e($card['href']) ?>">
-          <h3><?= e($card['title']) ?></h3>
-          <p><?= e($card['desc']) ?></p>
-        </a>
-<?php endforeach; ?>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--dark">
-    <div class="wrap cta-band">
-      <div>
-        <h2><?= e($P['cta']['h2']) ?></h2>
-        <p><?= e($P['cta']['body']) ?></p>
-      </div>
-      <a class="btn btn-primary" href="<?= e($CONTACT_HREF) ?>"><?= e($P['cta']['button']) ?></a>
     </div>
   </section>
 

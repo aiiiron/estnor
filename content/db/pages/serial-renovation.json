@@ -70,22 +70,6 @@
             "callout_label": "Tulemus:",
             "callout_text": "vanade kortermajade energiatõhusus paraneb kiiresti, ehitusaeg lüheneb ja hoone kasutusiga pikeneb."
         },
-        "explore": {
-            "eyebrow": "Rohkem infot",
-            "h2": "Uuri lähemalt",
-            "cards": [
-                {
-                    "title": "Fassaadielement",
-                    "desc": "Kuidas fassaadielement üles ehitatud on — mõõdistamisest kuni valmis viimistluseni.",
-                    "href": "facade-elements.php"
-                },
-                {
-                    "title": "Tehtud projektid",
-                    "desc": "KredEx programmi raames renoveeritud 12 kortermaja üle Eesti.",
-                    "href": "../references.php"
-                }
-            ]
-        },
         "cta": {
             "h2": "Plaanid kortermaja renoveerimist?",
             "body": "Saada meile maja põhiandmed — ehitusaasta, korterite arv, fassaadipind — ja saad esmase hinnangu elementide tootmise kohta.",
@@ -167,22 +151,6 @@
             "p": "While insulating a 5-storey, 5-stairwell building on site with expanded polystyrene can take almost a year, our factory-built facade elements cover the same building's facade in just 3–4 weeks. No scaffolding is needed — it would block residents' view from their windows and pose a safety risk for the whole renovation.",
             "callout_label": "Result:",
             "callout_text": "old apartment buildings gain energy efficiency quickly, construction time shortens, and the building's service life is extended."
-        },
-        "explore": {
-            "eyebrow": "Learn more",
-            "h2": "Explore further",
-            "cards": [
-                {
-                    "title": "Facade Elements",
-                    "desc": "How the facade element is built — from survey to finished surface.",
-                    "href": "facade-elements.php"
-                },
-                {
-                    "title": "Completed Projects",
-                    "desc": "12 apartment buildings renovated across Estonia under the KredEx programme.",
-                    "href": "../references.php"
-                }
-            ]
         },
         "cta": {
             "h2": "Planning to renovate an apartment building?",
@@ -266,22 +234,6 @@
             "callout_label": "Ergebnis:",
             "callout_text": "Alte Mehrfamilienhäuser gewinnen schnell an Energieeffizienz, die Bauzeit verkürzt sich, und die Nutzungsdauer des Gebäudes verlängert sich."
         },
-        "explore": {
-            "eyebrow": "Mehr erfahren",
-            "h2": "Weiter erkunden",
-            "cards": [
-                {
-                    "title": "Fassadenelemente",
-                    "desc": "Wie das Fassadenelement aufgebaut ist — von der Vermessung bis zur fertigen Oberfläche.",
-                    "href": "facade-elements.php"
-                },
-                {
-                    "title": "Abgeschlossene Projekte",
-                    "desc": "12 im Rahmen des KredEx-Programms sanierte Mehrfamilienhäuser in ganz Estland.",
-                    "href": "../references.php"
-                }
-            ]
-        },
         "cta": {
             "h2": "Planen Sie die Sanierung eines Mehrfamilienhauses?",
             "body": "Schicken Sie uns die wichtigsten Eckdaten Ihres Gebäudes — Baujahr, Anzahl der Wohnungen, Fassadenfläche — und Sie erhalten eine erste Einschätzung.",
@@ -364,22 +316,6 @@
             "callout_label": "Resultat:",
             "callout_text": "gamla flerbostadshus får snabbt bättre energieffektivitet, byggtiden kortas och byggnadens livslängd förlängs."
         },
-        "explore": {
-            "eyebrow": "Läs mer",
-            "h2": "Utforska vidare",
-            "cards": [
-                {
-                    "title": "Fasad- och takelement",
-                    "desc": "Hur fasadelementet är uppbyggt — från mätning till färdig yta.",
-                    "href": "facade-elements.php"
-                },
-                {
-                    "title": "Genomförda projekt",
-                    "desc": "12 flerbostadshus renoverade runt om i Estland inom ramen för KredEx-programmet.",
-                    "href": "../references.php"
-                }
-            ]
-        },
         "cta": {
             "h2": "Planerar du att renovera ett flerbostadshus?",
             "body": "Skicka oss byggnadens nyckeldata — byggår, antal lägenheter, fasadyta — så återkommer vi med en första bedömning.",
@@ -461,22 +397,6 @@
             "p": "Mens isolering av et 5-etasjers bygg med 5 oppganger på stedet med ekspandert polystyren kan ta nesten et år, kler vårt fabrikkproduserte fasadeelement samme bygnings fasade på bare 3–4 uker. Stillas er ikke nødvendig — det ville blokkert beboernes utsikt og utgjort en sikkerhetsrisiko gjennom hele rehabiliteringen.",
             "callout_label": "Resultat:",
             "callout_text": "gamle leilighetsbygg får raskt bedre energieffektivitet, byggetiden forkortes, og bygningens levetid forlenges."
-        },
-        "explore": {
-            "eyebrow": "Les mer",
-            "h2": "Utforsk videre",
-            "cards": [
-                {
-                    "title": "Fasade- og takelementer",
-                    "desc": "Hvordan fasadeelementet er bygd opp — fra oppmåling til ferdig overflate.",
-                    "href": "facade-elements.php"
-                },
-                {
-                    "title": "Gjennomførte prosjekter",
-                    "desc": "12 leilighetsbygg rehabilitert over hele Estland gjennom KredEx-programmet.",
-                    "href": "../references.php"
-                }
-            ]
         },
         "cta": {
             "h2": "Planlegger du å rehabilitere et leilighetsbygg?",
