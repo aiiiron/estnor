@@ -22,6 +22,27 @@ assets/img/references/
 The folder name (its "slug") is never shown to visitors — call it
 whatever's easy to recognize.
 
+## Controlling display order
+
+Two ways — pick whichever's easier:
+
+1. **Name the folder with a leading number**: `10-stroomi-rannahoone`,
+   `20-nature-hub`, ... — shown in ascending order (lowest number
+   first). **Recommended.** Leave gaps (10, 20, 30 — not 1, 2, 3) so a
+   new "most recent" project can be inserted later as `5-...` without
+   renaming anything else. Renaming a folder in an FTP client moves
+   its contents with it automatically, so this is a single, safe
+   rename whenever you want to reorder or promote a project.
+2. **A `Date:` line** in the text file (see below) — projects with no
+   number in their folder name sort by this, newest first, after every
+   numbered folder. Simple, but Date is read per-language, so if you
+   only update one language's file the same project can end up ranked
+   differently across languages — the folder-number method doesn't
+   have that problem, since a folder only has the one name.
+
+A numbered folder always shows before an unnumbered one, regardless of
+Date.
+
 ## The text files (`en.txt`, `et.txt`, ...)
 
 Plain text, one `Label: value` per line. **The labels always stay in
@@ -43,10 +64,11 @@ and facade technology.
   elements") — free text, not limited to a fixed list.
 - **Name** — the project's title.
 - **Location** — shown on the card and in the album.
-- **Date** — optional, any format like `2024-09-01` works. Only
-  controls sort order (newest first) for the homepage's "3 latest" —
-  doesn't need to be exact, just roughly right relative to the others.
-  Projects with no date sort to the end.
+- **Date** — optional, any format like `2024-09-01` works. Only used
+  for sort order among unnumbered folders (see "Controlling display
+  order" above) — doesn't need to be exact, just roughly right
+  relative to the others. Projects with neither a number nor a date
+  sort to the very end.
 - **Description** — shown in the album overlay, under the photos.
 
 Only add the language files you actually have text for — a missing
