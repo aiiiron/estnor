@@ -1,4 +1,4 @@
-Product type: Element houses
+Product type: Modular houses
 Name: Elektrilevi Training Center
 Location: Kiili, Estonia
 Description: Turnkey public procurement project

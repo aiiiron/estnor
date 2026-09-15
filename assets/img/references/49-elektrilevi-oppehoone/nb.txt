@@ -1,4 +1,4 @@
-Product type: Elementhus
+Product type: Modulhus
 Name: Elektrilevi Utdanningsbygg
 Location: Kiili, Estland
 Description: Nøkkelferdige offentlige anskaffelser

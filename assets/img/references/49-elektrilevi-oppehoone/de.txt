@@ -1,4 +1,4 @@
-Product type: Elementhäuser
+Product type: Modulhäuser
 Name: Elektrilevi-Bildungsgebäude
 Location: Kiili, Estland
 Description: Schlüsselfertiges öffentliches Beschaffungsprojekt
