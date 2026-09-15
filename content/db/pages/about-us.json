@@ -2,13 +2,13 @@
     "et": {
         "meta": {
             "title": "Ettevõttest | EstNor",
-            "desc": "EstNor OÜ on Eesti kapitalil tegutsev ettevõte, mis on asutatud 2000. aastal ja toodab element-, moodul- ning palkmaju Kiilis ja Jõgevamaal."
+            "desc": "EstNor OÜ on Eesti kapitalil tegutsev ettevõte, mis on asutatud 2000. aastal ja toodab element- ja moodulmaju ning fassaadielemente Kiilis."
         },
         "hero": {
             "crumb": "Avaleht",
             "eyebrow": "Ettevõttest",
             "h1": "Üle 20 aasta kogemust puitehituses",
-            "lead": "EstNor OÜ on Eesti kapitalil tegutsev ettevõte, mille põhitegevusalaks on puitmajade tootmine ja püstitamine. Element- ja moodulmajatehas asub Kiili vallas, Harjumaal, palkmajatehas Jõgevamaal.",
+            "lead": "EstNor OÜ on Eesti kapitalil tegutsev ettevõte, mille põhitegevusalaks on puitmajade tootmine ja püstitamine. Element- ja moodulmajatehas asub Kiili vallas, Harjumaal.",
             "label": "Ettevõte ja ajalugu"
         },
         "stats": [
@@ -158,13 +158,13 @@
     "de": {
         "meta": {
             "title": "Über EstNor | EstNor",
-            "desc": "EstNor OÜ ist ein estnisches Unternehmen, gegründet 2000, mit Werken in Kiili (Element- und Modulhäuser) und Jõgevamaa (Blockhäuser)."
+            "desc": "EstNor OÜ ist ein estnisches Unternehmen, gegründet 2000, das in Kiili Element- und Modulhäuser sowie Fassadenelemente fertigt."
         },
         "hero": {
             "crumb": "Startseite",
             "eyebrow": "Über EstNor",
             "h1": "Über 20 Jahre Erfahrung im Holzbau",
-            "lead": "EstNor OÜ ist ein estnisches Unternehmen mit eigener Hausfabrik in Kiili sowie einem Blockhauswerk in Jõgevamaa. Der Schwerpunkt liegt auf der Fertigung von Holzhäusern.",
+            "lead": "EstNor OÜ ist ein estnisches Unternehmen mit eigener Hausfabrik in Kiili, Harjumaa. Der Schwerpunkt liegt auf der Fertigung und Errichtung von Holzhäusern.",
             "label": "Unternehmen & Geschichte"
         },
         "stats": [
@@ -314,13 +314,13 @@
     "sv": {
         "meta": {
             "title": "Om EstNor | EstNor",
-            "desc": "EstNor OÜ är ett estniskt företag, grundat 2000, med fabriker i Kiili (element- och modulhus) och Jõgevamaa (timmerhus)."
+            "desc": "EstNor OÜ är ett estniskt företag, grundat 2000, som tillverkar element- och modulhus samt fasadelement i Kiili."
         },
         "hero": {
             "crumb": "Startsida",
             "eyebrow": "Om EstNor",
             "h1": "Över 20 års erfarenhet av trähusbyggande",
-            "lead": "EstNor OÜ är ett estniskt företag med egen husfabrik i Kiili samt en timmerhusfabrik i Jõgevamaa. Huvudverksamheten är tillverkning av trähus.",
+            "lead": "EstNor OÜ är ett estniskt företag med egen husfabrik i Kiili, Harjumaa. Huvudverksamheten är tillverkning och uppförande av trähus.",
             "label": "Företag & historia"
         },
         "stats": [
@@ -470,13 +470,13 @@
     "nb": {
         "meta": {
             "title": "Om EstNor | EstNor",
-            "desc": "EstNor OÜ er et estisk selskap, grunnlagt i 2000, med fabrikker i Kiili (element- og modulhus) og Jõgevamaa (tømmerhus)."
+            "desc": "EstNor OÜ er et estisk selskap, grunnlagt i 2000, som produserer element- og modulhus samt fasadeelementer i Kiili."
         },
         "hero": {
             "crumb": "Forsiden",
             "eyebrow": "Om EstNor",
             "h1": "Over 20 års erfaring med trehusbygging",
-            "lead": "EstNor OÜ er et estisk selskap med egen husfabrikk i Kiili samt en tømmerhusfabrikk i Jõgevamaa. Hovedvirksomheten er produksjon av trehus.",
+            "lead": "EstNor OÜ er et estisk selskap med egen husfabrikk i Kiili, Harjumaa. Hovedvirksomheten er produksjon og oppføring av trehus.",
             "label": "Selskap & historie"
         },
         "stats": [
@@ -626,13 +626,13 @@
     "en": {
         "meta": {
             "title": "About EstNor | EstNor",
-            "desc": "EstNor OÜ is an Estonian company founded in 2000, with factories in Kiili (element and modular houses) and Jõgevamaa (log houses)."
+            "desc": "EstNor OÜ is an Estonian company founded in 2000, manufacturing element and modular houses and facade elements at its factory in Kiili."
         },
         "hero": {
             "crumb": "Home",
             "eyebrow": "About EstNor",
             "h1": "Over 20 years of experience in timber construction",
-            "lead": "EstNor OÜ is an Estonian company whose core business is manufacturing and erecting timber houses. The element and modular house factory is in Kiili, Harju County, with a separate log-house factory in Jõgevamaa.",
+            "lead": "EstNor OÜ is an Estonian company whose core business is manufacturing and erecting timber houses. The element and modular house factory is in Kiili, Harju County.",
             "label": "Company & History"
         },
         "stats": [
