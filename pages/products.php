@@ -14,15 +14,12 @@ require __DIR__ . '/../partials/hero-photo.php';
 ?>
 
   <section class="section">
-    <div class="wrap grid cols-3">
-      <div class="house-card" style="min-height:400px;">
-        <div class="art">
-          <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-            <rect width="400" height="360" fill="var(--spruce)"/>
-            <g fill="var(--spruce-tint)" opacity=".9"><rect x="60" y="150" width="280" height="130"/><polygon points="40,150 200,70 360,150"/></g>
-            <g fill="var(--spruce-deep)"><rect x="180" y="200" width="40" height="80"/></g>
-          </svg>
-        </div>
+    <div class="wrap grid cols-3 products-grid">
+      <div class="house-card house-card--element" style="min-height:400px;">
+        <picture class="art">
+          <source srcset="<?= e($ASSET) ?>/assets/img/product-element-houses.webp" type="image/webp">
+          <img src="<?= e($ASSET) ?>/assets/img/product-element-houses.jpg" alt="" width="1000" height="750" loading="lazy" decoding="async">
+        </picture>
         <div class="content">
           <span class="tag"><?= e($P['element']['tag']) ?></span>
           <h3><?= e($P['element']['title']) ?></h3>
@@ -30,14 +27,11 @@ require __DIR__ . '/../partials/hero-photo.php';
           <div class="btn-row" style="margin-top:1rem;"><a class="btn btn-ghost" style="border-color:#fff;color:#fff;" href="<?= e($ELEMENT_HREF) ?>"><?= e($P['element']['cta']) ?></a></div>
         </div>
       </div>
-      <div class="house-card" style="min-height:400px;">
-        <div class="art">
-          <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-            <rect width="400" height="360" fill="var(--spruce-deep)"/>
-            <g fill="var(--spruce-tint)" opacity=".92"><rect x="55" y="140" width="130" height="140"/><rect x="215" y="100" width="130" height="180"/></g>
-            <g fill="var(--ochre)"><rect x="55" y="140" width="130" height="8"/><rect x="215" y="100" width="130" height="8"/></g>
-          </svg>
-        </div>
+      <div class="house-card house-card--modular" style="min-height:400px;">
+        <picture class="art">
+          <source srcset="<?= e($ASSET) ?>/assets/img/product-modular-houses.webp" type="image/webp">
+          <img src="<?= e($ASSET) ?>/assets/img/product-modular-houses.jpg" alt="" width="1024" height="682" loading="lazy" decoding="async">
+        </picture>
         <div class="content">
           <span class="tag"><?= e($P['modular']['tag']) ?></span>
           <h3><?= e($P['modular']['title']) ?></h3>
@@ -45,14 +39,11 @@ require __DIR__ . '/../partials/hero-photo.php';
           <div class="btn-row" style="margin-top:1rem;"><a class="btn btn-ghost" style="border-color:#fff;color:#fff;" href="<?= e($MODULAR_HREF) ?>"><?= e($P['modular']['cta']) ?></a></div>
         </div>
       </div>
-      <div class="house-card" style="min-height:400px;">
-        <div class="art">
-          <svg viewBox="0 0 400 360" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-            <rect width="400" height="360" fill="var(--ochre-deep)"/>
-            <g fill="var(--paper)" opacity=".9"><rect x="50" y="80" width="300" height="60"/><rect x="50" y="160" width="300" height="60"/><rect x="50" y="240" width="300" height="60"/></g>
-            <g fill="var(--spruce-deep)" opacity=".85"><rect x="80" y="95" width="40" height="30"/><rect x="180" y="95" width="40" height="30"/><rect x="280" y="95" width="40" height="30"/><rect x="80" y="175" width="40" height="30"/><rect x="180" y="175" width="40" height="30"/><rect x="280" y="175" width="40" height="30"/></g>
-          </svg>
-        </div>
+      <div class="house-card house-card--facade" style="min-height:400px;">
+        <picture class="art">
+          <source srcset="<?= e($ASSET) ?>/assets/img/product-facade-elements.webp" type="image/webp">
+          <img src="<?= e($ASSET) ?>/assets/img/product-facade-elements.jpg" alt="" width="1400" height="933" loading="lazy" decoding="async">
+        </picture>
         <div class="content">
           <span class="tag"><?= e($P['facade']['tag']) ?></span>
           <h3><?= e($P['facade']['title']) ?></h3>

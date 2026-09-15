@@ -627,7 +627,9 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 /* Full-height, brand-tinted photo overlay (replaces the generic dark
    fade elsewhere) — sits on .art, before .content in source order, so it
    washes the whole photo while staying under the text. */
-.bento-grid .house-card .art::after { content: ""; position: absolute; inset: 0; }
+.bento-grid .house-card .art::after, .products-grid .house-card .art::after { content: ""; position: absolute; inset: 0; }
+/* Products index: same photo cards + brand tint as the homepage bento, text over the tint rather than a second gradient */
+.products-grid .house-card .content { background: none; }
 .house-card--element .art::after { background: linear-gradient(180deg, rgba(19,53,23,.15) 0%, rgba(19,53,23,.55) 55%, rgba(19,53,23,.93) 100%); }
 .house-card--modular .art::after { background: linear-gradient(180deg, rgba(28,79,35,.2) 0%, rgba(28,79,35,.6) 55%, rgba(28,79,35,.94) 100%); }
 .house-card--facade .art::after { background: linear-gradient(180deg, rgba(147,93,26,.2) 0%, rgba(147,93,26,.6) 50%, rgba(80,50,14,.94) 100%); }
