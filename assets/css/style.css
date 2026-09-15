@@ -815,7 +815,7 @@ body.ref-lightbox-open { overflow: hidden; }
 /* History timeline (About EstNor) */
 .timeline { list-style: none; margin: 0; padding: 0 0 0 2.1rem; border-left: 2px solid var(--line); display: flex; flex-direction: column; gap: 1.9rem; }
 .timeline li { position: relative; }
-.timeline li::before { content: ""; position: absolute; left: -2.1rem; top: .2rem; width: 11px; height: 11px; border-radius: 50%; background: var(--ochre); border: 3px solid var(--paper); box-shadow: 0 0 0 2px var(--ochre); }
+.timeline li::before { content: ""; position: absolute; left: calc(-2.1rem - 1px); transform: translateX(-50%); top: .2rem; width: 11px; height: 11px; border-radius: 50%; background: var(--ochre); border: 3px solid var(--paper); box-shadow: 0 0 0 2px var(--ochre); }
 .timeline .year { font-family: var(--font-display); font-weight: 700; color: var(--spruce-deep); font-size: 1.1rem; display: block; margin-bottom: .2rem; }
 .section--alt .timeline li::before { border-color: var(--paper-alt); }
 

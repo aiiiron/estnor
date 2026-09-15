@@ -44,7 +44,7 @@
                 "Kiili Ettevõtjate Liidu liige (alates 2004)",
                 "Eesti-Norra Kaubanduskoja liige",
                 "Gasellettevõte 2015 ja 2016 — tunnustus, mida kannab vaid 1% Eesti ettevõtetest",
-                "Aasta Tehasemaja konkursi tunnustused 2015, 2017, 2018 ja 2019"
+                "Aasta Tehasemaja konkursi tunnustused 2015, 2017, 2018, 2019, 2020, 2021 ja 2023"
             ]
         },
         "history": {
@@ -77,19 +77,43 @@
                 },
                 {
                     "year": "2015",
-                    "text": "Käivitatakse uus majatehas Kiilis, väljastatakse ISO 9001 sertifikaat ja alustatakse moodulmajade tootmisega."
+                    "text": "Käivitatakse uus majatehas Kiilis, väljastatakse ISO 9001 sertifikaat ja alustatakse moodulmajade tootmisega. Aasta Tehasemaja konkursil II koht üldarvestuses ning Lotus Timberi ja Monieri eripreemia kortermaja eest Norras; EstNor pälvib Gasellettevõtte tiitli."
+                },
+                {
+                    "year": "2016",
+                    "text": "Teist aastat järjest Gasellettevõte — tunnustus, mida kannab vaid 1% Eesti ettevõtetest."
+                },
+                {
+                    "year": "2017",
+                    "text": "Aasta Tehasemaja konkursil „Delfi lugejate lemmik“ ja Akzo Nobel Baltics eriauhind — eramu Norras."
                 },
                 {
                     "year": "2018",
-                    "text": "EstNor avab palkmajatehase Jõgevamaal; ettevõtte töötaja krooniti viiendat aastat järjest Eesti parimaks palkmajaehitajaks."
+                    "text": "EstNor avab palkmajatehase Jõgevamaal; ettevõtte töötaja krooniti viiendat aastat järjest Eesti parimaks palkmajaehitajaks. Aasta Tehasemaja konkursil parim avalik hoone — lao- ja büroohoone Göteborgis, Rootsis."
                 },
                 {
                     "year": "2019",
-                    "text": "EstNor OÜ-le väljastatakse Euroopa tehniline hinnang (ETA)."
+                    "text": "EstNor OÜ-le väljastatakse Euroopa tehniline hinnang (ETA). Aasta Tehasemaja konkursil parim eramaja ja NorDani eriauhind — eramu Norras."
+                },
+                {
+                    "year": "2020",
+                    "text": "Aasta Tehasemaja konkursil parim erilahendus — Skøyen Atrium III büroohoone fassaadielemendid Oslos."
+                },
+                {
+                    "year": "2021",
+                    "text": "Aasta Tehasemaja konkursil Senco, Monieri ja Essve eripreemiad — vabaajamaja Norras."
                 },
                 {
                     "year": "2022",
                     "text": "EstNor on esimene tootja, kes liitub riikliku KredEx tehaselise rekonstrueerimise pilootprogrammiga."
+                },
+                {
+                    "year": "2023",
+                    "text": "Aasta Tehasemaja konkursil parim erilahendus ja Rothoblaasi eripreemia — Trondheimi üliõpilasmaja fassaadielemendid. Algab ELi taasterahastu NextGenerationEU toel tootmis- ja ehitusprotsesside digitaliseerimise projekt (2023–2024)."
+                },
+                {
+                    "year": "2024",
+                    "text": "Valmivad Tallinna Loodusmaja katuse- ja fassaadielemendid ning Stroomi rannahoone — võtmed-kätte riigihanke projekt."
                 }
             ]
         },
@@ -241,7 +265,7 @@
                 "Mitglied im Unternehmerverband Kiili (seit 2004)",
                 "Mitglied der Estnisch-Norwegischen Handelskammer",
                 "Gazellenunternehmen 2015 und 2016 — eine Auszeichnung, die nur 1 % der estnischen Unternehmen tragen",
-                "Auszeichnungen im Wettbewerb „Hausfabrik des Jahres\" 2015, 2017, 2018 und 2019"
+                "Auszeichnungen beim Wettbewerb „Fertighaus des Jahres“ 2015, 2017, 2018, 2019, 2020, 2021 und 2023"
             ]
         },
         "history": {
@@ -250,7 +274,7 @@
             "timeline": [
                 {
                     "year": "2000",
-                    "text": "EstNor OÜ wird am 20. Oktober gegründet; die Produktionshalle in Kiili wird erworben."
+                    "text": "EstNor OÜ wird am 20. Oktober gegründet, das Produktionsgebäude in Kiili wird erworben."
                 },
                 {
                     "year": "2001",
@@ -258,11 +282,11 @@
                 },
                 {
                     "year": "2004",
-                    "text": "Zusätzlich zu Blockhäusern startet die Fertigung von Pfosten-Riegel-Blockhäusern; EstNor tritt dem Unternehmerverband Kiili bei."
+                    "text": "Neben Blockhäusern beginnt die Fertigung von Blockrahmenhäusern; EstNor tritt dem Unternehmerverband Kiili bei."
                 },
                 {
                     "year": "2006",
-                    "text": "Die Elementhaus-Fertigung beginnt; die Immobiliengesellschaft EstNor Arendus OÜ wird gegründet."
+                    "text": "Die Fertigung von Elementhäusern beginnt; die Immobiliengesellschaft EstNor Arendus OÜ wird gegründet."
                 },
                 {
                     "year": "2009",
@@ -270,23 +294,47 @@
                 },
                 {
                     "year": "2012",
-                    "text": "Ein neues Büro- und Produktionsgebäude entsteht in Kiili."
+                    "text": "In Kiili wird ein neues Büro- und Produktionsgebäude fertiggestellt."
                 },
                 {
                     "year": "2015",
-                    "text": "Ein neues Hauswerk in Kiili geht in Betrieb, die ISO-9001-Zertifizierung wird erteilt, und die Modulhaus-Fertigung startet."
+                    "text": "Ein neues Hauswerk in Kiili nimmt den Betrieb auf, die ISO-9001-Zertifizierung wird erteilt, die Modulhausfertigung beginnt. Beim Wettbewerb „Fertighaus des Jahres“ zweiter Platz in der Gesamtwertung sowie die Sonderpreise von Lotus Timber und Monier für ein Wohngebäude in Norwegen; EstNor wird als Gazellen-Unternehmen ausgezeichnet."
+                },
+                {
+                    "year": "2016",
+                    "text": "Zum zweiten Mal in Folge Gazellen-Unternehmen — eine Auszeichnung, die nur 1 % der estnischen Unternehmen tragen."
+                },
+                {
+                    "year": "2017",
+                    "text": "„Fertighaus des Jahres“: Publikumspreis der Delfi-Leser und Sonderpreis von Akzo Nobel Baltics — ein Einfamilienhaus in Norwegen."
                 },
                 {
                     "year": "2018",
-                    "text": "EstNor eröffnet ein Blockhauswerk in Jõgevamaa; ein EstNor-Mitarbeiter wird zum fünften Mal in Folge zum besten Blockhausbauer Estlands gekürt."
+                    "text": "EstNor eröffnet ein Blockhauswerk in Jõgevamaa; ein EstNor-Mitarbeiter wird zum fünften Mal in Folge zum besten Blockhausbauer Estlands gekürt. „Fertighaus des Jahres“: bestes öffentliches Gebäude — das Lager- und Bürogebäude in Göteborg, Schweden."
                 },
                 {
                     "year": "2019",
-                    "text": "EstNor OÜ erhält die Europäische Technische Bewertung (ETA)."
+                    "text": "EstNor OÜ erhält die Europäische Technische Bewertung (ETA). „Fertighaus des Jahres“: bestes Einfamilienhaus und Sonderpreis von NorDan — ein Haus in Norwegen."
+                },
+                {
+                    "year": "2020",
+                    "text": "„Fertighaus des Jahres“: beste Sonderlösung — die Fassadenelemente des Bürogebäudes Skøyen Atrium III in Oslo."
+                },
+                {
+                    "year": "2021",
+                    "text": "„Fertighaus des Jahres“: Sonderpreise von Senco, Monier und Essve — ein Ferienhaus in Norwegen."
                 },
                 {
                     "year": "2022",
-                    "text": "EstNor wird erster Hersteller im staatlichen KredEx-Pilotprogramm für serielle Sanierung."
+                    "text": "EstNor ist der erste Hersteller, der dem staatlichen KredEx-Pilotprogramm für serielle Sanierung beitritt."
+                },
+                {
+                    "year": "2023",
+                    "text": "„Fertighaus des Jahres“: beste Sonderlösung und Sonderpreis von Rothoblaas — die Fassadenelemente des Studentenwohnheims in Trondheim. Start eines Projekts zur Digitalisierung der Produktions- und Bauprozesse, gefördert aus dem EU-Aufbauinstrument NextGenerationEU (2023–2024)."
+                },
+                {
+                    "year": "2024",
+                    "text": "Die Dach- und Fassadenelemente des Nature Hub in Tallinn und das Stroomi-Strandhaus — ein schlüsselfertiges Projekt der öffentlichen Hand — werden fertiggestellt."
                 }
             ]
         },
@@ -438,7 +486,7 @@
                 "Medlem i Kiili Företagarförening (sedan 2004)",
                 "Medlem i Estnisk-Norska Handelskammaren",
                 "Gasellföretag 2015 och 2016 — en utmärkelse som endast 1 % av estniska företag bär",
-                "Utmärkelser i tävlingen \"Årets husfabrik\" 2015, 2017, 2018 och 2019"
+                "Utmärkelser i tävlingen Årets fabrikshus 2015, 2017, 2018, 2019, 2020, 2021 och 2023"
             ]
         },
         "history": {
@@ -447,7 +495,7 @@
             "timeline": [
                 {
                     "year": "2000",
-                    "text": "EstNor OÜ grundas den 20 oktober; produktionsbyggnaden i Kiili förvärvas."
+                    "text": "EstNor OÜ grundas den 20 oktober och produktionsbyggnaden i Kiili förvärvas."
                 },
                 {
                     "year": "2001",
@@ -455,35 +503,59 @@
                 },
                 {
                     "year": "2004",
-                    "text": "Utöver timmerhus inleds tillverkning av timmerhus med regelverk; EstNor blir medlem i Kiili Företagarförening."
+                    "text": "Utöver timmerhus inleds tillverkning av hus med timmerstomme; EstNor blir medlem i Kiili Företagarförening."
                 },
                 {
                     "year": "2006",
-                    "text": "Tillverkning av elementhus inleds; fastighetsbolaget EstNor Arendus OÜ grundas."
+                    "text": "Tillverkningen av elementhus inleds; fastighetsbolaget EstNor Arendus OÜ grundas."
                 },
                 {
                     "year": "2009",
-                    "text": "EstNor blir medlem i Estniska Trähusförbundet."
+                    "text": "EstNor blir medlem i Estlands trähusförening."
                 },
                 {
                     "year": "2012",
-                    "text": "En ny kontors- och produktionsbyggnad uppförs i Kiili."
+                    "text": "En ny kontors- och produktionsbyggnad står klar i Kiili."
                 },
                 {
                     "year": "2015",
-                    "text": "En ny husfabrik i Kiili tas i drift, ISO 9001-certifiering utfärdas och produktionen av modulhus inleds."
+                    "text": "En ny husfabrik startar i Kiili, ISO 9001-certifikat utfärdas och tillverkningen av modulhus inleds. Andra plats totalt i tävlingen Årets fabrikshus samt Lotus Timbers och Moniers specialpriser för ett flerbostadshus i Norge; EstNor utses till gasellföretag."
+                },
+                {
+                    "year": "2016",
+                    "text": "Gasellföretag för andra året i rad — en utmärkelse som bara 1 % av Estlands företag har."
+                },
+                {
+                    "year": "2017",
+                    "text": "Årets fabrikshus: Delfi-läsarnas favoritpris och Akzo Nobel Baltics specialpris — en villa i Norge."
                 },
                 {
                     "year": "2018",
-                    "text": "EstNor öppnar en timmerhusfabrik i Jõgevamaa; en EstNor-medarbetare koras för femte året i rad till Estlands bästa timmerhusbyggare."
+                    "text": "EstNor öppnar en timmerhusfabrik i Jõgevamaa; en EstNor-medarbetare koras för femte året i rad till Estlands bästa timmerhusbyggare. Årets fabrikshus: bästa offentliga byggnad — lager- och kontorsbyggnaden i Göteborg."
                 },
                 {
                     "year": "2019",
-                    "text": "EstNor OÜ tilldelas en europeisk teknisk bedömning (ETA)."
+                    "text": "EstNor OÜ beviljas europeisk teknisk bedömning (ETA). Årets fabrikshus: bästa villa och NorDans specialpris — ett hus i Norge."
+                },
+                {
+                    "year": "2020",
+                    "text": "Årets fabrikshus: bästa speciallösning — fasadelementen till kontorsbyggnaden Skøyen Atrium III i Oslo."
+                },
+                {
+                    "year": "2021",
+                    "text": "Årets fabrikshus: Sencos, Moniers och Essves specialpriser — ett fritidshus i Norge."
                 },
                 {
                     "year": "2022",
-                    "text": "EstNor blir första tillverkare i det statliga KredEx-pilotprogrammet för seriell renovering."
+                    "text": "EstNor är den första tillverkaren som går med i det statliga KredEx-pilotprogrammet för industriell renovering."
+                },
+                {
+                    "year": "2023",
+                    "text": "Årets fabrikshus: bästa speciallösning och Rothoblaas specialpris — fasadelementen till studentbostäderna i Trondheim. Ett projekt för att digitalisera produktions- och byggprocesserna startar, finansierat av EU:s återhämtningsinstrument NextGenerationEU (2023–2024)."
+                },
+                {
+                    "year": "2024",
+                    "text": "Tak- och fasadelementen till Nature Hub i Tallinn och Stroomi strandhus — ett nyckelfärdigt offentligt upphandlingsprojekt — färdigställs."
                 }
             ]
         },
@@ -635,7 +707,7 @@
                 "Medlem av Kiili Næringsforening (siden 2004)",
                 "Medlem av Estisk-Norsk Handelskammer",
                 "Gasellebedrift 2015 og 2016 — en utmerkelse kun 1 % av estiske selskaper har",
-                "Utmerkelser i konkurransen «Årets husfabrikk» 2015, 2017, 2018 og 2019"
+                "Utmerkelser i konkurransen Årets fabrikkhus 2015, 2017, 2018, 2019, 2020, 2021 og 2023"
             ]
         },
         "history": {
@@ -644,43 +716,67 @@
             "timeline": [
                 {
                     "year": "2000",
-                    "text": "EstNor OÜ stiftes 20. oktober; produksjonsbygget i Kiili anskaffes."
+                    "text": "EstNor OÜ grunnlegges 20. oktober og produksjonsbygget i Kiili kjøpes."
                 },
                 {
                     "year": "2001",
-                    "text": "Det første tømmerhuset forlater den nye fabrikken."
+                    "text": "Det første laftehuset forlater den nye fabrikken."
                 },
                 {
                     "year": "2004",
-                    "text": "I tillegg til tømmerhus starter produksjon av reisverkshus; EstNor blir medlem av Kiili Næringsforening."
+                    "text": "I tillegg til laftehus starter produksjon av hus med laftet ramme; EstNor blir medlem av Kiili næringsforening."
                 },
                 {
                     "year": "2006",
-                    "text": "Produksjon av elementhus starter; eiendomsselskapet EstNor Arendus OÜ stiftes."
+                    "text": "Produksjonen av elementhus starter; eiendomsselskapet EstNor Arendus OÜ etableres."
                 },
                 {
                     "year": "2009",
-                    "text": "EstNor blir medlem av Estisk Trehusforening."
+                    "text": "EstNor blir medlem av Estlands trehusforening."
                 },
                 {
                     "year": "2012",
-                    "text": "Et nytt kontor- og produksjonsbygg reises i Kiili."
+                    "text": "Et nytt kontor- og produksjonsbygg står ferdig i Kiili."
                 },
                 {
                     "year": "2015",
-                    "text": "En ny husfabrikk i Kiili settes i drift, ISO 9001-sertifisering utstedes, og produksjon av modulhus starter."
+                    "text": "En ny husfabrikk starter opp i Kiili, ISO 9001-sertifikat utstedes og produksjonen av modulhus starter. Andreplass sammenlagt i konkurransen Årets fabrikkhus samt Lotus Timbers og Moniers spesialpriser for et leilighetsbygg i Norge; EstNor kåres til gaselleselskap."
+                },
+                {
+                    "year": "2016",
+                    "text": "Gaselleselskap for andre år på rad — en utmerkelse bare 1 % av estiske selskaper har."
+                },
+                {
+                    "year": "2017",
+                    "text": "Årets fabrikkhus: Delfi-lesernes favorittpris og Akzo Nobel Baltics' spesialpris — en enebolig i Norge."
                 },
                 {
                     "year": "2018",
-                    "text": "EstNor åpner en tømmerhusfabrikk i Jõgevamaa; en EstNor-ansatt kåres for femte år på rad til Estlands beste tømmerhusbygger."
+                    "text": "EstNor åpner en laftehusfabrikk i Jõgevamaa; en EstNor-ansatt kåres for femte år på rad til Estlands beste laftehusbygger. Årets fabrikkhus: beste offentlige bygg — lager- og kontorbygget i Göteborg, Sverige."
                 },
                 {
                     "year": "2019",
-                    "text": "EstNor OÜ tildeles europeisk teknisk vurdering (ETA)."
+                    "text": "EstNor OÜ får europeisk teknisk bedømmelse (ETA). Årets fabrikkhus: beste enebolig og NorDans spesialpris — et hus i Norge."
+                },
+                {
+                    "year": "2020",
+                    "text": "Årets fabrikkhus: beste spesialløsning — fasadeelementene til kontorbygget Skøyen Atrium III i Oslo."
+                },
+                {
+                    "year": "2021",
+                    "text": "Årets fabrikkhus: Sencos, Moniers og Essves spesialpriser — en fritidsbolig i Norge."
                 },
                 {
                     "year": "2022",
-                    "text": "EstNor blir første produsent i det statlige KredEx-pilotprogrammet for seriell rehabilitering."
+                    "text": "EstNor er den første produsenten som blir med i det statlige KredEx-pilotprogrammet for industriell rehabilitering."
+                },
+                {
+                    "year": "2023",
+                    "text": "Årets fabrikkhus: beste spesialløsning og Rothoblaas' spesialpris — fasadeelementene til studentboligene i Trondheim. Et prosjekt for å digitalisere produksjons- og byggeprosessene starter, finansiert av EUs gjenoppbyggingsinstrument NextGenerationEU (2023–2024)."
+                },
+                {
+                    "year": "2024",
+                    "text": "Tak- og fasadeelementene til Nature Hub i Tallinn og Stroomi strandhus — et nøkkelferdig offentlig anskaffelsesprosjekt — ferdigstilles."
                 }
             ]
         },
@@ -832,7 +928,7 @@
                 "Member of the Kiili Entrepreneurs Union (since 2004)",
                 "Member of the Estonian-Norwegian Chamber of Commerce",
                 "Gazelle company 2015 and 2016 — a distinction held by only 1% of Estonian companies",
-                "\"Factory House of the Year\" competition recognitions in 2015, 2017, 2018 and 2019"
+                "\"Factory House of the Year\" competition recognitions in 2015, 2017, 2018, 2019, 2020, 2021 and 2023"
             ]
         },
         "history": {
@@ -841,7 +937,7 @@
             "timeline": [
                 {
                     "year": "2000",
-                    "text": "EstNor OÜ is founded on 20 October; the production building in Kiili is acquired."
+                    "text": "EstNor OÜ is founded on 20 October and the production building in Kiili is acquired."
                 },
                 {
                     "year": "2001",
@@ -865,19 +961,43 @@
                 },
                 {
                     "year": "2015",
-                    "text": "A new house factory starts up in Kiili, ISO 9001 certification is issued, and modular house production begins."
+                    "text": "A new house factory starts up in Kiili, ISO 9001 certification is issued, and modular house production begins. Second place overall at the Factory House of the Year awards plus the Lotus Timber and Monier special prizes for an apartment building in Norway; EstNor is named a Gazelle company."
+                },
+                {
+                    "year": "2016",
+                    "text": "A Gazelle company for the second year running — a distinction held by only 1% of Estonian companies."
+                },
+                {
+                    "year": "2017",
+                    "text": "Factory House of the Year: the Delfi readers' favourite award and the Akzo Nobel Baltics special prize — a detached house in Norway."
                 },
                 {
                     "year": "2018",
-                    "text": "EstNor opens a log-house factory in Jõgevamaa; an EstNor employee is named Estonia's best log-house builder for the fifth year running."
+                    "text": "EstNor opens a log-house factory in Jõgevamaa; an EstNor employee is named Estonia's best log-house builder for the fifth year running. Factory House of the Year: best public building — the warehouse and office building in Gothenburg, Sweden."
                 },
                 {
                     "year": "2019",
-                    "text": "EstNor OÜ receives its European Technical Assessment (ETA)."
+                    "text": "EstNor OÜ is granted a European Technical Assessment (ETA). Factory House of the Year: best detached house and the NorDan special prize — a house in Norway."
+                },
+                {
+                    "year": "2020",
+                    "text": "Factory House of the Year: best special solution — the facade elements of the Skøyen Atrium III office building in Oslo."
+                },
+                {
+                    "year": "2021",
+                    "text": "Factory House of the Year: the Senco, Monier and Essve special prizes — a holiday home in Norway."
                 },
                 {
                     "year": "2022",
-                    "text": "EstNor becomes the first manufacturer to join the state KredEx pilot programme for serial renovation."
+                    "text": "EstNor is the first manufacturer to join the state KredEx pilot programme for serial renovation."
+                },
+                {
+                    "year": "2023",
+                    "text": "Factory House of the Year: best special solution and the Rothoblaas special prize — the facade elements of the Trondheim student housing. A project to digitalise production and construction processes starts, funded by the EU's NextGenerationEU recovery instrument (2023–2024)."
+                },
+                {
+                    "year": "2024",
+                    "text": "The roof and facade elements of the Nature Hub in Tallinn and the Stroomi Beach House — a turnkey public procurement project — are completed."
                 }
             ]
         },
