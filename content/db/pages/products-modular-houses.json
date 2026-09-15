@@ -53,7 +53,7 @@
             "transport": "Valmis moodul teel ehitusplatsile",
             "finished_house": "Valmis moodulmaja",
             "module_factory": "Viimistletud moodul tehases enne väljastamist",
-            "pattern_buildings": "369 Pattern Buildings süsteemi järgi ehitatud moodulmaja"
+            "pattern_buildings": "Mustermaja süsteemis ehitatud moodulmaja"
         },
         "steps": {
             "eyebrow": "Ehitusprotsess",
@@ -92,10 +92,10 @@
         },
         "pattern": {
             "eyebrow": "Avatud ehitussüsteem",
-            "h2": "EstNor panustab 369 Pattern Buildings lahendusse",
+            "h2": "EstNor panustab Mustermaja lahendusse",
             "body_pre": "EstNor panustab ",
-            "bold": "369 Pattern Buildings",
-            "body_post": " lahendusse — avatud lähtekoodiga tööstusliku ehituse süsteem massiliselt kohandatavatele puithoonetele."
+            "bold": "Mustermaja",
+            "body_post": " lahendusse — Eesti Kunstiakadeemias välja töötatud avatud lähtekoodiga platvorm modulaarsetele ja väikese keskkonnamõjuga puithoonetele, mida saab ka pärast valmimist kohandada, laiendada ja teisaldada."
         },
         "albums": {
             "eyebrow": "Referentsid",
@@ -163,7 +163,7 @@
             "transport": "A finished module on its way to site",
             "finished_house": "A finished modular house",
             "module_factory": "A finished module in the factory before dispatch",
-            "pattern_buildings": "A modular house built to the 369 Pattern Buildings system"
+            "pattern_buildings": "A modular house built on the Mustermaja system"
         },
         "steps": {
             "eyebrow": "Construction process",
@@ -202,10 +202,10 @@
         },
         "pattern": {
             "eyebrow": "Open building system",
-            "h2": "Contributing to 369 Pattern Buildings",
+            "h2": "Contributing to Mustermaja",
             "body_pre": "EstNor contributes to ",
-            "bold": "369 Pattern Buildings",
-            "body_post": " — an open-source industrial building system for mass-customisable timber buildings."
+            "bold": "Mustermaja",
+            "body_post": " — an open-source platform for modular, low-impact timber buildings developed at the Estonian Academy of Arts, which can be adapted, extended and relocated even after completion."
         },
         "albums": {
             "eyebrow": "References",
@@ -273,7 +273,7 @@
             "transport": "Ein fertiges Modul auf dem Weg zur Baustelle",
             "finished_house": "Ein fertiges Modulhaus",
             "module_factory": "Ein fertiges Modul im Werk vor dem Versand",
-            "pattern_buildings": "Ein nach dem 369-Pattern-Buildings-System gebautes Modulhaus"
+            "pattern_buildings": "Ein im Mustermaja-System gebautes Modulhaus"
         },
         "steps": {
             "eyebrow": "Bauprozess",
@@ -312,10 +312,10 @@
         },
         "pattern": {
             "eyebrow": "Offenes Bausystem",
-            "h2": "Beitrag zu 369 Pattern Buildings",
+            "h2": "Beitrag zu Mustermaja",
             "body_pre": "EstNor trägt zu ",
-            "bold": "369 Pattern Buildings",
-            "body_post": " bei — einem Open-Source-Industriebausystem für massenhaft anpassbare Holzgebäude."
+            "bold": "Mustermaja",
+            "body_post": " bei — einer an der Estnischen Kunstakademie entwickelten Open-Source-Plattform für modulare Holzgebäude mit geringer Umweltwirkung, die sich auch nach der Fertigstellung anpassen, erweitern und versetzen lassen."
         },
         "albums": {
             "eyebrow": "Referenzen",
@@ -383,7 +383,7 @@
             "transport": "En färdig modul på väg till byggplatsen",
             "finished_house": "Ett färdigt modulhus",
             "module_factory": "En färdig modul i fabriken före leverans",
-            "pattern_buildings": "Ett modulhus byggt enligt 369 Pattern Buildings-systemet"
+            "pattern_buildings": "Ett modulhus byggt i Mustermaja-systemet"
         },
         "steps": {
             "eyebrow": "Byggprocess",
@@ -422,10 +422,10 @@
         },
         "pattern": {
             "eyebrow": "Öppet byggsystem",
-            "h2": "Bidrag till 369 Pattern Buildings",
+            "h2": "Bidrag till Mustermaja",
             "body_pre": "EstNor bidrar till ",
-            "bold": "369 Pattern Buildings",
-            "body_post": " — ett industriellt byggsystem med öppen källkod för masskundanpassade träbyggnader."
+            "bold": "Mustermaja",
+            "body_post": " — en plattform med öppen källkod för modulära träbyggnader med låg miljöpåverkan, utvecklad vid Estlands konstakademi, som kan anpassas, byggas ut och flyttas även efter färdigställandet."
         },
         "albums": {
             "eyebrow": "Referenser",
@@ -493,7 +493,7 @@
             "transport": "En ferdig modul på vei til byggeplassen",
             "finished_house": "Et ferdig modulhus",
             "module_factory": "En ferdig modul i fabrikken før levering",
-            "pattern_buildings": "Et modulhus bygget etter 369 Pattern Buildings-systemet"
+            "pattern_buildings": "Et modulhus bygget i Mustermaja-systemet"
         },
         "steps": {
             "eyebrow": "Byggeprosess",
@@ -532,10 +532,10 @@
         },
         "pattern": {
             "eyebrow": "Åpent byggesystem",
-            "h2": "Bidrag til 369 Pattern Buildings",
+            "h2": "Bidrag til Mustermaja",
             "body_pre": "EstNor bidrar til ",
-            "bold": "369 Pattern Buildings",
-            "body_post": " — et industrielt byggesystem med åpen kildekode for massetilpassede trebygg."
+            "bold": "Mustermaja",
+            "body_post": " — en plattform med åpen kildekode for modulære trebygg med lav miljøpåvirkning, utviklet ved Estlands kunstakademi, som kan tilpasses, utvides og flyttes også etter ferdigstillelse."
         },
         "albums": {
             "eyebrow": "Referanser",
