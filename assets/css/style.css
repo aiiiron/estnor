@@ -214,7 +214,9 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
    the others; near the burger breakpoint that put its 230px past the viewport
    edge and gave the page a few px of sideways scroll. Anchor it right instead. */
 .nav > ul > li.has-sub:last-child .submenu { left: auto; right: -.9rem; }
-.has-sub:focus-within .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
+.has-sub:focus-within .submenu,
+.has-sub.is-open .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
+.has-sub.is-open > a .chev { transform: rotate(180deg); }
 .submenu li a { display: block; padding: .6em .75em; border-radius: var(--r-sm); font-size: .89rem; }
 .submenu li a:hover { background: var(--spruce-tint); color: var(--spruce-deep); }
 /* Hover-to-open only for devices that actually have a mouse — on touch,
@@ -292,15 +294,25 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
     border-radius: var(--r-sm); background: var(--surface);
   }
   .nav-burger span { width: 22px; height: 2px; background: var(--spruce-deep); display: block; }
+  /* The drawer fills the screen below the sticky header (its height is
+     measured into --header-h by main.js), scrolls on its own, and the page
+     behind is locked and dimmed while it's open — so it reads as a menu
+     panel rather than a strip with the page showing through underneath. */
   .nav {
-    position: absolute; top: 100%; left: 0; right: 0;
-    flex-direction: column; align-items: stretch; gap: 1rem;
-    background: var(--paper); border-bottom: 1px solid var(--line);
-    padding: 1.25rem clamp(1.15rem, 4vw, 2.25rem) 1.75rem;
+    /* absolute, not fixed: the header's backdrop-filter makes it the
+       containing block anyway, and it is sticky at the top of the viewport
+       while the drawer is open (page scroll locked), so top: 100% of the
+       header is the header's bottom edge on screen */
+    position: absolute; top: 100%; left: 0; right: 0; height: calc(100dvh - var(--header-h, 96px));
+    flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 1rem;
+    background: var(--paper);
+    padding: 1.25rem clamp(1.15rem, 4vw, 2.25rem) max(2rem, env(safe-area-inset-bottom));
     transform: translateY(-12px); opacity: 0; pointer-events: none;
     transition: opacity .18s ease, transform .18s ease;
-    max-height: 80vh; overflow-y: auto;
+    overflow-y: auto; -webkit-overflow-scrolling: touch;
   }
+  body.nav-open { overflow: hidden; }
+  body.nav-open .site-header { background: var(--paper); }
   .nav > ul { flex-direction: column; gap: 1rem; }
   .nav a { font-size: 1.06rem; }
   .nav-toggle:checked ~ .nav { transform: translateY(0); opacity: 1; pointer-events: auto; }
@@ -308,7 +320,7 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
   /* Move the language switcher out of the header bar (no room next to the
      logo + burger on a phone) and into the mobile nav drawer instead. */
   #lang-switch-bar { display: none; }
-  #lang-switch-nav { display: inline-flex; margin-top: 1.5rem; }
+  #lang-switch-nav { display: inline-flex; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); width: 100%; }
 
   /* Let a long tagline wrap instead of forcing the header wider than the
      viewport (the base rule keeps it on one line on desktop, on purpose). */

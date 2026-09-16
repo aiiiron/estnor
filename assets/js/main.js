@@ -1,12 +1,51 @@
 // estnor.ee (concept) — shared site behaviour, ported from seriell-sanierung.de
 document.addEventListener('DOMContentLoaded', () => {
+  const header = document.querySelector('.site-header');
+  const toggle = document.getElementById('nav-toggle');
+  const burger = document.querySelector('.nav-burger');
+  const inDrawerLayout = () => burger && getComputedStyle(burger).display !== 'none';
+
+  // Mobile drawer: it starts at the sticky header's bottom edge, so the
+  // header's actual height (logo + wrapping tagline) is measured into a CSS
+  // variable; the page behind is locked while the drawer is open.
+  const measureHeader = () => { if (header) document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px'); };
+  measureHeader();
+  window.addEventListener('resize', measureHeader);
+  if (toggle) {
+    const sync = () => { document.body.classList.toggle('nav-open', toggle.checked && inDrawerLayout()); measureHeader(); };
+    toggle.addEventListener('change', sync);
+    window.addEventListener('resize', sync);
+  }
+
   // Close the mobile nav after a link is tapped (nav is a CSS-only checkbox toggle)
   document.querySelectorAll('.nav a').forEach((a) => {
     a.addEventListener('click', () => {
-      const toggle = document.getElementById('nav-toggle');
-      if (toggle) toggle.checked = false;
+      if (toggle) { toggle.checked = false; document.body.classList.remove('nav-open'); }
     });
   });
+
+  // Desktop dropdowns on touch (a tablet in landscape shows the desktop
+  // nav): hover can't open them and a tap on the parent link would just
+  // navigate. On a device without a hover-capable pointer, the first tap on
+  // a parent opens its submenu and the second tap follows the link; a tap
+  // elsewhere or Escape closes it. Mouse users keep hover-to-open.
+  const hoverCapable = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const subs = document.querySelectorAll('.nav .has-sub');
+  const closeSubs = () => subs.forEach((li) => { li.classList.remove('is-open'); const a = li.querySelector(':scope > a'); if (a) a.removeAttribute('aria-expanded'); });
+  subs.forEach((li) => {
+    const link = li.querySelector(':scope > a');
+    if (!link) return;
+    link.addEventListener('click', (e) => {
+      if (hoverCapable || inDrawerLayout()) return;        // mouse: hover already opened it; drawer: submenus are static lists
+      if (li.classList.contains('is-open')) return;         // second tap: navigate
+      e.preventDefault();
+      closeSubs();
+      li.classList.add('is-open');
+      link.setAttribute('aria-expanded', 'true');
+    });
+  });
+  document.addEventListener('click', (e) => { if (!e.target.closest('.nav .has-sub')) closeSubs(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeSubs(); });
 
   // Language switcher: an explicit tap-to-toggle. The CSS opens it on hover
   // (mouse) and :focus-within (keyboard), but a tapped <button> gets no
