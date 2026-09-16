@@ -76,7 +76,7 @@ $sitePhotosJson = json_encode($sitePhotos);
         <span class="eyebrow"><?= e($P['element']['eyebrow']) ?></span>
         <h2><?= e($P['element']['h2']) ?></h2>
         <p><?= e($P['element']['intro']) ?></p>
-        <ul class="buildup">
+        <ul class="buildup buildup--compact">
 <?php foreach ($P['element']['layers'] as $i => $layer): ?>
           <li><b><?= $i + 1 ?></b><span><?= e($layer) ?></span></li>
 <?php endforeach; ?>

@@ -60,12 +60,12 @@
             "intro": "Iga element on kandev puitkarkass-konstruktsioon, mis valmib tehases ligi 90% ulatuses — soojustatud, akendega, ventilatsioonikanalitega ja viimistletud pinnaga.",
             "diagram_alt": "EstNori fassaadielemendi kihid",
             "layers": [
-                "Kandev puitkarkass, projekteeritud BIM-mudeli järgi",
-                "Soojustus (mineraalvill) elemendi sees, minimaalsete külmasildadega",
-                "Tuuletõkke- ja aurutõkkekihid, tehases paigaldatud",
-                "Energiatõhusad PVC-aknad, täielikult paigaldatud ja reguleeritud",
-                "Ventilatsioonikanalid elemendis vastavalt projektile",
-                "Fassaadiplaat või -laudis tehases paigaldatud — pind viimistletud"
+                "Kandev puitkarkass 45×195 mm (C24), BIM-mudeli järgi",
+                "Mineraalvill 200 + 50 mm — minimaalsed külmasillad",
+                "Tuuletõkke villaplaat ja aurutõkkemembraan",
+                "PVC-aknad koos välispalede ja veeplekkidega",
+                "Ventilatsioonikanalid vastavalt projektile",
+                "Fassaadiplaat või puitlaudis roovitusel — pind viimistletud"
             ]
         },
         "factory": {
@@ -202,12 +202,12 @@
             "intro": "Each element is a load-bearing timber-frame structure completed to around 90% in the factory — insulated, with windows, ventilation ducts and a finished surface.",
             "diagram_alt": "Layers of an EstNor facade element",
             "layers": [
-                "Load-bearing timber frame, engineered from the BIM model",
-                "Insulation (mineral wool) within the element, with minimal thermal bridging",
-                "Wind and vapour barrier layers, fitted in the factory",
-                "Energy-efficient PVC windows, fully installed and adjusted",
-                "Ventilation ducts in the element as designed",
-                "Facade board or boarding fitted in the factory — surface finished"
+                "Load-bearing timber frame 45×195 mm (C24), engineered from the BIM model",
+                "Mineral wool 200 + 50 mm — minimal thermal bridging",
+                "Wind-barrier board and vapour-control membrane",
+                "PVC windows with exterior reveals and flashings",
+                "Ventilation ducts as designed",
+                "Facade board or timber boarding on battens — surface finished"
             ]
         },
         "factory": {
@@ -344,12 +344,12 @@
             "intro": "Jedes Element ist eine tragende Holzrahmenkonstruktion, die zu rund 90 % im Werk fertiggestellt wird — gedämmt, mit Fenstern, Lüftungskanälen und fertiger Oberfläche.",
             "diagram_alt": "Schichten eines EstNor-Fassadenelements",
             "layers": [
-                "Tragender Holzrahmen, aus dem BIM-Modell konstruiert",
-                "Dämmung (Mineralwolle) im Element, mit minimalen Wärmebrücken",
-                "Wind- und Dampfsperrschichten, im Werk eingebaut",
-                "Energieeffiziente PVC-Fenster, vollständig eingebaut und eingestellt",
-                "Lüftungskanäle im Element gemäß Planung",
-                "Fassadenplatte oder Schalung im Werk montiert — Oberfläche fertig"
+                "Tragender Holzrahmen 45×195 mm (C24), aus dem BIM-Modell konstruiert",
+                "Mineralwolle 200 + 50 mm — minimale Wärmebrücken",
+                "Windsperrplatte und Dampfbremsmembran",
+                "PVC-Fenster mit Außenlaibungen und Blechen",
+                "Lüftungskanäle gemäß Planung",
+                "Fassadenplatte oder Holzschalung auf Lattung — Oberfläche fertig"
             ]
         },
         "factory": {
@@ -486,12 +486,12 @@
             "intro": "Varje element är en bärande träregelkonstruktion som färdigställs till cirka 90 % i fabriken — isolerad, med fönster, ventilationskanaler och färdig yta.",
             "diagram_alt": "Skikten i ett EstNor-fasadelement",
             "layers": [
-                "Bärande träregelstomme, konstruerad ur BIM-modellen",
-                "Isolering (mineralull) i elementet, med minimala köldbryggor",
-                "Vind- och ångspärrskikt, monterade i fabriken",
-                "Energieffektiva PVC-fönster, helt monterade och justerade",
-                "Ventilationskanaler i elementet enligt projekteringen",
-                "Fasadskiva eller panel monterad i fabriken — ytan färdig"
+                "Bärande träregelstomme 45×195 mm (C24), konstruerad ur BIM-modellen",
+                "Mineralull 200 + 50 mm — minimala köldbryggor",
+                "Vindskyddsskiva och ångbromsmembran",
+                "PVC-fönster med yttre smygar och plåtar",
+                "Ventilationskanaler enligt projekteringen",
+                "Fasadskiva eller träpanel på läkt — ytan färdig"
             ]
         },
         "factory": {
@@ -628,12 +628,12 @@
             "intro": "Hvert element er en bærende bindingsverkskonstruksjon i tre som ferdigstilles ca. 90 % i fabrikken — isolert, med vinduer, ventilasjonskanaler og ferdig overflate.",
             "diagram_alt": "Lagene i et EstNor-fasadeelement",
             "layers": [
-                "Bærende trebindingsverk, konstruert fra BIM-modellen",
-                "Isolasjon (mineralull) i elementet, med minimale kuldebroer",
-                "Vind- og dampsperresjikt, montert i fabrikken",
-                "Energieffektive PVC-vinduer, fullstendig montert og justert",
-                "Ventilasjonskanaler i elementet etter prosjekteringen",
-                "Fasadeplate eller kledning montert i fabrikken — overflaten ferdig"
+                "Bærende trebindingsverk 45×195 mm (C24), konstruert fra BIM-modellen",
+                "Mineralull 200 + 50 mm — minimale kuldebroer",
+                "Vindsperreplate og dampbremsmembran",
+                "PVC-vinduer med utvendige smyg og beslag",
+                "Ventilasjonskanaler etter prosjekteringen",
+                "Fasadeplate eller trekledning på lekter — overflaten ferdig"
             ]
         },
         "factory": {
