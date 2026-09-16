@@ -71,16 +71,29 @@ $sitePhotosJson = json_encode($sitePhotos);
 
   <section class="section">
     <div class="wrap split">
-      <figure class="photo-card photo-card--diagram"><img src="<?= $img('element-layers.png') ?>" alt="<?= e($P['element']['diagram_alt']) ?>" loading="lazy" decoding="async"></figure>
+<?php
+// Numbered markers over the clean exploded-view render, one per layer, in
+// the render's own pixel coordinates (2000 x 1414) so they stay put at any
+// display size. Order = left to right in the picture = the legend below.
+$layerMarkers = [[190, 640], [250, 1000], [460, 800], [690, 840], [940, 800], [1060, 760], [1280, 1000], [1520, 600], [1760, 600], [1860, 710]];
+?>
+      <figure class="photo-card photo-card--diagram diagram-annotated">
+        <img src="<?= $img('element-cross-section.jpg') ?>" alt="<?= e($P['element']['diagram_alt']) ?>" width="1600" height="1131" loading="lazy" decoding="async">
+        <svg class="diagram-markers" viewBox="0 0 2000 1414" aria-hidden="true">
+<?php foreach ($layerMarkers as $i => [$x, $y]): ?>
+          <g transform="translate(<?= $x ?> <?= $y ?>)"><circle r="48"/><text dy=".36em"><?= $i + 1 ?></text></g>
+<?php endforeach; ?>
+        </svg>
+      </figure>
       <div>
         <span class="eyebrow"><?= e($P['element']['eyebrow']) ?></span>
         <h2><?= e($P['element']['h2']) ?></h2>
         <p><?= e($P['element']['intro']) ?></p>
-        <ul class="buildup buildup--compact">
+        <ol class="buildup buildup--compact buildup--legend">
 <?php foreach ($P['element']['layers'] as $i => $layer): ?>
           <li><b><?= $i + 1 ?></b><span><?= e($layer) ?></span></li>
 <?php endforeach; ?>
-        </ul>
+        </ol>
       </div>
     </div>
   </section>
