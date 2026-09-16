@@ -70,28 +70,33 @@ $sitePhotosJson = json_encode($sitePhotos);
   </section>
 
   <section class="section">
-    <div class="wrap split">
+    <div class="wrap">
 <?php
 // Numbered markers over the clean exploded-view render, one per layer, in
 // the render's own pixel coordinates (2000 x 1414) so they stay put at any
 // display size. Order = left to right in the picture = the legend below.
+// Hovering (or focusing) a legend chip highlights its marker; hovering a
+// marker shows the layer's name — wired up in assets/js/main.js.
 $layerMarkers = [[190, 640], [250, 1000], [460, 800], [690, 840], [940, 800], [1060, 760], [1280, 1000], [1520, 600], [1760, 600], [1860, 710]];
 ?>
-      <figure class="photo-card photo-card--diagram diagram-annotated">
-        <img src="<?= $img('element-cross-section.jpg') ?>" alt="<?= e($P['element']['diagram_alt']) ?>" width="1600" height="1131" loading="lazy" decoding="async">
-        <svg class="diagram-markers" viewBox="0 0 2000 1414" aria-hidden="true">
-<?php foreach ($layerMarkers as $i => [$x, $y]): ?>
-          <g transform="translate(<?= $x ?> <?= $y ?>)"><circle r="48"/><text dy=".36em"><?= $i + 1 ?></text></g>
-<?php endforeach; ?>
-        </svg>
-      </figure>
-      <div>
+      <div class="section-head">
         <span class="eyebrow"><?= e($P['element']['eyebrow']) ?></span>
         <h2><?= e($P['element']['h2']) ?></h2>
-        <p><?= e($P['element']['intro']) ?></p>
-        <ol class="buildup buildup--compact buildup--legend">
+        <p class="lead"><?= e($P['element']['intro']) ?></p>
+      </div>
+      <div class="diagram" id="element-diagram">
+        <figure class="photo-card photo-card--diagram diagram-annotated">
+          <img src="<?= $img('element-cross-section.jpg') ?>" alt="<?= e($P['element']['diagram_alt']) ?>" width="1600" height="1131" loading="lazy" decoding="async">
+          <svg class="diagram-markers" viewBox="0 0 2000 1414" aria-hidden="true">
+<?php foreach ($layerMarkers as $i => [$x, $y]): ?>
+            <g class="diagram-marker" data-layer="<?= $i + 1 ?>" transform="translate(<?= $x ?> <?= $y ?>)"><circle r="48"/><text dy=".36em"><?= $i + 1 ?></text></g>
+<?php endforeach; ?>
+          </svg>
+          <span class="diagram-tip" hidden></span>
+        </figure>
+        <ol class="diagram-legend">
 <?php foreach ($P['element']['layers'] as $i => $layer): ?>
-          <li><b><?= $i + 1 ?></b><span><?= e($layer) ?></span></li>
+          <li><button type="button" data-layer="<?= $i + 1 ?>"><b><?= $i + 1 ?></b><span><?= e($layer) ?></span></button></li>
 <?php endforeach; ?>
         </ol>
       </div>

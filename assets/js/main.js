@@ -33,6 +33,41 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('click', (e) => { if (!e.target.closest('.lang-switch')) closeAll(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAll(); });
 
+  // Element cross-section diagram (Serial Renovation > Process): legend chip
+  // <-> marker highlighting, and a name tooltip on the marker itself.
+  document.querySelectorAll('.diagram').forEach((dia) => {
+    const markers = dia.querySelectorAll('.diagram-marker');
+    const chips   = dia.querySelectorAll('.diagram-legend button');
+    const tip     = dia.querySelector('.diagram-tip');
+    const fig     = dia.querySelector('.diagram-annotated');
+    const label   = (n) => { const c = dia.querySelector(`.diagram-legend button[data-layer="${n}"] span`); return c ? c.textContent : ''; };
+    const setActive = (n) => {
+      markers.forEach((m) => m.classList.toggle('is-active', m.dataset.layer === n));
+      chips.forEach((c) => c.classList.toggle('is-active', c.dataset.layer === n));
+    };
+    const showTip = (m) => {
+      if (!tip || !fig) return;
+      const r = m.getBoundingClientRect(), f = fig.getBoundingClientRect();
+      tip.textContent = label(m.dataset.layer);
+      tip.style.left = (r.left + r.width / 2 - f.left) + 'px';
+      tip.style.top  = (r.top - f.top) + 'px';
+      tip.hidden = false;
+    };
+    const hideTip = () => { if (tip) tip.hidden = true; };
+    chips.forEach((c) => {
+      const on = () => { setActive(c.dataset.layer); const m = dia.querySelector(`.diagram-marker[data-layer="${c.dataset.layer}"]`); if (m) showTip(m); };
+      const off = () => { setActive(null); hideTip(); };
+      c.addEventListener('mouseenter', on); c.addEventListener('focus', on);
+      c.addEventListener('mouseleave', off); c.addEventListener('blur', off);
+      c.addEventListener('click', () => { const m = dia.querySelector(`.diagram-marker[data-layer="${c.dataset.layer}"]`); if (m) { setActive(c.dataset.layer); showTip(m); m.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); } });
+    });
+    markers.forEach((m) => {
+      m.addEventListener('mouseenter', () => { setActive(m.dataset.layer); showTip(m); });
+      m.addEventListener('mouseleave', () => { setActive(null); hideTip(); });
+      m.addEventListener('click', () => { setActive(m.dataset.layer); showTip(m); });
+    });
+  });
+
   // Contact form is a static demo on this site (no PHP backend) — show a note instead of submitting
   const form = document.querySelector('#contact-form');
   if (form) {

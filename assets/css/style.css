@@ -713,16 +713,31 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 /* A labelled diagram must never be cropped: natural aspect, shown whole. (Must come after the base rules above.) */
 .photo-card--diagram { aspect-ratio: auto; background: #fff; padding: .75rem; }
 .photo-card--diagram img { height: auto; object-fit: contain; }
-.buildup--compact { margin-top: 1rem; }
-.buildup--compact li { padding: .65rem 1.1rem; font-size: .95rem; align-items: baseline; }
-/* Legend numbers drawn like the markers on the diagram, so the eye can match them */
-.buildup--legend { list-style: none; }
-.buildup--legend li { padding: .45rem 1rem; align-items: center; gap: .8rem; }
-.buildup--legend b { min-width: 0; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--spruce-deep); color: #fff; font-size: .78rem; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.diagram-annotated { position: relative; padding: 0; }
-.diagram-markers { position: absolute; inset: 0; width: 100%; height: 100%; }
-.diagram-markers circle { fill: var(--spruce-deep); stroke: #fff; stroke-width: 6; }
-.diagram-markers text { fill: #fff; font-family: var(--font-display); font-weight: 700; font-size: 52px; text-anchor: middle; }
+/* Element cross-section: full-width render with numbered SVG markers, a
+   legend of numbered chips beneath, and hover/focus links between the two. */
+.diagram-annotated { position: relative; padding: 0; margin: 0; }
+.diagram-markers { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.diagram-marker { cursor: default; transition: transform .15s ease; transform-box: fill-box; transform-origin: center; }
+.diagram-marker circle { fill: var(--spruce-deep); stroke: #fff; stroke-width: 6; transition: fill .15s ease; }
+.diagram-marker text { fill: #fff; font-family: var(--font-display); font-weight: 700; font-size: 52px; text-anchor: middle; pointer-events: none; }
+.diagram-marker.is-active circle, .diagram-marker:hover circle { fill: var(--ochre-deep); }
+.diagram-tip {
+  position: absolute; z-index: 2; pointer-events: none; transform: translate(-50%, calc(-100% - 14px));
+  background: var(--spruce-deep); color: #fff; font-size: .85rem; font-weight: 600; white-space: nowrap;
+  padding: .4em .75em; border-radius: var(--r-sm); box-shadow: var(--shadow);
+}
+.diagram-tip::after { content: ""; position: absolute; left: 50%; top: 100%; transform: translateX(-50%); border: 6px solid transparent; border-top-color: var(--spruce-deep); }
+.diagram-legend { list-style: none; margin: 1.25rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .6rem; }
+.diagram-legend button {
+  width: 100%; display: flex; align-items: center; gap: .6rem; text-align: left; cursor: default;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-sm); padding: .55rem .75rem;
+  font: inherit; font-size: .88rem; color: var(--ink); line-height: 1.3; transition: border-color .15s ease, background .15s ease;
+}
+.diagram-legend button:hover, .diagram-legend button:focus-visible, .diagram-legend button.is-active { border-color: var(--ochre-deep); background: #fff; outline: none; }
+.diagram-legend b { flex-shrink: 0; width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--spruce-deep); color: #fff; font-family: var(--font-display); font-size: .75rem; display: inline-flex; align-items: center; justify-content: center; transition: background .15s ease; }
+.diagram-legend button:hover b, .diagram-legend button:focus-visible b, .diagram-legend button.is-active b { background: var(--ochre-deep); }
+@media (max-width: 1000px) { .diagram-legend { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .diagram-legend { grid-template-columns: repeat(2, minmax(0, 1fr)); } .diagram-marker text { font-size: 64px; } .diagram-marker circle { r: 60; } }
 .photo-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
 @media (max-width: 700px) { .photo-row { grid-template-columns: 1fr; } }
 
