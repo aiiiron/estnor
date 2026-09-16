@@ -24,6 +24,11 @@
                         "href": "/serial-renovation/index.php"
                     },
                     {
+                        "key": "process",
+                        "label": "Protsess",
+                        "href": "/serial-renovation/process.php"
+                    },
+                    {
                         "key": "sr-references",
                         "label": "Referentsid",
                         "href": "/serial-renovation/index.php#references"
@@ -180,6 +185,11 @@
                         "key": "renovation",
                         "label": "Overview",
                         "href": "/en/serial-renovation/index.php"
+                    },
+                    {
+                        "key": "process",
+                        "label": "Process",
+                        "href": "/en/serial-renovation/process.php"
                     },
                     {
                         "key": "sr-references",
@@ -340,6 +350,11 @@
                         "href": "/de/serial-renovation/index.php"
                     },
                     {
+                        "key": "process",
+                        "label": "Ablauf",
+                        "href": "/de/serial-renovation/process.php"
+                    },
+                    {
                         "key": "sr-references",
                         "label": "Referenzen",
                         "href": "/de/serial-renovation/index.php#references"
@@ -498,6 +513,11 @@
                         "href": "/sv/serial-renovation/index.php"
                     },
                     {
+                        "key": "process",
+                        "label": "Process",
+                        "href": "/sv/serial-renovation/process.php"
+                    },
+                    {
                         "key": "sr-references",
                         "label": "Referenser",
                         "href": "/sv/serial-renovation/index.php#references"
@@ -654,6 +674,11 @@
                         "key": "renovation",
                         "label": "Oversikt",
                         "href": "/nb/serial-renovation/index.php"
+                    },
+                    {
+                        "key": "process",
+                        "label": "Prosess",
+                        "href": "/nb/serial-renovation/process.php"
                     },
                     {
                         "key": "sr-references",

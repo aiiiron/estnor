@@ -1,0 +1,712 @@
+{
+    "et": {
+        "meta": {
+            "title": "Renoveerimisprotsess — Tehaseline renoveerimine | EstNor",
+            "desc": "Kuidas tehaseline renoveerimine käib: hoone skaneerimine, BIM-projekteerimine, fassaadielementide tootmine tehases ja paigaldus objektil üheksa sammuna."
+        },
+        "hero": {
+            "crumb": "Avaleht",
+            "parent_label": "Tehaseline renoveerimine",
+            "label": "Protsess",
+            "eyebrow": "Tehaseline renoveerimine",
+            "h1": "Renoveerimisprotsess — skaneerimisest valmis fassaadini",
+            "lead": "Tehaselised tööd on planeeritud põhimõttel, et mida rohkem tehakse tehases ja vähem ehitusobjektil, seda kiiremini kulgeb fassaadielementide paigaldus ning seda vähem häiritakse majaelanikke. Siin on kogu protsess samm-sammult."
+        },
+        "scope": {
+            "eyebrow": "Mida EstNor teeb",
+            "h2": "Kogu ahel ühelt tootjalt",
+            "paragraphs": [
+                "EstNor võtab enda kanda kogu fassaadielementide ahela — olemasoleva maja mõõdistamisest kuni elementide montaažini objektil. 90% fassaaditöödest tehakse tehases, kontrollitud keskkonnas; objektil jääb teha vaid paigaldus ja viimistlus.",
+                "Tulemus: 5-korruselise ja 5 trepikojaga maja fassaad kaetakse tehases toodetud elementidega 3–4 nädalaga, tellinguteta, elanikud majas."
+            ],
+            "list_h3": "EstNor pakub",
+            "items": [
+                "Maja mõõdistamine ja kinnituste katsetused",
+                "Konstruktiivne projekteerimine",
+                "Elementide tehaseline tootmine",
+                "Ventilatsioonikanalite paigaldamine elementidesse tehases",
+                "Transport tehasest ehitusobjektile",
+                "Elementide montaaž ehitusobjektil",
+                "Montaaži eel- ja järeltööd ehitusobjektil"
+            ]
+        },
+        "prep": {
+            "eyebrow": "Enne tootmist",
+            "h2": "Mõõdistamine ja projekteerimine",
+            "lead": "Iga element sobib täpselt vanale fassaadile, sest see projekteeritakse hoone tegeliku, mitte joonistel oleva geomeetria järgi.",
+            "cards": [
+                {
+                    "title": "Mõõdistamine",
+                    "items": [
+                        "Olemasolev maja mõõdistatakse laserskaneerimise meetodil — maapinnalt ja drooniga",
+                        "Punktipilvest genereeritakse 3D-mudel",
+                        "Ehitusobjektil tehakse kinnitusvahendite tõmbetugevuse katsed"
+                    ]
+                },
+                {
+                    "title": "Arhitektuur",
+                    "items": [
+                        "Mudelprojekteerimine (BIM)",
+                        "Valitakse toonid: fassaad, räästakastid, vihmaveesüsteem, akna- ja vahevööplekid",
+                        "Pannakse paika fassaadikate ja selle jaotised",
+                        "Fassaadikate: massvärvitud tsementkiudplaat, horisontaalne või vertikaalne puitlaudis või muu soovitud fassaadimaterjal"
+                    ]
+                }
+            ]
+        },
+        "element": {
+            "eyebrow": "Fassaadielement",
+            "h2": "Elemendi ülesehitus",
+            "intro": "Iga element on kandev puitkarkass-konstruktsioon, mis valmib tehases ligi 90% ulatuses — soojustatud, akendega, ventilatsioonikanalitega ja viimistletud pinnaga.",
+            "diagram_alt": "EstNori fassaadielemendi kihid",
+            "layers": [
+                "Kandev puitkarkass, projekteeritud BIM-mudeli järgi",
+                "Soojustus (mineraalvill) elemendi sees, minimaalsete külmasildadega",
+                "Tuuletõkke- ja aurutõkkekihid, tehases paigaldatud",
+                "Energiatõhusad PVC-aknad, täielikult paigaldatud ja reguleeritud",
+                "Ventilatsioonikanalid elemendis vastavalt projektile",
+                "Fassaadiplaat või -laudis tehases paigaldatud — pind viimistletud"
+            ]
+        },
+        "factory": {
+            "eyebrow": "Tehases",
+            "h2": "Tootmine, aknad, pakkimine, transport",
+            "lead": "Elementidesse paigaldatakse soojustusvill, uued soojapidavad PVC-aknad koos viimistlusega ning juba tehases ka fassaadiviimistlusplaat. Valmis elemendid pakitakse ilmastikukindlalt ja veetakse objektile paigaldusjärjekorras.",
+            "photos": [
+                "Fassaadielementide tootmine tehases",
+                "Aknad paigaldatakse elementidesse tehases",
+                "Valmis element enne pakkimist"
+            ]
+        },
+        "steps": {
+            "eyebrow": "Renoveerimisprotsessi sammud lihtsustatult",
+            "h2": "Üheksa sammu uue fassaadini",
+            "lead": "Nii käib fassaadielementidega renoveerimine skaneerimisest viimase viimistluseni.",
+            "items": [
+                {
+                    "title": "Hoone skaneerimine",
+                    "desc": "Vana maja 3D-skaneeritakse spetsiaalse seadmega maapinnalt ja drooniga. Skaneerimise tulemuseks on väga detailne punktipilv."
+                },
+                {
+                    "title": "Modelleerimine ja projekteerimine",
+                    "desc": "3D-skaneerimise punktipilvest valmib väga detailne BIM-mudel, mis võimaldab inseneridel näha olemasoleva hoone igat kõrvalekallet. Siit edasi projekteeritakse uued fassaadielemendid hoone vanale fassaadile."
+                },
+                {
+                    "title": "Paigaldamise ettevalmistamine",
+                    "desc": "Pärast elementide projekteerimist ja tootmist alustatakse ehitusplatsil paigaldamise ettevalmistustöödega: paigaldatakse spetsiaalselt projekteeritud vastupidavad kronsteinid ja elementide aluspuud."
+                },
+                {
+                    "title": "Esimeste elementide paigaldamine",
+                    "desc": "Fassaadielementide paigaldamine algab maja nurgast. Elemendid toetatakse sidepuudele ning elementide peale kinnitatakse spetsiaalsed nurkklambrid, millega veendutakse, et element on sirge."
+                },
+                {
+                    "title": "Järgmiste elementide paigaldamine",
+                    "desc": "Esimese elemendirea peale paigaldatakse puidust alusvöö, mis loob sirge lähtepunkti järgmise elemendirea paigaldamiseks. Paigaldamine jätkub hoone nurgast."
+                },
+                {
+                    "title": "Kõikide fassaadielementide paigaldus",
+                    "desc": "Pärast nurgaelementide paigaldamist jätkub kogu maja ulatuses kõigi teiste fassaadielementide paigaldus. Trepikoda katvad elemendid paigaldatakse viimastena."
+                },
+                {
+                    "title": "Ventilatsioonitorude paigaldus",
+                    "desc": "Osa ventilatsioonitorudest paigaldatakse tehases elementide sisse vastavalt spetsifikatsioonile. Kui projekt seda ette näeb, paigaldab uue ventilatsioonisüsteemi hoone katusele peatöövõtja."
+                },
+                {
+                    "title": "Trepikoja elementide paigaldamine",
+                    "desc": "Trepikoja fassaadielemendid paigaldatakse pärast ventilatsioonitorude paigaldamist ja omavahelist ühendamist."
+                },
+                {
+                    "title": "Muud vajalikud tööd objektil",
+                    "desc": "Pärast fassaadielementide paigaldust viimistletakse elementide ühenduskohad, paigaldatakse vihmaveesüsteem ja katusekattematerjal ning tehakse muud tööd, et hoone saaks tervikliku välisilme."
+                }
+            ]
+        },
+        "video": {
+            "eyebrow": "Animatsioon",
+            "h2": "Vaata renoveerimisprotsessi animatsiooni",
+            "lead": "Kahe minutiga: kuidas tehases toodetud fassaadielementidega kortermaja renoveeritakse — Kooli 5, Sindi näitel."
+        },
+        "site": {
+            "eyebrow": "Objektil",
+            "h2": "Paigaldus ehitusobjektil",
+            "lead": "Elemendid tõstetakse kraanaga otse veokilt kohale ja kinnitatakse kronsteinidele — tellinguid pole vaja. Ava foto, et galeriid sirvida.",
+            "album_title": "Fassaadielementide paigaldus",
+            "album_category": "Tehaseline renoveerimine",
+            "album_description": "Tehases toodetud fassaadielementide paigaldus kortermajadele — Tule 4 Saue ja Turu 15 Tartu."
+        },
+        "cta": {
+            "h2": "Plaanid kortermaja renoveerimist?",
+            "body": "Saada meile maja põhiandmed — ehitusaasta, korterite arv, fassaadipind — ja saad esmase hinnangu elementide tootmise kohta.",
+            "button": "Võta ühendust",
+            "secondary": "Vaata renoveeritud hooneid"
+        }
+    },
+    "en": {
+        "meta": {
+            "title": "Renovation process — Serial Renovation | EstNor",
+            "desc": "How serial renovation is done: scanning the building, BIM design, factory production of facade elements and on-site installation in nine steps."
+        },
+        "hero": {
+            "crumb": "Home",
+            "parent_label": "Serial Renovation",
+            "label": "Process",
+            "eyebrow": "Serial renovation",
+            "h1": "The renovation process — from scan to finished facade",
+            "lead": "The factory work is planned on one principle: the more is done in the factory and the less on site, the faster the facade elements go up and the less the residents are disturbed. Here is the whole process, step by step."
+        },
+        "scope": {
+            "eyebrow": "What EstNor does",
+            "h2": "The whole chain from one manufacturer",
+            "paragraphs": [
+                "EstNor takes on the entire facade-element chain — from surveying the existing building to installing the elements on site. 90% of the facade work is done in the factory, in a controlled environment; only installation and finishing remain on site.",
+                "The result: a 5-storey, 5-stairwell building is clad with factory-made elements in 3–4 weeks, with no scaffolding and the residents at home."
+            ],
+            "list_h3": "EstNor provides",
+            "items": [
+                "Building survey and pull-out strength testing of fixings",
+                "Structural design",
+                "Factory production of the elements",
+                "Ventilation ducting installed into the elements at the factory",
+                "Transport from the factory to the building site",
+                "Installation of the elements on site",
+                "Preparatory and follow-up work on site"
+            ]
+        },
+        "prep": {
+            "eyebrow": "Before production",
+            "h2": "Surveying and design",
+            "lead": "Every element fits the old facade exactly because it is designed to the building's real geometry, not the geometry on the drawings.",
+            "cards": [
+                {
+                    "title": "Surveying",
+                    "items": [
+                        "The existing building is measured by laser scanning — from the ground and by drone",
+                        "A 3D model is generated from the point cloud",
+                        "Pull-out strength tests of the fixings are carried out on site"
+                    ]
+                },
+                {
+                    "title": "Architecture",
+                    "items": [
+                        "Building information modelling (BIM)",
+                        "Colours are chosen: facade, eaves boxes, rainwater system, window and band flashings",
+                        "The facade cladding and its divisions are laid out",
+                        "Cladding: through-coloured fibre-cement board, horizontal or vertical timber boarding, or any other facade material of your choice"
+                    ]
+                }
+            ]
+        },
+        "element": {
+            "eyebrow": "The facade element",
+            "h2": "Element build-up",
+            "intro": "Each element is a load-bearing timber-frame structure completed to around 90% in the factory — insulated, with windows, ventilation ducts and a finished surface.",
+            "diagram_alt": "Layers of an EstNor facade element",
+            "layers": [
+                "Load-bearing timber frame, engineered from the BIM model",
+                "Insulation (mineral wool) within the element, with minimal thermal bridging",
+                "Wind and vapour barrier layers, fitted in the factory",
+                "Energy-efficient PVC windows, fully installed and adjusted",
+                "Ventilation ducts in the element as designed",
+                "Facade board or boarding fitted in the factory — surface finished"
+            ]
+        },
+        "factory": {
+            "eyebrow": "In the factory",
+            "h2": "Production, windows, packing, transport",
+            "lead": "Insulation, new energy-efficient PVC windows with their finishes and the facade cladding board are all fitted in the factory. Finished elements are packed weather-tight and delivered to site in installation order.",
+            "photos": [
+                "Facade element production in the factory",
+                "Windows are installed into the elements at the factory",
+                "A finished element before packing"
+            ]
+        },
+        "steps": {
+            "eyebrow": "The renovation process, simplified",
+            "h2": "Nine steps to the new facade",
+            "lead": "This is how a facade-element renovation runs, from scanning to the final finishing.",
+            "items": [
+                {
+                    "title": "Scanning the building",
+                    "desc": "The old building is 3D-scanned with special equipment from the ground and by drone. The result is a highly detailed point cloud."
+                },
+                {
+                    "title": "Modelling and design",
+                    "desc": "From the point cloud a very detailed BIM model is built, letting the engineers see every deviation of the existing building. The new facade elements are then designed onto the old facade."
+                },
+                {
+                    "title": "Preparing the installation",
+                    "desc": "After the elements are designed and produced, preparation work begins on site: specially designed, durable brackets and the base rails for the elements are installed."
+                },
+                {
+                    "title": "Installing the first elements",
+                    "desc": "Installation starts at a corner of the building. The elements rest on the rails and special corner clamps are fixed on top to make sure each element is straight."
+                },
+                {
+                    "title": "Installing the next elements",
+                    "desc": "A timber base band goes on top of the first row, giving a straight starting point for the next row. Installation continues from the corner."
+                },
+                {
+                    "title": "Installing all facade elements",
+                    "desc": "After the corner elements, installation continues around the whole building. The elements covering the stairwell go on last."
+                },
+                {
+                    "title": "Installing the ventilation ducts",
+                    "desc": "Some of the ventilation ducts are built into the elements at the factory to specification. Where the project calls for it, the main contractor installs the new ventilation system on the roof."
+                },
+                {
+                    "title": "Installing the stairwell elements",
+                    "desc": "The stairwell facade elements are installed after the ventilation ducts have been fitted and connected."
+                },
+                {
+                    "title": "Other work on site",
+                    "desc": "After the elements are up, the joints are finished, the rainwater system and roofing are installed, and the remaining work is done to give the building a complete exterior."
+                }
+            ]
+        },
+        "video": {
+            "eyebrow": "Animation",
+            "h2": "Watch the renovation process",
+            "lead": "Two minutes on how an apartment building is renovated with factory-made facade elements — the Kooli 5, Sindi project."
+        },
+        "site": {
+            "eyebrow": "On site",
+            "h2": "Installation on site",
+            "lead": "Elements are craned straight off the lorry into place and fixed to the brackets — no scaffolding needed. Open a photo to browse the gallery.",
+            "album_title": "Facade element installation",
+            "album_category": "Serial renovation",
+            "album_description": "Installing factory-made facade elements on apartment buildings — Tule 4 in Saue and Turu 15 in Tartu."
+        },
+        "cta": {
+            "h2": "Planning to renovate an apartment building?",
+            "body": "Send us the building's basic data — year of construction, number of apartments, facade area — and you'll get an initial estimate for producing the elements.",
+            "button": "Contact EstNor",
+            "secondary": "See renovated buildings"
+        }
+    },
+    "de": {
+        "meta": {
+            "title": "Sanierungsablauf — Serielle Sanierung | EstNor",
+            "desc": "So läuft die serielle Sanierung ab: Gebäudescan, BIM-Planung, Werksfertigung der Fassadenelemente und Montage vor Ort in neun Schritten."
+        },
+        "hero": {
+            "crumb": "Startseite",
+            "parent_label": "Serielle Sanierung",
+            "label": "Ablauf",
+            "eyebrow": "Serielle Sanierung",
+            "h1": "Der Sanierungsablauf — vom Scan zur fertigen Fassade",
+            "lead": "Die Werksarbeit folgt einem Grundsatz: Je mehr im Werk und je weniger auf der Baustelle geschieht, desto schneller stehen die Fassadenelemente und desto weniger werden die Bewohner gestört. Hier ist der ganze Ablauf, Schritt für Schritt."
+        },
+        "scope": {
+            "eyebrow": "Was EstNor leistet",
+            "h2": "Die ganze Kette aus einer Hand",
+            "paragraphs": [
+                "EstNor übernimmt die komplette Fassadenelement-Kette — vom Aufmaß des Bestandsgebäudes bis zur Montage der Elemente vor Ort. 90 % der Fassadenarbeiten erfolgen im Werk unter kontrollierten Bedingungen; auf der Baustelle bleiben nur Montage und Fertigstellung.",
+                "Das Ergebnis: Ein 5-geschossiges Gebäude mit 5 Treppenhäusern erhält in 3–4 Wochen seine werksgefertigte Fassade — ohne Gerüst, bei bewohntem Haus."
+            ],
+            "list_h3": "EstNor bietet",
+            "items": [
+                "Gebäudeaufmaß und Auszugsversuche der Befestigungen",
+                "Tragwerksplanung",
+                "Werksfertigung der Elemente",
+                "Einbau der Lüftungskanäle in die Elemente im Werk",
+                "Transport vom Werk zur Baustelle",
+                "Montage der Elemente auf der Baustelle",
+                "Vor- und Nacharbeiten zur Montage auf der Baustelle"
+            ]
+        },
+        "prep": {
+            "eyebrow": "Vor der Fertigung",
+            "h2": "Aufmaß und Planung",
+            "lead": "Jedes Element passt exakt auf die alte Fassade, weil es nach der tatsächlichen Geometrie des Gebäudes geplant wird — nicht nach der auf den Zeichnungen.",
+            "cards": [
+                {
+                    "title": "Aufmaß",
+                    "items": [
+                        "Das Bestandsgebäude wird per Laserscan vermessen — vom Boden aus und per Drohne",
+                        "Aus der Punktwolke wird ein 3D-Modell erzeugt",
+                        "Auf der Baustelle werden Auszugsversuche der Befestigungsmittel durchgeführt"
+                    ]
+                },
+                {
+                    "title": "Architektur",
+                    "items": [
+                        "Modellbasierte Planung (BIM)",
+                        "Farbtöne werden festgelegt: Fassade, Traufkästen, Regenwassersystem, Fenster- und Gurtbleche",
+                        "Fassadenbekleidung und ihre Teilung werden festgelegt",
+                        "Bekleidung: durchgefärbte Faserzementplatte, horizontale oder vertikale Holzschalung oder jedes andere gewünschte Fassadenmaterial"
+                    ]
+                }
+            ]
+        },
+        "element": {
+            "eyebrow": "Das Fassadenelement",
+            "h2": "Elementaufbau",
+            "intro": "Jedes Element ist eine tragende Holzrahmenkonstruktion, die zu rund 90 % im Werk fertiggestellt wird — gedämmt, mit Fenstern, Lüftungskanälen und fertiger Oberfläche.",
+            "diagram_alt": "Schichten eines EstNor-Fassadenelements",
+            "layers": [
+                "Tragender Holzrahmen, aus dem BIM-Modell konstruiert",
+                "Dämmung (Mineralwolle) im Element, mit minimalen Wärmebrücken",
+                "Wind- und Dampfsperrschichten, im Werk eingebaut",
+                "Energieeffiziente PVC-Fenster, vollständig eingebaut und eingestellt",
+                "Lüftungskanäle im Element gemäß Planung",
+                "Fassadenplatte oder Schalung im Werk montiert — Oberfläche fertig"
+            ]
+        },
+        "factory": {
+            "eyebrow": "Im Werk",
+            "h2": "Fertigung, Fenster, Verpackung, Transport",
+            "lead": "Dämmung, neue energieeffiziente PVC-Fenster samt Anschlüssen und die Fassadenplatte werden alle im Werk eingebaut. Die fertigen Elemente werden wetterdicht verpackt und in Montagereihenfolge zur Baustelle geliefert.",
+            "photos": [
+                "Fertigung der Fassadenelemente im Werk",
+                "Fenster werden im Werk in die Elemente eingebaut",
+                "Ein fertiges Element vor dem Verpacken"
+            ]
+        },
+        "steps": {
+            "eyebrow": "Der Sanierungsablauf, vereinfacht",
+            "h2": "Neun Schritte zur neuen Fassade",
+            "lead": "So läuft eine Sanierung mit Fassadenelementen ab — vom Scan bis zur letzten Fertigstellung.",
+            "items": [
+                {
+                    "title": "Scannen des Gebäudes",
+                    "desc": "Das alte Gebäude wird mit Spezialgeräten vom Boden aus und per Drohne 3D-gescannt. Das Ergebnis ist eine sehr detaillierte Punktwolke."
+                },
+                {
+                    "title": "Modellierung und Planung",
+                    "desc": "Aus der Punktwolke entsteht ein sehr detailliertes BIM-Modell, in dem die Ingenieure jede Abweichung des Bestandsgebäudes sehen. Darauf werden die neuen Fassadenelemente auf die alte Fassade geplant."
+                },
+                {
+                    "title": "Vorbereitung der Montage",
+                    "desc": "Nach Planung und Fertigung der Elemente beginnen die Vorbereitungsarbeiten auf der Baustelle: speziell konstruierte, belastbare Konsolen und die Auflagerhölzer für die Elemente werden montiert."
+                },
+                {
+                    "title": "Montage der ersten Elemente",
+                    "desc": "Die Montage beginnt an einer Gebäudeecke. Die Elemente lagern auf den Auflagerhölzern; spezielle Eckklammern darauf stellen sicher, dass jedes Element gerade sitzt."
+                },
+                {
+                    "title": "Montage der nächsten Elemente",
+                    "desc": "Auf die erste Elementreihe kommt ein hölzerner Auflagergurt, der einen geraden Ausgangspunkt für die nächste Reihe schafft. Die Montage geht von der Ecke aus weiter."
+                },
+                {
+                    "title": "Montage aller Fassadenelemente",
+                    "desc": "Nach den Eckelementen wird rund um das ganze Gebäude weitermontiert. Die Elemente vor dem Treppenhaus kommen zuletzt."
+                },
+                {
+                    "title": "Montage der Lüftungsrohre",
+                    "desc": "Ein Teil der Lüftungsrohre wird bereits im Werk nach Spezifikation in die Elemente eingebaut. Sieht das Projekt es vor, installiert der Generalunternehmer die neue Lüftungsanlage auf dem Dach."
+                },
+                {
+                    "title": "Montage der Treppenhauselemente",
+                    "desc": "Die Fassadenelemente des Treppenhauses werden montiert, nachdem die Lüftungsrohre eingebaut und verbunden sind."
+                },
+                {
+                    "title": "Weitere Arbeiten vor Ort",
+                    "desc": "Nach der Montage werden die Elementstöße fertiggestellt, Regenwassersystem und Dacheindeckung montiert und die restlichen Arbeiten ausgeführt, damit das Gebäude ein vollständiges Äußeres erhält."
+                }
+            ]
+        },
+        "video": {
+            "eyebrow": "Animation",
+            "h2": "Der Sanierungsablauf als Animation",
+            "lead": "Zwei Minuten: So wird ein Wohngebäude mit werksgefertigten Fassadenelementen saniert — am Beispiel Kooli 5, Sindi."
+        },
+        "site": {
+            "eyebrow": "Auf der Baustelle",
+            "h2": "Montage vor Ort",
+            "lead": "Die Elemente werden mit dem Kran direkt vom Lkw an ihren Platz gehoben und an den Konsolen befestigt — ohne Gerüst. Öffnen Sie ein Foto, um die Galerie anzusehen.",
+            "album_title": "Montage der Fassadenelemente",
+            "album_category": "Serielle Sanierung",
+            "album_description": "Montage werksgefertigter Fassadenelemente an Wohngebäuden — Tule 4 in Saue und Turu 15 in Tartu."
+        },
+        "cta": {
+            "h2": "Planen Sie die Sanierung eines Wohngebäudes?",
+            "body": "Schicken Sie uns die Eckdaten des Gebäudes — Baujahr, Anzahl der Wohnungen, Fassadenfläche — und Sie erhalten eine erste Einschätzung zur Elementfertigung.",
+            "button": "Kontakt aufnehmen",
+            "secondary": "Sanierte Gebäude ansehen"
+        }
+    },
+    "sv": {
+        "meta": {
+            "title": "Renoveringsprocessen — Modernisering av flerbostadshus | EstNor",
+            "desc": "Så går industriell renovering till: skanning av byggnaden, BIM-projektering, fabrikstillverkning av fasadelement och montage på plats i nio steg."
+        },
+        "hero": {
+            "crumb": "Hem",
+            "parent_label": "Modernisering av flerbostadshus",
+            "label": "Process",
+            "eyebrow": "Modernisering av flerbostadshus",
+            "h1": "Renoveringsprocessen — från skanning till färdig fasad",
+            "lead": "Fabriksarbetet planeras efter en princip: ju mer som görs i fabriken och ju mindre på byggplatsen, desto snabbare kommer fasadelementen upp och desto mindre störs de boende. Här är hela processen, steg för steg."
+        },
+        "scope": {
+            "eyebrow": "Vad EstNor gör",
+            "h2": "Hela kedjan från en tillverkare",
+            "paragraphs": [
+                "EstNor tar hand om hela fasadelementkedjan — från uppmätning av den befintliga byggnaden till montage av elementen på plats. 90 % av fasadarbetet görs i fabriken, i en kontrollerad miljö; på plats återstår bara montage och färdigställande.",
+                "Resultatet: ett 5-våningshus med 5 trapphus kläs med fabrikstillverkade element på 3–4 veckor, utan ställning och med de boende kvar hemma."
+            ],
+            "list_h3": "EstNor erbjuder",
+            "items": [
+                "Uppmätning av byggnaden och utdragsprov av infästningar",
+                "Konstruktionsprojektering",
+                "Fabrikstillverkning av elementen",
+                "Ventilationskanaler monterade i elementen i fabriken",
+                "Transport från fabriken till byggplatsen",
+                "Montage av elementen på byggplatsen",
+                "För- och efterarbeten till montaget på plats"
+            ]
+        },
+        "prep": {
+            "eyebrow": "Före tillverkning",
+            "h2": "Uppmätning och projektering",
+            "lead": "Varje element passar exakt på den gamla fasaden eftersom det projekteras efter byggnadens verkliga geometri, inte ritningarnas.",
+            "cards": [
+                {
+                    "title": "Uppmätning",
+                    "items": [
+                        "Den befintliga byggnaden mäts upp med laserskanning — från marken och med drönare",
+                        "En 3D-modell genereras ur punktmolnet",
+                        "Utdragsprov av infästningarna görs på plats"
+                    ]
+                },
+                {
+                    "title": "Arkitektur",
+                    "items": [
+                        "Modellbaserad projektering (BIM)",
+                        "Kulörer väljs: fasad, takfotslådor, dagvattensystem, fönster- och bandplåtar",
+                        "Fasadbeklädnaden och dess indelning bestäms",
+                        "Beklädnad: genomfärgad fibercementskiva, horisontell eller vertikal träpanel eller annat önskat fasadmaterial"
+                    ]
+                }
+            ]
+        },
+        "element": {
+            "eyebrow": "Fasadelementet",
+            "h2": "Elementets uppbyggnad",
+            "intro": "Varje element är en bärande träregelkonstruktion som färdigställs till cirka 90 % i fabriken — isolerad, med fönster, ventilationskanaler och färdig yta.",
+            "diagram_alt": "Skikten i ett EstNor-fasadelement",
+            "layers": [
+                "Bärande träregelstomme, konstruerad ur BIM-modellen",
+                "Isolering (mineralull) i elementet, med minimala köldbryggor",
+                "Vind- och ångspärrskikt, monterade i fabriken",
+                "Energieffektiva PVC-fönster, helt monterade och justerade",
+                "Ventilationskanaler i elementet enligt projekteringen",
+                "Fasadskiva eller panel monterad i fabriken — ytan färdig"
+            ]
+        },
+        "factory": {
+            "eyebrow": "I fabriken",
+            "h2": "Tillverkning, fönster, packning, transport",
+            "lead": "Isolering, nya energieffektiva PVC-fönster med sina detaljer och fasadskivan monteras alla i fabriken. Färdiga element packas väderskyddat och levereras till byggplatsen i montageordning.",
+            "photos": [
+                "Tillverkning av fasadelement i fabriken",
+                "Fönster monteras i elementen i fabriken",
+                "Ett färdigt element före packning"
+            ]
+        },
+        "steps": {
+            "eyebrow": "Renoveringsprocessen, förenklad",
+            "h2": "Nio steg till den nya fasaden",
+            "lead": "Så går en renovering med fasadelement till — från skanning till sista finish.",
+            "items": [
+                {
+                    "title": "Skanning av byggnaden",
+                    "desc": "Det gamla huset 3D-skannas med specialutrustning från marken och med drönare. Resultatet är ett mycket detaljerat punktmoln."
+                },
+                {
+                    "title": "Modellering och projektering",
+                    "desc": "Ur punktmolnet byggs en mycket detaljerad BIM-modell som låter ingenjörerna se varje avvikelse i den befintliga byggnaden. Därefter projekteras de nya fasadelementen på den gamla fasaden."
+                },
+                {
+                    "title": "Förberedelse av montaget",
+                    "desc": "När elementen är projekterade och tillverkade börjar förberedelserna på byggplatsen: specialkonstruerade, tåliga konsoler och elementens underliggare monteras."
+                },
+                {
+                    "title": "Montage av de första elementen",
+                    "desc": "Montaget börjar vid ett hushörn. Elementen vilar på underliggarna och särskilda hörnklammer fästs ovanpå för att säkerställa att varje element sitter rakt."
+                },
+                {
+                    "title": "Montage av nästa element",
+                    "desc": "Ovanpå första elementraden monteras ett träband som ger en rak utgångspunkt för nästa rad. Montaget fortsätter från hörnet."
+                },
+                {
+                    "title": "Montage av alla fasadelement",
+                    "desc": "Efter hörnelementen fortsätter montaget runt hela huset. Elementen framför trapphuset monteras sist."
+                },
+                {
+                    "title": "Montage av ventilationsrör",
+                    "desc": "En del av ventilationsrören byggs in i elementen i fabriken enligt specifikation. Om projektet kräver det installerar totalentreprenören det nya ventilationssystemet på taket."
+                },
+                {
+                    "title": "Montage av trapphuselementen",
+                    "desc": "Trapphusets fasadelement monteras efter att ventilationsrören är monterade och sammankopplade."
+                },
+                {
+                    "title": "Övriga arbeten på plats",
+                    "desc": "När elementen sitter färdigställs skarvarna, dagvattensystem och taktäckning monteras och övriga arbeten utförs så att byggnaden får ett komplett yttre."
+                }
+            ]
+        },
+        "video": {
+            "eyebrow": "Animation",
+            "h2": "Se renoveringsprocessen som animation",
+            "lead": "Två minuter om hur ett flerbostadshus renoveras med fabrikstillverkade fasadelement — exemplet Kooli 5, Sindi."
+        },
+        "site": {
+            "eyebrow": "På byggplatsen",
+            "h2": "Montage på plats",
+            "lead": "Elementen lyfts med kran direkt från lastbilen på plats och fästs i konsolerna — ingen ställning behövs. Öppna en bild för att bläddra i galleriet.",
+            "album_title": "Montage av fasadelement",
+            "album_category": "Modernisering av flerbostadshus",
+            "album_description": "Montage av fabrikstillverkade fasadelement på flerbostadshus — Tule 4 i Saue och Turu 15 i Tartu."
+        },
+        "cta": {
+            "h2": "Planerar du att renovera ett flerbostadshus?",
+            "body": "Skicka oss husets grunddata — byggår, antal lägenheter, fasadyta — så får du en första bedömning av elementtillverkningen.",
+            "button": "Kontakta EstNor",
+            "secondary": "Se renoverade byggnader"
+        }
+    },
+    "nb": {
+        "meta": {
+            "title": "Rehabiliteringsprosessen — Modernisering av leilighetsbygg | EstNor",
+            "desc": "Slik foregår industriell rehabilitering: skanning av bygget, BIM-prosjektering, fabrikkproduksjon av fasadeelementer og montering på byggeplassen i ni trinn."
+        },
+        "hero": {
+            "crumb": "Hjem",
+            "parent_label": "Modernisering av leilighetsbygg",
+            "label": "Prosess",
+            "eyebrow": "Modernisering av leilighetsbygg",
+            "h1": "Rehabiliteringsprosessen — fra skanning til ferdig fasade",
+            "lead": "Fabrikkarbeidet planlegges etter ett prinsipp: jo mer som gjøres i fabrikken og jo mindre på byggeplassen, desto raskere kommer fasadeelementene opp og desto mindre forstyrres beboerne. Her er hele prosessen, trinn for trinn."
+        },
+        "scope": {
+            "eyebrow": "Hva EstNor gjør",
+            "h2": "Hele kjeden fra én produsent",
+            "paragraphs": [
+                "EstNor tar hånd om hele fasadeelementkjeden — fra oppmåling av det eksisterende bygget til montering av elementene på plassen. 90 % av fasadearbeidet gjøres i fabrikken, i et kontrollert miljø; på byggeplassen gjenstår bare montering og ferdigstillelse.",
+                "Resultatet: et bygg på 5 etasjer med 5 oppganger kles med fabrikkproduserte elementer på 3–4 uker, uten stillas og med beboerne hjemme."
+            ],
+            "list_h3": "EstNor tilbyr",
+            "items": [
+                "Oppmåling av bygget og uttrekksprøver av innfestinger",
+                "Konstruksjonsprosjektering",
+                "Fabrikkproduksjon av elementene",
+                "Ventilasjonskanaler montert i elementene i fabrikken",
+                "Transport fra fabrikken til byggeplassen",
+                "Montering av elementene på byggeplassen",
+                "For- og etterarbeid til monteringen på plassen"
+            ]
+        },
+        "prep": {
+            "eyebrow": "Før produksjon",
+            "h2": "Oppmåling og prosjektering",
+            "lead": "Hvert element passer nøyaktig på den gamle fasaden fordi det prosjekteres etter byggets faktiske geometri, ikke tegningenes.",
+            "cards": [
+                {
+                    "title": "Oppmåling",
+                    "items": [
+                        "Det eksisterende bygget måles opp med laserskanning — fra bakken og med drone",
+                        "En 3D-modell genereres fra punktskyen",
+                        "Uttrekksprøver av innfestingene gjøres på byggeplassen"
+                    ]
+                },
+                {
+                    "title": "Arkitektur",
+                    "items": [
+                        "Modellbasert prosjektering (BIM)",
+                        "Farger velges: fasade, gesimskasser, takrennesystem, vindus- og båndbeslag",
+                        "Fasadekledningen og inndelingen fastsettes",
+                        "Kledning: gjennomfarget fibersementplate, horisontal eller vertikal trekledning eller annet ønsket fasademateriale"
+                    ]
+                }
+            ]
+        },
+        "element": {
+            "eyebrow": "Fasadeelementet",
+            "h2": "Elementets oppbygning",
+            "intro": "Hvert element er en bærende bindingsverkskonstruksjon i tre som ferdigstilles ca. 90 % i fabrikken — isolert, med vinduer, ventilasjonskanaler og ferdig overflate.",
+            "diagram_alt": "Lagene i et EstNor-fasadeelement",
+            "layers": [
+                "Bærende trebindingsverk, konstruert fra BIM-modellen",
+                "Isolasjon (mineralull) i elementet, med minimale kuldebroer",
+                "Vind- og dampsperresjikt, montert i fabrikken",
+                "Energieffektive PVC-vinduer, fullstendig montert og justert",
+                "Ventilasjonskanaler i elementet etter prosjekteringen",
+                "Fasadeplate eller kledning montert i fabrikken — overflaten ferdig"
+            ]
+        },
+        "factory": {
+            "eyebrow": "I fabrikken",
+            "h2": "Produksjon, vinduer, pakking, transport",
+            "lead": "Isolasjon, nye energieffektive PVC-vinduer med beslag og fasadeplaten monteres alle i fabrikken. Ferdige elementer pakkes værtett og leveres til byggeplassen i monteringsrekkefølge.",
+            "photos": [
+                "Produksjon av fasadeelementer i fabrikken",
+                "Vinduer monteres i elementene i fabrikken",
+                "Et ferdig element før pakking"
+            ]
+        },
+        "steps": {
+            "eyebrow": "Rehabiliteringsprosessen, forenklet",
+            "h2": "Ni trinn til den nye fasaden",
+            "lead": "Slik foregår en rehabilitering med fasadeelementer — fra skanning til siste finish.",
+            "items": [
+                {
+                    "title": "Skanning av bygget",
+                    "desc": "Det gamle bygget 3D-skannes med spesialutstyr fra bakken og med drone. Resultatet er en svært detaljert punktsky."
+                },
+                {
+                    "title": "Modellering og prosjektering",
+                    "desc": "Fra punktskyen bygges en svært detaljert BIM-modell som lar ingeniørene se hvert avvik i det eksisterende bygget. Deretter prosjekteres de nye fasadeelementene på den gamle fasaden."
+                },
+                {
+                    "title": "Forberedelse av monteringen",
+                    "desc": "Når elementene er prosjektert og produsert, starter forberedelsene på byggeplassen: spesialkonstruerte, robuste konsoller og elementenes understøttelser monteres."
+                },
+                {
+                    "title": "Montering av de første elementene",
+                    "desc": "Monteringen starter i et hjørne av bygget. Elementene hviler på understøttelsene, og spesielle hjørneklemmer festes oppå for å sikre at hvert element står rett."
+                },
+                {
+                    "title": "Montering av de neste elementene",
+                    "desc": "Oppå første elementrad monteres et trebånd som gir et rett utgangspunkt for neste rad. Monteringen fortsetter fra hjørnet."
+                },
+                {
+                    "title": "Montering av alle fasadeelementene",
+                    "desc": "Etter hjørneelementene fortsetter monteringen rundt hele bygget. Elementene foran oppgangen monteres sist."
+                },
+                {
+                    "title": "Montering av ventilasjonsrør",
+                    "desc": "En del av ventilasjonsrørene bygges inn i elementene i fabrikken etter spesifikasjon. Der prosjektet krever det, installerer hovedentreprenøren det nye ventilasjonsanlegget på taket."
+                },
+                {
+                    "title": "Montering av oppgangselementene",
+                    "desc": "Oppgangens fasadeelementer monteres etter at ventilasjonsrørene er montert og koblet sammen."
+                },
+                {
+                    "title": "Annet arbeid på plassen",
+                    "desc": "Når elementene er oppe, ferdigstilles skjøtene, takrennesystem og taktekking monteres, og det øvrige arbeidet gjøres slik at bygget får et komplett ytre."
+                }
+            ]
+        },
+        "video": {
+            "eyebrow": "Animasjon",
+            "h2": "Se rehabiliteringsprosessen som animasjon",
+            "lead": "To minutter om hvordan et leilighetsbygg rehabiliteres med fabrikkproduserte fasadeelementer — eksempelet Kooli 5, Sindi."
+        },
+        "site": {
+            "eyebrow": "På byggeplassen",
+            "h2": "Montering på plassen",
+            "lead": "Elementene løftes med kran rett fra lastebilen på plass og festes til konsollene — uten stillas. Åpne et bilde for å bla i galleriet.",
+            "album_title": "Montering av fasadeelementer",
+            "album_category": "Modernisering av leilighetsbygg",
+            "album_description": "Montering av fabrikkproduserte fasadeelementer på leilighetsbygg — Tule 4 i Saue og Turu 15 i Tartu."
+        },
+        "cta": {
+            "h2": "Planlegger du å rehabilitere et leilighetsbygg?",
+            "body": "Send oss byggets grunndata — byggeår, antall leiligheter, fasadeareal — så får du en første vurdering av elementproduksjonen.",
+            "button": "Kontakt EstNor",
+            "secondary": "Se rehabiliterte bygg"
+        }
+    }
+}

@@ -618,6 +618,22 @@ ul { margin: 0 0 1.1em; padding-left: 1.2em; }
 .photo-tile--feature { grid-column: span 2; grid-row: span 2; aspect-ratio: auto; }
 @media (max-width: 700px) { .photo-mosaic { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; } .photo-tile--feature { grid-column: span 2; grid-row: auto; aspect-ratio: 4 / 3; } }
 
+/* Serial Renovation > Process: numbered steps with an illustration each,
+   the element-layer diagram, and the animation. */
+.process-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.process-steps li { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; display: flex; flex-direction: column; }
+.process-steps figure { margin: 0; aspect-ratio: 500 / 263; background: #fff; border-bottom: 1px solid var(--line); }
+.process-steps figure img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.process-steps li > div { padding: 1.1rem 1.25rem 1.3rem; }
+.process-num { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; color: var(--ochre-deep); display: block; margin-bottom: .3rem; }
+.process-steps h3 { font-size: 1.05rem; margin-bottom: .4rem; }
+.process-steps p { margin: 0; font-size: .92rem; color: var(--ink-soft); }
+@media (max-width: 900px) { .process-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .process-steps { grid-template-columns: 1fr; } }
+.photo-card--diagram { aspect-ratio: auto; background: #fff; padding: 1rem; }
+.photo-card--diagram img { object-fit: contain; }
+.process-video { display: block; width: 100%; max-width: 960px; margin-inline: auto; border-radius: var(--r-md); background: var(--spruce-deep); box-shadow: var(--shadow); }
+
 /* 5) SEITENSPEZIFISCH ---------------------------------------------------- */
 
 .badge-row { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.9rem; align-items: center; }

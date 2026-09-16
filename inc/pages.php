@@ -69,6 +69,12 @@ return [
         'content'  => 'serial-renovation',
         'active'   => 'renovation',
     ],
+    'serial-renovation/process' => [
+        'template' => 'serial-renovation-process.php',
+        'content'  => 'serial-renovation-process',
+        'active'   => 'process',
+        'links'    => ['RENOVATION' => 'serial-renovation/index'],
+    ],
     'serial-renovation/gallery' => [
         'template' => 'gallery.php',
         'content'  => 'serial-renovation-gallery',
