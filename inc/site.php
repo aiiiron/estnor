@@ -26,6 +26,7 @@ $SITE = [
     'social' => [
         'linkedin' => 'https://ee.linkedin.com/company/estnor',
         'facebook' => 'https://www.facebook.com/estnor/',
+        'instagram' => 'https://www.instagram.com/estnor.ee/',
     ],
 ];
 
