@@ -39,11 +39,20 @@
 /* 2) BASIS ----------------------------------------------------------------- */
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html {
+  scroll-behavior: smooth; -webkit-text-size-adjust: 100%;
+  /* iOS/iPadOS rubber-band overscroll reveals the canvas beyond the page.
+     Don't bounce where the browser honours this (Safari 16+, Chrome), and
+     where it still does, paint the canvas paper above and footer-green
+     below so a bounce past the footer shows green, not a light strip. */
+  overscroll-behavior-y: none;
+  background: linear-gradient(to bottom, var(--paper) 50%, var(--spruce-deep) 50%);
+}
 
 body {
   margin: 0;
   background: var(--paper);
+  min-height: 100vh; /* the body's paper always covers the viewport; the green half of the html canvas only ever shows beyond the page end */
   color: var(--ink);
   font-family: var(--font-body);
   font-size: 1.02rem;
