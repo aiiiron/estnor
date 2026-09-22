@@ -46,7 +46,12 @@ html {
      where it still does, paint the canvas paper above and footer-green
      below so a bounce past the footer shows green, not a light strip. */
   overscroll-behavior-y: none;
-  background: linear-gradient(to bottom, var(--paper) 50%, var(--spruce-deep) 50%);
+  /* Canvas is paper; one green layer, 100 000px tall, anchored so its top
+     edge sits exactly at the page's bottom edge and does not repeat — so a
+     bounce past the footer reveals green however far it goes, while a
+     bounce at the top reveals paper. (A half/half gradient tiled beyond
+     the page and showed a paper strip right after the footer.) */
+  background: linear-gradient(var(--spruce-deep), var(--spruce-deep)) 0 calc(100% + 100000px) / 100% 100000px no-repeat, var(--paper);
 }
 
 body {
